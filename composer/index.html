@@ -1,0 +1,74 @@
+---
+layout: default
+section: composer
+uses_map: true
+title: Composer
+description: View a composer and every catalogued performance of their music.
+---
+
+<div class="pagebar">
+  <a class="back-link" href="{{ '/' | relative_url }}"><span aria-hidden="true">←</span> Explore + map</a>
+</div>
+
+<article id="composer-detail" class="detail-page composer-detail-page" aria-busy="true">
+  <header class="detail-heading">
+    <div>
+      <p class="eyebrow">Composer</p>
+      <h1 id="composer-name">Loading composer…</h1>
+      <p id="composer-dates" class="detail-meta"></p>
+    </div>
+    <div id="composer-count" class="detail-count" aria-live="polite"><strong>—</strong><span>concerts</span></div>
+  </header>
+
+  <section class="composer-map-section" aria-labelledby="composer-map-title">
+    <div class="composer-map-heading">
+      <div>
+        <p class="eyebrow">Across the collection</p>
+        <h2 id="composer-map-title">Concert locations</h2>
+      </div>
+      <p id="composer-map-status" aria-live="polite">Loading concert locations…</p>
+    </div>
+    <div class="composer-map-shell">
+      <div id="composer-map-toggle" class="home-map-toggle" role="group" aria-label="Map region">
+        <button type="button" data-map-toggle-region="us" aria-label="Show United States concert locations" aria-pressed="false">America</button>
+        <button type="button" data-map-toggle-region="europe" aria-label="Show European concert locations" aria-pressed="true">Europe</button>
+      </div>
+      <div id="composer-map" class="composer-map" role="application" aria-label="Interactive map of concerts in which this composer appears"></div>
+    </div>
+  </section>
+
+  <div class="detail-toolbar">
+    <label class="filter-search">
+      <span class="sr-only">Filter this composer’s concerts and pieces</span>
+      <input id="composer-performance-search" type="search" placeholder="Filter concerts or pieces" autocomplete="off">
+    </label>
+    <output id="composer-filter-count" for="composer-performance-search" aria-live="polite"></output>
+  </div>
+
+  <section class="record-section" aria-labelledby="composer-performances-title">
+    <div class="section-heading">
+      <h2 id="composer-performances-title">Concert appearances</h2>
+    </div>
+    <div id="composer-performances" class="composer-appearance-list" aria-busy="true">
+      <div class="composer-appearance-loading" role="status">Loading concerts…</div>
+    </div>
+  </section>
+</article>
+
+<template id="composer-performance-row-template">
+  <article class="composer-concert-card">
+    <header class="composer-concert-heading">
+      <time data-performance-date></time>
+      <div class="composer-concert-title">
+        <h3><a data-program-link data-program-title></a></h3>
+        <p data-performance-place></p>
+        <p class="composer-concert-meta" data-performance-meta></p>
+      </div>
+      <span class="composer-piece-count" data-piece-count></span>
+    </header>
+    <div class="composer-concert-pieces">
+      <h4>Pieces</h4>
+      <ul data-piece-list></ul>
+    </div>
+  </article>
+</template>

@@ -1,0 +1,4067 @@
+[
+  {
+    "id": "COM:Adam_Aquanus",
+    "name": "Adam Aquanus",
+    "aliases": [
+      "Loer, Adam",
+      "Luyr Aquegranensis, Ada",
+      "Luyr, Adam"
+    ],
+    "cya_start": "1510",
+    "cya_end": "1510"
+  },
+  {
+    "id": "COM:Adam_de_la_Halle",
+    "name": "Adam de la Halle",
+    "aliases": [
+      "Adan d'Arras",
+      "Adan dArras",
+      "Adan de la Hale",
+      "Adan le Boscu d'Arras",
+      "Adan le Boscu dArras",
+      "Adan le Bossu",
+      "Le Bossu",
+      "Le boiteux d'Arras",
+      "Le boiteux dArras",
+      "Li Bossu"
+    ],
+    "cya_start": "1276",
+    "cya_end": "1288"
+  },
+  {
+    "id": "COM:Adam_Gumpelzhaimer",
+    "name": "Adam Gumpelzhaimer",
+    "aliases": [
+      "A. G. T. B.",
+      "Gumpeltzhaimer, Adam",
+      "Gumpeltzhaimer, Adam",
+      "Gumpeltzhamer, Adam",
+      "Gumpeltzheimer, Adam",
+      "Gumpelzhaimer, Adam",
+      "Gumpelzhaimer, Adamus",
+      "Gumpelzhaimerus, Adamus",
+      "Gumpelzheimer, Adam",
+      "Gümpelshaimer, Adam",
+      "Gümpelsheimer, Adam"
+    ],
+    "cya_start": "1581",
+    "cya_end": "1620",
+    "death_date": "1625-11-2"
+  },
+  {
+    "id": "COM:Adam_Ileborgh",
+    "name": "Adam Ileborgh",
+    "aliases": [],
+    "cya_start": "1448",
+    "cya_end": "1448"
+  },
+  {
+    "id": "COM:Adam_of_St_Victor",
+    "name": "Adam of St Victor",
+    "aliases": []
+  },
+  {
+    "id": "COM:Adam_von_Fulda",
+    "name": "Adam von Fulda",
+    "aliases": [],
+    "cya_start": "1490",
+    "cya_end": "1505"
+  },
+  {
+    "id": "COM:Adrian_Denss",
+    "name": "Adrian Denss",
+    "aliases": [
+      "Denss, Adrianus",
+      "Denssius, Adrian"
+    ],
+    "cya_start": "1594",
+    "cya_end": "1594"
+  },
+  {
+    "id": "COM:Adrian_Le_Roy",
+    "name": "Adrian Le Roy",
+    "aliases": []
+  },
+  {
+    "id": "COM:Adrian_Willaert",
+    "name": "Adrian Willaert",
+    "aliases": [
+      "Adriano Fiammengo",
+      "Adrien",
+      "Adrian",
+      "Hadrian",
+      "Adrian",
+      "M. Adriano",
+      "Villaert, Adriano",
+      "Villahart, Adrian",
+      "Villahert, Adrian",
+      "Villard, Adrian",
+      "Villart",
+      "Vuigliard, Adrian",
+      "Vuigliart, Adrian",
+      "Vuillaert, Adrian",
+      "Vuillahert, Adrian",
+      "Wigliaret, Adrian",
+      "Willaert, Adriano",
+      "Willahert, Adrian",
+      "Willart, Adrianus"
+    ],
+    "cya_start": "1515",
+    "cya_end": "1560",
+    "death_date": "1562-12-7"
+  },
+  {
+    "id": "COM:Alexander_Agricola",
+    "name": "Alexander Agricola",
+    "aliases": [],
+    "cya_start": "1475",
+    "cya_end": "1506",
+    "death_date": "1506-8-15"
+  },
+  {
+    "id": "COM:Alfonso_el_Sabio",
+    "name": "Alfonso el Sabio",
+    "aliases": [],
+    "birth_date": "1221-11-23",
+    "cya_start": "1252",
+    "cya_end": "1284",
+    "death_date": "1284-4-4"
+  },
+  {
+    "id": "COM:Alfonso_Ferrabosco_II",
+    "name": "Alfonso Ferrabosco II",
+    "aliases": [
+      "Ferabosco, Alfonso",
+      "Ferraboschi, Alfonso",
+      "Ferraboscho, Alfonso",
+      "Ferrabosco, Alfonso (II)",
+      "Ferrabosco, Alfonso II",
+      "Ferribosco, Alfonso"
+    ],
+    "cya_start": "1602",
+    "cya_end": "1628"
+  },
+  {
+    "id": "COM:Alonso_de_Mondejar",
+    "name": "Alonso de Mondejar",
+    "aliases": [],
+    "cya_start": "1502",
+    "cya_end": "1516"
+  },
+  {
+    "id": "COM:Alonso_Mudarra",
+    "name": "Alosno Mudarra",
+    "aliases": []
+  },
+  {
+    "id": "COM:Andrea_Gabrieli",
+    "name": "Andrea Gabrieli",
+    "aliases": [
+      "Andrea da Cannaregio",
+      "Gabrieli da Canereio, Andrea",
+      "Gabrielli, Andrea"
+    ],
+    "cya_start": "1557",
+    "cya_end": "1585",
+    "death_date": "1585-8-30"
+  },
+  {
+    "id": "COM:Anonymous",
+    "name": "Anonymous",
+    "aliases": [
+      "unknown"
+    ]
+  },
+  {
+    "id": "COM:Anthoine_de_Bertrand",
+    "name": "Anthoine de Bertrand",
+    "aliases": []
+  },
+  {
+    "id": "COM:Anthoine_Francisque",
+    "name": "Anthoine Francisque",
+    "aliases": []
+  },
+  {
+    "id": "COM:Antoine_Barbe",
+    "name": "Antoine Barbe",
+    "aliases": [
+      "Barbe, Anthonis",
+      "Barbé, Antoine"
+    ],
+    "cya_start": "1528",
+    "cya_end": "1562",
+    "death_date": "1564-12-2"
+  },
+  {
+    "id": "COM:Antoine_Brumel",
+    "name": "Antoine Brumel",
+    "aliases": [
+      "Broemel, Antoine",
+      "Brommel, Antoine",
+      "Brommel, Anton",
+      "Brumel, A.",
+      "Brumel, Antoin",
+      "Brumel, Anton",
+      "Brumel, Antonio",
+      "Brumel, Antonius",
+      "Brumet, Antoine",
+      "Brummel, Antoine",
+      "Brummel, Anton",
+      "Brunel, Antoine",
+      "Brunel, Anton",
+      "Brunello, Antoine"
+    ],
+    "cya_start": "1483",
+    "cya_end": "1510"
+  },
+  {
+    "id": "COM:Antoine_Busnois",
+    "name": "Antoine Busnois",
+    "aliases": [
+      "Antoine de Busnes",
+      "Bunois, Antoine",
+      "Busnois, Antoine",
+      "De Busne, Antoine"
+    ],
+    "cya_start": "1450",
+    "cya_end": "1483"
+  },
+  {
+    "id": "COM:Antoine_de_Fevin",
+    "name": "Antoine de Févin",
+    "aliases": [
+      "De Feuin, Antoine de",
+      "Favin, Antoine de",
+      "Fenin, Antoine de",
+      "Feuin, Antoine de",
+      "Feum, Antoine de",
+      "Fevin, Antoine de",
+      "Fevyn, Antoine de",
+      "Ffenim, Antoine de"
+    ],
+    "cya_start": "1507",
+    "cya_end": "1512"
+  },
+  {
+    "id": "COM:Antonio_Cifra",
+    "name": "Antonio Cifra",
+    "aliases": [
+      "Ciffria, Antonio",
+      "Zifra, Antonio"
+    ],
+    "cya_start": "1605",
+    "cya_end": "1629",
+    "death_date": "1629-10-2"
+  },
+  {
+    "id": "COM:Antonio_de_Cabezon",
+    "name": "Antonio de Cabezón",
+    "aliases": [
+      "Cabezón, Antonius A.",
+      "Cabezón, Antonius de",
+      "Cabezón, Felix-Antoine de",
+      "Cabeçon, Antonio de"
+    ],
+    "cya_start": "1526",
+    "cya_end": "1566",
+    "death_date": "1566-3-26"
+  },
+  {
+    "id": "COM:Antonio_Scandello",
+    "name": "Antonio Scandello",
+    "aliases": [
+      "Scandelli, Antonio",
+      "Scandellis, Antonio",
+      "Scandellus, Antonio",
+      "Scandellus, Antonius"
+    ],
+    "birth_date": "1517-1-17",
+    "cya_start": "1550",
+    "cya_end": "1580",
+    "death_date": "1580-1-18"
+  },
+  {
+    "id": "COM:Antonius_Gosswin",
+    "name": "Antonius Gosswin",
+    "aliases": []
+  },
+  {
+    "id": "COM:Antony_Holborne",
+    "name": "Antony Holborne",
+    "aliases": [
+      "Holborn, Antony"
+    ],
+    "cya_start": "1581",
+    "cya_end": "1599"
+  },
+  {
+    "id": "COM:Arnold_de_Lantins",
+    "name": "Arnold de Lantins",
+    "aliases": []
+  },
+  {
+    "id": "COM:Arnold_von_Bruck",
+    "name": "Arnold von Bruck",
+    "aliases": [
+      "A. B.",
+      "Arnoldo Fiamengo",
+      "Arnoldo de Ponte",
+      "Ponte, Arnoldo de",
+      "Arnoldt von Prigkh",
+      "Arnoldus",
+      "Arnoldus Brugensis",
+      "Arnoldus de Bruck",
+      "Arnoldus de Bruckh",
+      "Arnoldus de Pruckh",
+      "Arnoldus de Prug",
+      "Arnoldus de Prugkh",
+      "Arnoldus von Prugg",
+      "Bruck, Arnold von",
+      "Pruck, Arnold de",
+      "Arnoldo Flandro",
+      "Arnoldo Fiammingo"
+    ],
+    "cya_start": "1527",
+    "cya_end": "1545",
+    "death_date": "1554-2-6"
+  },
+  {
+    "id": "COM:Arnolt_Schlick",
+    "name": "Arnolt Schlick",
+    "aliases": [
+      "Arnold [Schlick]",
+      "Arnolt [Schlick]",
+      "Schlick, Arnold",
+      "Schlicken, Arnold",
+      "Schlicken, Arnolt"
+    ],
+    "cya_start": "1486",
+    "cya_end": "1521"
+  },
+  {
+    "id": "COM:Aurelio_Bonelli",
+    "name": "Aurelio Bonelli",
+    "aliases": []
+  },
+  {
+    "id": "COM:Baldasar",
+    "name": "Baldasar",
+    "aliases": []
+  },
+  {
+    "id": "COM:Baldissera_Donato",
+    "name": "Baldissera Donato",
+    "aliases": [
+      "Donati, Baldassare",
+      "Donati, Baldesar",
+      "Donati, Baldissera",
+      "Donato, Baldassara",
+      "Donato, Baldassare",
+      "Donato, Baldassarre",
+      "Donato, Baldesar",
+      "Donato, Baldessare",
+      "Donato, Baldissera"
+    ],
+    "cya_start": "1546",
+    "cya_end": "1596",
+    "death_date": "1603-2-17"
+  },
+  {
+    "id": "COM:Balthasar_Resinarius",
+    "name": "Balthasar Resinarius",
+    "aliases": [
+      "Harczer, Balthasar",
+      "Hartzer, Balthasar",
+      "Harzer, Balthasar"
+    ],
+    "cya_start": "1523",
+    "cya_end": "1544",
+    "death_date": "1544-4-12"
+  },
+  {
+    "id": "COM:Bartholomaus_Gesius",
+    "name": "Bartholomäus Gesius",
+    "aliases": [
+      "Gese, Bartholomäus",
+      "Gesij, Bartholomäus",
+      "Göse, Bartholomäus",
+      "Göss, Barthel",
+      "Göss, Bartholomäus"
+    ],
+    "cya_start": "1582",
+    "cya_end": "1613"
+  },
+  {
+    "id": "COM:Bartolomeo_Brolo",
+    "name": "Bartolomeo Brolo",
+    "aliases": [
+      "Bartholomeus [Brollo]",
+      "Bartholomeus [Brolo]",
+      "Bartholomeus [Bruolis]",
+      "Bartholomeus [Bruolo]",
+      "Bartholomeus [de Brolis]",
+      "Bartolomeo [Bruolo]",
+      "Brollo, Bartholomeus",
+      "Brolo, Bartolomeo",
+      "Bruolis, Bartholomeus",
+      "Bruolo, Bartholomeus",
+      "De Brolis, Bartholomeus",
+      "DeBrolis, Bartholomeus"
+    ],
+    "cya_start": "1420",
+    "cya_end": "1435"
+  },
+  {
+    "id": "COM:Bartolomeo_Tromboncino",
+    "name": "Bartolomeo Tromboncino",
+    "aliases": [
+      "Barth. T. Veron.",
+      "Trombecin, Bartolomeo",
+      "Tromboncin, Bartolomeo",
+      "Tromboncinus, Bartolomeo",
+      "Trombonsin, Bartolomeo",
+      "Trombonus, Bartolomeo",
+      "Trombonzin, Bartolomeo",
+      "Trombonzino, Bartolomeo"
+    ],
+    "cya_start": "1489",
+    "cya_end": "1535"
+  },
+  {
+    "id": "COM:Beltrame_Feragut",
+    "name": "Beltrame Feragut",
+    "aliases": []
+  },
+  {
+    "id": "COM:Ben_Cosyns",
+    "name": "Ben Cosyns",
+    "aliases": []
+  },
+  {
+    "id": "COM:Benedictus_Ducis",
+    "name": "Benedictus Ducis",
+    "aliases": [
+      "Benedictus",
+      "Duch, Benedictus",
+      "Dux, Benedictus",
+      "Hertoghs, Benedictus",
+      "Herzog, Benedictus",
+      "Herzog, Benedikt",
+      "Prince de la gilde de St. Luc"
+    ],
+    "cya_start": "1532",
+    "cya_end": "1544"
+  },
+  {
+    "id": "COM:Benedictus_Grep",
+    "name": "Benedictus Grep",
+    "aliases": []
+  },
+  {
+    "id": "COM:Bernart_de_Ventadorn",
+    "name": "Bernart de Ventadorn",
+    "aliases": [],
+    "cya_start": "1150",
+    "cya_end": "1200"
+  },
+  {
+    "id": "COM:Bernhard_Schmid_I",
+    "name": "Bernhard Schmid I",
+    "aliases": []
+  },
+  {
+    "id": "COM:Blondel_de_Nesle",
+    "name": "Blondel de Nesle",
+    "aliases": []
+  },
+  {
+    "id": "COM:Carlo_Gesualdo",
+    "name": "Carlo Gesualdo",
+    "aliases": [
+      "Consa, Conte di",
+      "Gesualdo da Venosa",
+      "Gesualdo, Carlo, Principe di Venosa",
+      "Gesualdo, Don Carlo Principe di Venosa",
+      "Principe di Venosa, Carlo",
+      "Venosa, Principe di"
+    ],
+    "birth_date": "1566-3-8",
+    "cya_start": "1593",
+    "cya_end": "1613",
+    "death_date": "1613-9-8"
+  },
+  {
+    "id": "COM:Caspar_Othmayr",
+    "name": "Caspar Othmayr",
+    "aliases": [
+      "Othmarus, Caspar",
+      "Othmarus, Gasparus",
+      "Othmayer, Caspar",
+      "Othmayr, Johann Kaspar Wagener",
+      "Othmeyer, Caspar",
+      "Otmaier, Caspar",
+      "Ottmaier, Caspar"
+    ],
+    "birth_date": "1515-3-12",
+    "cya_start": "1543",
+    "cya_end": "1553",
+    "death_date": "1553-2-4"
+  },
+  {
+    "id": "COM:Christoph_Demantius",
+    "name": "Christoph Demantius",
+    "aliases": []
+  },
+  {
+    "id": "COM:Christoph_Praetorius",
+    "name": "Christoph Praetorius",
+    "aliases": [],
+    "cya_start": "1560",
+    "cya_end": "1581"
+  },
+  {
+    "id": "COM:Cipriano_de_Rore",
+    "name": "Cipriano de Rore",
+    "aliases": [
+      "De Rore, Cipriano",
+      "Roor, Cyprian de",
+      "Rore, Cipriani de",
+      "Rore, Cipriano",
+      "Rore, Cipriano da",
+      "Rore, Cyprian de",
+      "Rore, Cypriano de",
+      "Rore, Cyprien de"
+    ],
+    "cya_start": "1542",
+    "cya_end": "1565"
+  },
+  {
+    "id": "COM:Claude_Gervaise",
+    "name": "Claude Gervaise",
+    "aliases": [
+      "Gervais, Claude"
+    ],
+    "cya_start": "1540",
+    "cya_end": "1560"
+  },
+  {
+    "id": "COM:Claude_Goudimel",
+    "name": "Claude Goudimel",
+    "aliases": [
+      "Godimel, Claude",
+      "Godymel, Claude",
+      "Goudimel, Cl.",
+      "Goudimel, Claudio",
+      "Jodimel, Claude",
+      "Jodimey, Claude",
+      "Jodrymel, Claude",
+      "Jodymel, Claude"
+    ],
+    "cya_start": "1551",
+    "cya_end": "1572"
+  },
+  {
+    "id": "COM:Claude_Le_Jeune",
+    "name": "Claude Le Jeune",
+    "aliases": [
+      "Lejeune, Claude"
+    ],
+    "cya_start": "1552",
+    "cya_end": "1598",
+    "death_date": "1600-9-26"
+  },
+  {
+    "id": "COM:Claudin_de_Sermisy",
+    "name": "Claudin de Sermisy",
+    "aliases": [
+      "Cermisy, Claudin de",
+      "Claudin [de Sermisy]",
+      "Sermicy, Claudin de",
+      "Sermisi, Claudio de",
+      "Sermisy, Cl. de",
+      "Sermisy, Claude de",
+      "Sermizy, Claudin de",
+      "Sermysy, Claudin de",
+      "Sernisy, Claudin de",
+      "Servyzy, Claudin de"
+    ],
+    "cya_start": "1508",
+    "cya_end": "1555",
+    "death_date": "1562-10-13"
+  },
+  {
+    "id": "COM:Claudio_Merulo",
+    "name": "Claudio Merulo",
+    "aliases": [
+      "Claudio da Correggio",
+      "Correggio, Claudio",
+      "Merlotti, Claudio",
+      "Merulus, Claudio"
+    ],
+    "birth_date": "1533-4-8",
+    "cya_start": "1556",
+    "cya_end": "1604",
+    "death_date": "1604-5-4"
+  },
+  {
+    "id": "COM:Claudio_Monteverdi",
+    "name": "Claudio Monteverdi",
+    "aliases": [
+      "Monsviridus, Claudio",
+      "Monte Verde, Claudio",
+      "Monteverde, Claudio",
+      "Monteverdi, C.",
+      "Monteverdi, Claudio Zuan Antonio",
+      "Montisviridius, Claudinius"
+    ],
+    "birth_date": "1567-5-15",
+    "cya_start": "1587",
+    "cya_end": "1643",
+    "death_date": "1643-11-29"
+  },
+  {
+    "id": "COM:Clemens_non_Papa",
+    "name": "Clemens non Papa",
+    "aliases": [
+      "Clemens non papa, Jacobus",
+      "Clement, Jacobus",
+      "Clément, Jacques",
+      "Jacobus Clement non papa"
+    ],
+    "cya_start": "1538",
+    "cya_end": "1555"
+  },
+  {
+    "id": "COM:Clement_Janequin",
+    "name": "Clément Janequin",
+    "aliases": [
+      "Jannekin, Clément",
+      "Jannequin, Clément",
+      "Jehannequin, Clément",
+      "Jennekin, Clément",
+      "Jennequin, Clemens",
+      "Jennequin, Clément"
+    ],
+    "cya_start": "1505",
+    "cya_end": "1558"
+  },
+  {
+    "id": "COM:Conrad_Paumann",
+    "name": "Conrad Paumann",
+    "aliases": [
+      "Baumann, Conrad",
+      "Baumann, Konrad",
+      "Conrad [Paumann]",
+      "Konrad [Paumann]",
+      "Paumann, Konrad"
+    ],
+    "cya_start": "1446",
+    "cya_end": "1473",
+    "death_date": "1473-1-24"
+  },
+  {
+    "id": "COM:Cornelis_Schuyt",
+    "name": "Cornelis Schuyt",
+    "aliases": [
+      "Schuijt, Cornelis",
+      "Schuyt, C. F.",
+      "Schuyt, Cornelio",
+      "Schuyt, Cornelis Floris",
+      "Schuyt, Cornelis Floriszoon",
+      "Schuyt, Cornelius Floriszoon",
+      "Scutius, Cornelis"
+    ],
+    "cya_start": "1584",
+    "cya_end": "1616",
+    "death_date": "1616-6-9"
+  },
+  {
+    "id": "COM:Cosmas_Adler",
+    "name": "Cosmas Adler",
+    "aliases": []
+  },
+  {
+    "id": "COM:Costanzo_Festa",
+    "name": "Costanzo Festa",
+    "aliases": [
+      "Festa, Constantinus",
+      "Festa, Constantio",
+      "Festa, Constanzio"
+    ],
+    "cya_start": "1514",
+    "cya_end": "1545",
+    "death_date": "1545-4-10"
+  },
+  {
+    "id": "COM:Cristobal_de_Morales",
+    "name": "Cristóbal de Morales",
+    "aliases": [
+      "Clericus Hispalensis",
+      "De Morales, Cristobal",
+      "Morales Hispalensis",
+      "Morales, Christophoro'"
+    ],
+    "cya_start": "1522",
+    "cya_end": "1553"
+  },
+  {
+    "id": "COM:Defronciaco",
+    "name": "Defronciaco",
+    "aliases": []
+  },
+  {
+    "id": "COM:Diego_Ortiz",
+    "name": "Diego Ortiz",
+    "aliases": [
+      "Ortiz, Didacus"
+    ],
+    "cya_start": "1553",
+    "cya_end": "1570"
+  },
+  {
+    "id": "COM:Dietmar_von_Aist",
+    "name": "Dietmar von Aist",
+    "aliases": []
+  },
+  {
+    "id": "COM:Domenico_da_Piacenza",
+    "name": "Domenico da Piacenza",
+    "aliases": [],
+    "cya_start": "1435",
+    "cya_end": "1472"
+  },
+  {
+    "id": "COM:Ephrem_Syrus",
+    "name": "Ephrem Syrus",
+    "aliases": []
+  },
+  {
+    "id": "COM:Erasmus_Lapicida",
+    "name": "Erasmus Lapicida",
+    "aliases": []
+  },
+  {
+    "id": "COM:Erasmus_Widmann",
+    "name": "Erasmus Widmann",
+    "aliases": [
+      "Wideman, Erasm.",
+      "Widemann, Erasmus"
+    ],
+    "cya_start": "1595",
+    "cya_end": "1629",
+    "death_date": "1634-10-31"
+  },
+  {
+    "id": "COM:Erhard_Bodenschatz",
+    "name": "Erhard Bodenschatz",
+    "aliases": [
+      "Bodenschatz, August M. Eberhard",
+      "Bodenschatz, Leonhard"
+    ],
+    "cya_start": "1600",
+    "cya_end": "1636"
+  },
+  {
+    "id": "COM:Estienne_Du_Tetre",
+    "name": "Estienne Du Tetre",
+    "aliases": []
+  },
+  {
+    "id": "COM:Estienne_Grossin",
+    "name": "Estienne Grossin",
+    "aliases": []
+  },
+  {
+    "id": "COM:Eustache_du_Caurroy",
+    "name": "Eustache du Caurroy",
+    "aliases": [
+      "Caurroy, Eustache",
+      "Du Caurroy, François-Eustache",
+      "Ducaurroy, Eustache",
+      "Ducauvroy, Eustache"
+    ],
+    "cya_start": "1574",
+    "cya_end": "1609",
+    "death_date": "1609-8-7"
+  },
+  {
+    "id": "COM:Fabritio_Caroso",
+    "name": "Fabritio Caroso",
+    "aliases": [
+      "Caroso, Fabrizio",
+      "Caroso, Marco Fabrizio",
+      "Caroso, Mario Fabrizio",
+      "Maestro di ballare, Fabritio"
+    ],
+    "cya_start": "1581",
+    "cya_end": "1605"
+  },
+  {
+    "id": "COM:Fernand_Perez_de_Medina",
+    "name": "Fernand Pérez de Medina",
+    "aliases": []
+  },
+  {
+    "id": "COM:Flordigal",
+    "name": "Flordigal",
+    "aliases": []
+  },
+  {
+    "id": "COM:Folquet_de_Marseille",
+    "name": "Folquet de Marseille",
+    "aliases": [],
+    "cya_start": "1178",
+    "cya_end": "1231",
+    "death_date": "1231-12-25"
+  },
+  {
+    "id": "COM:Forest",
+    "name": "Forest",
+    "aliases": []
+  },
+  {
+    "id": "COM:Francesco_Bendusi",
+    "name": "Francesco Bendusi",
+    "aliases": [],
+    "cya_start": "1550",
+    "cya_end": "1550"
+  },
+  {
+    "id": "COM:Francesco_dAna",
+    "name": "Francesco D'Ana",
+    "aliases": [
+      "Ana, Francesco",
+      "Ana, Francesco d'",
+      "Anna, Francesco",
+      "Dana, Francesco",
+      "De Ana, Francesco",
+      "Francesco Varoter, Francesco",
+      "Franciscus Venetus Organista, Francesco",
+      "Franciscus de Dana, Francesco"
+    ],
+    "cya_start": "1490",
+    "cya_end": "1503"
+  },
+  {
+    "id": "COM:Francesco_de_la_Torre",
+    "name": "Francesco de la Torre",
+    "aliases": []
+  },
+  {
+    "id": "COM:Francesco_Landini",
+    "name": "Francesco Landini",
+    "aliases": [
+      "Cechus de Florentia",
+      "Cieco degli Organi",
+      "Cieco di Firenze",
+      "Coechus de Florentia",
+      "Firenze, Francesco da",
+      "Francesco Cieco",
+      "Francesco [Landini]",
+      "Francesco [da Firenze]",
+      "Francesco [degli Organi]",
+      "Francesco degli orghani",
+      "Franciscus [Landinus]",
+      "Franciscus [de Florentia]",
+      "François [Landino]",
+      "Landini",
+      "Landini, Francisco",
+      "Landino, Francesco",
+      "Landino, Franciscus",
+      "Landino, François",
+      "Magister Franciscus Coecus Horghanista de Florentia",
+      "Magister Franciscus de Florentia",
+      "Organi, Francesco degli"
+    ],
+    "cya_start": "1361",
+    "cya_end": "1397",
+    "death_date": "1397-9-2"
+  },
+  {
+    "id": "COM:Franchinus_Gaffurius",
+    "name": "Franchinus Gaffurius",
+    "aliases": [
+      "Gaffori, Franchino",
+      "Gaffori, Franchinus",
+      "Gafforius, Franchino",
+      "Gafforus, Franchinus",
+      "Gaffuri, Franchino",
+      "Gaffurio, Franchino",
+      "Gafor, Franchinus",
+      "Gafori, Franchino",
+      "Gafori, Franchinus",
+      "Gafurio, Franchino",
+      "Gafuris, Franchino",
+      "Gafurius, Franchinus",
+      "Gafurus, Franchinus"
+    ],
+    "birth_date": "1451-1-14",
+    "cya_start": "1474",
+    "cya_end": "1511",
+    "death_date": "1522-6-24"
+  },
+  {
+    "id": "COM:Francis_Pilkington",
+    "name": "Francis Pilkington",
+    "aliases": []
+  },
+  {
+    "id": "COM:Francisco_Guerrero",
+    "name": "Francisco Guerrero",
+    "aliases": []
+  },
+  {
+    "id": "COM:Franciscus_Niger",
+    "name": "Franciscus Niger",
+    "aliases": [
+      "Fuscus, Franciscus",
+      "Negro, Pescennio Francesco",
+      "Negri, Pescennio Francesco",
+      "Franciscus, Venetus",
+      "Francesco, Fosco",
+      "Franciscus, Fuscus",
+      "Negro, Francesco",
+      "Negri, Francesco",
+      "Niger, Pescennius Franciscus",
+      "Niger, Franciscus",
+      "Francesco, Negri",
+      "Negro, Francesco Pescennio"
+    ],
+    "birth_date": "1452-4-17",
+    "cya_start": "1480",
+    "cya_end": "1523"
+  },
+  {
+    "id": "COM:Francois_Regnart",
+    "name": "François Regnart",
+    "aliases": []
+  },
+  {
+    "id": "COM:Franz_Struyss",
+    "name": "Franz Struyss",
+    "aliases": []
+  },
+  {
+    "id": "COM:Frauenlob",
+    "name": "Frauenlob",
+    "aliases": [
+      "Frouwenlob",
+      "Heinrich von Meissen",
+      "Heinrich von Meißen"
+    ],
+    "cya_start": "1287",
+    "cya_end": "1318",
+    "death_date": "1318-11-29"
+  },
+  {
+    "id": "COM:Fridolin_Sicher",
+    "name": "Fridolin Sicher",
+    "aliases": [],
+    "birth_date": "1490-3-6",
+    "cya_start": "1515",
+    "cya_end": "1545",
+    "death_date": "1546-6-13"
+  },
+  {
+    "id": "COM:Fulbert_de_Chartes",
+    "name": "Fulbert de Chartes",
+    "aliases": []
+  },
+  {
+    "id": "COM:Gabriel_Mena",
+    "name": "Gabriel Mena",
+    "aliases": [],
+    "cya_start": "1496",
+    "cya_end": "1528",
+    "death_date": "1528-9-3"
+  },
+  {
+    "id": "COM:Gace_Brule",
+    "name": "Gace Brulé",
+    "aliases": []
+  },
+  {
+    "id": "COM:Gautier_de_Coincy",
+    "name": "Gautier de Coincy",
+    "aliases": [],
+    "cya_start": "1193",
+    "cya_end": "1236",
+    "death_date": "1236-9-25"
+  },
+  {
+    "id": "COM:Georg_Forster",
+    "name": "Georg Forster",
+    "aliases": []
+  },
+  {
+    "id": "COM:Georg_Rhau",
+    "name": "Georg Rhau",
+    "aliases": [
+      "Hirsutus, Georg",
+      "Rau, Georg",
+      "Raw, Georg",
+      "Rhau, Jörg",
+      "Rhaw, Georg"
+    ],
+    "cya_start": "1514",
+    "cya_end": "1548",
+    "death_date": "1548-8-6"
+  },
+  {
+    "id": "COM:Georg_Vintz",
+    "name": "Georg Vintz",
+    "aliases": [
+      "Vintzius, Georg",
+      "Vinz, Georg",
+      "Wintz, Georg"
+    ],
+    "cya_start": "1600",
+    "cya_end": "1635"
+  },
+  {
+    "id": "COM:Georg_Vogelhuber",
+    "name": "Georg Vogelhuber",
+    "aliases": []
+  },
+  {
+    "id": "COM:Gherardello_da_Firenze",
+    "name": "Gherardello da Firenze",
+    "aliases": []
+  },
+  {
+    "id": "COM:Giaches_de_Wert",
+    "name": "Giaches de Wert",
+    "aliases": [
+      "Dewert",
+      "Giaches de Wert",
+      "Giaches di Reggio",
+      "Jaches [de Wert]",
+      "Jacobus de Vert",
+      "Jacques [de Wert]",
+      "Vaerts",
+      "Vert",
+      "Vuert",
+      "Vuert, Iaches",
+      "Vuert, Jakob",
+      "Wert",
+      "Wert, Iaches de",
+      "Wert, Jaches de",
+      "Wert, Jacob",
+      "Wert, Jacob de",
+      "Wert, Jaques de",
+      "Werth",
+      "Werth, Jakob"
+    ],
+    "cya_start": "1556",
+    "cya_end": "1595",
+    "death_date": "1596-5-6"
+  },
+  {
+    "id": "COM:Giacomo_Fogliano",
+    "name": "Giacomo Fogliano",
+    "aliases": [
+      "Fogliani, Giacomo",
+      "Fogliani, Jacomo",
+      "Fogliani, Jacopo",
+      "Fogliano da Modena",
+      "Fogliano, Jacobus",
+      "Fogliano, Jacopo",
+      "Foglianus, Giacomo",
+      "Foianus, Giacomo",
+      "Folianus, Giacomo",
+      "Jac. Fo.",
+      "Jacobus Folianus Mutinensis"
+    ],
+    "cya_start": "1479",
+    "cya_end": "1548",
+    "death_date": "1548-4-10"
+  },
+  {
+    "id": "COM:Giles_Farnaby",
+    "name": "Giles Farnaby",
+    "aliases": [
+      "Farnabie, Giles"
+    ],
+    "cya_start": "1592",
+    "cya_end": "1639"
+  },
+  {
+    "id": "COM:Gilles_Binchois",
+    "name": "Gilles Binchois",
+    "aliases": [
+      "Binch, Gilles",
+      "Binchis, Gilles",
+      "Binchoy, Gilles",
+      "Binchoys, Gilles",
+      "Bincoys, Gilles",
+      "Buchoi, Gilles",
+      "Bynczoys, Gilles",
+      "Bynzoys, Gilles",
+      "Gilles de Binck, Gilles",
+      "Gilles de Bins, Gilles",
+      "Prachoys, Gilles",
+      "Vinczois, Gilles",
+      "Wintzois, Gilles",
+      "de Binche, Gilles",
+      "de Bins, Gilles"
+    ],
+    "cya_start": "1420",
+    "cya_end": "1453",
+    "death_date": "1460-9-20"
+  },
+  {
+    "id": "COM:Gines_de_Morata",
+    "name": "Ginés de Morata",
+    "aliases": []
+  },
+  {
+    "id": "COM:Gioseffo_Guami",
+    "name": "Gioseffo Guami",
+    "aliases": [
+      "Gioseffo da Luca",
+      "Guami, Gioseffo [da Lucca]",
+      "Guami, Gioseffo da Lucca",
+      "Guami, Giosepho",
+      "Guami, Gioseppe",
+      "Guami, Giuseppe",
+      "Guami, Joseph",
+      "Guammi, Gioseffo",
+      "Guami, Josephus"
+    ],
+    "birth_date": "1542-1-27",
+    "cya_start": "1562",
+    "cya_end": "1611"
+  },
+  {
+    "id": "COM:Gioseppe_Caimo",
+    "name": "Gioseppe Caimo",
+    "aliases": [
+      "Caimo, Giuseppe"
+    ],
+    "cya_start": "1563",
+    "cya_end": "1584"
+  },
+  {
+    "id": "COM:Giovan_Leonardo_Primavera",
+    "name": "Giovan Leonardo Primavera",
+    "aliases": []
+  },
+  {
+    "id": "COM:Giovanni_Bassano",
+    "name": "Giovanni Bassano",
+    "aliases": [
+      "Bassani, Giovanni Battista",
+      "Bassiani, Giovanni",
+      "Baßaino, Giovanni"
+    ],
+    "cya_start": "1576",
+    "cya_end": "1617",
+    "death_date": "1617-8-16"
+  },
+  {
+    "id": "COM:Giovanni_da_Cascia",
+    "name": "Giovanni da Cascia",
+    "aliases": [
+      "Giovanni da Firenze",
+      "Joannes de Florentia",
+      "Johannes de Florentia",
+      "Toscano, Gian"
+    ],
+    "cya_start": "1340",
+    "cya_end": "1350"
+  },
+  {
+    "id": "COM:Giovanni_Domenico_da_Nola",
+    "name": "Giovanni Domenico da Nola",
+    "aliases": [
+      "Del Giovane, Gian Domenico",
+      "Del Giovane, Gian Domenico da Nola",
+      "Del Giovane, Giovanni Domenico",
+      "Don Joan Domenico del Giovane de Nola",
+      "Giovanni Domenico da Nola",
+      "Giovanni da Nola",
+      "Ioan Domenico di Nolla",
+      "Nola, Gian Domenico",
+      "Nola, Giovanni",
+      "Domenico del Giovane da",
+      "Nolla, Giovanni Domenico da"
+    ],
+    "cya_start": "1541",
+    "cya_end": "1592"
+  },
+  {
+    "id": "COM:Giovanni_Gabrieli",
+    "name": "Giovanni Gabrieli",
+    "aliases": [
+      "Gabrielis, Johannes",
+      "Gabrielli, Giovanni"
+    ],
+    "cya_start": "1578",
+    "cya_end": "1612"
+  },
+  {
+    "id": "COM:Giovanni_Giacomo_Gastoldi",
+    "name": "Giovanni Giacomo Gastoldi",
+    "aliases": [
+      "Castoldi, Giovanni Giacomo",
+      "Castoldo, Giovanni Giacomo",
+      "Gastoldi, Gian Giacomo",
+      "Gastoldi, Giovan Giacomo",
+      "Gastoldo, Giovanni Giacomo"
+    ],
+    "cya_start": "1572",
+    "cya_end": "1609",
+    "death_date": "1609-1-4"
+  },
+  {
+    "id": "COM:Giovanni_Pierluigi_da_Palestrina",
+    "name": "Giovanni Pierluigi da Palestrina",
+    "aliases": [
+      "Da Palestrina, Giovanni Pierluigi",
+      "DaPalestrina, Giovanni Pierluigi",
+      "Del Pelestino",
+      "Del Pelestino, Giovanni Pierluigi da",
+      "Gianetto",
+      "Gianetto da Pallestrino",
+      "Gianetto da Pallestrino",
+      "Giovanni Pierluigi da",
+      "Gianetto del Pelestino",
+      "Gianetto del Pelestino, Giovanni Pierluigi da",
+      "Gianetto, Giovanni Pierluigi da",
+      "Giannetto",
+      "Giannetto da Pallestrino",
+      "Giannetto da Pallestrino, Giovanni Pierluigi da",
+      "Giannetto del Pelestino",
+      "Giannetto del Pelestino, Giovanni Pierluigi da",
+      "Giannetto, Giovanni Pierluigi da",
+      "Giov. Pier Lavigi",
+      "Giov. Pier Lavigi, Giovanni Pierluigi da",
+      "Giovanni",
+      "Giovanni Pierluigi da Palestrina",
+      "Giovanni Pierluigi da Palestrina, Giovanni Pierluigi da",
+      "Giovanni Pietraloysio",
+      "Giovanni Pietraloysio, Giovanni Pierluigi da",
+      "Giovanni, Giovanni Pierluigi da",
+      "Joannes Petraloysius Prenestinus",
+      "Joannes Petraloysius Prenestinus, Giovanni Pierluigi da",
+      "Palestina, Giovanni Pierluigi da",
+      "Palestrina, G. P.",
+      "Palestrina, Giov. Pierluigi da",
+      "Palestrina, Giovanni P. da",
+      "Palestrina, Giovanni Pierluigi",
+      "Palestrina, Giovanni Pierluigi da (Praenestinus)",
+      "Palestrina, Giovanni Pierluigi da Praenestinus",
+      "Palestrina, Giovanni Pietro",
+      "Palestrina, Giovanni da",
+      "Palestrina, Giovanno",
+      "Palestrina, Joachim",
+      "Palestrina, Pier Luigi",
+      "Palestrina, Pierluigi da",
+      "Palestrino, Joannes P.",
+      "Pallestrino, Giovanni Pierluigi da",
+      "Panestrina, Giovanni Pietro Luigi da",
+      "Pelestina, Giovanni Pierluigi da",
+      "Pellestrino, Giovanni Pierluigi da",
+      "Penestrina, Giovanni Pierluigi da",
+      "Petraloysius Praenestinus",
+      "Petraloysius Praenestinus, Giovanni Pierluigi da",
+      "Petraloysius Prenestino",
+      "Petraloysius Prenestino, Giovanni Pierluigi da",
+      "Petraloysius, Giovanni Pierluigi da",
+      "Pierluigi da Palestrina, Giovanni",
+      "Pierluigi, Giovanni",
+      "Ponestrina, Giovanni Pierluigi da",
+      "Praenestinius, Joannes P.",
+      "Praenestinus, Ioannes P.",
+      "Praenestinus, Joann. P.",
+      "Praenestinus, Joannes P.",
+      "Praenestinus, Joannes Petrus Aloysius",
+      "Praenestinus, Joannes Petrus Aloysius",
+      "Prenestino, Giopetrio Aloysio",
+      "Prenestino, Giovanni Pierluigi da",
+      "Prenestinus, Giovanni P.",
+      "Zanetto da Pallestrino",
+      "Zanetto da Pallestrino, Giovanni Pierluigi da",
+      "Zanetto del Pelestino",
+      "Zanetto del Pelestino, Giovanni Pierluigi da",
+      "Zanetto, Giovanni Pierluigi da"
+    ],
+    "cya_start": "1551",
+    "cya_end": "1594",
+    "death_date": "1594-2-2"
+  },
+  {
+    "id": "COM:Giraut_de_Bornelh",
+    "name": "Giraut de Bornelh",
+    "aliases": [],
+    "cya_start": "1160",
+    "cya_end": "1200"
+  },
+  {
+    "id": "COM:Girolamo_Cavazzoni",
+    "name": "Girolamo Cavazzoni",
+    "aliases": [
+      "Girolamo da Bologna",
+      "Girolamo da Urbino"
+    ],
+    "cya_start": "1542",
+    "cya_end": "1577"
+  },
+  {
+    "id": "COM:Giulio_Romano_Caccini",
+    "name": "Giulio Romano Caccini",
+    "aliases": [
+      "Giulio Romano",
+      "Caccini, Giulio Romolo"
+    ],
+    "birth_date": "1551-10-8",
+    "cya_start": "1565",
+    "cya_end": "1618"
+  },
+  {
+    "id": "COM:Grazioso_da_Padua",
+    "name": "Grazioso da Padua",
+    "aliases": [],
+    "cya_start": "1350",
+    "cya_end": "1400"
+  },
+  {
+    "id": "COM:Gregor_Aichinger",
+    "name": "Gregor Aichinger",
+    "aliases": []
+  },
+  {
+    "id": "COM:Gregor_Peschin",
+    "name": "Gregor Peschin",
+    "aliases": []
+  },
+  {
+    "id": "COM:Guglielmo_Ebreo_da_Pesaro",
+    "name": "Guglielmo Ebreo da Pesaro",
+    "aliases": [],
+    "cya_start": "1465",
+    "cya_end": "1480"
+  },
+  {
+    "id": "COM:Guillaume_Costeley",
+    "name": "Guillaume Costeley",
+    "aliases": [
+      "Cautelay, Guillaume",
+      "Costello, Guillaume",
+      "Cotelay, Guillaume"
+    ],
+    "cya_start": "1554",
+    "cya_end": "1588",
+    "death_date": "1606-1-28"
+  },
+  {
+    "id": "COM:Guillaume_dAmiens",
+    "name": "Guillaume d'Amiens",
+    "aliases": [],
+    "cya_start": "1301",
+    "cya_end": "1301"
+  },
+  {
+    "id": "COM:Guillaume_de_Machaut",
+    "name": "Guillaume de Machaut",
+    "aliases": [
+      "Guglielmo di Francia",
+      "Guillelmus de Machaudio",
+      "Guillermus de Masandio",
+      "Machau, Guillaume de",
+      "Machault, Guillaume de",
+      "Mascaudio, Guillaume de",
+      "Michault, Guillaume de"
+    ],
+    "cya_start": "1323",
+    "cya_end": "1377"
+  },
+  {
+    "id": "COM:Guillaume_Du_Fay",
+    "name": "Guillaume Du Fay",
+    "aliases": [
+      "Doufayt, Guillaume",
+      "Du Fay, Guglielmo",
+      "Du Fayt, Guillaume",
+      "Dufa, Guillaume",
+      "Dufay, Guillaume"
+    ],
+    "cya_start": "1420",
+    "cya_end": "1465",
+    "death_date": "1374-11-27"
+  },
+  {
+    "id": "COM:Guillaume_Legrant",
+    "name": "Guillaume Legrant",
+    "aliases": []
+  },
+  {
+    "id": "COM:Guiraut_Riquier",
+    "name": "Guiraut Riquier",
+    "aliases": [],
+    "cya_start": "1254",
+    "cya_end": "1292"
+  },
+  {
+    "id": "COM:Gulielmus",
+    "name": "Gulielmus",
+    "aliases": []
+  },
+  {
+    "id": "COM:Hans_Buchner",
+    "name": "Hans Buchner",
+    "aliases": [
+      "Bucher, Hans",
+      "Bucher, Johann",
+      "Bucher, Johannes",
+      "Buchmayer, Hannsen",
+      "Buchmayer, Hans",
+      "Buchmayer, Johannes",
+      "Buchmeyer, Hans",
+      "Buchmeyer, Johann",
+      "Buchner, Buchner, Johann",
+      "Buchner, Johannes",
+      "Buechmaier, Johann",
+      "Buechmair, Johann",
+      "Buechmayer, Johann",
+      "Pucher, Hans",
+      "Pucher, Johann",
+      "Puchmair, Johann",
+      "Puchmeyer, Johann",
+      "Puchner, Johann"
+    ],
+    "birth_date": "1483-10-26",
+    "cya_start": "1506",
+    "cya_end": "1526"
+  },
+  {
+    "id": "COM:Hans_Christoph_Haiden",
+    "name": "Hans Christoph Haiden",
+    "aliases": []
+  },
+  {
+    "id": "COM:Hans_Gerle",
+    "name": "Hans Gerle",
+    "aliases": []
+  },
+  {
+    "id": "COM:Hans_Judenkonig",
+    "name": "Hans Judenkönig",
+    "aliases": []
+  },
+  {
+    "id": "COM:Hans_Kotter",
+    "name": "Hans Kotter",
+    "aliases": [],
+    "cya_start": "1500",
+    "cya_end": "1541"
+  },
+  {
+    "id": "COM:Hans_Leo_Hassler",
+    "name": "Hans Leo Hassler",
+    "aliases": [
+      "Haissler, Hans Leo",
+      "Hasl, Hans Leo",
+      "Hasler, Giovan Leo",
+      "Hasler, Hanns Leo",
+      "Hasler, Hans L.",
+      "Hasler, Hans Leo",
+      "Hasler, Hans Leo",
+      "Hasler, Hans Leo von",
+      "Hasler, Ioannes Leo",
+      "Hasler, J. L.",
+      "Hasler, Jean Leo",
+      "Hasler, Johann Leo",
+      "Hasler, Johannes Leo",
+      "Hasler, L.",
+      "Haslero, Johann",
+      "Haslerus, Hans Leo",
+      "Haslerus, Hans Leo",
+      "Haslerus, Johannes Leo",
+      "Hassler, H. L.",
+      "Hassler, Hans L.",
+      "Hassler, Hans Leo",
+      "Hassler, Hans Leo (Haslerus)",
+      "Hassler, Johann Leo",
+      "Hassler, Johann Leo",
+      "Haster, Hans Leo",
+      "Haßler, Hans Leo"
+    ],
+    "cya_start": "1584",
+    "cya_end": "1612",
+    "death_date": "1612-6-8"
+  },
+  {
+    "id": "COM:Hans_Neusiedler",
+    "name": "Hans Neusiedler",
+    "aliases": [
+      "Neusiedler, Hans",
+      "Neusydler, Hans",
+      "Newsidler, Hans",
+      "Neysidler, Hans"
+    ],
+    "cya_start": "1530",
+    "cya_end": "1563",
+    "death_date": "1563-2-2"
+  },
+  {
+    "id": "COM:Hans_von_Konstanz",
+    "name": "Hans von Konstanz",
+    "aliases": []
+  },
+  {
+    "id": "COM:Hayne_van_Ghizeghem",
+    "name": "Hayne van Ghizeghem",
+    "aliases": [
+      "Ayne",
+      "Ghizeghem, Hayne van",
+      "Groen Heyne",
+      "H.",
+      "Haine",
+      "Hame",
+      "Hayne, Henri",
+      "Heine",
+      "Heyne",
+      "Scoen Hayne",
+      "Van Ghizeghem, Hayne"
+    ],
+    "cya_start": "1467",
+    "cya_end": "1493"
+  },
+  {
+    "id": "COM:Heinrich_Finck",
+    "name": "Heinrich Finck",
+    "aliases": [],
+    "cya_start": "1482",
+    "cya_end": "1527",
+    "death_date": "1527-6-9"
+  },
+  {
+    "id": "COM:Heinrich_Glarean",
+    "name": "Heinrich Glarean",
+    "aliases": [
+      "Glareanus, Henricus",
+      "Loretti",
+      "Loriti, Heinrich",
+      "Loritis",
+      "Loritti"
+    ],
+    "cya_start": "1512",
+    "cya_end": "1558",
+    "death_date": "1563-3-28"
+  },
+  {
+    "id": "COM:Heinrich_Isaac",
+    "name": "Heinrich Isaac",
+    "aliases": [
+      "Arrhigus, Heinrich",
+      "Arrigo Tedesco",
+      "Arrigo Ugonis",
+      "Arrigo d'Ugo",
+      "Arrigo de Alemania",
+      "Arrigo di Fiandra",
+      "Arrigo il Tedesco",
+      "Isaac, Henricus",
+      "Isaak, Heinrich",
+      "Isac, Heinrich",
+      "Izac, Heinrich",
+      "Ysaac, Heinrich",
+      "Ysac, Heinrich",
+      "Ysach, Heinrich",
+      "Ysak, Heinrich",
+      "Yzaac, Heinrich",
+      "Yzac, Heinrich"
+    ],
+    "cya_start": "1484",
+    "cya_end": "1516",
+    "death_date": "1517-3-26"
+  },
+  {
+    "id": "COM:Heinrich_Laufenberg",
+    "name": "Heinrich Laufenberg",
+    "aliases": [],
+    "cya_start": "1417",
+    "cya_end": "1445",
+    "death_date": "1460-3-31"
+  },
+  {
+    "id": "COM:Henry_VIII",
+    "name": "Henry VIII",
+    "aliases": [
+      "Duke of York",
+      "Enrico, re d'Inghilterra",
+      "Heinrich VIII., König von England",
+      "Heinrich [England, König, VIII.]",
+      "Henri [Angleterre, Roi, VIII.]",
+      "Henri [VIII.]",
+      "Henricus [Anglia, Rex, VIII.]",
+      "Henrie [Angleterre, Roi, VIII.]",
+      "Henry [Angleterre, Roy, VIII.]",
+      "Henry [England, King, VIII]",
+      "King of England",
+      "Prince of Wales",
+      "Tudor, Henry"
+    ],
+    "birth_date": "1491-6-28",
+    "cya_start": "1507",
+    "cya_end": "1547",
+    "death_date": "1547-1-28"
+  },
+  {
+    "id": "COM:Hermann_Finck",
+    "name": "Hermann Finck",
+    "aliases": [
+      "Fink, Hermann"
+    ],
+    "birth_date": "1527-3-21",
+    "cya_start": "1554",
+    "cya_end": "1558",
+    "death_date": "1558-12-29"
+  },
+  {
+    "id": "COM:Hermannus_Contractus",
+    "name": "Hermannus Contractus",
+    "aliases": []
+  },
+  {
+    "id": "COM:Hesdin",
+    "name": "Hesdin",
+    "aliases": [
+      "Des Celliers",
+      "Hesdin, Nicolas",
+      "Nicolle des Celliers"
+    ],
+    "cya_start": "1530",
+    "cya_end": "1538",
+    "death_date": "1538-8-21"
+  },
+  {
+    "id": "COM:Hubert_Waelrant",
+    "name": "Hubert Waelrant",
+    "aliases": []
+  },
+  {
+    "id": "COM:Hugh_Aston",
+    "name": "Hugh Aston",
+    "aliases": [
+      "Ashtan, Hugh",
+      "Ashton, Hugh",
+      "Asseton, Hugh",
+      "Assheton, Hugh",
+      "Asthan, Hugh",
+      "Aston, Hugo",
+      "Austin, Hugh",
+      "Auston, Hugh",
+      "Haston, Hugh",
+      "Hastun, Hugh"
+    ],
+    "cya_start": "1520",
+    "cya_end": "1558",
+    "death_date": "1558-11-17"
+  },
+  {
+    "id": "COM:Hugo_de_Lantins",
+    "name": "Hugo de Lantins",
+    "aliases": []
+  },
+  {
+    "id": "COM:Hugues_de_Berze",
+    "name": "Hugues de Berzé",
+    "aliases": []
+  },
+  {
+    "id": "COM:J_le_Maire",
+    "name": "J. le Maire",
+    "aliases": []
+  },
+  {
+    "id": "COM:Jacob_Hagenbach",
+    "name": "Jacob Hagenbach",
+    "aliases": [
+      "Hagenbachius, Jacobus"
+    ],
+    "birth_date": "1532-4-20",
+    "cya_start": "1555",
+    "cya_end": "1566"
+  },
+  {
+    "id": "COM:Jacob_Obrecht",
+    "name": "Jacob Obrecht",
+    "aliases": [
+      "Hoberti de Bergis, Jacob",
+      "Hobertus, Jacob",
+      "Hobrecht, Jacob",
+      "Hoebrecht, Jacob",
+      "Obert, Jacobus",
+      "Oberti de Bergis, Jacob",
+      "Obertus, Jacob",
+      "Obreht, Jacob",
+      "Obret, Jacob",
+      "Obreth, Jacob",
+      "Opprecht, Jacob",
+      "Oprecht, Jacob",
+      "Uberto, Jacob",
+      "Ubreto, Jacob"
+    ],
+    "cya_start": "1480",
+    "cya_end": "1505"
+  },
+  {
+    "id": "COM:Jacob_Regnart",
+    "name": "Jacob Regnart",
+    "aliases": []
+  },
+  {
+    "id": "COM:Jacobus_Barbireau",
+    "name": "Jacobus Barbireau",
+    "aliases": []
+  },
+  {
+    "id": "COM:Jacobus_Handl",
+    "name": "Jacobus Handl",
+    "aliases": [
+      "Carniolus, Jacobus",
+      "Gallo, Giacomo",
+      "Gallus Carniolus, Jacobus",
+      "Gallus, Iacobus",
+      "Gallus, Jacob",
+      "Gallus, Jakob",
+      "Gallus, Jakobus",
+      "Haindl, Jacobus",
+      "Handl Gallus, Jakob",
+      "Handl, Jacob",
+      "Handl, Jacob",
+      "Handl, Jacobus",
+      "Handl, Jakob",
+      "Handl, Jakobus",
+      "Handl-Gallus, Iacobus",
+      "Handl-Gallus, J.",
+      "Handl-Gallus, Jacobus",
+      "Haÿndl, Jacobi",
+      "Hándl, Iacobus",
+      "Hähnel, Jacob",
+      "Händl, Jacob",
+      "Petelin, Jacobus"
+    ],
+    "cya_start": "1579",
+    "cya_end": "1591",
+    "death_date": "1591-7-18"
+  },
+  {
+    "id": "COM:Jacobus_Vaet",
+    "name": "Jacobus Vaet",
+    "aliases": [
+      "Vasius, Jacobus"
+    ],
+    "cya_start": "1550",
+    "cya_end": "1567",
+    "death_date": "1567-1-8"
+  },
+  {
+    "id": "COM:Jacopo_da_Bologna",
+    "name": "Jacopo da Bologna",
+    "aliases": [],
+    "cya_start": "1340",
+    "cya_end": "1360"
+  },
+  {
+    "id": "COM:Jacopo_Fogliano",
+    "name": "Jacopo Fogliano",
+    "aliases": []
+  },
+  {
+    "id": "COM:Jacopo_Peri",
+    "name": "Jacopo Peri",
+    "aliases": []
+  },
+  {
+    "id": "COM:Jacopone_da_Todi",
+    "name": "Jacopone da Todi",
+    "aliases": [
+      "Benedetti, Giacomo de",
+      "Benedetti, Jacopo de",
+      "Benedetti, Jacopone de",
+      "Benedicti, Jacopo",
+      "Benedictis, Jacobus de",
+      "Benedictis, Jacoponus de",
+      "DaTodi, Iacopone",
+      "Giacopone [da Todi]",
+      "Giacopone [de'Benedetti]",
+      "Giacopone [deBenedetti]",
+      "Iacopone [da Todi]",
+      "Jacobus [de Benedictis]",
+      "Jacobus [de Tuderto]",
+      "Jacopo [da Todi]",
+      "Jacopone [da Todi]",
+      "Jacopone [de Benedetti]",
+      "Jacopone [de Tuderto]",
+      "Jacoponus [Tudertinus]",
+      "Jacoponus [de Benedictis]",
+      "Pseudo-Jacopone [da Todi]",
+      "Todi, Jacopone da"
+    ],
+    "cya_start": "1278",
+    "cya_end": "1298"
+  },
+  {
+    "id": "COM:Jacques_Arcadelt",
+    "name": "Jacques Arcadelt",
+    "aliases": [
+      "Arcadelt, Jacob",
+      "Arcadelt, Jacobus Henricus",
+      "Arcadelt, Jakob",
+      "Arcadente, Jacques",
+      "Arcadet, Jacques",
+      "Archadelt, Jacobus",
+      "Archadelt, Jakob",
+      "Archadet, Jacques",
+      "Arkadelt, Jacques",
+      "De Arca d'Elta, Jacques",
+      "Del Arche d'Elt, Jacques",
+      "Harcadelt, Jacques",
+      "Harchadelt, Jacques",
+      "Jacobus Flandrus"
+    ],
+    "cya_start": "1530",
+    "cya_end": "1562",
+    "death_date": "1562-10-14"
+  },
+  {
+    "id": "COM:Jacques_Mauduit",
+    "name": "Jacques Mauduit",
+    "aliases": []
+  },
+  {
+    "id": "COM:Jacquet_de_Berchem",
+    "name": "Jacquet de Berchem",
+    "aliases": [
+      "Berchem, Jachet",
+      "Berchem, Jachet",
+      "Berghem",
+      "De Berchem",
+      "Iacchetto de Berchem",
+      "Jachet de Berchem"
+    ],
+    "cya_start": "1538",
+    "cya_end": "1565"
+  },
+  {
+    "id": "COM:Jan_Belle",
+    "name": "Jan Belle",
+    "aliases": [],
+    "cya_start": "1546",
+    "cya_end": "1566"
+  },
+  {
+    "id": "COM:Jan_Nasco",
+    "name": "Jan Nasco",
+    "aliases": [
+      "Nasco, Gian",
+      "Nasco, Giovan",
+      "Nasco, Giovanni",
+      "Nascus, Giovanni",
+      "Nascus, Johannes"
+    ],
+    "cya_start": "1547",
+    "cya_end": "1561"
+  },
+  {
+    "id": "COM:Jan_Pieterszoon_Sweelinck",
+    "name": "Jan Pieterszoon Sweelinck",
+    "aliases": [
+      "Schveling, Jan Pieterszoon",
+      "Schweling, Jan Pieterszoon",
+      "Seveling, Jan Pieterszoon",
+      "Sv., Jan Pieterszoon",
+      "Svelinck, Jan Pieterszoon",
+      "Sveling, Jan Pieterszoon",
+      "Svelingh, Jan Pieterszoon",
+      "Sw., Jan Pieterszoon",
+      "Sweeling, Jan Pieterszoon",
+      "Sweelingh, Jan Pieterszoon",
+      "Swelinck, Jan Pieterszoon",
+      "Sweling, Jan Pieterszoon",
+      "Swelingh, Jan Pieterszoon",
+      "Zwelinck, Jan Pieterszoon"
+    ],
+    "cya_start": "1577",
+    "cya_end": "1621",
+    "death_date": "1621-10-16"
+  },
+  {
+    "id": "COM:Jan_van_Turnhout",
+    "name": "Jan van Turnhout",
+    "aliases": [
+      "Turnhout, Jean de",
+      "Turnhout, Jan-Jacob van"
+    ],
+    "cya_start": "1577",
+    "cya_end": "1618"
+  },
+  {
+    "id": "COM:Jan_van_Wintelroy",
+    "name": "Jan van Wintelroy",
+    "aliases": []
+  },
+  {
+    "id": "COM:Jaquemin_de_Senleches",
+    "name": "Jaquemin de Senleches",
+    "aliases": []
+  },
+  {
+    "id": "COM:Jean-Baptiste_Besard",
+    "name": "Jean-Baptiste Besard",
+    "aliases": [
+      "Besarde, Jean-Baptiste",
+      "Besardo, Giovanni Battista",
+      "Besardus, Johannes Baptista"
+    ],
+    "cya_start": "1587",
+    "cya_end": "1616"
+  },
+  {
+    "id": "COM:Jean_Conseil",
+    "name": "Jean Conseil",
+    "aliases": [
+      "Concilium, Jean",
+      "Conseil, Jean",
+      "Consiglion, Jean",
+      "Consilio, Gian de",
+      "Consilion, Jean",
+      "Consilium, Johannes",
+      "Consilius, Jean",
+      "Cunsel, Jean",
+      "De Conseil, Jean",
+      "Du Conseil, Jean"
+    ],
+    "cya_start": "1526",
+    "cya_end": "1534"
+  },
+  {
+    "id": "COM:Jean_de_Castro",
+    "name": "Jean de Castro",
+    "aliases": [
+      "Castro, Giovan de",
+      "Castro, Giovanni de",
+      "Castro, Iehan de",
+      "Castro, Ioanne de",
+      "Castro, Ioannis a",
+      "De Castro, Jean"
+    ],
+    "cya_start": "1570",
+    "cya_end": "1600"
+  },
+  {
+    "id": "COM:Jean_Japart",
+    "name": "Jean Japart",
+    "aliases": [
+      "Japart, Johannes",
+      "Japarte, Jean",
+      "Jappart, Jean",
+      "Zaparth, Jean"
+    ],
+    "cya_start": "1476",
+    "cya_end": "1481"
+  },
+  {
+    "id": "COM:Jean_Mouton",
+    "name": "Jean Mouton",
+    "aliases": [
+      "D'Hollingue, Jehan",
+      "De Hollievigue, Jean",
+      "De Hollouigue, Jean",
+      "De Holluigue, Jean",
+      "De Houllievigues, Jean",
+      "Hollievigue, Jean",
+      "Hollingue, Jean de",
+      "Hollouigue, Jean",
+      "Holluigue, Jean",
+      "Houllievigues, Jean",
+      "Jean de Hollingue",
+      "Moton, Jean",
+      "Mouton Sameracensis, Jean",
+      "Mouton, Ioannes",
+      "Muton, Jean",
+      "Sameracensis, Jean"
+    ],
+    "cya_start": "1483",
+    "cya_end": "1522",
+    "death_date": "1522-10-30"
+  },
+  {
+    "id": "COM:Jehan_Titelouze",
+    "name": "Jehan Titelouze",
+    "aliases": [],
+    "cya_start": "1585",
+    "cya_end": "1623",
+    "death_date": "1633-10-24"
+  },
+  {
+    "id": "COM:Jehan_Vaillant",
+    "name": "Jehan Vaillant",
+    "aliases": [
+      "Vaillant, Jean",
+      "Vaillant, Jehan",
+      "Vaillant, Johannes",
+      "Vayllant, Johannes"
+    ],
+    "cya_start": "1360",
+    "cya_end": "1390"
+  },
+  {
+    "id": "COM:Jerzy_Liban",
+    "name": "Jerzy Liban",
+    "aliases": [
+      "Jerzy z Legnicy",
+      "Leinbach, Georg",
+      "Leinbach, Jerzy",
+      "Leymbach, Georg",
+      "Leymbach, Jerzy",
+      "Liban, Georg",
+      "Liban, Jerzy",
+      "Libanus Legnicensis, Georgius",
+      "Libanus, Georgius",
+      "Weihrauch, Georg"
+    ],
+    "cya_start": "1506",
+    "cya_end": "1540"
+  },
+  {
+    "id": "COM:Joannes_Tollius",
+    "name": "Joannes Tollius",
+    "aliases": [
+      "Joannes Tollius van Tollio",
+      "Toll, Jan van",
+      "Tollio, Giovanni",
+      "Tollius, Johannes"
+    ],
+    "cya_start": "1578",
+    "cya_end": "1603"
+  },
+  {
+    "id": "COM:Jobst_vom_Brandt",
+    "name": "Jobst vom Brant",
+    "aliases": []
+  },
+  {
+    "id": "COM:Johann_Eccard",
+    "name": "Johann Eccard",
+    "aliases": [
+      "Eccard, J.",
+      "Eccard, Johann",
+      "Eccard, Johann.",
+      "Eccard, Johannes",
+      "Eccardus, Johannes",
+      "Eccardus, Johannes aus Mühlhausen",
+      "Eccart, Johannes",
+      "Eckard, Johann"
+    ],
+    "cya_start": "1569",
+    "cya_end": "1611"
+  },
+  {
+    "id": "COM:Johann_Kugelmann",
+    "name": "Johann Kugelmann",
+    "aliases": [],
+    "cya_start": "1518",
+    "cya_end": "1540"
+  },
+  {
+    "id": "COM:Johann_Leonhard_von_Langenaw",
+    "name": "Johann Leonhard von Langenaw",
+    "aliases": []
+  },
+  {
+    "id": "COM:Johann_Steffens",
+    "name": "Johann Steffens",
+    "aliases": [
+      "Steffens, Johannes",
+      "Stepha, Johann",
+      "Stephan, Johann",
+      "Stephani, Johann",
+      "Stephanus, Johann"
+    ],
+    "cya_start": "1589",
+    "cya_end": "1609"
+  },
+  {
+    "id": "COM:Johann_Walter",
+    "name": "Johann Walter",
+    "aliases": [
+      "Walter, Johannes",
+      "Walther, Johann"
+    ],
+    "cya_start": "1521",
+    "cya_end": "1570",
+    "death_date": "1570-3-25"
+  },
+  {
+    "id": "COM:Johann_Weck",
+    "name": "Johann Weck",
+    "aliases": [],
+    "cya_start": "1512",
+    "cya_end": "1536"
+  },
+  {
+    "id": "COM:Johannes_Brassart",
+    "name": "Johannes Brassart",
+    "aliases": []
+  },
+  {
+    "id": "COM:Johannes_Ciconia",
+    "name": "Johannes Ciconia",
+    "aliases": []
+  },
+  {
+    "id": "COM:Johannes_Cochlaeus",
+    "name": "Johannes Cochlaeus",
+    "aliases": [
+      "Coch., Johannes",
+      "Cochlaeus, Ioannes",
+      "Cochlaeus, Iohannes",
+      "Cochlaeus, Joannes",
+      "Cochlaeus, Johann",
+      "Cochlaeus, Johannes",
+      "Cochlaeus, Johannes Dobeneck",
+      "Cochleus, Johann",
+      "Cochleus, Johannes",
+      "Cochlée, Jean",
+      "Coclaeus, Johannes",
+      "Cocleus von Wendelstein, Johann",
+      "Cocleus, Joannes",
+      "Cocleus, Johan",
+      "Cocleus, Johannes",
+      "Coclus, Johannes",
+      "Dobeneck von Wendelstein, Johannes",
+      "Dobeneck, Johann",
+      "Dobeneck, Johannes",
+      "Dobenek, Johann",
+      "Dobneck, Johanes",
+      "Dobneck, Johann",
+      "Dobneck, Johannes",
+      "I. C.",
+      "Jean [Cochlée]",
+      "Johannes [Cochlaeus]",
+      "Vogelgesang, Johann",
+      "Vogelsang, Johann",
+      "Wendelstein, Johann Cocleus von",
+      "Wendelsterner, Johannes",
+      "Wendelstinus, Johannes"
+    ],
+    "cya_start": "1510",
+    "cya_end": "1552"
+  },
+  {
+    "id": "COM:Johannes_Cornago",
+    "name": "Johannes Cornago",
+    "aliases": []
+  },
+  {
+    "id": "COM:Johannes_de_Espinosa",
+    "name": "Johannes de Espinosa",
+    "aliases": []
+  },
+  {
+    "id": "COM:Johannes_de_Lymburgia",
+    "name": "Johannes de Lymburgia",
+    "aliases": [
+      "Joannes de Lyburgia",
+      "Joannes de Lynburgia",
+      "Johannes de Liburgia",
+      "Johannes de Limburgia",
+      "Johannes de Lyburgia",
+      "Limburgia Vinandi",
+      "Lymburgia, Johannes de",
+      "Vinandi, Johannes"
+    ],
+    "cya_start": "1431",
+    "cya_end": "1431"
+  },
+  {
+    "id": "COM:Johannes_de_Stokem",
+    "name": "Johannes de Stokem",
+    "aliases": []
+  },
+  {
+    "id": "COM:Johannes_Escobar",
+    "name": "Johannes Escobar",
+    "aliases": []
+  },
+  {
+    "id": "COM:Johannes_Franchois_de_Gemblaco",
+    "name": "Johannes Franchois de Gemblaco",
+    "aliases": [
+      "Francho",
+      "Franchoi",
+      "Franchois de Gemblaco, Johannes",
+      "Franchois, Jean",
+      "Franchois, Johannes de Gembloux",
+      "Franchoj, Jean",
+      "Franchoys",
+      "François",
+      "Gemblaco, Johannes Franchois de",
+      "Joh. Franciscus de Gemblaco",
+      "Johannes de Gemblaco"
+    ],
+    "cya_start": "1417",
+    "cya_end": "1420"
+  },
+  {
+    "id": "COM:Johannes_Lebrung",
+    "name": "Johannes Lebrung",
+    "aliases": [
+      "Le Brum, Jean",
+      "Le Brun, Jean",
+      "Le Brung, Jean",
+      "Lebrin, Jean",
+      "Lebrun, Jean",
+      "Lebrung, Jean"
+    ],
+    "cya_start": "1500",
+    "cya_end": "1510"
+  },
+  {
+    "id": "COM:Johannes_Mangon",
+    "name": "Johannes Mangon",
+    "aliases": [],
+    "cya_start": "1535",
+    "cya_end": "1578"
+  },
+  {
+    "id": "COM:Johannes_Nucius",
+    "name": "Johannes Nucius",
+    "aliases": []
+  },
+  {
+    "id": "COM:Johannes_Okeghem",
+    "name": "Johannes Okeghem",
+    "aliases": [
+      "Hocquegam, Johannes",
+      "Hocqueham, Johannes",
+      "Hoquegan, Johannes",
+      "Ogkeguam, Johannes",
+      "Okchem, Johannes",
+      "Ockeghem, Johannes",
+      "Okegus, Johannes",
+      "Okenghem, Johannes",
+      "Okenheim, Johannes"
+    ],
+    "cya_start": "1443",
+    "cya_end": "1494",
+    "death_date": "1497-2-6"
+  },
+  {
+    "id": "COM:Johannes_Prioris",
+    "name": "Johannes Prioris",
+    "aliases": [],
+    "cya_start": "1485",
+    "cya_end": "1512"
+  },
+  {
+    "id": "COM:Johannes_Schrem",
+    "name": "Johannes Schrem",
+    "aliases": []
+  },
+  {
+    "id": "COM:Johannes_Tapissier",
+    "name": "Johannes Tapissier",
+    "aliases": [
+      "Jean de Noyers",
+      "Tapissier, Jean"
+    ],
+    "cya_start": "1400",
+    "cya_end": "1410"
+  },
+  {
+    "id": "COM:Johannes_Tinctoris",
+    "name": "Johannes Tinctoris",
+    "aliases": []
+  },
+  {
+    "id": "COM:Johannes_Touront",
+    "name": "Johannes Touront",
+    "aliases": []
+  },
+  {
+    "id": "COM:Johannes_Wannenmacher",
+    "name": "Johannes Wannenmacher",
+    "aliases": [
+      "Vannius",
+      "Vannius, Ioannes",
+      "Vannius, Joannes",
+      "Vannius, Joannis",
+      "Vannius, Johannes",
+      "Wannenmacher, Johannes"
+    ],
+    "cya_start": "1510",
+    "cya_end": "1531"
+  },
+  {
+    "id": "COM:John_Adson",
+    "name": "John Adson",
+    "aliases": []
+  },
+  {
+    "id": "COM:John_Bartlet",
+    "name": "John Bartlet",
+    "aliases": [
+      "Bartlett, John"
+    ],
+    "cya_start": "1606",
+    "cya_end": "1610"
+  },
+  {
+    "id": "COM:John_Bennet",
+    "name": "John Bennet",
+    "aliases": [
+      "Bennet, J.",
+      "Bennet, Jean",
+      "Bennet, John (I.)",
+      "Bennett, John"
+    ],
+    "cya_start": "1599",
+    "cya_end": "1614"
+  },
+  {
+    "id": "COM:John_Browne",
+    "name": "John Browne",
+    "aliases": [],
+    "cya_start": "1480",
+    "cya_end": "1505"
+  },
+  {
+    "id": "COM:John_Bull",
+    "name": "John Bull",
+    "aliases": [
+      "Bol, John",
+      "Bonville, Jean",
+      "Boul, John",
+      "Bouville, Jean",
+      "Bul, John"
+    ],
+    "cya_start": "1578",
+    "cya_end": "1626",
+    "death_date": "1628-3-12"
+  },
+  {
+    "id": "COM:John_Coprario",
+    "name": "John Coprario",
+    "aliases": [
+      "Cooper, John",
+      "Copario, John",
+      "Coperario, Giovanni",
+      "Coperario, John",
+      "Cowper, John"
+    ],
+    "cya_start": "1601",
+    "cya_end": "1626"
+  },
+  {
+    "id": "COM:John_Danyel",
+    "name": "John Danyel",
+    "aliases": []
+  },
+  {
+    "id": "COM:John_Dowland",
+    "name": "John Dowland",
+    "aliases": [
+      "Dolandi, John",
+      "Douland, John",
+      "Doulande, John",
+      "Dowlande, John",
+      "Dowlanndt, John",
+      "Dulandi, John",
+      "Dulandt, John"
+    ],
+    "cya_start": "1588",
+    "cya_end": "1626",
+    "death_date": "1626-2-20"
+  },
+  {
+    "id": "COM:John_Dunstaple",
+    "name": "John Dunstaple",
+    "aliases": [
+      "Donstaple, John",
+      "Dumstable, John",
+      "Dunstable, John",
+      "Dunstapell, John",
+      "Dunstaple, John, John",
+      "of Dunstable, John"
+    ],
+    "cya_start": "1420",
+    "cya_end": "1453",
+    "death_date": "1453-12-24"
+  },
+  {
+    "id": "COM:John_Farmer",
+    "name": "John Farmer",
+    "aliases": [
+      "Fermer, John"
+    ],
+    "cya_start": "1591",
+    "cya_end": "1601"
+  },
+  {
+    "id": "COM:John_Mundy",
+    "name": "John Mundy",
+    "aliases": [
+      "Monday, John",
+      "Mondie, John",
+      "Mondy, John",
+      "Moondaye, John",
+      "Moundaye, John",
+      "Mundaies, John",
+      "Munday, John",
+      "Munden, John",
+      "Mundie, John",
+      "Mundies, John",
+      "Mundres, John",
+      "Mundye, John"
+    ],
+    "cya_start": "1580",
+    "cya_end": "1630",
+    "death_date": "1630-6-29"
+  },
+  {
+    "id": "COM:John_of_Fornsete",
+    "name": "John of Fornsete",
+    "aliases": []
+  },
+  {
+    "id": "COM:John_Taverner",
+    "name": "John Taverner",
+    "aliases": [
+      "Tavernar, John",
+      "Tavernor, John"
+    ],
+    "cya_start": "1514",
+    "cya_end": "1537",
+    "death_date": "1545-10-18"
+  },
+  {
+    "id": "COM:John_Ward",
+    "name": "John Ward",
+    "aliases": []
+  },
+  {
+    "id": "COM:John_Wilbye",
+    "name": "John Wilbye",
+    "aliases": [
+      "Willonghbye, John",
+      "Willoughbye, John"
+    ],
+    "cya_start": "1598",
+    "cya_end": "1638"
+  },
+  {
+    "id": "COM:Josquin_Baston",
+    "name": "Josquin Baston",
+    "aliases": []
+  },
+  {
+    "id": "COM:Josquin_Dascanio",
+    "name": "Josquin Dascanio",
+    "aliases": []
+  },
+  {
+    "id": "COM:Josquin_des_Prez",
+    "name": "Josquin des Prez",
+    "aliases": [
+      "De Pres",
+      "Deprez, Josquin",
+      "Deprès, Josquin",
+      "Des Prez",
+      "Des Près, Josse",
+      "Des Prés, Josquin",
+      "Desprez, Josquin",
+      "Desprez, Josse",
+      "Després, Josquin",
+      "Du Pres",
+      "Dupré, Josquin",
+      "Gossequin des Pres",
+      "Ioschinus de Pratis",
+      "Ioschinus de Prattis",
+      "Iuschino",
+      "Jodocus [Pratensis]",
+      "Jodocus [de Prato]",
+      "Jodocus a Prato",
+      "Jodocus de Pratis",
+      "Josquin Dascanio",
+      "Josquin [Deprez]",
+      "Josquin [des Pres]",
+      "Josquin d'Ascanio",
+      "Josquin des Prés",
+      "Josse Desprez",
+      "Josse [des Prés]",
+      "Jossequin Lebloitte dit Desprez",
+      "Jossequin des Pres",
+      "Judocus de Pratis",
+      "Judocus des Pres",
+      "Juschino",
+      "Jöskin",
+      "Praetensis, Jodici",
+      "Pres, Josquin de",
+      "Prez, Josquin des",
+      "Prés, Josquin D.",
+      "Prés, Josquin des"
+    ],
+    "cya_start": "1480",
+    "cya_end": "1520",
+    "death_date": "1521-8-27"
+  },
+  {
+    "id": "COM:Juan_de_Leon",
+    "name": "Juan de Leon",
+    "aliases": [],
+    "cya_start": "1480",
+    "cya_end": "1514"
+  },
+  {
+    "id": "COM:Juan_del_Encina",
+    "name": "Juan del Encina",
+    "aliases": []
+  },
+  {
+    "id": "COM:Konrad_Hagius",
+    "name": "Konrad Hagius",
+    "aliases": []
+  },
+  {
+    "id": "COM:Krystof_Harant",
+    "name": "Kryštof Harant",
+    "aliases": []
+  },
+  {
+    "id": "COM:Leonel_Power",
+    "name": "Leonel Power",
+    "aliases": [
+      "Polbere, Leonelle",
+      "Polbero, Lionel",
+      "Power, Iconell",
+      "Power, Leonel",
+      "Power, Leonell",
+      "Power, Leonelle",
+      "Power, Leonellus",
+      "Power, Lione",
+      "Power, Lyonel",
+      "Powero, Lionel"
+    ],
+    "cya_start": "1410",
+    "cya_end": "1440",
+    "death_date": "1445-6-5"
+  },
+  {
+    "id": "COM:Leonhard_Kleber",
+    "name": "Leonhard Kleber",
+    "aliases": [],
+    "cya_start": "1516",
+    "cya_end": "1556",
+    "death_date": "1556-3-4"
+  },
+  {
+    "id": "COM:Leonhard_Lechner",
+    "name": "Leonhard Lechner",
+    "aliases": [
+      "Athesinus, Leonardus",
+      "Athesinus, Leonhard",
+      "Lechnerus, Leonhard",
+      "Lehener, Leonhard",
+      "Lehner, Leonhard"
+    ],
+    "cya_start": "1575",
+    "cya_end": "1606",
+    "death_date": "1606-9-9"
+  },
+  {
+    "id": "COM:Leonhard_Paminger",
+    "name": "Leonhard Paminger",
+    "aliases": []
+  },
+  {
+    "id": "COM:Leonhard_Schroeter",
+    "name": "Leonhard Schroeter",
+    "aliases": [
+      "Schröter, Leonhard",
+      "Schroterus, Leonhart",
+      "Schröter-Torgensem, Leonhart"
+    ],
+    "cya_start": "1561",
+    "cya_end": "1595"
+  },
+  {
+    "id": "COM:Leonin",
+    "name": "Léonin",
+    "aliases": [],
+    "cya_start": "1150",
+    "cya_end": "1201"
+  },
+  {
+    "id": "COM:Lodovico_Viadana",
+    "name": "Lodovico Viadana",
+    "aliases": []
+  },
+  {
+    "id": "COM:Lorenz_Lemlin",
+    "name": "Lorenz Lemlin",
+    "aliases": [
+      "Lemblein, Lorenz",
+      "Lemblin, Lorenz",
+      "Lämblin, Lorenz",
+      "Lämmlein, Lorenz",
+      "Lemlein, Lorenz"
+    ],
+    "cya_start": "1514",
+    "cya_end": "1549"
+  },
+  {
+    "id": "COM:Loyset_Compere",
+    "name": "Loyset Compere",
+    "aliases": [],
+    "cya_start": "1465",
+    "cya_end": "1508",
+    "death_date": "1518-8-16"
+  },
+  {
+    "id": "COM:Luca_Marenzio",
+    "name": "Luca Marenzio",
+    "aliases": [
+      "Marent, Lucas",
+      "Marentio, Luca"
+    ],
+    "cya_start": "1568",
+    "cya_end": "1598",
+    "death_date": "1599-8-22"
+  },
+  {
+    "id": "COM:Lucas_Osiander",
+    "name": "Lucas Osiander",
+    "aliases": [
+      "Osiander, Lukas"
+    ],
+    "cya_start": "1558",
+    "cya_end": "1604",
+    "death_date": "1604-9-17"
+  },
+  {
+    "id": "COM:Ludwig_Senfl",
+    "name": "Ludwig Senfl",
+    "aliases": [
+      "Fenfflius, Ludevicus",
+      "Helvetius",
+      "Lutwich Senfli",
+      "Sempffel, Ludwig",
+      "Senefl, Ludwig",
+      "Senfel, Ludwig",
+      "Senfelius, Ludwig",
+      "Senffel, Ludwig",
+      "Senffelius, Ludwig",
+      "Senffl, Ludwig",
+      "Senfflius, Ludwig",
+      "Senffly, Ludwig",
+      "Senfl",
+      "Senfl, Ludwig",
+      "Senfli, Ludwig",
+      "Senflius, Ludovicus",
+      "Senflius, Ludwig",
+      "Sennfelii, Ludwig",
+      "Sennffen, Ludwig",
+      "Sennffl, Ludwig",
+      "Sennfl, Ludwig",
+      "Sennfli, Ludwig",
+      "Sennstel, Ludwig",
+      "Senpft, Ludovicus",
+      "Senphlius, Ludwig",
+      "Sänfli, Ludwig"
+    ],
+    "cya_start": "1507",
+    "cya_end": "1540"
+  },
+  {
+    "id": "COM:Luis_Milan",
+    "name": "Luis Milán",
+    "aliases": [
+      "De Milán, Luis",
+      "Miálan, Luys",
+      "Milan, Luis",
+      "Milan, Luiz",
+      "Milan, Luys",
+      "Milan, Luys de",
+      "Milà i Exarch, Lluís del",
+      "Milà, Lluis del",
+      "Milà, Lluís",
+      "Milà, Lluís del",
+      "Milán, Luis de",
+      "Milán, Luís de",
+      "Milán, Luys",
+      "Millán, Luis",
+      "Milán, Luys"
+    ],
+    "cya_start": "1538",
+    "cya_end": "1560"
+  },
+  {
+    "id": "COM:Lupus_Hellinck",
+    "name": "Lupus Hellinck",
+    "aliases": [
+      "Hellin, Lupus",
+      "Hellinc, Lupus",
+      "Hellync, Lupus",
+      "Hellynck, Lupus",
+      "Lupi, Lupus",
+      "Lupus, Lupus",
+      "Wolfhard, Lupus",
+      "Wolfram, Lupus",
+      "Wulfaert, Lupus",
+      "Wulframus, Lupus"
+    ],
+    "cya_start": "1518",
+    "cya_end": "1541"
+  },
+  {
+    "id": "COM:Marbrianus_de_Orto",
+    "name": "Marbrianus de Orto",
+    "aliases": [
+      "De Horto, Marbrianus de",
+      "De Orto, Marbrianus",
+      "Dujardin, Marbrianus",
+      "Dujardin, Marbrianus de",
+      "Horto, Marbrianus de",
+      "Ortho, Marbrianus de",
+      "Orto, Marbriano de"
+    ],
+    "cya_start": "1482",
+    "cya_end": "1522"
+  },
+  {
+    "id": "COM:MarcAntonio_Ingegneri",
+    "name": "Marc'Antonio Ingegneri",
+    "aliases": [
+      "Ingegneri, Marco Antonio",
+      "Ingegnieri, Marco Antonio",
+      "Ingenieri, Marc' Antonio",
+      "Ingignerio, Marco Antonio",
+      "Ingignero, Marco Antonio",
+      "Ingignieri, Marco Antonio",
+      "Inzegneri, Marco Antonio",
+      "Inzigneri, Marco Antonio"
+    ],
+    "cya_start": "1557",
+    "cya_end": "1592"
+  },
+  {
+    "id": "COM:Marchetto_Cara",
+    "name": "Marchetto Cara",
+    "aliases": [
+      "Cara, Marco",
+      "Carra, Marchetto",
+      "De Cara, Marchetto"
+    ],
+    "cya_start": "1494",
+    "cya_end": "1525"
+  },
+  {
+    "id": "COM:Marco_Antonio_Cavazzoni",
+    "name": "Marco Antonio Cavazzoni",
+    "aliases": [
+      "Cavazzoni, Marco Antonio",
+      "Marc'Antonio da Urbino",
+      "Marc'Antonio de Bologna",
+      "Marco Antonio da Urbino",
+      "Marco Antonio di Bologna"
+    ],
+    "cya_start": "1512",
+    "cya_end": "1560"
+  },
+  {
+    "id": "COM:Marco_da_Gagliano",
+    "name": "Marco da Gagliano",
+    "aliases": [
+      "Da Gagliano, Marco",
+      "Marco da Gagliano"
+    ],
+    "birth_date": "1582-5-1",
+    "cya_start": "1602",
+    "cya_end": "1624",
+    "death_date": "1643-2-25"
+  },
+  {
+    "id": "COM:Martin_Agricola",
+    "name": "Martin Agricola",
+    "aliases": [
+      "Agricola, Martinus",
+      "Shor, Martin",
+      "Sore, Martin"
+    ],
+    "cya_start": "1520",
+    "cya_end": "1556",
+    "death_date": "1556-6-10"
+  },
+  {
+    "id": "COM:Martin_Codax",
+    "name": "Martin Codax",
+    "aliases": []
+  },
+  {
+    "id": "COM:Martin_de_Rivafrecha",
+    "name": "Martín de Rivafrecha",
+    "aliases": [],
+    "cya_start": "1503",
+    "cya_end": "1525",
+    "death_date": "1528-6-24"
+  },
+  {
+    "id": "COM:Martin_Luther",
+    "name": "Martin Luther",
+    "aliases": [
+      "D. M. L.",
+      "L., D. M.",
+      "Liuteris, Martynas",
+      "Ljuter, Martin",
+      "Luder, Martinus",
+      "Luter, ...",
+      "Luter, Marcin",
+      "Luter, Martí",
+      "Lutera, Martina",
+      "Lutero, ...",
+      "Lutero, Martim",
+      "Lutero, Martino",
+      "Lutero, Martín",
+      "Luters, Martins",
+      "Luth., M.",
+      "Luth., Martn",
+      "Luther, Maarten",
+      "Luther, Marthin",
+      "Luther, Martinus",
+      "Luther, Martti",
+      "Luther, Mertyn",
+      "Luther, Márton",
+      "Lutheros, Martinos",
+      "Lutherus, ...",
+      "Lutherus, Mar.",
+      "Lutherus, Martinus",
+      "Lutter, Martin",
+      "Lutterus, Mertinas",
+      "Lutther, Martin",
+      "Luyther, Martinus",
+      "Lûter, Martîn",
+      "M. L.",
+      "M. L. [Doctor]",
+      "M. L. [Doktor]",
+      "Martinus [Luther]",
+      "Rut'o, Marut'in"
+    ],
+    "birth_date": "1483-11-10",
+    "cya_start": "1512",
+    "cya_end": "1546",
+    "death_date": "1546-2-18"
+  },
+  {
+    "id": "COM:Martin_Peerson",
+    "name": "Martin Peerson",
+    "aliases": [
+      "Pearson, Martin",
+      "Peirson, Martin",
+      "Pierson, Martin"
+    ],
+    "cya_start": "1604",
+    "cya_end": "1630"
+  },
+  {
+    "id": "COM:Matheo_Flecha_I",
+    "name": "Matheo Flecha",
+    "aliases": [
+      "Fleccia, Matheo",
+      "Fleccia, Mathieu",
+      "Flecha, Mateo",
+      "Flecha, Mateo [el Viejo]",
+      "Flecha, Matheo",
+      "Flecha, Mathieu",
+      "Fleche, Mateo",
+      "Fletxa, Mateu",
+      "Flexa, Matheus",
+      "Flexa, Matteo"
+    ],
+    "cya_start": "1522",
+    "cya_end": "1548"
+  },
+  {
+    "id": "COM:Mathias_Apiarius",
+    "name": "Mathias Apiarius",
+    "aliases": []
+  },
+  {
+    "id": "COM:Mathias_Greiter",
+    "name": "Mathias Greiter",
+    "aliases": [
+      "Geiter, Matthäus",
+      "Greiter, Matheus",
+      "Greiter, Matthias",
+      "Greiter, Matthäus",
+      "Greither, Mathias",
+      "Greitter, Mathias",
+      "Greuter, Mathias",
+      "Greyter, Mathias",
+      "Gritter, Mathias",
+      "Gryter, Mathias",
+      "Gräter, Mathias"
+    ],
+    "cya_start": "1522",
+    "cya_end": "1550",
+    "death_date": "1550-12-20"
+  },
+  {
+    "id": "COM:Mathieu_Gascongne",
+    "name": "Mathieu Gascongne",
+    "aliases": [
+      "Gascogne, Mathieu",
+      "Gascone, Mathieu",
+      "Gascong, Mathieu",
+      "Gascongne, Johannes",
+      "Gascongus, Mathieu",
+      "Gasconia, Mathieu",
+      "Gasscoeing, Mathieu",
+      "Guascogna, Mathieu"
+    ],
+    "cya_start": "1515",
+    "cya_end": "1518"
+  },
+  {
+    "id": "COM:Matteo_da_Perugia",
+    "name": "Matteo da Perugia",
+    "aliases": []
+  },
+  {
+    "id": "COM:Matthaeus_Le_Maistre",
+    "name": "Matthaeus Le Maistre",
+    "aliases": [
+      "Le Maistre, Mathias",
+      "Le Maistre, Mattheus",
+      "Magistre, Mattheus",
+      "Maister, Mattheus",
+      "Maystre, Mattheus",
+      "Meistre, Mattheus"
+    ],
+    "cya_start": "1554",
+    "cya_end": "1577"
+  },
+  {
+    "id": "COM:Matthaus_Waissel",
+    "name": "Matthäus Waissel",
+    "aliases": [
+      "Waissel, M.",
+      "Waissel, Matthaeus",
+      "Waissel, Mattheus",
+      "Waissel, Matthias",
+      "Waisselius, Matthaeus",
+      "Waisselius, Matthäus",
+      "Waisselius, Mattheus"
+    ],
+    "cya_start": "1573",
+    "cya_end": "1599"
+  },
+  {
+    "id": "COM:Meister_Rumelant",
+    "name": "Meister Rumelant",
+    "aliases": []
+  },
+  {
+    "id": "COM:Melchior_Franck",
+    "name": "Melchior Franck",
+    "aliases": [
+      "Francus, Melchior",
+      "Frank, Melchior",
+      "Zittanus Silesius"
+    ],
+    "cya_start": "1601",
+    "cya_end": "1636",
+    "death_date": "1639-6-1"
+  },
+  {
+    "id": "COM:Melchior_Vulpius",
+    "name": "Melchior Vulpius",
+    "aliases": []
+  },
+  {
+    "id": "COM:Mesomedes",
+    "name": "Mesomedes",
+    "aliases": [
+      "Mesomede [Citaredo]",
+      "Mesomede [Lirico]",
+      "Mesomede [di Creta]",
+      "Mesomedes [Cretensis]",
+      "Mesomedes [Creticus]",
+      "Mesomedes [Kitharöde]",
+      "Mesomedes [Lyricus]",
+      "Mesomedes [Lyriker]",
+      "Mesomedes [von Kreta]",
+      "Μεσομήδης ὁ Κρής"
+    ]
+  },
+  {
+    "id": "COM:Michael_Cavendish",
+    "name": "Michael Cavendish",
+    "aliases": []
+  },
+  {
+    "id": "COM:Michael_East",
+    "name": "Michael East",
+    "aliases": [
+      "Est, Michael",
+      "Este, Michael",
+      "Hayes, Michel"
+    ],
+    "cya_start": "1601",
+    "cya_end": "1648"
+  },
+  {
+    "id": "COM:Michael_Praetorius",
+    "name": "Michael Praetorius",
+    "aliases": [
+      "Prätorius, Michael",
+      "Schulte, Michael",
+      "Schultheis, Michael",
+      "Schultheiss, Michael",
+      "Schultheiß, Michael",
+      "Schultz, Michael",
+      "Schultze, Michael",
+      "Schulz, Michael",
+      "Schulze, Michael"
+    ],
+    "cya_start": "1587",
+    "cya_end": "1620",
+    "death_date": "1621-2-15"
+  },
+  {
+    "id": "COM:Michele_Pesenti",
+    "name": "Michele Pesenti",
+    "aliases": [
+      "Daniele, Daniele",
+      "Don Michael Veronensis",
+      "Michael de Verona",
+      "Michaelis Veronensis",
+      "Michel Veronensis",
+      "Pesenti Vicentino",
+      "Pesentus",
+      "Verona, Michael de",
+      "Vicentino, D. Michaele",
+      "Vicentino, Daniele",
+      "Vicentino, Don Michele",
+      "Vicentino, Michele"
+    ],
+    "cya_start": "1504",
+    "cya_end": "1528"
+  },
+  {
+    "id": "COM:Moniot_dArras",
+    "name": "Moniot d'Arras",
+    "aliases": [],
+    "cya_start": "1213",
+    "cya_end": "1239"
+  },
+  {
+    "id": "COM:Monk_of_Salzburg",
+    "name": "Monk of Salzburg",
+    "aliases": [],
+    "cya_start": "1350",
+    "cya_end": "1400"
+  },
+  {
+    "id": "COM:Neidhart",
+    "name": "Neidhart",
+    "aliases": [
+      "Neidhard",
+      "Neidhardt [von Reuenthal]",
+      "Neidhart",
+      "Neidhart [von Reuenthal]",
+      "Nithart [von Reuental]",
+      "Nithart [von Riuwental]",
+      "Nitthard [von Reuental]",
+      "Reuental, Neidhard von",
+      "Reuental, Neidhart von",
+      "Reuenthal, Neidhardt [von]",
+      "Reuenthal, Neidhart von"
+    ],
+    "cya_start": "1210",
+    "cya_end": "1236"
+  },
+  {
+    "id": "COM:Newman",
+    "name": "Newman",
+    "aliases": []
+  },
+  {
+    "id": "COM:Nicolas_de_La_Grotte",
+    "name": "Nicolas de La Grotte",
+    "aliases": []
+  },
+  {
+    "id": "COM:Nicolas_Gombert",
+    "name": "Nicolas Gombert",
+    "aliases": [
+      "Ghonbert, Nicolas",
+      "Gumbert, Nicolas",
+      "Nicolas"
+    ],
+    "cya_start": "1526",
+    "cya_end": "1547"
+  },
+  {
+    "id": "COM:Nicolas_Grenon",
+    "name": "Nicolas Grenon",
+    "aliases": [
+      "Grenon, Nicolas",
+      "Grenon, Nicolaus",
+      "Grenon, Nicole"
+    ],
+    "cya_start": "1399",
+    "cya_end": "1456"
+  },
+  {
+    "id": "COM:Nikolaus_Zangius",
+    "name": "Nikolaus Zangius",
+    "aliases": [
+      "Zange, Nikolaus",
+      "Zange, Nikolaus",
+      "Zanger, Nikolaus",
+      "Zanger, Nikolaus",
+      "Zangius, Nicolaus"
+    ],
+    "cya_start": "1597",
+    "cya_end": "1615"
+  },
+  {
+    "id": "COM:Nino_le_Petit",
+    "name": "Nino le Petit",
+    "aliases": [],
+    "cya_start": "1500",
+    "cya_end": "1500"
+  },
+  {
+    "id": "COM:Noe_Faignient",
+    "name": "Noë Faignient",
+    "aliases": []
+  },
+  {
+    "id": "COM:Noel_Bauldeweyn",
+    "name": "Noel Bauldeweyn",
+    "aliases": [
+      "Balbun, Noel",
+      "Balduin, Noel",
+      "Balduini, Natalis",
+      "Balduinus, Noel",
+      "Baldwyn, Noel",
+      "Baubdweyn, Noel",
+      "Baudouyn, Noel",
+      "Bauldewijn, Noel",
+      "Baulduin, Noel",
+      "Baulduinus, Noel",
+      "Baulduvin, Noel",
+      "Baydouyn, Noel",
+      "Bouldewijen, Noel",
+      "Maester Noél, Noel",
+      "Meester Noel, Noel",
+      "Noe",
+      "Valdobin, Noel",
+      "Valdovin, Noel",
+      "Valduin, Noel"
+    ],
+    "cya_start": "1509",
+    "cya_end": "1517"
+  },
+  {
+    "id": "COM:Notker_Balbulus",
+    "name": "Notker Balbulus",
+    "aliases": [
+      "Balbulus",
+      "Notker (I.)",
+      "Notker der Dichter",
+      "Notker der Stammler",
+      "Notker I."
+    ],
+    "cya_start": "875",
+    "cya_end": "912",
+    "death_date": "912-4-6"
+  },
+  {
+    "id": "COM:Orazio_Vecchi",
+    "name": "Orazio Vecchi",
+    "aliases": [
+      "Vecchi, Horatio",
+      "Vechi, Orazio Tiberio",
+      "Vergus, Horatius"
+    ],
+    "cya_start": "1577",
+    "cya_end": "1603",
+    "death_date": "1605-2-19"
+  },
+  {
+    "id": "COM:Orlando_di_Lasso",
+    "name": "Orlando di Lasso",
+    "aliases": [
+      "Di Lasso, Orlando",
+      "DiLasso, Orlando",
+      "Lasso, Orlandi di",
+      "Lasso, Orlando de",
+      "Lasso, Orlando di",
+      "Lassus, Orlande de",
+      "Lassus, Orlando di",
+      "Lassus, Orlandus",
+      "Lassus, Orlandus di",
+      "Lassus, Roland de",
+      "Lassus, Rolando de",
+      "Lassus, Rolando di",
+      "Lassus, Rolland de"
+    ],
+    "cya_start": "1551",
+    "cya_end": "1594",
+    "death_date": "1594-6-14"
+  },
+  {
+    "id": "COM:Orlando_Gibbons",
+    "name": "Orlando Gibbons",
+    "aliases": [
+      "Gibbons, Roland",
+      "Gibons, Orlando",
+      "Gybbons, Orlando"
+    ],
+    "cya_start": "1605",
+    "cya_end": "1625",
+    "death_date": "1625-6-5"
+  },
+  {
+    "id": "COM:Oswald_von_Wolkenstein",
+    "name": "Oswald von Wolkenstein",
+    "aliases": [
+      "Wolkenstein, Oswald von",
+      "Wolkensteiner"
+    ],
+    "cya_start": "1400",
+    "cya_end": "1445",
+    "death_date": "1445-8-2"
+  },
+  {
+    "id": "COM:Othmar_Luscinius",
+    "name": "Othmar Luscinius",
+    "aliases": []
+  },
+  {
+    "id": "COM:Paolo_da_Firenze",
+    "name": "Paolo da Firenze",
+    "aliases": [],
+    "cya_start": "1401",
+    "cya_end": "1436"
+  },
+  {
+    "id": "COM:Paul_Hofhaimer",
+    "name": "Paul Hofhaimer",
+    "aliases": [
+      "Hoffhaimer, Paul",
+      "Hoffhamer, Paul",
+      "Hoffhaymer, Paul",
+      "Hoffheimer, Paul",
+      "Hofhaimer, Paul von",
+      "Hofhamer, Paul",
+      "Hofhaymer, Paul",
+      "Hofhaymer, Paul von",
+      "Hofhaymer, Paulus",
+      "Hofheimer, Paul",
+      "Hofheimer, Paulus",
+      "Hofheym, Paul",
+      "Hofheymer, Paul",
+      "Maister Pauls Organist",
+      "Meister Paulus",
+      "Paulus de Rhoda"
+    ],
+    "birth_date": "1459-1-25",
+    "cya_start": "1478",
+    "cya_end": "1537"
+  },
+  {
+    "id": "COM:Paul_Peuerl",
+    "name": "Paul Peuerl",
+    "aliases": [
+      "Beuerl, Paul",
+      "Beurl, Paul",
+      "Beurlin, Paul",
+      "Bäuerl, Paul",
+      "Bäurl, Paul",
+      "Bäwerl, Paul",
+      "Peurl, Paul",
+      "Peyerl, Paul"
+    ],
+    "cya_start": "1602",
+    "cya_end": "1625"
+  },
+  {
+    "id": "COM:Paulus_de_Roda",
+    "name": "Paulus de Roda",
+    "aliases": []
+  },
+  {
+    "id": "COM:Peire_Cardenal",
+    "name": "Peire Cardenal",
+    "aliases": []
+  },
+  {
+    "id": "COM:Perotin",
+    "name": "Pérotin",
+    "aliases": [
+      "Perotinus",
+      "Perotinus, Magister",
+      "Perotinus, Magnus",
+      "Perrotinus",
+      "Pérotin",
+      "Pérotin, le Grand"
+    ],
+    "cya_start": "1200",
+    "cya_end": "1200"
+  },
+  {
+    "id": "COM:Perrin_dAngicourt",
+    "name": "Perrin d'Angicourt",
+    "aliases": []
+  },
+  {
+    "id": "COM:Peter_Abelard",
+    "name": "Peter Abelard",
+    "aliases": [],
+    "cya_start": "1118",
+    "cya_end": "1142",
+    "death_date": "1142-4-21"
+  },
+  {
+    "id": "COM:Peter_Schoeffer",
+    "name": "Peter Schoeffer",
+    "aliases": [
+      "Opilio, Peter",
+      "Schaefer, Petrus",
+      "Scheffer, Peter",
+      "Schefferus, Petrus",
+      "Schoeffer, Peter [der Jüngere]",
+      "Schäfer, Peter",
+      "Schöffer, Peter [der Jüngere]"
+    ],
+    "cya_start": "1503",
+    "cya_end": "1542"
+  },
+  {
+    "id": "COM:Petit_Jean_de_Latre",
+    "name": "Petit Jean de Latre",
+    "aliases": [
+      "De Latere, Jean",
+      "De Lattre, Jean",
+      "Laetrius, Jean",
+      "Latre, de",
+      "Maistre Jehan de Latre",
+      "P. Jan D.",
+      "P. Jehan",
+      "P. Jehan D.",
+      "Petit Jan",
+      "Petit Jean",
+      "Jean de Latre",
+      "Petit Jean de latere",
+      "Petit Jehan"
+    ],
+    "cya_start": "1538",
+    "cya_end": "1569",
+    "death_date": "1569-8-31"
+  },
+  {
+    "id": "COM:Petrus_de_Cruce",
+    "name": "Petrus de Cruce",
+    "aliases": [],
+    "cya_start": "1290",
+    "cya_end": "1302"
+  },
+  {
+    "id": "COM:Petrus_Tritonius",
+    "name": "Petrus Tritonius",
+    "aliases": [
+      "Traybenraiff, Petrus",
+      "Treibenraiff, Peter",
+      "Treibenreif, Peter",
+      "Treybenraiff, Petrus",
+      "Treybenreif, Petrus"
+    ],
+    "cya_start": "1497",
+    "cya_end": "1525"
+  },
+  {
+    "id": "COM:Pfabinschswantz_von_Augsburg",
+    "name": "Pfabinschswantz von Augsburg",
+    "aliases": []
+  },
+  {
+    "id": "COM:Philip_Rosseter",
+    "name": "Philip Rosseter",
+    "aliases": []
+  },
+  {
+    "id": "COM:Philippe_Basiron",
+    "name": "Philippe Basiron",
+    "aliases": [],
+    "cya_start": "1458",
+    "cya_end": "1490"
+  },
+  {
+    "id": "COM:Philippe_de_Monte",
+    "name": "Philippe de Monte",
+    "aliases": [
+      "De Monte, Philippe",
+      "Filippo Mons",
+      "Mons, Philippe de",
+      "Monte, Filippo di",
+      "Monte, Philip de",
+      "Monte, Philipp de",
+      "Monte, Philippi de",
+      "Monte, Philippus",
+      "Monte, Philippus de",
+      "Philippus de Monte"
+    ],
+    "cya_start": "1554",
+    "cya_end": "1586",
+    "death_date": "1603-7-4"
+  },
+  {
+    "id": "COM:Philippe_de_Vitry",
+    "name": "Philippe de Vitry",
+    "aliases": [
+      "Philippe de Vitry",
+      "Philippe, de Vitry",
+      "Philippes des Vitri",
+      "Philippus de Vitriaco",
+      "Philippus de Vittriaco",
+      "Philipus Victriensis",
+      "Vittry, Philippe de"
+    ],
+    "birth_date": "1291-10-31",
+    "cya_start": "1321",
+    "cya_end": "1361",
+    "death_date": "1361-6-9"
+  },
+  {
+    "id": "COM:Philippe_Verdelot",
+    "name": "Philippe Verdelot",
+    "aliases": [
+      "Des Loges, Philippe",
+      "Deslouges, Philippe",
+      "Verdelotto, Philippe"
+    ],
+    "cya_start": "1521",
+    "cya_end": "1527"
+  },
+  {
+    "id": "COM:Philippus_de_Caserta",
+    "name": "Philippus de Caserta",
+    "aliases": [
+      "Caserta, Filipoctus de",
+      "Caserta, Philippot de",
+      "Caserta, Philippus de",
+      "Filipoctus [de Caserta]",
+      "Filippo da Caserta",
+      "Filippotto [da Caserta]",
+      "Philipoctus [de Caserta]",
+      "Philippe [de Caserte]",
+      "Philippot [de Caserta]"
+    ],
+    "cya_start": "1370",
+    "cya_end": "1370"
+  },
+  {
+    "id": "COM:Piero",
+    "name": "Piero",
+    "aliases": [],
+    "cya_start": "1340",
+    "cya_end": "1350"
+  },
+  {
+    "id": "COM:Pierre_Attaingnant",
+    "name": "Pierre Attaingnant",
+    "aliases": [
+      "Ateignant, Pierre",
+      "Attaignant, Pierre",
+      "Attingens, Pierre"
+    ],
+    "cya_start": "1513",
+    "cya_end": "1551"
+  },
+  {
+    "id": "COM:Pierre_Bonnet",
+    "name": "Pierre Bonnet",
+    "aliases": [],
+    "cya_start": "1585",
+    "cya_end": "1600"
+  },
+  {
+    "id": "COM:Pierre_Cadeac",
+    "name": "Pierre Cadeac",
+    "aliases": []
+  },
+  {
+    "id": "COM:Pierre_de_La_Rue",
+    "name": "Pierre de La Rue",
+    "aliases": [
+      "De Platea",
+      "De Robore",
+      "De Vico",
+      "Delarue, Pierre",
+      "Larue, Pierre de",
+      "Petrus Platensis",
+      "Petrus de Vico",
+      "Pierazzon, Pierre de",
+      "Pierchon, Pierre de",
+      "Pierquin, Pierre de",
+      "Pierson, Pierre de",
+      "Rue, Pierre de",
+      "Straeten, Pieter van der",
+      "Vander Straeten, Pierre de"
+    ],
+    "cya_start": "1492",
+    "cya_end": "1516",
+    "death_date": "1518-11-20"
+  },
+  {
+    "id": "COM:Pierre_Passereau",
+    "name": "Pierre Passereau",
+    "aliases": []
+  },
+  {
+    "id": "COM:Pietrequin_Bonnel",
+    "name": "Pietrequin Bonnel",
+    "aliases": [],
+    "cya_start": "1488",
+    "cya_end": "1499"
+  },
+  {
+    "id": "COM:Pontus_de_Tyard",
+    "name": "Pontus de Tyard",
+    "aliases": [
+      "Thiard, Pontus de",
+      "Tyardaeus, Pontus",
+      "Pontus, Tyardaeus",
+      "Pontus, de Tyard",
+      "Tyard de Bissy, Pontus de",
+      "Thyard, Ponce de",
+      "Thyard, Pontus de",
+      "Tyardeus, Pontus",
+      "Tyard, Ponce de",
+      "Thyard, Ponthus de",
+      "Bissianus, Pontus T.",
+      "Bissy, Pontus de T. de"
+    ],
+    "cya_start": "1552",
+    "cya_end": "1605",
+    "death_date": "1605-9-23"
+  },
+  {
+    "id": "COM:Rainieri",
+    "name": "Rainieri",
+    "aliases": [
+      "Ranier"
+    ],
+    "cya_start": "1519",
+    "cya_end": "1519"
+  },
+  {
+    "id": "COM:Rambaut_de_Vaquerias",
+    "name": "Rambaut de Vaquerias",
+    "aliases": []
+  },
+  {
+    "id": "COM:Richard_Davy",
+    "name": "Richard Davy",
+    "aliases": [
+      "Davys, Richard"
+    ],
+    "cya_start": "1483",
+    "cya_end": "1535"
+  },
+  {
+    "id": "COM:Richard_Loqueville",
+    "name": "Richard Loqueville",
+    "aliases": []
+  },
+  {
+    "id": "COM:Richard_Nicholson",
+    "name": "Richard Nicholson",
+    "aliases": [
+      "Nicolson, Richard"
+    ],
+    "cya_start": "1595",
+    "cya_end": "1639"
+  },
+  {
+    "id": "COM:Richard_the_Lionheart",
+    "name": "Richard the Lionheart",
+    "aliases": []
+  },
+  {
+    "id": "COM:Rinaldo_del_Mel",
+    "name": "Rinaldo del Mel",
+    "aliases": []
+  },
+  {
+    "id": "COM:Robert_Fayrfax",
+    "name": "Robert Fayrfax",
+    "aliases": [
+      "Fairfax, Robert",
+      "Fayrefax, Robert"
+    ],
+    "birth_date": "1464-4-23",
+    "cya_start": "1497",
+    "cya_end": "1520",
+    "death_date": "1521-10-24"
+  },
+  {
+    "id": "COM:Robert_II_le_Pieux",
+    "name": "Robert II le Pieux",
+    "aliases": [],
+    "cya_start": "987",
+    "cya_end": "1031",
+    "death_date": "1031-7-20"
+  },
+  {
+    "id": "COM:Robert_Johnson",
+    "name": "Robert Johnson",
+    "aliases": [],
+    "cya_start": "1604",
+    "cya_end": "1633"
+  },
+  {
+    "id": "COM:Robert_Jones_II",
+    "name": "Robert Jones II",
+    "aliases": []
+  },
+  {
+    "id": "COM:Robert_Morton",
+    "name": "Robert Morton",
+    "aliases": [
+      "Borton, Robert",
+      "Moriton, Robert",
+      "Morthon, Robert",
+      "Mortom, Robert",
+      "Mourton, Robert"
+    ],
+    "cya_start": "1457",
+    "cya_end": "1476",
+    "death_date": "1483-9-16"
+  },
+  {
+    "id": "COM:Roy_Henry",
+    "name": "Roy Henry",
+    "aliases": []
+  },
+  {
+    "id": "COM:Salamone_Rossi",
+    "name": "Salamone Rossi",
+    "aliases": [
+      "De Rossi Ebreo, Salamone",
+      "De Rossi, Salamone",
+      "Hebreo",
+      "Il Ebreo",
+      "Me-ha-Adumim, Shlomo",
+      "Rossi, Salamon de'",
+      "Rossi, Salomone",
+      "Rossi, Shlomo"
+    ],
+    "cya_start": "1589",
+    "cya_end": "1628"
+  },
+  {
+    "id": "COM:Samuel_Mareschall",
+    "name": "Samuel Mareschall",
+    "aliases": []
+  },
+  {
+    "id": "COM:Santino_Garsi",
+    "name": "Santino Garsi",
+    "aliases": [
+      "Garsi da Parma, Santino",
+      "La Garsa, Santino",
+      "Santino Valdes, Santino",
+      "Santino da Parma",
+      "Santino detto La Garsa",
+      "Santino detto Valdes",
+      "Valdes, Santino"
+    ],
+    "cya_start": "1570",
+    "cya_end": "1604"
+  },
+  {
+    "id": "COM:Sebastian_Forster",
+    "name": "Sebastian Forster",
+    "aliases": [
+      "Förster, Sebastian"
+    ]
+  },
+  {
+    "id": "COM:Sebastian_Ochsenkuhn",
+    "name": "Sebastian Ochsenkühn",
+    "aliases": []
+  },
+  {
+    "id": "COM:Sedulius",
+    "name": "Sedulius",
+    "aliases": []
+  },
+  {
+    "id": "COM:Simon_Gintzler",
+    "name": "Simon Gintzler",
+    "aliases": [
+      "Ginter",
+      "Ginzler, Simon",
+      "Sentler, Simon",
+      "Sentlerus, Simon"
+    ],
+    "cya_start": "1547",
+    "cya_end": "1547"
+  },
+  {
+    "id": "COM:Sixt_Dietrich",
+    "name": "Sixt Dietrich",
+    "aliases": [
+      "Dieterich, Sixtus",
+      "Dieterichus, Sixtus",
+      "Dietrich, Sixt",
+      "Diettrich, Sixtus",
+      "Ditterich, Sixtus",
+      "Theodericus, Xistus",
+      "Theodorici, Sixtus",
+      "Theodoricus, Sixtus"
+    ],
+    "cya_start": "1517",
+    "cya_end": "1548",
+    "death_date": "1548-10-21"
+  },
+  {
+    "id": "COM:Stephan_Mahu",
+    "name": "Stephan Mahu",
+    "aliases": [
+      "Machu, Stephan",
+      "Mahu, Steffanus"
+    ],
+    "cya_start": "1528",
+    "cya_end": "1541"
+  },
+  {
+    "id": "COM:Stephan_Zirler",
+    "name": "Stephan Zirler",
+    "aliases": [
+      "Cirler, Stephan",
+      "Cirlerus, Stephanus",
+      "Zielerus, Stephan",
+      "Zierler, Stephan",
+      "Zirler, Steffan",
+      "Zirlerus, Stephan",
+      "Zyrler, Stephan",
+      "Zyrlerus, Stephan",
+      "Zyrlerus, Stephanus"
+    ],
+    "cya_start": "1537",
+    "cya_end": "1568"
+  },
+  {
+    "id": "COM:Thibaut_de_Navarre",
+    "name": "Thibaut de Navarre",
+    "aliases": [],
+    "birth_date": "1201-5-30",
+    "cya_start": "1224",
+    "cya_end": "1253",
+    "death_date": "1253-7-7"
+  },
+  {
+    "id": "COM:Thoinot_Arbeau",
+    "name": "Thoinot Arbeau",
+    "aliases": [
+      "Tabourot, Jehan"
+    ],
+    "birth_date": "1520-3-17",
+    "cya_start": "1582",
+    "cya_end": "1589",
+    "death_date": "1595-7-23"
+  },
+  {
+    "id": "COM:Thomas_Campion",
+    "name": "Thomas Campion",
+    "aliases": [],
+    "birth_date": "1567-2-12",
+    "cya_start": "1595",
+    "cya_end": "1619",
+    "death_date": "1620-3-1"
+  },
+  {
+    "id": "COM:Thomas_Crecquillon",
+    "name": "Thomas Crecquillon",
+    "aliases": []
+  },
+  {
+    "id": "COM:Thomas_Greaves",
+    "name": "Thomas Greaves",
+    "aliases": []
+  },
+  {
+    "id": "COM:Thomas_Lupo",
+    "name": "Thomas Lupo",
+    "aliases": [
+      "Luppo, Thomas",
+      "Lupus, Thomas"
+    ],
+    "cya_start": "1591",
+    "cya_end": "1627"
+  },
+  {
+    "id": "COM:Thomas_Morley",
+    "name": "Thomas Morley",
+    "aliases": [
+      "Morlei, Thomas",
+      "Morlei, Tomaso"
+    ],
+    "cya_start": "1574",
+    "cya_end": "1602"
+  },
+  {
+    "id": "COM:Thomas_Ravenscroft",
+    "name": "Thomas Ravenscroft",
+    "aliases": []
+  },
+  {
+    "id": "COM:Thomas_Simpson",
+    "name": "Thomas Simpson",
+    "aliases": []
+  },
+  {
+    "id": "COM:Thomas_Stoltzer",
+    "name": "Thomas Stoltzer",
+    "aliases": [
+      "Scholczer, Thomas",
+      "Scholezer, Thomas",
+      "Stolczer, Thomas",
+      "Stolezer, Thomas",
+      "Stollcerus, Thomas",
+      "Stollerus, Thomas",
+      "Thomas Slesius, Thomas",
+      "Scholczer, Thomas",
+      "Stolczer, Thomas",
+      "Stollcerus",
+      "Stollcerus",
+      "Stolzer, Thomas"
+    ],
+    "cya_start": "1519",
+    "cya_end": "1526"
+  },
+  {
+    "id": "COM:Thomas_Tomkins",
+    "name": "Thomas Tomkins",
+    "aliases": [
+      "Thomkins, Thomas",
+      "Thompkins, Thomas",
+      "Tompkins, Thomas",
+      "Tonkins, Thomas"
+    ],
+    "cya_start": "1596",
+    "cya_end": "1654"
+  },
+  {
+    "id": "COM:Thomas_Tzamen",
+    "name": "Thomas Tzamen",
+    "aliases": [
+      "Aquanus",
+      "Aquisgranens"
+    ],
+    "cya_start": "1508",
+    "cya_end": "1508"
+  },
+  {
+    "id": "COM:Thomas_Vautor",
+    "name": "Thomas Vautor",
+    "aliases": []
+  },
+  {
+    "id": "COM:Thomas_Weelkes",
+    "name": "Thomas Weelkes",
+    "aliases": [
+      "Weekes, Thomas",
+      "Wilkes, Thomas"
+    ],
+    "cya_start": "1597",
+    "cya_end": "1623"
+  },
+  {
+    "id": "COM:Thomas_Whythorne",
+    "name": "Thomas Whythorne",
+    "aliases": [],
+    "cya_start": "1555",
+    "cya_end": "1596"
+  },
+  {
+    "id": "COM:Tobias_Hume",
+    "name": "Tobias Hume",
+    "aliases": [],
+    "cya_start": "1605",
+    "cya_end": "1607",
+    "death_date": "1645-4-16"
+  },
+  {
+    "id": "COM:Tomas_Luis_de_Victoria",
+    "name": "Tomás Luis de Victoria",
+    "aliases": [
+      "Ludovico da Vittoria",
+      "Tommaso Ludovico da Vittoria",
+      "Victoria, T. L. de",
+      "Victoria, Th. L. de",
+      "Vitoria, Tomás Luis de",
+      "Vittoria, T. L. da",
+      "Vittoria, Tommaso da",
+      "Vittoria, Tomás Luis de"
+    ],
+    "cya_start": "1569",
+    "cya_end": "1611",
+    "death_date": "1611-8-20"
+  },
+  {
+    "id": "COM:Tylman_Susato",
+    "name": "Tylman Susato",
+    "aliases": [
+      "Susato, Tielman",
+      "Susato, Thielman",
+      "Susato, Thilman",
+      "Susato, Thylman",
+      "Susato, Tilman"
+    ],
+    "cya_start": "1529",
+    "cya_end": "1561"
+  },
+  {
+    "id": "COM:Ulrich_Bratel",
+    "name": "Ulrich Brätel",
+    "aliases": [],
+    "cya_start": "1534",
+    "cya_end": "1544"
+  },
+  {
+    "id": "COM:Valentin_Haussmann",
+    "name": "Valentin Haussmann",
+    "aliases": [
+      "Hausmann, Valentin",
+      "Hausmannus, Valentin",
+      "Haußman, Valentin",
+      "Husman, Valentin",
+      "Husmann, Valentin",
+      "Husmannus, Valentin",
+      "Husmanus, Valentin"
+    ],
+    "cya_start": "1590",
+    "cya_end": "1613"
+  },
+  {
+    "id": "COM:Vincenzo_da_Rimini",
+    "name": "Vincenzo da Rimini",
+    "aliases": []
+  },
+  {
+    "id": "COM:Vincenzo_Galilei",
+    "name": "Vincenzo Gallilei",
+    "aliases": [
+      "Galilei, Vincentio",
+      "Galilei, Vincenzio"
+    ],
+    "cya_start": "1568",
+    "cya_end": "1591"
+  },
+  {
+    "id": "COM:Vitslav_von_Rugen",
+    "name": "Vitslav von Rügen",
+    "aliases": [
+      "Wizlav",
+      "Wizlâv",
+      "Wizlâv III"
+    ],
+    "cya_start": "1300",
+    "cya_end": "1300"
+  },
+  {
+    "id": "COM:Walter_Frye",
+    "name": "Walter Frye",
+    "aliases": [
+      "Ffry, Walter",
+      "Frew, Walter",
+      "Frey, Walter",
+      "Frie, Walter"
+    ],
+    "cya_start": "1456",
+    "cya_end": "1474"
+  },
+  {
+    "id": "COM:Walther_von_der_Vogelweide",
+    "name": "Walther von der Vogelweide",
+    "aliases": [
+      "Walter, von der Vogelweide"
+    ],
+    "cya_start": "1200",
+    "cya_end": "1200"
+  },
+  {
+    "id": "COM:William_Brade",
+    "name": "William Brade",
+    "aliases": [
+      "Brade, Wilhelm",
+      "Braden, Wilhelm"
+    ],
+    "cya_start": "1594",
+    "cya_end": "1625",
+    "death_date": "1630-2-26"
+  },
+  {
+    "id": "COM:William_Byrd",
+    "name": "William Byrd",
+    "aliases": [
+      "Bird, William",
+      "Birde, William",
+      "Byrd, Guil",
+      "Byrd, William",
+      "Byrde, William",
+      "Byred, William"
+    ],
+    "cya_start": "1563",
+    "cya_end": "1614",
+    "death_date": "1623-7-4"
+  },
+  {
+    "id": "COM:William_Cornysh_Junior",
+    "name": "William Cornysh (Junior)",
+    "aliases": [
+      "Cornenysch, William",
+      "Cornish, William",
+      "Cornishe, William",
+      "Cornissh, William",
+      "Cornys, William",
+      "Cornysche, William",
+      "Cornyshe, William",
+      "Cornyssh, William",
+      "Cornysshe, William",
+      "Kornyche, William",
+      "William [Cornish]",
+      "William [Cornishe]",
+      "William [Cornysh]",
+      "William [Cornyshe]"
+    ],
+    "cya_start": "1493",
+    "cya_end": "1523"
+  },
+  {
+    "id": "COM:William_Daman",
+    "name": "William Daman",
+    "aliases": []
+  },
+  {
+    "id": "COM:Wolff_Heintz",
+    "name": "Wolff Heintz",
+    "aliases": []
+  },
+  {
+    "id": "COM:Wolfgang_Grefinger",
+    "name": "Wolfgang Grefinger",
+    "aliases": []
+  }
+]

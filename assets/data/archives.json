@@ -1,0 +1,244 @@
+[
+  {
+    "id": "ARC:CH_MA_Basel",
+    "name": "Archiv der Musik-Akademie Basel",
+    "short_name": "Musik-Akademie Basel",
+    "country": "Switzerland",
+    "city": "Basel",
+    "url": "https://www.musik-akademie.ch/bibliothek/en/about-us/archive-of-the-music-academy-basel.html",
+    "location": "47.55537577928363, 7.586059355769115"
+  },
+  {
+    "id": "ARC:BE_BO",
+    "name": "Bozar. Centre for Fine Arts",
+    "country": "Belgium",
+    "city": "Brussels",
+    "url": "https://www.bozar.be/en",
+    "location": "50.85250246475617, 4.365119626519682"
+  },
+  {
+    "id": "ARC:BE_CRB",
+    "name": "Conservatoire royal de Bruxelles",
+    "country": "Belgium",
+    "city": "Brussels",
+    "url": "https://www.conservatoire.be",
+    "location": "50.839322213172515, 4.357006163491942"
+  },
+  {
+    "id": "ARC:UK_DLW",
+    "name": "Daniel Leech-Wilkinson",
+    "country": "United Kingdom",
+    "city": "London",
+    "location": "51.50703504728338, -0.12116924684534469"
+  },
+  {
+    "id": "ARC:A_FBA_Innsbruck",
+    "name": "Forschungsinstitut Brenner-Archiv",
+    "short_name": "Brenner-Archiv",
+    "country": "Austria",
+    "city": "Innsbruck",
+    "url": "https://www.uibk.ac.at/de/brenner-archiv/",
+    "location": "47.26525672290856, 11.38695005480667"
+  },
+  {
+    "id": "ARC:DE_UA_Freie_Uni",
+    "name": "Freie Universität Berlin, Universitätsarchiv",
+    "country": "Germany",
+    "city": "Berlin",
+    "url": "https://www.fu-berlin.de/sites/uniarchiv/index.html",
+    "location": "52.42554727686848, 13.358905831555212"
+  },
+  {
+    "id": "ARC:US_HU_TC",
+    "name": "Harvard Theatre Collection, Houghton Library",
+    "short_name": "Houghton Library",
+    "country": "United States",
+    "city": "Cambridge (Massachusetts)",
+    "url": "https://library.harvard.edu/collections/harvard-theatre-collection",
+    "location": "42.373116227949886, -71.11528917862246"
+  },
+  {
+    "id": "ARC:DE_ISG_Frankfurt",
+    "name": "Institut für Stadtgeschichte",
+    "country": "Germany",
+    "city": "Frankfurt",
+    "url": "https://www.stadtgeschichte-ffm.de",
+    "location": "50.10954574895396, 8.678540083580799"
+  },
+  {
+    "id": "ARC:BE_KBR",
+    "name": "Koninklijke Bibliotheek van België",
+    "country": "Belgium",
+    "city": "Brussels",
+    "url": "https://www.kbr.be/en/",
+    "location": "50.84337026461237, 4.358298848626651"
+  },
+  {
+    "id": "ARC:NL_NMI",
+    "name": "Nederlands Muziek Instituut",
+    "country": "Netherlands",
+    "city": "The Hague",
+    "url": "https://nederlandsmuziekinstituut.nl",
+    "location": "52.07815470372439, 4.317346163220999"
+  },
+  {
+    "id": "ARC:US_NYPL",
+    "name": "New York Public Library for the Performing Arts, Music Division",
+    "short_name": "New York Public Library",
+    "country": "United States",
+    "city": "New York",
+    "url": "https://www.nypl.org/locations/lpa/music-division",
+    "location": "40.773567244715764, -73.98410683081381"
+  },
+  {
+    "id": "ARC:PN_WG",
+    "name": "Privat Nachlass Walter Gerstenberg",
+    "country": "Sweden",
+    "city": "Laholm",
+    "location": "56.505583949298945, 13.047239412811416"
+  },
+  {
+    "id": "ARC:ORY",
+    "name": "Private Archive of Benjamin Ory",
+    "short_name": "Benjamin Ory"
+  },
+  {
+    "id": "ARC:CH_SA_Basel",
+    "name": "Staatsarchiv Basel-Stadt",
+    "country": "Switzerland",
+    "city": "Basel",
+    "url": "https://www.bs.ch/pd/kultur/museen-und-andere-dienststellen/staatsarchiv",
+    "location": "47.558657074216896, 7.589259438094649"
+  },
+  {
+    "id": "ARC:DE_SA_Munchen",
+    "name": "Stadtarchiv München",
+    "country": "Germany",
+    "city": "München",
+    "url": "https://stadt.muenchen.de/rathaus/verwaltung/direktorium/stadtarchiv.html",
+    "location": "48.16063263366055, 11.562894375163575"
+  },
+  {
+    "id": "ARC:DE_UA_Augsburg",
+    "name": "Universitätsarchiv Augsburg",
+    "country": "Germany",
+    "city": "Augsburg",
+    "url": "https://www.uni-augsburg.de/de/organisation/einrichtungen/archiv/",
+    "location": "48.353135898304544, 10.886555844075"
+  },
+  {
+    "id": "ARC:DE_UA_Bonn",
+    "name": "Universitätsarchiv Bonn",
+    "country": "Germany",
+    "city": "Bonn",
+    "url": "https://www.uni-bonn.de/de/universitaet/organisation/weitere-einrichtungen/archiv-der-universitaet",
+    "location": "50.73420546539783, 7.102690461805324"
+  },
+  {
+    "id": "ARC:DE_UA_Erlangen",
+    "name": "Universitätsarchiv Erlangen-Nürnberg",
+    "country": "Germany",
+    "city": "Erlangen",
+    "url": "https://www.fau.de/fau/fakultaeten-und-einrichtungen/universitaetsarchiv/",
+    "location": "49.596881123387, 11.007744033231159"
+  },
+  {
+    "id": "ARC:DE_UA_Frankfurt",
+    "name": "Universitätsarchiv Frankfurt",
+    "country": "Germany",
+    "city": "Frankfurt",
+    "url": "https://www.archiv.uni-frankfurt.de/",
+    "location": "50.12124568279166, 8.654170015325704"
+  },
+  {
+    "id": "ARC:DE_UA_Freiburg",
+    "name": "Universitätsarchiv Freiburg",
+    "country": "Germany",
+    "city": "Freiburg",
+    "url": "https://www.uniarchiv.uni-freiburg.de",
+    "location": "47.992586641284895, 7.845301862164243"
+  },
+  {
+    "id": "ARC:DE_UA_Humboldt",
+    "name": "Universitätsarchiv Humboldt Universität",
+    "country": "Germany",
+    "city": "Berlin",
+    "url": "https://www.ub.hu-berlin.de/en/locations/archive/collage-01?set_language=en",
+    "location": "52.438027825357835, 13.53445588334833"
+  },
+  {
+    "id": "ARC:DE_UA_Jena",
+    "name": "Universitätsarchiv Jena",
+    "country": "Germany",
+    "city": "Jena",
+    "url": "https://www.uni-jena.de/33055/universitaetsarchiv",
+    "location": "50.93081066180435, 11.587355712447879"
+  },
+  {
+    "id": "ARC:DE_UA_Koln",
+    "name": "Universitätsarchiv Köln",
+    "country": "Germany",
+    "city": "Koln",
+    "url": "https://uniarchiv.uni-koeln.de",
+    "location": "50.92437842624867, 6.938702539065224"
+  },
+  {
+    "id": "ARC:DE_UA_Leipzig",
+    "name": "Universitätsarchiv Leipzig",
+    "country": "Germany",
+    "city": "Leipzig",
+    "url": "https://www.universitaetsarchivleipzig.de",
+    "location": "51.33587250631357, 12.388703512116019"
+  },
+  {
+    "id": "ARC:DE_UA_Munchen",
+    "name": "Universitätsarchiv München",
+    "country": "Germany",
+    "city": "München",
+    "url": "https://www.universitaetsarchiv.uni-muenchen.de/index.html",
+    "location": "48.1949818816143, 11.61160147080528"
+  },
+  {
+    "id": "ARC:DE_UA_Tubingen",
+    "name": "Universitätsarchiv Tübingen",
+    "country": "Germany",
+    "city": "Tübingen",
+    "url": "https://uni-tuebingen.de/einrichtungen/universitaetsbibliothek/uniarchiv/",
+    "location": "48.52486776956784, 9.062249022854175"
+  },
+  {
+    "id": "ARC:BE_UA_Leuven",
+    "name": "Universiteitsarchief KU Leuven",
+    "short_name": "KU Leuven",
+    "country": "Belgium",
+    "city": "Leuven",
+    "url": "https://www.kuleuven.be/ahp/universiteitsarchief",
+    "location": "50.87835095438531, 4.707679671199211"
+  },
+  {
+    "id": "ARC:US_UCB",
+    "name": "University of California, Berkeley, Music Library",
+    "short_name": "University of California, Berkeley",
+    "country": "United States",
+    "city": "Berkeley",
+    "url": "https://www.lib.berkeley.edu/visit/music",
+    "location": "37.870596548069116, -122.25578955689716"
+  },
+  {
+    "id": "ARC:US_UC",
+    "name": "University of Chicago Special Collections",
+    "country": "United States",
+    "city": "Chicago",
+    "url": "https://www.lib.uchicago.edu/scrc/",
+    "location": "41.79541254876555, -87.59226344635543"
+  },
+  {
+    "id": "ARC:US_GA",
+    "name": "University of Georgia Hargrett Rare Book and Manuscript Library",
+    "short_name": "University of Georgia",
+    "country": "United States",
+    "city": "Athens (Georgia)",
+    "url": "https://www.libs.uga.edu/hargrett",
+    "location": "33.95409797015204, -83.37770224790775"
+  }
+]

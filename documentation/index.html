@@ -1,0 +1,63 @@
+---
+layout: default
+section: documentation
+title: Documentation
+description: Documentation for the Early Music Concerts dataset, its sources, fields, identifiers, and editorial methods.
+---
+
+<div class="documentation-layout">
+  <nav class="documentation-nav" aria-label="Documentation sections">
+    <strong>Documentation</strong>
+    <a href="#scope">Scope</a>
+    <a href="#data-model">Data model</a>
+    <a href="#transcription">Transcription</a>
+    <a href="#identifiers">Identifiers</a>
+    <a href="#places">Places and mapping</a>
+    <a href="#limitations">Limitations</a>
+  </nav>
+
+  <article class="prose-page">
+    <header>
+      <p class="eyebrow">Project methods</p>
+      <h1>Documentation</h1>
+      <p class="lead">How concert programs become searchable, comparable records—and how the site preserves the relationship between standardized data and historical evidence.</p>
+    </header>
+
+    <section id="scope">
+      <h2>Scope</h2>
+      <p>The project documents performances of medieval and Renaissance music between 1915 and 1960. A concert enters the dataset when a surviving program or archival description provides enough evidence to identify the event and at least part of its repertory.</p>
+    </section>
+
+    <section id="data-model">
+      <h2>Data model</h2>
+      <div class="data-model" role="list">
+        <div role="listitem"><strong>Program</strong><span>Event, date, place, source, and scan</span></div>
+        <div role="listitem"><strong>Performed item</strong><span>Order and wording in one program</span></div>
+        <div role="listitem"><strong>Piece</strong><span>Provisional grouping of performed occurrences</span></div>
+        <div role="listitem"><strong>Person</strong><span>Composer, performer, or other role</span></div>
+      </div>
+      <p>Program records and their performed items are separate. This lets the site preserve the order and language of the historical document while linking repeated performances to standardized people and pieces.</p>
+    </section>
+
+    <section id="transcription">
+      <h2>Transcription and standardization</h2>
+      <p>Titles and names as printed remain attached to each occurrence. Standardized records make variant spellings and translated titles discoverable without silently replacing the original wording. Uncertain readings and editorial additions are identified explicitly.</p>
+    </section>
+
+    <section id="identifiers">
+      <h2>Identifiers</h2>
+      <p>Concerts and catalogued people use stable identifiers where the source provides them. Each performed item retains its occurrence-level Piece ID. Piece pages currently use a provisional grouping of normalized program wording plus composer identifier or name; canonical work identifiers will replace that grouping when they become available.</p>
+      <aside class="documentation-note"><strong>Canonical piece links</strong><span>Occurrence-level “piece IDs” imported from the working sheet are not treated as composition identifiers. Canonical piece records are created separately when the evidence supports a match.</span></aside>
+    </section>
+
+    <section id="places">
+      <h2>Places and mapping</h2>
+      <p>Venue and city names are recorded as they appear, then linked to normalized places with coordinates. The map uses Leaflet and OpenStreetMap tiles. Marker totals reflect the current filters and only include records with sufficiently precise coordinates.</p>
+    </section>
+
+    <section id="limitations">
+      <h2>Limitations</h2>
+      <p>The corpus is shaped by archival survival, access, and the current state of cataloguing. Aggregate charts show patterns in the assembled dataset and should not be read as complete measures of historical concert activity.</p>
+    </section>
+  </article>
+</div>

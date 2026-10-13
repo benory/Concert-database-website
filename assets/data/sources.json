@@ -1,0 +1,774 @@
+[
+  {
+    "id": "SRC:Lasso_1573a",
+    "sigla": "28 vocal pieces (Munich: Adam Berg, 1573)"
+  },
+  {
+    "id": "SRC:Raveri_1608a",
+    "sigla": "36 Canzonas (Venice: Alessandro Raveri, 1608)"
+  },
+  {
+    "id": "SRC:Vienna_2701",
+    "sigla": "A-Wn Cod. 2701"
+  },
+  {
+    "id": "SRC:Vienna_2856",
+    "sigla": "A-Wn Cod. 2856 Han",
+    "alias": "Mondsee-Wiener Liederhandschrift",
+    "diamm_url": "https://www.diamm.ac.uk/sources/843/"
+  },
+  {
+    "id": "SRC:Vienna_18810",
+    "sigla": "A-Wn Mus.Hs. 18810",
+    "diamm_url": "https://www.diamm.ac.uk/sources/2667/"
+  },
+  {
+    "id": "SRC:Berg_1556a",
+    "sigla": "Alte und neue deutsche Liedlein, 4 (Nuremberg: Johann Berg and Ulrich Neuber, 1556)"
+  },
+  {
+    "id": "SRC:Macropedius_1539a",
+    "sigla": "Andrisca (Colonge: Georgius Macropedius, 1539)"
+  },
+  {
+    "id": "SRC:Brussels_228",
+    "sigla": "B-Br MS 228",
+    "alias": "Chansonnier of Margaret of Austria"
+  },
+  {
+    "id": "SRC:Tournai_27",
+    "sigla": "B-Tc A 27",
+    "alias": "Mass of Tournai",
+    "diamm_url": "https://www.diamm.ac.uk/sources/7/"
+  },
+  {
+    "id": "SRC:Rhau_1545a",
+    "sigla": "Bicinia Gallica, Latina, Germanica (Wittenberg: Georg Rhau, 1545)"
+  },
+  {
+    "id": "SRC:Willaert_1545a",
+    "sigla": "Canzone villanesche alla Napolitana di M. Adriano (Venice: Antonio Gardano, 1545)"
+  },
+  {
+    "id": "SRC:Viadana_1602a",
+    "sigla": "Cento concerti ecclesiastici (Venice: Giacomo Vincenti, 1602)"
+  },
+  {
+    "id": "SRC:Basel_35",
+    "sigla": "CH-Bu F II 35"
+  },
+  {
+    "id": "SRC:Basel_5-9",
+    "sigla": "CH-Bu F X 5–9"
+  },
+  {
+    "id": "SRC:St_Gall_530",
+    "sigla": "CH-SGS MS 530",
+    "alias": "Fridolin Sicher's Tabulaturbuch",
+    "diamm_url": "https://www.diamm.ac.uk/sources/4813/"
+  },
+  {
+    "id": "SRC:Augsburg_142a",
+    "sigla": "D-As MS 2º 142a",
+    "diamm_url": "https://www.diamm.ac.uk/sources/1524/"
+  },
+  {
+    "id": "SRC:Berlin_40021",
+    "sigla": "D-B MS Mus. 40021",
+    "diamm_url": "https://www.diamm.ac.uk/sources/1579/"
+  },
+  {
+    "id": "SRC:Berlin_40613",
+    "sigla": "D-B MS Mus. 40613",
+    "alias": "Lochamer Liederbuch",
+    "diamm_url": "https://www.diamm.ac.uk/sources/1593/"
+  },
+  {
+    "id": "SRC:Bamberg_115",
+    "sigla": "D-Bas Lit. 115",
+    "alias": "Bamberg Codex",
+    "diamm_url": "https://www.diamm.ac.uk/sources/863/"
+  },
+  {
+    "id": "SRC:Leipzig_1494",
+    "sigla": "D-LEu MS 1494",
+    "alias": "Apel Codex"
+  },
+  {
+    "id": "SRC:Munich_4997",
+    "sigla": "D-Mbs Cgm. 4997",
+    "alias": "Kolmarer Liederhandschrift"
+  },
+  {
+    "id": "SRC:Munich_810",
+    "sigla": "D-Mbs Cgm. 810",
+    "alias": "Schedelsches Liederbuch"
+  },
+  {
+    "id": "SRC:Munich_902",
+    "sigla": "D-Mbs Cod. Gall. 902",
+    "diamm_url": "https://www.diamm.ac.uk/sources/817/"
+  },
+  {
+    "id": "SRC:Munich_3154",
+    "sigla": "D-Mbs Mus. MS 3154",
+    "alias": "Leopold Codex"
+  },
+  {
+    "id": "SRC:Munich_3725",
+    "sigla": "D-Mbs Mus. MS 3725",
+    "alias": "Buxheim Orgelbuch",
+    "diamm_url": "https://www.diamm.ac.uk/sources/799/"
+  },
+  {
+    "id": "SRC:Wolfenbuttel_1099",
+    "sigla": "D-W Cod. Guelf. 1099 Helmst.",
+    "alias": "W2",
+    "diamm_url": "https://www.diamm.ac.uk/sources/854/"
+  },
+  {
+    "id": "SRC:Wolfenbuttel_628",
+    "sigla": "D-W Cod. Guelf. 628 Helmst.",
+    "alias": "Magnus Liber Organi; W1",
+    "diamm_url": "https://www.diamm.ac.uk/sources/870/"
+  },
+  {
+    "id": "SRC:Wurzburg_7_11_II",
+    "sigla": "D-WÜst KEB D 7 11/II"
+  },
+  {
+    "id": "SRC:Wurzburg_7_11_III",
+    "sigla": "D-WÜst KEB D 7 11/III"
+  },
+  {
+    "id": "SRC:Zwickau_549",
+    "sigla": "D-Z Mu 549",
+    "alias": "Octo Tonorum Melodiae of Thomas Stoltzer"
+  },
+  {
+    "id": "SRC:Dorico_1553a",
+    "sigla": "De Diego Ortiz Tolledano libro primo, trattado de glosas sobre clausulas y otros generos depuntos (Rome: Valerio and Luigi Dorico, 1553)"
+  },
+  {
+    "id": "SRC:Franck_1604a",
+    "sigla": "Deutsche weltliche Gesäng und Täntz (Coburg: Justus Hauck, 1604)"
+  },
+  {
+    "id": "SRC:Attaingnant_1530a",
+    "sigla": "Dixhuit basses dances garnies de (Paris: Pierre Attaingnant, 1530)"
+  },
+  {
+    "id": "SRC:Glarean_1547a",
+    "sigla": "Dodecachordon (Basel: Heinrich Petri, 1547)"
+  },
+  {
+    "id": "SRC:Escorial_IVa24",
+    "sigla": "E-E MS IV.a.24",
+    "diamm_url": "https://www.diamm.ac.uk/sources/792/"
+  },
+  {
+    "id": "SRC:Escorial_VIII24",
+    "sigla": "E-E MS V.III.24",
+    "diamm_url": "https://www.diamm.ac.uk/sources/793/"
+  },
+  {
+    "id": "SRC:Madrid_10069",
+    "sigla": "E-Mn 10069",
+    "alias": "Cantigas de Santa María"
+  },
+  {
+    "id": "SRC:Madrid_1335",
+    "sigla": "E-Mp 1335",
+    "alias": "Cancionero de Palacio"
+  },
+  {
+    "id": "SRC:Santiago_Calixtinus",
+    "sigla": "E-SC s.s. (Codex Calixtinus)"
+  },
+  {
+    "id": "SRC:Neusiedler_1536a",
+    "sigla": "Ein Newgeordent Künstlich Lautenbuch, Teil 1 (Nuremberg: Johannes Petreius, 1536)"
+  },
+  {
+    "id": "SRC:Schmid_1577a",
+    "sigla": "Einer Neüen kunstlichen Tabulatur auff Orgel und Instrument (Strasbourg: Bernhart Jobin, 1577)"
+  },
+  {
+    "id": "SRC:Apt_16",
+    "sigla": "F-APT Trésor 16 bis",
+    "alias": "Apt Codex",
+    "diamm_url": "https://www.diamm.ac.uk/sources/74/"
+  },
+  {
+    "id": "SRC:Montpellier_196",
+    "sigla": "F-MO H 196",
+    "alias": "Montpellier Codex",
+    "diamm_url": "https://www.diamm.ac.uk/sources/888/"
+  },
+  {
+    "id": "SRC:Paris_5198",
+    "sigla": "F-Pa Ms-5198 réserve"
+  },
+  {
+    "id": "SRC:Paris_146",
+    "sigla": "F-Pnm Français 146",
+    "alias": "Roman de Fauvel",
+    "diamm_url": "https://www.diamm.ac.uk/sources/88/"
+  },
+  {
+    "id": "SRC:Paris_1584",
+    "sigla": "F-Pnm Français 1584",
+    "alias": "Machaut A"
+  },
+  {
+    "id": "SRC:Paris_22543",
+    "sigla": "F-Pnm Français 22543",
+    "alias": "Chansonnier provençal"
+  },
+  {
+    "id": "SRC:Paris_22545-46",
+    "sigla": "F-Pnm Français 22545-22546",
+    "alias": "Machaut F-G",
+    "diamm_url": "https://www.diamm.ac.uk/sources/212/"
+  },
+  {
+    "id": "SRC:Paris_844",
+    "sigla": "F-Pnm Français 844",
+    "alias": "Chansonnier du Roi",
+    "diamm_url": "https://www.diamm.ac.uk/sources/890/"
+  },
+  {
+    "id": "SRC:Paris_568",
+    "sigla": "F-Pnm Italien 568",
+    "alias": "Pit",
+    "diamm_url": "https://www.diamm.ac.uk/sources/95/"
+  },
+  {
+    "id": "SRC:Paris_1139",
+    "sigla": "F-Pnm Latin 1139",
+    "diamm_url": "https://www.diamm.ac.uk/sources/898/"
+  },
+  {
+    "id": "SRC:Paris_15139",
+    "sigla": "F-Pnm Latin 15139",
+    "alias": "St Victor"
+  },
+  {
+    "id": "SRC:Paris_3549",
+    "sigla": "F-Pnm Latin 3549",
+    "diamm_url": "https://www.diamm.ac.uk/sources/900/"
+  },
+  {
+    "id": "SRC:Paris_3719",
+    "sigla": "F-Pnm Latin 3719",
+    "diamm_url": "https://www.diamm.ac.uk/sources/901/"
+  },
+  {
+    "id": "SRC:Paris_4379",
+    "sigla": "F-Pnm NAF 4379",
+    "alias": "Seville Chansonnier",
+    "diamm_url": "https://www.diamm.ac.uk/sources/719/"
+  },
+  {
+    "id": "SRC:Paris_6771",
+    "sigla": "F-Pnm NAF 6771",
+    "alias": "Codex Reina",
+    "diamm_url": "https://www.diamm.ac.uk/sources/101/"
+  },
+  {
+    "id": "SRC:Greuenbruch_1594a",
+    "sigla": "Florilegium omnis fere generis cantionum suavissimarum (Cologne: Gerard Greuenbruch, 1594)"
+  },
+  {
+    "id": "SRC:Petreius_1539a",
+    "sigla": "Frische teutsche Liedlein, Teil 1 (Nuremberg: Johann Petreius, 1539)"
+  },
+  {
+    "id": "SRC:Petreius_1540a",
+    "sigla": "Frische teutsche Liedlein, Teil 2 (Nuremberg: Johann Petreius, 1540)"
+  },
+  {
+    "id": "SRC:Berg_1549a",
+    "sigla": "Frische teutsche Liedlein, Teil 3 (Nuremberg: Johann Berg and Ulrich Neuber, 1549)"
+  },
+  {
+    "id": "SRC:Petrucci_1504a",
+    "sigla": "Frottole libro pirmo (Venice: Ottaviano Petrucci, 1504)"
+  },
+  {
+    "id": "SRC:Cambridge_168",
+    "sigla": "GB-Cfm Mu. MS 168",
+    "alias": "The Fitzwilliam Virginal Book"
+  },
+  {
+    "id": "SRC:London_28550",
+    "sigla": "GB-Lbl Add. MS 28550",
+    "diamm_url": "https://www.diamm.ac.uk/sources/386/"
+  },
+  {
+    "id": "SRC:London_29987",
+    "sigla": "GB-Lbl Add. MS 29987",
+    "diamm_url": "https://www.diamm.ac.uk/sources/694/"
+  },
+  {
+    "id": "SRC:London_30513",
+    "sigla": "GB-Lbl Add MS 30513",
+    "alias": "Mulliner Book"
+  },
+  {
+    "id": "SRC:London_57950",
+    "sigla": "GB-Lbl Add. MS 57950",
+    "alias": "Old Hall Manuscript",
+    "diamm_url": "https://www.diamm.ac.uk/sources/210/"
+  },
+  {
+    "id": "SRC:London_2615",
+    "sigla": "GB-Lbl Egerton 2615"
+  },
+  {
+    "id": "SRC:London_1591",
+    "sigla": "GB-Lbl MS Mus. 1591",
+    "alias": "My Ladye Nevells Booke"
+  },
+  {
+    "id": "SRC:London_App_58",
+    "sigla": "GB-Lbl Royal Appendix 58",
+    "diamm_url": "https://www.diamm.ac.uk/sources/1976/"
+  },
+  {
+    "id": "SRC:Oxford_213",
+    "sigla": "GB-Ob MS. Canon. Misc. 213",
+    "diamm_url": "https://www.diamm.ac.uk/sources/716/"
+  },
+  {
+    "id": "SRC:Hofhaimer_1539a",
+    "sigla": "Harmoniae poeticae (Nuremberg: Johann Petreius, 1539)"
+  },
+  {
+    "id": "SRC:Ott_1544a",
+    "sigla": "Hundert und fünfftzehen guter newer Liedlein (Nuremberg: Johannes Ott, 1544)"
+  },
+  {
+    "id": "SRC:Bologna_Q15",
+    "sigla": "I-Bc Q.15",
+    "diamm_url": "https://www.diamm.ac.uk/sources/117/"
+  },
+  {
+    "id": "SRC:Bologna_2216",
+    "sigla": "I-Bu MS 2216",
+    "diamm_url": "https://www.diamm.ac.uk/sources/119/"
+  },
+  {
+    "id": "SRC:Cortona_91",
+    "sigla": "I-CT MS 91"
+  },
+  {
+    "id": "SRC:Florence_87",
+    "sigla": "I-Fl MS Mediceo Palatino 87",
+    "alias": "Codex Squarcialupi",
+    "diamm_url": "https://www.diamm.ac.uk/sources/671/"
+  },
+  {
+    "id": "SRC:Florence_29",
+    "sigla": "I-Fl MS Pluteus 29.1",
+    "alias": "Medici Antiphoner, 'F'",
+    "diamm_url": "https://www.diamm.ac.uk/sources/924/"
+  },
+  {
+    "id": "SRC:Florence_107bis",
+    "sigla": "I-Fn MS Magl. XIX.107bis",
+    "diamm_url": "https://www.diamm.ac.uk/sources/1401/"
+  },
+  {
+    "id": "SRC:Florence_122-25",
+    "sigla": "I-Fn MS Magl. XIX.122-25"
+  },
+  {
+    "id": "SRC:Florence_26",
+    "sigla": "I-Fn MS Panciatichiano 26",
+    "diamm_url": "https://www.diamm.ac.uk/sources/248/"
+  },
+  {
+    "id": "SRC:Florence_27",
+    "sigla": "I-Fn MS Panciatichiano 27"
+  },
+  {
+    "id": "SRC:Florence_117",
+    "sigla": "I-FZc MS 117",
+    "alias": "Faenza",
+    "diamm_url": "https://www.diamm.ac.uk/sources/131/"
+  },
+  {
+    "id": "SRC:Milan_R71",
+    "sigla": "I-Ma R 71 sup.",
+    "alias": "Chansonnier G"
+  },
+  {
+    "id": "SRC:Perugia_431",
+    "sigla": "I-Pec MS 431",
+    "alias": "G 20",
+    "diamm_url": "https://www.diamm.ac.uk/sources/1455/"
+  },
+  {
+    "id": "SRC:Padua_684",
+    "sigla": "I-Pu MS 684",
+    "alias": "Pad A",
+    "diamm_url": "https://www.diamm.ac.uk/sources/160/"
+  },
+  {
+    "id": "SRC:Trent_1374",
+    "sigla": "I-TRbc MS 1374",
+    "alias": "Trent 87",
+    "diamm_url": "https://www.diamm.ac.uk/sources/807/"
+  },
+  {
+    "id": "SRC:Trent_1375",
+    "sigla": "I-TRbc MS 1375",
+    "alias": "Trent 88",
+    "diamm_url": "https://www.diamm.ac.uk/sources/808/"
+  },
+  {
+    "id": "SRC:Trent_1376",
+    "sigla": "I-TRbc MS 1376",
+    "alias": "Trent 89",
+    "diamm_url": "https://www.diamm.ac.uk/sources/809/"
+  },
+  {
+    "id": "SRC:Trent_1379",
+    "sigla": "I-TRbc MS 1379",
+    "alias": "Trent 92",
+    "diamm_url": "https://www.diamm.ac.uk/sources/812/"
+  },
+  {
+    "id": "SRC:Venice_145",
+    "sigla": "I-Vnm MS It. IX. 145"
+  },
+  {
+    "id": "SRC:Wert_1589a",
+    "sigla": "Il primo libro delle canzonette villanelle a cinque voci (Venice: Angelo Gardano, 1589)"
+  },
+  {
+    "id": "SRC:Arcadelt_1539a",
+    "sigla": "Il primo libro di madrigali d'Archadelt a quatro (Venice: Antonio Gardano, 1539)"
+  },
+  {
+    "id": "SRC:Lasso_1555a",
+    "sigla": "Il primo libro dovesi contengono madrigali, vilanesche, canzoni francesi, e motetti a quattro voci (Antwerp: Tielman Susato, 1555)"
+  },
+  {
+    "id": "SRC:Monteverdi_1603a",
+    "sigla": "Il quarto libro de madrigali a cinque voci (Venice: Ricciardo Amadino, 1603)"
+  },
+  {
+    "id": "SRC:Rore_1574a",
+    "sigla": "Il quinto libro di madrigali a cinque voci (Venice: Antonio Gardano, 1574)"
+  },
+  {
+    "id": "SRC:Monteverdi_1590a",
+    "sigla": "Il secondo libro de madrigali a cinque voci (Venice: Angelo Gardano, 1590)"
+  },
+  {
+    "id": "SRC:Monteverdi_1614a",
+    "sigla": "Il sesto libro de madrigali a cinque voci (Venice: Ricciardo Amadino, 1614)"
+  },
+  {
+    "id": "SRC:Marenzio_1582a",
+    "sigla": "Il terzo libro de madrigali a cinque voci (Venice: Angelo Gardano, 1582)"
+  },
+  {
+    "id": "SRC:Monteverdi_1592a",
+    "sigla": "Il terzo libro de madrigali a cinque voci (Venice: Ricciardo Amadino, 1592)"
+  },
+  {
+    "id": "SRC:Gardano_1596a",
+    "sigla": "Il Terzo Libro di Ricercari di Andrea Gabrieli (Venice: Angelo Gardano, 1596)"
+  },
+  {
+    "id": "SRC:Ileborgh_Tablature",
+    "sigla": "Ileborgh Tablature"
+  },
+  {
+    "id": "SRC:Aich_1515a",
+    "sigla": "In dissem buechlyn fynt man Lxxv. hübscher lieder (Cologne: Arnt von Aich, ca. 1515)"
+  },
+  {
+    "id": "SRC:Gardano_1547a",
+    "sigla": "Intabolatura de lauto (Venice: Antonio Gardano, 1547)"
+  },
+  {
+    "id": "SRC:Intavolatura_1543a",
+    "sigla": "Intavolatura, cioè Ricercari Canzoni, Himni Magnificati (Venice: s.n., 1543)"
+  },
+  {
+    "id": "SRC:Cavazzoni_1543a",
+    "sigla": "Intavolatvra, cioè Recercari Canzoni (Venice, 1543)"
+  },
+  {
+    "id": "SRC:Hassler_1608a",
+    "sigla": "Kirchengesäng: Psalmen und geistliche Lieder (Nuremberg: Paul Kauffmann, 1608)"
+  },
+  {
+    "id": "SRC:Krakow_Tablature",
+    "sigla": "Kraków Tablature",
+    "alias": "Tablature of the Monestary of the Holy Spirit, Kraków"
+  },
+  {
+    "id": "SRC:Petrucci_1508a",
+    "sigla": "Laude libro secondo (Venice: Ottaviano Petrucci, 1508)"
+  },
+  {
+    "id": "SRC:Cifra_1615a",
+    "sigla": "Li diversi scherzi di Antonio Cifra (Rome: Giovanni Battista Robletti, 1615)"
+  },
+  {
+    "id": "SRC:Grimm_1520a",
+    "sigla": "Liber selectarum cantionum (Augsburg: Grimm and Wyrsung, 1520)"
+  },
+  {
+    "id": "SRC:Lasso_1581a",
+    "sigla": "Libro de villanelle, moresche, et altre canzoni (Paris: Adrian Le Roy & Robert Ballard, 1581)"
+  },
+  {
+    "id": "SRC:Hassler_1601a",
+    "sigla": "Lustgarten neuer teutscher Gesäng (Nuremberg: Paul Kauffmann, 1601)"
+  },
+  {
+    "id": "SRC:Monteverdi_1587a",
+    "sigla": "Madrigali a cinque voci ... libro primo (Venice: Angelo Gardano, 1587)"
+  },
+  {
+    "id": "SRC:Monteverdi_1651a",
+    "sigla": "Madrigali e canzonette a due, e tre, voci ... libro nono (Venice: Alessandro Vincenti, 1651)"
+  },
+  {
+    "id": "SRC:Monteverdi_1638a",
+    "sigla": "Madrigali guerrieri et amorosi (Venice: Alessandro Vincenti, 1638)",
+    "alias": "Libro ottavo"
+  },
+  {
+    "id": "SRC:Morley_1594a",
+    "sigla": "Madrigalls to foure voyces newly published ... the firste booke (London: Thomas Este, 1594)"
+  },
+  {
+    "id": "SRC:Attaingnant_1531a",
+    "sigla": "Magnificat sur les huit tones avec Te Deum laudamus (Paris: Pierre Attaingnant, 1531)"
+  },
+  {
+    "id": "SRC:Ravenscroft_1611a",
+    "sigla": "Melismata (London: William Stansby and Thomas Adams, 1611)"
+  },
+  {
+    "id": "SRC:Monteverdi_1650a",
+    "sigla": "Messa et salmi concertati (Venice: Alessandro Vincenti, 1650)"
+  },
+  {
+    "id": "SRC:Agricola_1504a",
+    "sigla": "Misse Alexandri aglicole (Venice: Ottaviano Petrucci, 1504)"
+  },
+  {
+    "id": "SRC:Brumel_1503a",
+    "sigla": "Misse Brumel (Venice: Ottaviano Petrucci, 1503)"
+  },
+  {
+    "id": "SRC:La_Rue_1503a",
+    "sigla": "Misse Petri de La Rue (Venice: Ottaviano Petrucci, 1503)"
+  },
+  {
+    "id": "SRC:Franck_1608a",
+    "sigla": "Neue Musicalische Intraden (Nuremberg: David Kauffmann, 1608)"
+  },
+  {
+    "id": "SRC:Steffens_1619a",
+    "sigla": "Neue Teutsche Weltliche Madrigalia und Balletten (Hamburg: Michael Hering, 1619)"
+  },
+  {
+    "id": "SRC:Rhau_1544a",
+    "sigla": "Newe Deudsche Geistliche Gesenge (Wittenberg: Georg Rhau, 1544)"
+  },
+  {
+    "id": "SRC:Franck_1603a",
+    "sigla": "Newer Pavanen, Galliarden, unnd Intraden (Coburg: Justus Hauck, 1603)"
+  },
+  {
+    "id": "SRC:sHertogenbosch_153",
+    "sigla": "NL-SHbhic MS 153",
+    "diamm_url": "https://www.diamm.ac.uk/sources/1038/"
+  },
+  {
+    "id": "SRC:Castro_1588a",
+    "sigla": "Novae cantiones sacrae, quae vulgo motetta vocantur, cum quinque, sex, et octo vocibus (Douai: Jean Bogard, 1588)"
+  },
+  {
+    "id": "SRC:Formschneider_1537a",
+    "sigla": "Novum et insigne opus musicum (Nuremburg: Hieronymus Formschneider, 1537)"
+  },
+  {
+    "id": "SRC:Sanchez_1578a",
+    "sigla": "Obras de Musica para Tecla, Arpa, y Vihuela (Madrid: Francisco Sanchez, 1578)"
+  },
+  {
+    "id": "SRC:Petrucci_1501a",
+    "sigla": "Odhecaton (Venice: Ottaviano Petrucci, 1501)"
+  },
+  {
+    "id": "SRC:Bendusi_1553a",
+    "sigla": "Opera nova de balli (Venice: Antonio Gardano, 1553)"
+  },
+  {
+    "id": "SRC:Parrhisiis_1501a",
+    "sigla": "Opuscula Vergiliana (Paris: Venundantur Parrhisiis, 1501)"
+  },
+  {
+    "id": "SRC:Berlin_40026",
+    "sigla": "Orgeltabulatur des Leonhard Kleber"
+  },
+  {
+    "id": "SRC:Hole_1613a",
+    "sigla": "Parthenia or the maydenhead of the ﬁrst musicke that ever was printed for the virginalls (London: W. Hole, ca. 1613)"
+  },
+  {
+    "id": "SRC:Krakow_40098",
+    "sigla": "Pl-Kj Berlin MS Mus. 40098",
+    "alias": "Glogauer Liederbuch",
+    "diamm_url": "https://www.diamm.ac.uk/sources/1569/"
+  },
+  {
+    "id": "SRC:Warsaw_5892",
+    "sigla": "PL-Wu RM 5892"
+  },
+  {
+    "id": "SRC:Byrd_1611a",
+    "sigla": "Psalmes, songs and sonnets (London: Thomas Snodham, 1611)"
+  },
+  {
+    "id": "SRC:Snodham_1611a",
+    "sigla": "Psalms, Songs and Sonnets (London: Thomas Snodham and William Barley, 1611)"
+  },
+  {
+    "id": "SRC:Cavazzoni_1523a",
+    "sigla": "Recerchari Motetti Canzoni Composti per Marco antonio di Bologna (Venice: Marc'Antonio Cavazzoni, 1523)"
+  },
+  {
+    "id": "SRC:Egenolff_1535a",
+    "sigla": "Reutterliedlein (Frankfurt: Christian Egenolff, 1535)"
+  },
+  {
+    "id": "SRC:Gabrieli_1615a",
+    "sigla": "Sacrae symphoniae, liber secundus (Venice: Bartholomei Magni, 1615)"
+  },
+  {
+    "id": "SRC:Gabrieli_1597a",
+    "sigla": "Sacrae symphoniae (Venice: Angelo Gardano, 1597)"
+  },
+  {
+    "id": "SRC:Megel_1534a",
+    "sigla": "Scaenica progymnasmata (Cologne: Joannes Gymnicus, 1534)",
+    "alias": "Henno"
+  },
+  {
+    "id": "SRC:Monteverdi_1632a",
+    "sigla": "Scherzi musicali (Venice: Bartolomeo Magni, 1632)"
+  },
+  {
+    "id": "SRC:Monteverdi_1607a",
+    "sigla": "Scherzi musicali (Venice: Ricciardo Amadino, 1607)"
+  },
+  {
+    "id": "SRC:Finck_1536a",
+    "sigla": "Schöne auszerlesne Lieder (Nuremberg: Hieronymus Formschneider, 1536)"
+  },
+  {
+    "id": "SRC:Monteverdi_1641a",
+    "sigla": "Selva morale et spirituale (Venice: Bartolomeo Magni, 1641)"
+  },
+  {
+    "id": "SRC:Monteverdi_1619a",
+    "sigla": "Settimo libro di madrigali (Venice: Bartolomeo Magni, 1619)"
+  },
+  {
+    "id": "SRC:Tomkins_1622a",
+    "sigla": "Songs of 3. 4. 5. and 6. parts (London: Matthew Lownes, John Browne, and Thomas Snodham, 1622)"
+  },
+  {
+    "id": "SRC:East_1589a",
+    "sigla": "Songs of Sundrie Natures (London: Thomas East, 1589)"
+  },
+  {
+    "id": "SRC:Straloch_Manuscript",
+    "sigla": "Straloch Manuscript"
+  },
+  {
+    "id": "SRC:Birck_1538a",
+    "sigla": "Susanna comoedia tragica (Cologne, 1538)"
+  },
+  {
+    "id": "SRC:Attaingnant_1531b",
+    "sigla": "Tabulature pour le jeu D orgues, Espinetes, et Manicordions (Paris: Pierre Attaingnant, 1531)"
+  },
+  {
+    "id": "SRC:Schlick_1512a",
+    "sigla": "Tabulaturen Etlicher lob gesang und lidlein uff die orgeln (Mainz: Peter Schöffer, 1511)"
+  },
+  {
+    "id": "SRC:Petrucci_1509a",
+    "sigla": "Tenori e contrabassi intabulati, libro primo (Venice: Ottaviano Petrucci, 1509)"
+  },
+  {
+    "id": "SRC:Farmer_1599a",
+    "sigla": "The First set of English Madrigals to four voices (London: William Barley, 1599)"
+  },
+  {
+    "id": "SRC:Gibbons_1612a",
+    "sigla": "The First Set of Madrigals and Mottets of 5 parts (London: Thomas Snodham, 1612)"
+  },
+  {
+    "id": "SRC:Short_1603a",
+    "sigla": "The Third and Last Booke of Songs or Aires (London: Peter Short and Thomas Adams, 1603)"
+  },
+  {
+    "id": "SRC:Besard_1603a",
+    "sigla": "Thesaurus Harmonicus (Cologne: Gerard Greuenbruch, 1603)"
+  },
+  {
+    "id": "SRC:Attaingnant_1529a",
+    "sigla": "Tres breve et familiere introduction (Paris: Pierre Attaingnant, 1529)"
+  },
+  {
+    "id": "SRC:Mudarra_1546a",
+    "sigla": "Tres libros de musica (Seville: Juan de Leon, 1546)"
+  },
+  {
+    "id": "SRC:Attaingnant_1531c",
+    "sigla": "Treze Motetz musicaulx avec ung Prelude (Paris: Pierre Attaingnant, 1531)"
+  },
+  {
+    "id": "SRC:Dublin_410",
+    "sigla": "Trinity College Dublin MS 410",
+    "alias": "Dublin Virginal Manuscript"
+  },
+  {
+    "id": "SRC:Washington_Laborde",
+    "sigla": "US-Wc M2.1.L25 Case",
+    "alias": "Chansonnier Laborde",
+    "diamm_url": "https://www.diamm.ac.uk/sources/2057/"
+  },
+  {
+    "id": "SRC:Vatican_Chigi",
+    "sigla": "V-Cvbav MS Chigi C.VIII.234",
+    "alias": "Chigi Codex",
+    "diamm_url": "https://www.diamm.ac.uk/sources/943/"
+  },
+  {
+    "id": "SRC:Vatican_1411",
+    "sigla": "V-Cvbav MS Urb. lat. 1411",
+    "diamm_url": "https://www.diamm.ac.uk/sources/819/"
+  },
+  {
+    "id": "SRC:Scotto_1556a",
+    "sigla": "Villancicos de diverses autores (Venice: Girolamo Scotto, 1556)"
+  },
+  {
+    "id": "SRC:Panmure_9448",
+    "sigla": "Virginal book of Clement Matchett (1612)"
+  }
+]

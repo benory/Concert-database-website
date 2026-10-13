@@ -1,0 +1,162 @@
+---
+layout: default
+section: program
+title: Concert program
+description: View a digitized concert program beside standardized performance data.
+---
+
+<div class="record-tabs" role="group" aria-label="Program record view">
+  <button type="button" class="record-tab is-active" data-record-view="data" aria-pressed="true">Catalogued data</button>
+  <button type="button" class="record-tab" data-record-view="scan" aria-pressed="false">Program scan</button>
+</div>
+
+<article id="program-detail" class="record-layout" aria-busy="true">
+  <section class="record-data" aria-labelledby="program-title" tabindex="0">
+    <header class="record-heading">
+      <div>
+        <p class="eyebrow">Concert program</p>
+        <h1 id="program-title" data-program-field="title">Loading program…</h1>
+      </div>
+      <div class="record-heading-date">
+        <span class="record-heading-date-label">Date</span>
+        <time id="program-heading-date" data-program-field="date"></time>
+      </div>
+    </header>
+
+    <dl class="event-strip">
+      <div>
+        <dt>Location</dt>
+        <dd id="program-place" data-program-field="place">—</dd>
+      </div>
+      <div>
+        <dt>Series or organization</dt>
+        <dd id="program-series" data-program-field="series">—</dd>
+      </div>
+    </dl>
+
+    <section class="source-note" aria-labelledby="archival-source-title">
+      <h2 id="archival-source-title">Archival Source(s)</h2>
+      <div id="program-source" class="archive-source-list">Source information will appear here.</div>
+    </section>
+
+    <section id="program-image-source-section" class="source-note" aria-labelledby="image-source-title" hidden>
+      <h2 id="image-source-title">Image Source</h2>
+      <div id="program-image-source" class="image-source-value"></div>
+    </section>
+
+    <section class="record-section people-section" aria-labelledby="program-people-title">
+      <div class="section-heading">
+        <h2 id="program-people-title">People</h2>
+      </div>
+      <dl id="program-people" class="people-list">
+        <div><dt>Loading</dt><dd>—</dd></div>
+      </dl>
+    </section>
+
+    <section class="record-section" aria-labelledby="program-order-title">
+      <div class="section-heading">
+        <h2 id="program-order-title">Medieval and Renaissance works</h2>
+      </div>
+      <div class="table-scroll">
+        <table class="data-table program-order-table">
+          <thead>
+            <tr><th scope="col">No.</th><th scope="col">Piece</th><th scope="col">Composer</th></tr>
+          </thead>
+          <tbody id="program-order">
+            <tr class="table-loading"><td colspan="3">Loading performed items…</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <div class="source-note program-provenance">
+      <p id="program-id" class="record-id program-record-id"></p>
+    </div>
+  </section>
+
+  <aside id="program-scan" class="scan-panel" aria-label="Program scan viewer">
+    <div class="scan-toolbar">
+      <span id="scan-page-label" aria-live="polite">Program scan</span>
+      <div class="scan-tools" role="group" aria-label="Program and scan controls">
+        <button type="button" class="scan-button" data-scan-action="rotate">Rotate</button>
+        <button type="button" class="scan-button" data-scan-action="fullscreen">Full screen</button>
+        <a class="scan-button scan-open-pdf" data-open-pdf href="#" target="_blank" rel="noopener" hidden>Open full PDF <span aria-hidden="true">↗</span></a>
+        <button type="button" class="scan-button scan-record-action" data-copy-citation title="Cite this concert" aria-haspopup="dialog" aria-controls="citation-dialog">
+          <svg class="scan-action-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 4h12a3 3 0 0 1 3 3v2h-5V7a3 3 0 0 1 3-3M7 4a3 3 0 0 0-3 3v10H2v2a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-2h-4M20 9v8M4 17h12v2a3 3 0 0 1-3 3M8 9h5M8 13h5"/></svg>
+          <span data-action-label>Cite</span>
+        </button>
+        <button type="button" class="scan-button" data-share-record aria-haspopup="dialog" aria-controls="share-dialog">
+          <svg class="scan-action-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m7.7 10.65 8.6-4.3m-8.6 7 8.6 4.3"/><circle cx="5" cy="12" r="3"/><circle cx="19" cy="5" r="3"/><circle cx="19" cy="19" r="3"/></svg>
+          <span data-action-label>Share</span>
+        </button>
+      </div>
+    </div>
+    <div class="scan-stage" tabindex="0" aria-label="Program image viewer; drag to move or use arrow keys">
+      <img id="program-scan-image" alt="" hidden>
+      <div id="scan-empty" class="scan-empty" role="status">
+        <span class="loading-dot" aria-hidden="true"></span>
+        <p>Loading program scan…</p>
+      </div>
+    </div>
+    <div class="scan-zoom-controls" role="group" aria-label="Program image zoom" hidden>
+      <button type="button" class="scan-zoom-button scan-zoom-in" data-scan-action="zoom-in" aria-label="Zoom in" aria-controls="program-scan-image">+</button>
+      <button type="button" class="scan-zoom-button scan-zoom-out" data-scan-action="zoom-out" aria-label="Zoom out" aria-controls="program-scan-image">−</button>
+    </div>
+  </aside>
+</article>
+
+<dialog id="citation-dialog" class="record-action-dialog" aria-labelledby="citation-heading" data-site-root="https://concertsdatabase.org{{ site.baseurl | escape }}/">
+  <div class="record-dialog-header">
+    <h2 id="citation-heading">Suggested citation</h2>
+    <button type="button" class="record-dialog-close" data-dialog-close aria-label="Close citation">&times;</button>
+  </div>
+  <div class="citation-format-control">
+    <select id="citation-format" class="record-dialog-button" aria-label="Citation format">
+      <option value="note">Chicago footnote format</option>
+      <option value="bibliography">Chicago bibliography format</option>
+    </select>
+  </div>
+  <p id="citation-text" class="record-citation-text"></p>
+  <div class="record-dialog-actions">
+    <button type="button" id="citation-copy" class="record-dialog-button">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/></svg>
+      Copy citation
+    </button>
+    <p id="citation-status" class="record-dialog-status" role="status"></p>
+  </div>
+</dialog>
+
+<dialog id="share-dialog" class="record-action-dialog" aria-labelledby="share-heading">
+  <div class="record-dialog-header">
+    <h2 id="share-heading">Share this concert</h2>
+    <button type="button" class="record-dialog-close" data-dialog-close aria-label="Close share">&times;</button>
+  </div>
+  <label class="record-permalink-label" for="share-permalink">Permalink</label>
+  <div class="record-permalink-control">
+    <input id="share-permalink" type="url" readonly spellcheck="false">
+    <button type="button" id="share-copy" class="record-dialog-button">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/></svg>
+      Copy
+    </button>
+  </div>
+  <p id="share-status" class="record-dialog-status" role="status"></p>
+  <nav id="share-links" class="record-share-links" aria-label="Share this concert on social media"></nav>
+</dialog>
+
+<template id="program-order-row-template">
+  <tr>
+    <td class="item-number" data-item-number></td>
+    <td>
+      <a data-piece-link data-item-title></a>
+      <div class="program-item-references" data-item-references hidden></div>
+    </td>
+    <td><span data-composer-credit></span></td>
+  </tr>
+</template>
+
+<template id="program-person-template">
+  <div>
+    <dt data-person-role></dt>
+    <dd><span data-person-link></span></dd>
+  </div>
+</template>

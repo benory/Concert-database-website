@@ -1,0 +1,111 @@
+---
+layout: default
+section: concerts
+uses_map: true
+title: All concerts
+description: Search and browse every concert in the Early Music Concerts database.
+---
+
+<section class="concerts-toolbar" aria-labelledby="concerts-heading">
+  <div>
+    <p id="concerts-eyebrow" class="eyebrow">Concert programs</p>
+    <h1 id="concerts-heading">All concerts</h1>
+    <p id="concerts-context-meta" class="concerts-context-meta" hidden></p>
+    <a id="source-diamm-link" class="authority-page-link" href="#" target="_blank" rel="noopener" hidden>View this source in DIAMM <span aria-hidden="true">↗</span></a>
+  </div>
+  <form id="program-search-form" class="concerts-search" role="search">
+    <label class="sr-only" for="program-search">Search concert programs</label>
+    <div class="search-autocomplete">
+      <input id="program-search" name="q" type="search" placeholder="Search programs, pieces, composers, people, places, sources…" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-haspopup="listbox" aria-expanded="false" aria-controls="search-suggestions" aria-describedby="search-suggestions-help">
+      <span id="search-suggestions-help" class="sr-only">Composer, biographical person, city, country, and musical source suggestions appear after you type two characters.</span>
+      <ul id="search-suggestions" class="search-suggestions" role="listbox" aria-label="Composer, person, place, and musical source suggestions" hidden></ul>
+      <span id="search-suggestions-status" class="sr-only" role="status" aria-live="polite"></span>
+    </div>
+    <button id="concert-clear-search" class="concert-search-selection" type="button" aria-label="Clear search and show all concerts" hidden>
+      <span data-active-search-label></span><span aria-hidden="true">×</span>
+    </button>
+  </form>
+  <output id="program-count" for="program-search date-start date-end" aria-live="polite">Loading concerts…</output>
+</section>
+
+<section class="concert-browser" aria-label="Concert browser">
+  <div class="concert-browser-primary" role="region" aria-label="Concert results" tabindex="0">
+    <section id="person-context" class="person-results-context" aria-labelledby="concerts-heading" hidden>
+      <p id="person-context-identity" class="person-results-identity"></p>
+      <div id="person-context-authorities" class="authority-links person-context-authorities" aria-label="Unique identifiers" hidden></div>
+      <p id="person-context-narrative" class="person-results-narrative"></p>
+    </section>
+
+    <div class="program-results concert-browser-results" id="program-results" aria-busy="true" tabindex="-1">
+      <div id="program-list" class="program-list" role="list">
+        <div class="loading-row" role="status"><span class="loading-dot" aria-hidden="true"></span>Loading concert programs…</div>
+      </div>
+      <div id="program-empty" class="empty-state" hidden>
+        <h3>No programs match these filters</h3>
+        <p>Try a broader search or expand the date range.</p>
+        <button type="button" class="text-button" data-clear-program-filters>Clear filters</button>
+      </div>
+    </div>
+  </div>
+
+  <aside class="concert-map-rail" aria-label="Concert map and program preview">
+    <div class="concert-map-stage">
+      <div id="concert-map-view" class="regional-map-grid concert-browser-maps">
+        <div id="concert-map-toggle" class="home-map-toggle" role="group" aria-label="Map region">
+          <button type="button" data-map-toggle-region="us" aria-label="Show United States concert locations" aria-pressed="false">America</button>
+          <button type="button" data-map-toggle-region="europe" aria-label="Show European concert locations" aria-pressed="true">Europe</button>
+        </div>
+        <article class="regional-map-card" aria-labelledby="concerts-map-heading">
+          <h2 id="concerts-map-heading" class="sr-only">Concert locations</h2>
+          <div id="concert-map" class="concert-map" role="application" aria-label="Interactive map of European concert locations"></div>
+          <p id="concert-map-status" class="sr-only" aria-live="polite"></p>
+        </article>
+      </div>
+
+      <section id="concert-program-preview" class="concert-program-preview" aria-labelledby="concert-program-preview-title" tabindex="-1" hidden>
+        <header class="concert-program-preview-head">
+          <div class="concert-program-preview-identity sr-only">
+            <p class="eyebrow">Selected program</p>
+            <h2 id="concert-program-preview-title">Program preview</h2>
+            <p id="concert-program-preview-meta"></p>
+          </div>
+          <div class="concert-program-preview-head-actions">
+            <a id="concert-program-preview-link" class="primary-button" href="#">View concert page <span aria-hidden="true">→</span></a>
+            <button type="button" class="concert-program-preview-close" data-close-program-preview>Back to map</button>
+          </div>
+        </header>
+        <div class="concert-program-preview-stage">
+          <img id="concert-program-preview-image" class="concert-program-preview-image" alt="" hidden>
+          <div id="concert-program-preview-order" class="concert-program-preview-order" hidden></div>
+        </div>
+      </section>
+    </div>
+
+    <div id="concert-date-filter" class="date-control timeline-control browser-timeline" aria-labelledby="date-control-label" hidden>
+      <div class="date-control-head">
+        <span id="date-control-label">Concerts by year</span>
+        <output id="date-range-output" for="date-start date-end">1915 and before–1960</output>
+      </div>
+      <div id="date-histogram" class="date-histogram" aria-hidden="true"></div>
+      <div class="dual-range" style="--range-start: 0%; --range-end: 100%">
+        <input id="date-start" type="range" min="1915" max="1960" value="1915" aria-label="Start year">
+        <input id="date-end" type="range" min="1915" max="1960" value="1960" aria-label="End year">
+      </div>
+      <div class="timeline-endpoints" aria-hidden="true"><span>1915 and before</span><span>1960</span></div>
+    </div>
+  </aside>
+</section>
+
+<template id="program-card-template">
+  <article class="program-card" data-program-card role="listitem">
+    <time class="program-date" data-program-date></time>
+    <div class="program-card-copy">
+      <a class="program-title" data-program-title href="#"></a>
+      <span class="program-meta" data-program-meta></span>
+      <span class="program-extra program-ensemble" data-program-ensemble></span>
+      <span class="program-extra program-direction" data-program-direction></span>
+      <div class="program-search-hits" data-program-hits hidden></div>
+    </div>
+    <button type="button" class="program-preview-button" data-program-select aria-controls="concert-program-preview" aria-expanded="false">Preview</button>
+  </article>
+</template>

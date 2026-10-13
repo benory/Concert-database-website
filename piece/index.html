@@ -1,0 +1,57 @@
+---
+layout: default
+section: piece
+title: Piece
+description: View every catalogued performance of a standardized piece.
+---
+
+<div class="pagebar">
+  <a class="back-link" href="{{ '/' | relative_url }}"><span aria-hidden="true">←</span> Explore + map</a>
+  <span id="piece-id" class="record-id"></span>
+</div>
+
+<article id="piece-detail" class="detail-page" aria-busy="true">
+  <header class="detail-heading">
+    <div>
+      <p class="eyebrow">Piece</p>
+      <h1 id="piece-title">Loading piece…</h1>
+      <p class="detail-meta">Composer: <span id="piece-composer"></span></p>
+    </div>
+    <div id="piece-count" class="detail-count" aria-live="polite"><strong>—</strong><span>linked performances</span></div>
+  </header>
+
+  <div class="detail-toolbar">
+    <label class="filter-search">
+      <span class="sr-only">Filter these performances</span>
+      <input id="piece-performance-search" type="search" placeholder="Filter these performances" autocomplete="off">
+    </label>
+    <a class="quiet-button as-link" href="{{ '/' | relative_url }}#concert-map">View on map</a>
+  </div>
+
+  <section class="record-section" aria-labelledby="piece-performances-title">
+    <div class="section-heading">
+      <h2 id="piece-performances-title">Performances</h2>
+      <span>program wording retained for every occurrence</span>
+    </div>
+    <div class="table-scroll">
+      <table class="data-table performance-table">
+        <thead>
+          <tr><th scope="col">Date</th><th scope="col">Concert program</th><th scope="col">Place</th><th scope="col">Direction</th></tr>
+        </thead>
+        <tbody id="piece-performances">
+          <tr class="table-loading"><td colspan="4">Loading performances…</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p id="piece-data-note" class="data-note">These results provisionally match the normalized program wording with its composer identifier or name. A future canonical work identifier can connect variant titles without replacing the evidence preserved in each program.</p>
+  </section>
+</article>
+
+<template id="piece-performance-row-template">
+  <tr>
+    <td><time data-performance-date></time></td>
+    <td><a data-program-link data-program-title></a><span class="cell-note" data-printed-title></span></td>
+    <td data-performance-place></td>
+    <td><a data-performance-person data-person-preview data-person-role="Direction"></a></td>
+  </tr>
+</template>

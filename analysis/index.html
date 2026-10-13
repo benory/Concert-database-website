@@ -1,0 +1,95 @@
+---
+layout: default
+section: analysis
+title: Data analysis
+description: Analyze patterns in the Early Music Concerts dataset across time, composers, pieces, and places.
+---
+
+<article id="analysis-page" class="analysis-page" aria-busy="true">
+  <header class="analysis-heading">
+    <div>
+      <h1>Data analysis</h1>
+    </div>
+    <div id="analysis-summary" class="analysis-summary" aria-live="polite">
+      <strong>Loading data…</strong>
+    </div>
+  </header>
+
+  <div class="analysis-grid">
+    <figure class="analysis-card analysis-card-wide">
+      <figcaption class="analysis-activity-heading">
+        <div class="analysis-activity-primary">
+          <strong id="analysis-activity-title">Programs by Year</strong>
+          <fieldset class="metric-switcher">
+            <legend>Activity chart count</legend>
+            <button type="button" data-analysis-metric="programs" aria-pressed="true">Programs</button>
+            <button type="button" data-analysis-metric="performances" aria-pressed="false">Performed items</button>
+          </fieldset>
+        </div>
+        <div class="analysis-controls" role="group" aria-label="Chart controls">
+          <label>Group by
+            <select id="analysis-group">
+              <option value="year">Year</option>
+              <option value="decade">Decade</option>
+            </select>
+          </label>
+          <label>Place
+            <select id="analysis-place-filter"><option value="">All places</option></select>
+          </label>
+        </div>
+      </figcaption>
+      <div id="analysis-year-chart" class="chart year-chart" role="img" aria-label="Programs by Year"></div>
+      <div class="analysis-date-range">
+        <div class="analysis-range-heading">
+          <span>Limit chronology</span>
+          <output id="analysis-date-output" for="analysis-start analysis-end" aria-live="polite"></output>
+          <button id="analysis-date-reset" class="analysis-reset-button" type="button" hidden>Reset dates</button>
+        </div>
+        <div id="analysis-date-track" class="dual-range" style="--range-start:0%;--range-end:100%">
+          <input id="analysis-start" type="range" step="1" aria-label="First year">
+          <input id="analysis-end" type="range" step="1" aria-label="Last year">
+        </div>
+        <div class="timeline-endpoints"><span id="analysis-first-year"></span><span id="analysis-last-year"></span></div>
+      </div>
+    </figure>
+
+    <section class="analysis-card analysis-ranking-card" aria-labelledby="analysis-ranking-title">
+      <div class="analysis-ranking-switcher" role="group" aria-label="Rank by category">
+        <button type="button" data-analysis-ranking="composers" aria-pressed="true">Composers</button>
+        <button type="button" data-analysis-ranking="pieces" aria-pressed="false">Pieces</button>
+        <button type="button" data-analysis-ranking="sources" aria-pressed="false">Sources</button>
+        <button type="button" data-analysis-ranking="editions" aria-pressed="false">Editions</button>
+        <button type="button" data-analysis-ranking="performers" aria-pressed="false">Performers</button>
+      </div>
+      <header class="analysis-card-heading">
+        <h2 id="analysis-ranking-title">Most frequently programmed composers</h2>
+        <span id="analysis-ranking-unit">Performed items</span>
+      </header>
+      <p id="analysis-ranking-note" class="analysis-ranking-note"></p>
+      <div id="analysis-ranking-chart" class="chart ranked-chart" role="list" aria-label="Most frequently programmed composers"></div>
+      <div class="analysis-card-actions">
+        <span id="analysis-ranking-visible-count" role="status" aria-live="polite">Loading ranking…</span>
+        <button id="analysis-ranking-more" class="analysis-expand-button" type="button" aria-controls="analysis-ranking-chart" aria-expanded="false" hidden>Show all composers</button>
+      </div>
+    </section>
+
+    <section class="analysis-card" aria-labelledby="analysis-place-title">
+      <header class="analysis-card-heading">
+        <h2 id="analysis-place-title">Places</h2>
+        <span>Concert activity by location</span>
+      </header>
+      <div class="table-scroll compact-table-wrap">
+        <table class="data-table compact-table">
+          <thead><tr><th scope="col">Place</th><th scope="col">Programs</th><th scope="col">Items</th></tr></thead>
+          <tbody id="analysis-place-table"><tr class="table-loading"><td colspan="3">Loading place totals…</td></tr></tbody>
+        </table>
+      </div>
+      <div class="analysis-card-actions">
+        <span id="analysis-place-visible-count" role="status" aria-live="polite">Loading place totals…</span>
+        <button id="analysis-place-more" class="analysis-expand-button" type="button" aria-controls="analysis-place-table" aria-expanded="false" hidden>Show all places</button>
+      </div>
+    </section>
+  </div>
+
+  <p class="analysis-method-note">Counts describe the catalogued dataset, not the full historical universe of early-music performance. Undated concerts are included only when the full date range is selected. Missing sources, editions, and performer credits are not evidence of non-use. See <a href="{{ '/documentation/' | relative_url }}">Documentation</a> for scope and known limitations.</p>
+</article>

@@ -1,97 +1,133 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Concerts of Medieval and Renaissance Music, 1915–1960 – Website update in progress</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+---
+layout: default
+section: home
+uses_map: true
+title: Explore
+description: Explore performances of Medieval and Renaissance music in Europe and the United States, 1915–1960.
+---
 
-  <style>
-    :root {
-      --bg1: rgba(173, 216, 230, 0.25); /* light blue, transparent */
-      --bg2: rgba(224, 247, 255, 0.35); /* softer blue */
-      --text-main: #0c1a27;
-      --text-muted: #466;
-      --card-bg: rgba(255, 255, 255, 0.82);
-      --shadow: 0 8px 30px rgba(0,0,0,0.12);
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    }
+<section class="home-hero" aria-labelledby="home-title">
+  <div class="hero-panel">
+    <h1 id="home-title">Performances of Medieval and Renaissance Music, 1915–1960</h1>
+    <p>Explore concerts and performed items across pieces, people, places, and surviving program scans.</p>
+    <form id="program-search-form" class="hero-search" action="{{ '/concerts/' | relative_url }}" method="get" role="search">
+      <label class="sr-only" for="program-search">Search concert programs</label>
+      <div class="search-autocomplete">
+        <input id="program-search" name="q" type="search" placeholder="Search programs, pieces, composers, people, places, sources…" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-haspopup="listbox" aria-expanded="false" aria-controls="search-suggestions" aria-describedby="search-suggestions-help">
+        <span id="search-suggestions-help" class="sr-only">Composer, biographical person, city, country, and musical source suggestions appear after you type two characters.</span>
+        <ul id="search-suggestions" class="search-suggestions" role="listbox" aria-label="Composer, person, place, and musical source suggestions" hidden></ul>
+        <span id="search-suggestions-status" class="sr-only" role="status" aria-live="polite"></span>
+      </div>
+      <input id="search-from" name="from" type="hidden" value="1915">
+      <input id="search-to" name="to" type="hidden" value="1960">
+      <div class="search-meta">
+        <a id="all-concerts-link" href="{{ '/concerts/' | relative_url }}">See all concerts <span aria-hidden="true">→</span></a>
+      </div>
+    </form>
+  </div>
+  <a class="hero-poster-link" href="{{ '/poster/' | relative_url }}">
+    See the poster <span aria-hidden="true">→</span>
+  </a>
+</section>
 
-    body {
-      margin: 0;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--text-main);
-      background: linear-gradient(135deg, var(--bg1), var(--bg2));
-      animation: fadeIn 1s ease-out;
-    }
+<section class="map-feature" data-map-feature aria-labelledby="map-heading">
+  <h2 id="map-heading" class="sr-only">Explore concert locations</h2>
+  <div class="map-feature-sticky">
+    <div class="map-frame">
+      <div class="home-map-toggle" role="group" aria-label="Map region">
+        <button type="button" data-home-map-region="us" aria-label="Show United States concert locations" aria-pressed="false">America</button>
+        <button type="button" data-home-map-region="europe" aria-label="Show European concert locations" aria-pressed="true">Europe</button>
+      </div>
+      <div class="regional-map-grid home-map-grid">
+        <article class="regional-map-card" aria-labelledby="home-map-heading">
+          <h3 id="home-map-heading" class="sr-only">European concert locations</h3>
+          <div id="home-map" class="concert-map" role="application" aria-label="Interactive map of European concert locations"></div>
+          <p id="home-map-status" class="sr-only" aria-live="polite"></p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
 
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(10px); }
-      to   { opacity: 1; transform: translateY(0); }
-    }
+<section class="timeline-section" aria-labelledby="date-control-label">
+  <div class="date-control timeline-control">
+    <div class="date-control-head">
+      <span id="date-control-label">Concerts by year</span>
+      <output id="date-range-output" for="date-start date-end">1915 and before–1960</output>
+    </div>
+    <div id="date-histogram" class="date-histogram" aria-hidden="true"></div>
+    <div class="dual-range" style="--range-start: 0%; --range-end: 100%">
+      <input id="date-start" type="range" min="1915" max="1960" value="1915" aria-label="Start year">
+      <input id="date-end" type="range" min="1915" max="1960" value="1960" aria-label="End year">
+    </div>
+    <div class="timeline-endpoints" aria-hidden="true"><span>1915 and before</span><span>1960</span></div>
+  </div>
+</section>
 
-    main {
-      background: var(--card-bg);
-      backdrop-filter: blur(8px);
-      padding: 2.8rem 2.2rem;
-      border-radius: 14px;
-      max-width: 680px;
-      width: 95%;
-      box-shadow: var(--shadow);
-    }
+<section class="featured-programs" aria-labelledby="featured-heading">
+  <header class="featured-programs-heading">
+    <div>
+      <p class="eyebrow">From the collection</p>
+      <h2 id="featured-heading">Sample programs</h2>
+    </div>
+  </header>
 
-    h1 {
-      margin-top: 0;
-      font-size: 2rem;
-      font-weight: 700;
-      letter-spacing: 0.01em;
-    }
+  <div class="featured-program-grid">
+    <a class="featured-program-card" href="{{ '/program/?id=1924_04_03a' | relative_url }}">
+      <span class="featured-program-image">
+        <img src="{{ '/assets/images/samples/CON-1924_04_03a.jpg' | relative_url }}" alt="Cover of the 1924 Musik des Mittelalters program" loading="lazy" decoding="async">
+      </span>
+      <div class="featured-program-copy">
+        <time datetime="1924-04-03">03 Apr 1924</time>
+        <strong>Musica Ecclesiastica</strong>
+        <span>Musikhalle Hamburg · Hamburg, Germany</span>
+        <dl class="featured-program-details">
+          <dt>Conductor</dt>
+          <dd>Wilibald Gurlitt</dd>
+          <dt>Ensemble</dt>
+          <dd title="Musik und Musikanschauung des Gotischen Mittelalters">Musik und Musikanschauung des Gotischen Mittelalters</dd>
+        </dl>
+        <small>10 performed items <span aria-hidden="true">→</span></small>
+      </div>
+    </a>
 
-    h2 {
-      margin-top: 0.4rem;
-      font-weight: 500;
-      font-size: 1.15rem;
-      color: var(--text-muted);
-    }
+    <a class="featured-program-card" href="{{ '/program/?id=1925_12_05a' | relative_url }}">
+      <span class="featured-program-image">
+        <img src="{{ '/assets/images/samples/CON-1925_12_05a.jpg' | relative_url }}" alt="Program for the Collegium musicum concert of 5 December 1925" loading="lazy" decoding="async">
+      </span>
+      <div class="featured-program-copy">
+        <time datetime="1925-12-05">05 Dec 1925</time>
+        <strong>Collegium musicum</strong>
+        <span>Innsbruck, Austria</span>
+        <dl class="featured-program-details">
+          <dt>Conductor</dt>
+          <dd>Rudolf von Ficker</dd>
+          <dt>Ensemble</dt>
+          <dd title="Musikwissenschaftliches Institut Universität Innsbruck unter Mitwirkung der &quot;Schola cantorum&quot; des Canisianum Innsbruck">Musikwissenschaftliches Institut Universität Innsbruck unter Mitwirkung der “Schola cantorum” des Canisianum Innsbruck</dd>
+        </dl>
+        <small>11 performed items <span aria-hidden="true">→</span></small>
+      </div>
+    </a>
 
-    p {
-      line-height: 1.65;
-      margin: 1.2rem 0;
-      font-size: 1.05rem;
-    }
-
-    a {
-      color: #005f99;
-    }
-
-    small {
-      display: block;
-      margin-top: 1.6rem;
-      font-size: 0.85rem;
-      color: var(--text-muted);
-    }
-  </style>
-</head>
-
-<body>
-  <main>
-    <h1>Concerts of Medieval and Renaissance Music, 1915–1960</h1>
-    <h2>Website under construction</h2>
-
-    <p>
-      This digital humanities resource tracks concerts of medieval and Renaissance music that took place between 1915 and 1960, when the intersection of academic scholarship and performance was strongest in Belgium, the Netherlands, the United States, and above all, the German-speaking world. This project is directed by <a href="https://benjaminory.com">Benjamin Ory</a> at KU Leuven in Belgium and is supported by a Fonds Wetenschappelijk Onderzoek (FWO) Junior Postdoctoral Fellowship.
-    </p>
-
-    <p>
-      A new version of the site will be released in 2026. Thank you for your patience.
-    </p>
-
-    <small>
-      For questions about the project, please write to
-      <a href="mailto:benjaminory@gmail.com">benjaminory@gmail.com</a>
-    </small>
-  </main>
-</body>
-</html>
+    <a class="featured-program-card" href="{{ '/program/?id=1952_11_07b' | relative_url }}">
+      <span class="featured-program-image">
+        <img src="{{ '/assets/images/samples/CON-1952_11_07b.jpg' | relative_url }}" alt="Program for Niederländische Polyphonie des 16. Jahrhunderts, 7 November 1952" loading="lazy" decoding="async">
+      </span>
+      <div class="featured-program-copy">
+        <time datetime="1952-11-07">07 Nov 1952</time>
+        <strong>Niederländische Polyphonie des 16. Jahrhunderts</strong>
+        <span>University of Cologne · Cologne, Germany</span>
+        <dl class="featured-program-details">
+          <dt>Conductor</dt>
+          <dd>Rene Bernard Lenaerts</dd>
+          <dt>Ensemble</dt>
+          <dd title="Collegium musicum der Universität Köln, Musikwissenschaftliches Institut">Collegium musicum der Universität Köln, Musikwissenschaftliches Institut</dd>
+        </dl>
+        <small>12 performed items <span aria-hidden="true">→</span></small>
+      </div>
+    </a>
+  </div>
+  <div class="featured-programs-browse">
+    <a href="{{ '/concerts/' | relative_url }}">Browse all concerts <span aria-hidden="true">→</span></a>
+  </div>
+</section>

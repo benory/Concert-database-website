@@ -1,0 +1,716 @@
+[
+  {
+    "id": "EDN:Willaert_1915",
+    "author": "Adrian Willaert",
+    "container_title": "Missa Super Benedicta",
+    "editor": "Anton Averkamp",
+    "location": "Amsterdam; Leipzig",
+    "publisher": "G. Alsbach & Co.; Breitkopf & Härtel",
+    "publication_year": "1915"
+  },
+  {
+    "id": "BIB:Smijers_1927",
+    "author": "Albert Smijers",
+    "article_title": "Josquin des Prez",
+    "container_title": "Proceedings of the Musical Association",
+    "volume": "53",
+    "publication_year": "1927",
+    "pages": "95–116"
+  },
+  {
+    "id": "BIB:Planchart_2018",
+    "author": "Alejandro Planchart",
+    "container_title": "Guillaume Du Fay: The Life and Works",
+    "location": "Cambridge",
+    "publisher": "Cambridge University Press",
+    "publication_year": "2018"
+  },
+  {
+    "id": "BIB:Leitch_1978",
+    "author": "Alexander Leitch",
+    "container_title": "A Princeton Companion",
+    "location": "Princeton",
+    "publisher": "Princeton University Press",
+    "publication_year": "1978",
+    "pages": "326–28"
+  },
+  {
+    "id": "EDN:Einstein_1927",
+    "author": "Alfred Einstein",
+    "container_title": "Beispielsammlung zur älteren Musikgeschichte",
+    "edition": "3",
+    "location": "Leipzig",
+    "publisher": "B.G. Teubner",
+    "publication_year": "1927"
+  },
+  {
+    "id": "BIB:AdJb_1980",
+    "author": "Archiv der Jugendmusikbewegung",
+    "container_title": "Die Deutsche Jugendmusikbewegung in Dokumenten Ihrer Zeit von den Anfängen bis 1933",
+    "location": "Wolfenbüttel",
+    "publisher": "Möseler",
+    "publication_year": "1980"
+  },
+  {
+    "id": "EDN:Ambros_Kade_1882",
+    "author": "August Wilhlem Ambros and Otto Kade",
+    "container_title": "Geschichte der Musik",
+    "volume": "5",
+    "location": "Leipzig",
+    "publisher": "F. E. C. Leuckart",
+    "publication_year": "1882"
+  },
+  {
+    "id": "EDN:Ventadorn_1915",
+    "author": "Bernart von Ventadorn",
+    "container_title": "Seine Lieder mit Einleitung und Glossar",
+    "editor": "Carl Appel",
+    "location": "Halle",
+    "publisher": "Max Niemeyer",
+    "publication_year": "1915"
+  },
+  {
+    "id": "BIB:Gordon_2011",
+    "author": "Bonnie Gordon",
+    "article_title": "The Secret of the Secret Chromatic Art",
+    "container_title": "Journal of Musicology",
+    "volume": "28",
+    "publication_year": "2011",
+    "pages": "325–67"
+  },
+  {
+    "id": "EDN:Coussemaker_1865",
+    "container_title": "L'art harmonique aux XIIe & XIIIe Siècles",
+    "editor": "Charles Edmond Henri de Coussemaker",
+    "location": "Paris",
+    "publisher": "A. Durand and V. Didron",
+    "publication_year": "1865"
+  },
+  {
+    "id": "EDN:Coussemaker_1872",
+    "container_title": "Oeuvres complètes du trouvère Adam de la Halle",
+    "editor": "Charles Edmond Henri de Coussemaker",
+    "location": "Paris",
+    "publisher": "A. Durand and Pédone-Lauriel",
+    "publication_year": "1872"
+  },
+  {
+    "id": "BIB:Leech_Wilkinson_2002",
+    "author": "Daniel Leech-Wilkinson",
+    "container_title": "The Modern Invention of Medieval Music: Scholarship, Ideology, Performance",
+    "location": "Cambridge",
+    "publisher": "Cambridge University Press",
+    "publication_year": "2002"
+  },
+  {
+    "id": "BIB:Kraus_1985",
+    "container_title": "50 Jahre Collegium Musicum Regensburg: Eine Dokumentation",
+    "editor": "Eberhard Kraus",
+    "location": "Regensburg",
+    "publication_year": "1985"
+  },
+  {
+    "id": "BIB:Hertzmann_1948",
+    "author": "Erich Hertzmann",
+    "article_title": "Music of the Middle Ages",
+    "container_title": "Bulletin of the American Musicological Society",
+    "volume": "13",
+    "publication_year": "1948",
+    "pages": "14–15"
+  },
+  {
+    "id": "EDN:Mayer_Rietsch_1896",
+    "author": "F. Arnold Mayer and Heinrich Rietsch",
+    "article_title": "Die Mondsee-Wieder Liedershandschrift und der Mönch von Salzburg: Eine Untrersuchung zur Litteratur- und Musikgeschichte, Part II",
+    "container_title": "Acta Germanica: Organ Für Deutsche Philologie",
+    "volume": "4",
+    "location": "Berlin",
+    "publisher": "Mayer and Müller",
+    "publication_year": "1896"
+  },
+  {
+    "id": "BIB:Blume_1976",
+    "author": "Friedrich Blume",
+    "article_title": "Josquin des Prez: The Man and the Music",
+    "container_title": "Josquin des Prez: Proceedings of the International Josquin Festival-Conference held at The Juilliard School at Lincoln Center in New York City, 21–25 June 1971",
+    "editor": "Edward E. Lowinsky and Bonnie J. Blackburn",
+    "location": "London",
+    "publisher": "Oxford University Press",
+    "publication_year": "1976",
+    "pages": "18–27"
+  },
+  {
+    "id": "EDN:Gennrich_1921",
+    "container_title": "Rondeaux, Virelais und Balladen",
+    "editor": "Friedrich Gennrich",
+    "volume": "1",
+    "location": "Dresden",
+    "publisher": "Gesselschaft für Romanische Literatur",
+    "publication_year": "1921"
+  },
+  {
+    "id": "EDN:Gennrich_1925",
+    "author": "Friedrich Gennrich",
+    "article_title": "Sieben Melodien zu mittelhochdeutschen Minneliedern",
+    "container_title": "Zeitschrift für Musikwissenschaft",
+    "volume": "7",
+    "publication_year": "1925",
+    "pages": "pp. 65–98"
+  },
+  {
+    "id": "BIB:Ludwig_1923",
+    "author": "Friedrich Ludwig",
+    "article_title": "Musik des Mittelalters in der Badischen Kunsthalle Karlsruhe, 24.–26. September 1922",
+    "container_title": "Zeitschrift für Musikwissenschaft",
+    "volume": "5",
+    "publication_year": "1923",
+    "pages": "434–60"
+  },
+  {
+    "id": "EDN:Ludwig_1923",
+    "author": "Friedrich Ludwig",
+    "article_title": "Die Quellen der Motetten ältesten Stils",
+    "container_title": "Archiv für Musikwissenschaft",
+    "volume": "5",
+    "publication_year": "1923",
+    "pages": "pp. 185–222"
+  },
+  {
+    "id": "EDN:Ludwig_1924a",
+    "author": "Friedrich Ludwig",
+    "article_title": "Die Quellen der Motetten ältesten Stils (Schluß)",
+    "container_title": "Archiv für Musikwissenschaft",
+    "volume": "5",
+    "publication_year": "1924",
+    "pages": "pp. 273–315"
+  },
+  {
+    "id": "EDN:Ludwig_1924b",
+    "author": "Friedrich Ludwig",
+    "article_title": "Die französische Schule des 14. Jahrhunderts; die isorhythmische Motette des 14. und beginenden 15. Jahrhunderts; die italienischen Madrigale, Balladen und Caccie. Etwa 1300–1430",
+    "container_title": "Handbuch der Musikgeschichte",
+    "editor": "Guido Adler",
+    "location": "Frankfurt",
+    "publisher": "Frankfurter Verlags-Anstalt",
+    "publication_year": "1924",
+    "pages": "pp. 228–50"
+  },
+  {
+    "id": "EDN:Arnold_1867",
+    "author": "Friedrich Wilhelm Arnold",
+    "article_title": "Das Locheimer Liederbuch nebst der Ars organisandi von Conrad Baumann",
+    "container_title": "Jahrbücher für Musikalische Wissenschaft",
+    "editor": "Friedrich Chrysander",
+    "volume": "2",
+    "location": "Leipzig",
+    "publisher": "Breitkopf & Härtel",
+    "publication_year": "1867",
+    "pages": "pp. 1–90"
+  },
+  {
+    "id": "EDN:Lisio_1893",
+    "container_title": "Una Stanza del Petrarca Musicata Dal Du Fay",
+    "editor": "Giuseppe Lisio",
+    "location": "Bologna",
+    "publisher": "Treves di Pietro Virano",
+    "publication_year": "1893"
+  },
+  {
+    "id": "EDN:Adler_Koller_1900",
+    "container_title": "Sechs Trienter Codices: Geistliche und Weltliche Kompositionen des XV. Jhrs.",
+    "editor": "Guido Adler and Oswald Koller",
+    "volume": "14–15",
+    "series": "Denkmäler der Tonkunst in Österreich",
+    "location": "Vienna",
+    "publication_year": "1900"
+  },
+  {
+    "id": "EDN:Machaut_1926",
+    "author": "Guillaume de Machaut",
+    "container_title": "Musikalische Werke: Balladen, Rondeaux, und Virelais",
+    "editor": "Friedrich Ludwig",
+    "volume": "1",
+    "series": "Publikationen älterer Musik",
+    "location": "Leipzig",
+    "publisher": "Breitkopf & Härtel",
+    "publication_year": "1926"
+  },
+  {
+    "id": "EDN:Wooldridge_1897",
+    "author": "H. E. Wooldridge",
+    "container_title": "Early English Harmony from the 10th to the 15th Century",
+    "location": "London",
+    "publisher": "Bernard Quaritch",
+    "publication_year": "1897"
+  },
+  {
+    "id": "EDN:Wooldridge_1901",
+    "author": "H. E. Wooldridge",
+    "container_title": "The Polyphonic Period, Part I: Method of Musical Art, 330–1330",
+    "volume": "1",
+    "series": "The Oxford History of Music",
+    "location": "Oxford",
+    "publisher": "Clarendon",
+    "publication_year": "1901"
+  },
+  {
+    "id": "EDN:Wooldridge_1905",
+    "author": "H. E. Wooldridge",
+    "container_title": "The Polyphonic Period, Part II: Method of Musical Art, 1300–1600",
+    "volume": "2",
+    "series": "The Oxford History of Music",
+    "location": "Oxford",
+    "publisher": "Clarendon",
+    "publication_year": "1905"
+  },
+  {
+    "id": "EDN:Dennerlein_1926",
+    "author": "Hanns Dennerlein",
+    "article_title": "Zwei Ebracher Marienlieder",
+    "container_title": "Zeitschrift für Musikwissenschaft",
+    "volume": "8",
+    "pages": "pp. 1–9"
+  },
+  {
+    "id": "BIB:Haskell_1988",
+    "author": "Harry Haskell",
+    "container_title": "The Early Music Revival: A History",
+    "location": "London",
+    "publisher": "Thames and Hudson",
+    "publication_year": "1988"
+  },
+  {
+    "id": "EDN:Isaac_1907",
+    "author": "Heinrich Isaac",
+    "container_title": "Weltliche Werke",
+    "editor": "Johannes Wolf",
+    "volume": "28",
+    "series": "Denkmäler der Tonkunst in Österreich",
+    "location": "Vienna",
+    "publisher": "Artaria",
+    "publication_year": "1907"
+  },
+  {
+    "id": "EDN:Rietsch_1919",
+    "container_title": "Gesänge von Frauenlob, Reinmar v. Zweter und Alexander",
+    "editor": "Heinrich Rietsch",
+    "volume": "41",
+    "series": "Denkmäler der Tonkunst in Österreich",
+    "location": "Vienna",
+    "publisher": "Artaria",
+    "publication_year": "1919"
+  },
+  {
+    "id": "BIB:Hewitt_1966",
+    "author": "Helen Hewitt",
+    "article_title": "Lloyd Hibberd (1904–1965)",
+    "container_title": "Journal of the American Musicological Society",
+    "volume": "19",
+    "publication_year": "1966",
+    "pages": "433"
+  },
+  {
+    "id": "BIB:Mishkin_1941",
+    "author": "Henry G. Mishkin",
+    "article_title": "The Italian Concerto before 1700",
+    "container_title": "Bulletin of the American Musicological Society",
+    "volume": "7",
+    "publication_year": "1943",
+    "pages": "20–22"
+  },
+  {
+    "id": "BIB:Indiana_1949_50",
+    "author": "Indiana University",
+    "container_title": "School of Music Programs, 1949–1950",
+    "location": "Bloomington"
+  },
+  {
+    "id": "BIB:Indiana_1951_52",
+    "author": "Indiana University",
+    "container_title": "School of Music Programs, 1951–1952",
+    "location": "Bloomington"
+  },
+  {
+    "id": "BIB:Indiana_1952_53",
+    "author": "Indiana University",
+    "container_title": "School of Music Programs, 1952–1953",
+    "location": "Bloomington"
+  },
+  {
+    "id": "BIB:Indiana_1953_54",
+    "author": "Indiana University",
+    "container_title": "School of Music Programs, 1953–1954",
+    "location": "Bloomington"
+  },
+  {
+    "id": "BIB:Indiana_1954_55",
+    "author": "Indiana University",
+    "container_title": "School of Music Programs, 1954–1955",
+    "location": "Bloomington"
+  },
+  {
+    "id": "BIB:Indiana_1955_56",
+    "author": "Indiana University",
+    "container_title": "School of Music Programs, 1955–1956",
+    "location": "Bloomington"
+  },
+  {
+    "id": "BIB:Indiana_1956_57",
+    "author": "Indiana University",
+    "container_title": "School of Music Programs, 1956–1957",
+    "location": "Bloomington"
+  },
+  {
+    "id": "BIB:Indiana_1957_58",
+    "author": "Indiana University",
+    "container_title": "School of Music Programs, 1957–1958",
+    "location": "Bloomington"
+  },
+  {
+    "id": "BIB:Indiana_1958_59",
+    "author": "Indiana University",
+    "container_title": "School of Music Programs, 1958–1959",
+    "location": "Bloomington"
+  },
+  {
+    "id": "BIB:Indiana_1959_60",
+    "author": "Indiana University",
+    "container_title": "School of Music Programs, 1959–1960",
+    "location": "Bloomington"
+  },
+  {
+    "id": "EDN:Stainer_1898",
+    "container_title": "Dufay and his Contemporaries: Fifty Compositions Transcribed from MS. Canonici misc. 213, in the Bodleian Library, Oxford",
+    "editor": "J. F. R. Stainer and C. Stainer",
+    "series": "Early Bodleian Music",
+    "location": "London",
+    "publisher": "Novello and Company",
+    "publication_year": "1898"
+  },
+  {
+    "id": "EDN:Obrecht_1921",
+    "author": "Jacob Obrecht",
+    "container_title": "Motetten, Bundel IV",
+    "editor": "Johannes Wolf",
+    "volume": "6",
+    "series": "Werken van Jacob Obrecht",
+    "location": "Amsterdam; Leipzig",
+    "publisher": "G. Alsbach & Co.; Breitkopf & Härtel"
+  },
+  {
+    "id": "BIB:Handschin_1928",
+    "author": "Jacques Handschin",
+    "article_title": "Die mittelalterlichen Aufführungen in Zürich, Bern und Basel",
+    "container_title": "Zeitschrift für Musikwissenschaft",
+    "volume": "10",
+    "publication_year": "1928",
+    "pages": "8–22"
+  },
+  {
+    "id": "EDN:Wolf_1904",
+    "author": "Johannes Wolf",
+    "container_title": "Geschichte der Mensural-Notation von 1250 bis 1460",
+    "volume": "3",
+    "location": "Leipzig",
+    "publisher": "Breitkopf & Härtel",
+    "publication_year": "1904"
+  },
+  {
+    "id": "EDN:Wolf_1918",
+    "author": "Johannes Wolf",
+    "article_title": "Die Tänze des Mittelalters: Eine Untersuchung des Wesens der ältesten Instrumentalmusik",
+    "container_title": "Archiv für Musikwissenschaft",
+    "volume": "1",
+    "publication_year": "1918",
+    "pages": "pp. 10–42"
+  },
+  {
+    "id": "EDN:Dowland_1923a",
+    "author": "John Dowland",
+    "container_title": "Third Book of Airs, 1603",
+    "volume": "10",
+    "series": "The English School of Lutenist Song Writers",
+    "location": "London",
+    "publisher": "Stainer & Bell",
+    "publication_year": "1923"
+  },
+  {
+    "id": "EDN:Dowland_1923b",
+    "author": "John Dowland",
+    "container_title": "Third Book of Airs, 1603",
+    "volume": "11",
+    "series": "The English School of Lutenist Song Writers",
+    "location": "London",
+    "publisher": "Stainer & Bell",
+    "publication_year": "1923"
+  },
+  {
+    "id": "BIB:Hiam_2005",
+    "author": "Jonathan Hiam",
+    "article_title": "Music at Black Mountain College: The European Years, 1939–46",
+    "publisher": "PhD diss., University of North Carolina at Chapel Hill",
+    "publication_year": "2005"
+  },
+  {
+    "id": "EDN:Müller-Blattau_1923",
+    "author": "Joseph Müller-Blattau",
+    "container_title": "Grundzüge einer Geschichte der Fuge",
+    "volume": "1",
+    "series": "Königsberger Studien zur Musikwissenschaft",
+    "location": "Königsberg",
+    "publisher": "K. Jüterbock",
+    "publication_year": "1923"
+  },
+  {
+    "id": "EDN:Josquin_1923",
+    "author": "Josquin des Prez",
+    "container_title": "Motetten Bundel II",
+    "editor": "Albert Smijers",
+    "series": "Werken van Josquin des Prés",
+    "location": "Amsterdam",
+    "publisher": "G. Alsbach & Co.",
+    "publication_year": "1923"
+  },
+  {
+    "id": "EDN:Josquin_1924",
+    "author": "Josquin des Prez",
+    "container_title": "Wereldlijke Werken II",
+    "editor": "Albert Smijers",
+    "series": "Werken van Josquin des Prés",
+    "location": "Amsterdam",
+    "publisher": "G. Alsbach & Co.",
+    "publication_year": "1924"
+  },
+  {
+    "id": "BIB:Bruxelles_1927",
+    "container_title": "Les Concerts populaires de Bruxelles",
+    "location": "Brussels",
+    "publisher": "Veuve Monnom",
+    "publication_year": "1927"
+  },
+  {
+    "id": "EDN:Gerberto_1784",
+    "author": "Martino Geberto",
+    "container_title": "Scriptores ecclesiastici de musica sacra potissimum",
+    "volume": "1",
+    "location": "Sankt Blasien",
+    "publisher": "Typis San-Blasianis",
+    "publication_year": "1784"
+  },
+  {
+    "id": "EDN:Ursprung_1923",
+    "author": "Otto Ursprung",
+    "article_title": "Vier Studien zur Geschichte des deutschen Liedes: II. Die Mondseer Liederhandschrift und Hermann, der Münch von Salzburg",
+    "container_title": "Archiv für Musikwissenschaft",
+    "volume": "5",
+    "publication_year": "1923",
+    "pages": "pp. 11–30"
+  },
+  {
+    "id": "EDN:Schubiger_1858",
+    "author": "P. Anselm Schubiger",
+    "container_title": "Die Sängerschule St. Gallens vom achten bis zwölften Jahrhundert",
+    "location": "Einsiedeln",
+    "publisher": "Gebrüder Karl und Nikolaus Benziger",
+    "publication_year": "1858"
+  },
+  {
+    "id": "EDN:Ficker_1930",
+    "author": "Perotinus",
+    "container_title": "Organum quadruplum \"Sederunt principes\"",
+    "editor": "Rudolf von Ficker",
+    "location": "Vienna",
+    "publisher": "Universal Edition",
+    "publication_year": "1930"
+  },
+  {
+    "id": "BIB:Reidemeister_Gutmann_1983",
+    "container_title": "Alte Musik: Praxis und Reflexion",
+    "editor": "Peter Reidemeister and Veronika Gutmann",
+    "location": "Winterthur",
+    "publisher": "Amadeus",
+    "publication_year": "1983"
+  },
+  {
+    "id": "EDN:Aubry_1907",
+    "container_title": "Estampies et Danses Royales",
+    "editor": "Pierre Aubry",
+    "location": "Paris",
+    "publisher": "Fischbacher",
+    "publication_year": "1907"
+  },
+  {
+    "id": "EDN:Aubry_1908",
+    "container_title": "Cent Motets du XIIIe Siècle publiés d'après le Manuscrit Ed.IV.6 de Bamberg",
+    "editor": "Pierre Aubry",
+    "volume": "3 vols.",
+    "location": "Paris",
+    "publisher": "A. Rouart, Lerolle, & Co.",
+    "publication_year": "1908"
+  },
+  {
+    "id": "EDN:Aubry_1909",
+    "container_title": "Trouvères et Troubadours",
+    "editor": "Pierre Aubry",
+    "location": "Paris",
+    "publisher": "Félix Alcan",
+    "publication_year": "1909"
+  },
+  {
+    "id": "EDN:Molitor_1911",
+    "author": "Raphael Molitor",
+    "article_title": "Die Lieder des Münsterischen Fragments",
+    "container_title": "Sammelbände der Internationalen Musikgesellschaft",
+    "volume": "12",
+    "publication_year": "1911",
+    "pages": "pp. 475–500"
+  },
+  {
+    "id": "BIB:Schmoll_1985",
+    "container_title": "Die Münchner Philharmoniker von der Gründung bis heute",
+    "editor": "Regina Schmoll gen. Eisenwerth",
+    "location": "Munich",
+    "publisher": "Universitätsdruckerei und Verlag Dr. C. Wolf und Sohn",
+    "publication_year": "1985"
+  },
+  {
+    "id": "BIB:Puskas_2008",
+    "author": "Regula Puskás",
+    "article_title": "Ina Lohr",
+    "container_title": "Historisches Lexikon der Schweiz"
+  },
+  {
+    "id": "EDN:Terry_1924",
+    "author": "Richard R. Terry",
+    "container_title": "John Taverner c. 1495–1545, Part II",
+    "volume": "3",
+    "series": "Tudor Church Music",
+    "location": "London",
+    "publisher": "Oxford University Press",
+    "publication_year": "1924"
+  },
+  {
+    "id": "EDN:Ficker_Orel_1920",
+    "container_title": "Sechs Trienter Codices: Geistliche und Weltliche Kompositionen des XV. Jhrs., 4. Auswahl",
+    "editor": "Rudolf Ficker and Alfred Orel",
+    "volume": "53",
+    "series": "Denkmäler der Tonkunst in Österreich",
+    "location": "Vienna",
+    "publisher": "Artaria",
+    "publication_year": "1920"
+  },
+  {
+    "id": "BIB:Ficker_1925",
+    "author": "Rudolf von Ficker",
+    "article_title": "Die Musik des Mittelalters und ihre Beziehungen zum Geistesleben",
+    "container_title": "Deutsche Vierteljahrsschrift für Literaturwissenschaft und Geistesgeschichte",
+    "volume": "3",
+    "publication_year": "1925",
+    "pages": "501–35"
+  },
+  {
+    "id": "BIB:Smithsonian_2026",
+    "author": "Smithsonian Folkways Recordings",
+    "article_title": "Dyer-Bennet Records"
+  },
+  {
+    "id": "BIB:SIM_1949",
+    "author": "Société Internationale de Musicologie, Quatrième Congrès",
+    "container_title": "Bale, 29 Juin au 3 Juillet 1949, Compte Rendu",
+    "location": "Kassel",
+    "publisher": "Bärenreiter",
+    "publication_year": "1949"
+  },
+  {
+    "id": "BIB:Bruxelles_1938",
+    "container_title": "Société Philharmonique de Bruxelles: Dixième Anniversaire",
+    "location": "Brussels",
+    "publisher": "F. van Buggenhoudt",
+    "publication_year": "1938"
+  },
+  {
+    "id": "BIB:Wohnhaas_1971",
+    "author": "Theodor Wohnhaas",
+    "article_title": "Oskar Dischner",
+    "container_title": "Frankenland",
+    "publication_year": "1971",
+    "pages": "127–28"
+  },
+  {
+    "id": "BIB:UMich_1946_47",
+    "author": "University of Michigan School of Music",
+    "container_title": "School of Music Programs, 1946–47"
+  },
+  {
+    "id": "BIB:UMich_1947_48",
+    "author": "University of Michigan School of Music",
+    "container_title": "School of Music Programs, 1947–48",
+    "publisher": "(unpublished)"
+  },
+  {
+    "id": "BIB:UMich_1948_49",
+    "author": "University of Michigan School of Music",
+    "container_title": "School of Music Programs, 1948–49",
+    "publisher": "(unpublished)"
+  },
+  {
+    "id": "BIB:UMich_1952_53",
+    "author": "University of Michigan School of Music",
+    "container_title": "School of Music Programs, 1952–53",
+    "publisher": "(unpublished)"
+  },
+  {
+    "id": "EDN:Squire_1901a",
+    "author": "W. Barclay Squire",
+    "container_title": "Ausgewählte Madrigale und Mehrstimmige Gesänge",
+    "volume": "1",
+    "location": "Leipzig",
+    "publisher": "Breitkopf & Härtel",
+    "publication_year": "1901"
+  },
+  {
+    "id": "EDN:Squire_1901b",
+    "author": "W. Barclay Squire",
+    "article_title": "Notes on an Undescribed Collection of English 15th Century Music",
+    "container_title": "Sammelbände der Internationalen Musikgesellschaft",
+    "volume": "2",
+    "publication_year": "1901",
+    "pages": "pp. 342–92"
+  },
+  {
+    "id": "BIB:Blankenburg_1933",
+    "container_title": "Collegium musicum: Sonderheft \"Kasseler Musiktage 1933\"",
+    "editor": "Walter Blankenburg",
+    "volume": "4",
+    "publication_year": "1933"
+  },
+  {
+    "id": "EDN:Niemann_1902",
+    "author": "Walter Niemann",
+    "article_title": "Studien zur deutschen Musikgeschichte des XV. Jahrhunderts",
+    "container_title": "Kirchenmusikalisches Jahrbuch",
+    "volume": "17",
+    "publication_year": "1902",
+    "pages": "pp. 1–46"
+  },
+  {
+    "id": "EDN:Byrd_1920",
+    "author": "William Byrd",
+    "container_title": "Psalms Songs and Sonnets, Some Solemn Others Joyful to 3. 4. 5. and 6. Parts",
+    "editor": "Edmund H. Fellowes",
+    "volume": "16",
+    "series": "The English Madrigal School",
+    "location": "London",
+    "publisher": "Stainer & Bell",
+    "publication_year": "1920"
+  },
+  {
+    "id": "EDN:Byrd_1922",
+    "author": "William Byrd",
+    "container_title": "Mass for Three Voices",
+    "editor": "Edmund H. Fellowes",
+    "location": "London",
+    "publisher": "Stainer & Bell",
+    "publication_year": "1922"
+  }
+]
