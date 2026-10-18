@@ -118,7 +118,8 @@ def normalize_concert(record)
   image_permissions = clean(record["Image Permissions"] || record["image_permissions"])&.downcase
   image_url = web_url(record["Image URL"] || record["image_url"])
   external_image = web_url(record["Externally Hosted Image"] || record["externally_hosted_image"])
-  image_url = external_image = nil unless image_permissions == "yes"
+  # External source links are references, not permission to reproduce an image.
+  image_url = nil unless image_permissions == "yes"
   hosted_scan = if image_permissions == "yes" && concert_id&.match?(/\ACON:[A-Za-z0-9_.-]+\z/)
                   "#{PROGRAM_SCAN_BASE_URL}/#{concert_id.sub(/\ACON:/, 'CON-')}.pdf"
                 end
@@ -148,7 +149,7 @@ def normalize_concert(record)
     "image_url" => image_url,
     "image_source" => clean(record["Image Source"] || record["image_source"]),
     "externally_hosted_image" => external_image,
-    "scan_url" => hosted_scan || image_url || external_image,
+    "scan_url" => image_permissions == "yes" ? (hosted_scan || image_url || external_image) : nil,
     "date_added" => clean(record["Date Added"] || record["date_added"]),
     "date_modified" => clean(record["Date Modified"] || record["date_modified"])
   }.compact

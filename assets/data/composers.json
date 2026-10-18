@@ -287,6 +287,11 @@
     "aliases": []
   },
   {
+    "id": "COM:Antonius_Romanus",
+    "name": "Antonius Romanus",
+    "aliases": []
+  },
+  {
     "id": "COM:Antony_Holborne",
     "name": "Antony Holborne",
     "aliases": [
@@ -2599,6 +2604,11 @@
   {
     "id": "COM:Lodovico_Viadana",
     "name": "Lodovico Viadana",
+    "aliases": []
+  },
+  {
+    "id": "COM:Lope_de_Baena",
+    "name": "Lope de Baena",
     "aliases": []
   },
   {

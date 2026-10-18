@@ -58,6 +58,29 @@
     "source_sha256": "8ccec42abc77505af014e10c791402ad280efb26473aca79cfb8dec080953eb7"
   },
   {
+    "id": "CON:1915_11_17a",
+    "preview_url": "/assets/images/program-previews/CON-1915_11_17a.webp?v=32ba1bc98cda",
+    "pages": [
+      {
+        "page": 1,
+        "url": "/assets/images/program-previews/CON-1915_11_17a.webp?v=32ba1bc98cda",
+        "pixel_width": 1800,
+        "pixel_height": 2368
+      }
+    ],
+    "thumbnail_url": "/assets/images/program-previews/CON-1915_11_17a-thumb.webp?v=32ba1bc9w320q72",
+    "source_url": "https://programs.concertsdatabase.org/pdf/CON-1915_11_17a.pdf",
+    "page_count": 1,
+    "render_width": 1800,
+    "pixel_width": 1800,
+    "pixel_height": 2368,
+    "thumbnail_render_width": 320,
+    "thumbnail_quality": 72,
+    "thumbnail_pixel_width": 320,
+    "thumbnail_pixel_height": 421,
+    "source_sha256": "32ba1bc98cda0ef8127d43ca5afb64d4b47ba97ecea96a1fc445072fd0c97950"
+  },
+  {
     "id": "CON:1920_01_29a",
     "preview_url": "/assets/images/program-previews/CON-1920_01_29a.webp?v=9361191a43d2",
     "pages": [
@@ -4666,6 +4689,35 @@
     "source_sha256": "8abf7fae94b07a04afa52c7796545e762b490455ec5e2c894315c01ae72e246f"
   },
   {
+    "id": "CON:1939_02_18a",
+    "preview_url": "/assets/images/program-previews/CON-1939_02_18a.webp?v=e244efc8ee3e",
+    "pages": [
+      {
+        "page": 1,
+        "url": "/assets/images/program-previews/CON-1939_02_18a.webp?v=e244efc8ee3e",
+        "pixel_width": 1800,
+        "pixel_height": 2254
+      },
+      {
+        "page": 2,
+        "url": "/assets/images/program-previews/pages/e244efc8ee3eeda104b6d9369a947dd95eb28e093c8e30e29b209e897f832927-w1800q78/page-002.webp",
+        "pixel_width": 1800,
+        "pixel_height": 2254
+      }
+    ],
+    "thumbnail_url": "/assets/images/program-previews/CON-1939_02_18a-thumb.webp?v=e244efc8w320q72",
+    "source_url": "https://programs.concertsdatabase.org/pdf/CON-1939_02_18a.pdf",
+    "page_count": 2,
+    "render_width": 1800,
+    "pixel_width": 1800,
+    "pixel_height": 2254,
+    "thumbnail_render_width": 320,
+    "thumbnail_quality": 72,
+    "thumbnail_pixel_width": 320,
+    "thumbnail_pixel_height": 401,
+    "source_sha256": "e244efc8ee3eeda104b6d9369a947dd95eb28e093c8e30e29b209e897f832927"
+  },
+  {
     "id": "CON:1939_03_20a",
     "preview_url": "/assets/images/program-previews/CON-1939_03_20a.webp?v=db8821cc6ac1",
     "pages": [
@@ -6532,6 +6584,29 @@
     "thumbnail_pixel_width": 320,
     "thumbnail_pixel_height": 245,
     "source_sha256": "c5b4597e100e68cd0234f0c4e58db074c5011b831d271629ac16f303aa2fcea2"
+  },
+  {
+    "id": "CON:1952_10_04a",
+    "preview_url": "/assets/images/program-previews/CON-1952_10_04a.webp?v=e6f82ff8bfce",
+    "pages": [
+      {
+        "page": 1,
+        "url": "/assets/images/program-previews/CON-1952_10_04a.webp?v=e6f82ff8bfce",
+        "pixel_width": 1800,
+        "pixel_height": 2297
+      }
+    ],
+    "thumbnail_url": "/assets/images/program-previews/CON-1952_10_04a-thumb.webp?v=e6f82ff8w320q72",
+    "source_url": "https://programs.concertsdatabase.org/pdf/CON-1952_10_04a.pdf",
+    "page_count": 1,
+    "render_width": 1800,
+    "pixel_width": 1800,
+    "pixel_height": 2297,
+    "thumbnail_render_width": 320,
+    "thumbnail_quality": 72,
+    "thumbnail_pixel_width": 320,
+    "thumbnail_pixel_height": 409,
+    "source_sha256": "e6f82ff8bfce410e03e480908758e920d6863fb734821389365f6d1cbab1d8d7"
   },
   {
     "id": "CON:1952_11_03a",

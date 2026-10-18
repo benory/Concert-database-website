@@ -6,7 +6,7 @@ Source for [concertsdatabase.org](https://concertsdatabase.org), a research inte
 
 The `development` branch holds the evolving website and dataset. The `main` branch continues to publish the existing landing page through GitHub Pages; do not merge development into `main` until the public launch is explicitly approved. Development code and data are visible because this repository is public, but this branch is not deployed as the live website.
 
-The first public launch is planned for the end of the postdoctoral project and will be tagged `v1.0.0`, with a matching GitHub release. Do not create that tag or release before launch. Each release should record the website and normalized dataset together, with release notes describing changes. Subsequent releases use `vMAJOR.MINOR.PATCH`: major for incompatible changes, minor for new functionality or substantial dataset additions, and patch for corrections and fixes.
+The first public launch is planned for the end of the postdoctoral project and will be tagged `v1.0`, with a matching GitHub release. Do not create that tag or release before launch. Each release should record the website and normalized dataset together, with release notes describing changes. Subsequent releases use `vMAJOR.MINOR.PATCH`: major for incompatible changes, minor for new functionality or substantial dataset additions, and patch for corrections and fixes.
 
 ## Data workflow
 

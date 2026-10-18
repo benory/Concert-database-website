@@ -2609,6 +2609,10 @@ button.program-title:focus-visible {
   font-weight: 650;
 }
 
+.source-url-value a {
+  overflow-wrap: anywhere;
+}
+
 .scan-panel {
   position: relative;
   min-width: 0;

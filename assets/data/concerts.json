@@ -157,8 +157,10 @@
     "archive_ids": [
       "ARC:DE_UA_Humboldt"
     ],
-    "signature": "Phil.Fak.01, 1640",
-    "image_permissions": "no",
+    "signature": "Phil.Fak.01, Nr. 1640, Bl. 334v",
+    "image_permissions": "yes",
+    "image_source": "ARC:DE_UA_Humboldt",
+    "scan_url": "https://programs.concertsdatabase.org/pdf/CON-1915_11_17a.pdf",
     "date_added": "2025-1-23"
   },
   {
@@ -186,7 +188,7 @@
     "archive_ids": [
       "ARC:BE_CRB"
     ],
-    "signature": "Fonds Emma Piel, CR-04535",
+    "signature": "Fonds Emma Piel, CR-04535/2",
     "image_permissions": "yes",
     "image_source": "ARC:BE_CRB",
     "scan_url": "https://programs.concertsdatabase.org/pdf/CON-1920_01_29a.pdf",
@@ -530,7 +532,7 @@
     "archive_ids": [
       "ARC:BE_CRB"
     ],
-    "signature": "Fonds Emma Piel, CR-04482",
+    "signature": "Fonds Emma Piel, CR-04482/31",
     "image_permissions": "yes",
     "image_source": "ARC:BE_CRB",
     "scan_url": "https://programs.concertsdatabase.org/pdf/CON-1924_05_17a.pdf",
@@ -2436,7 +2438,7 @@
     "archive_ids": [
       "ARC:BE_CRB"
     ],
-    "signature": "Fonds Emma Piel, CR-04509",
+    "signature": "Fonds Emma Piel, CR-04509/91",
     "image_permissions": "yes",
     "image_source": "ARC:BE_CRB",
     "scan_url": "https://programs.concertsdatabase.org/pdf/CON-1928_12_06a.pdf",
@@ -6927,8 +6929,10 @@
     "archive_ids": [
       "ARC:DE_UA_Humboldt"
     ],
-    "signature": "Phil. Fak. 1582 (Collegium Musicum, 1928–1940)",
-    "image_permissions": "no",
+    "signature": "Phil.Fak.01, Nr. 1582 (Collegium Musicum, 1928–1940), S. 162",
+    "image_permissions": "yes",
+    "image_source": "ARC:DE_UA_Humboldt",
+    "scan_url": "https://programs.concertsdatabase.org/pdf/CON-1939_02_18a.pdf",
     "date_added": "2025-1-23"
   },
   {
@@ -7092,7 +7096,7 @@
     "archive_ids": [
       "ARC:BE_CRB"
     ],
-    "signature": "Fonds Emma Piel, CR-04516",
+    "signature": "Fonds Emma Piel, CR-04516/45",
     "image_permissions": "yes",
     "image_source": "ARC:BE_CRB",
     "scan_url": "https://programs.concertsdatabase.org/pdf/CON-1940_04_21a.pdf",
@@ -7129,7 +7133,7 @@
     "archive_ids": [
       "ARC:BE_CRB"
     ],
-    "signature": "Fonds Emma Piel, CR-04516",
+    "signature": "Fonds Emma Piel, CR-04516/46",
     "image_permissions": "yes",
     "image_source": "ARC:BE_CRB",
     "scan_url": "https://programs.concertsdatabase.org/pdf/CON-1940_05_07a.pdf",
@@ -8550,7 +8554,7 @@
       "ARC:BE_CRB",
       "ARC:BE_KBR"
     ],
-    "signature": "Fonds Emma Piel, CR-04514; Fonds Paul Collaer, Mus. ms. 3970, Box Fonds Paul Collaer (Pro Arte & autres), Conservatoire Royal de Bruxelles, Conservertoire Royal de Bruxelles 1942, Concerts du Mercredi",
+    "signature": "Fonds Emma Piel, CR-04514/98; Fonds Paul Collaer, Mus. ms. 3970, Box Fonds Paul Collaer (Pro Arte & autres), Conservatoire Royal de Bruxelles, Conservertoire Royal de Bruxelles 1942, Concerts du Mercredi",
     "image_permissions": "yes",
     "image_source": "ARC:BE_CRB",
     "scan_url": "https://programs.concertsdatabase.org/pdf/CON-1942_05_02a.pdf",
@@ -9175,6 +9179,7 @@
     "signature": "Edward E. Lowinsky Papers, Series 3, Box 68, Folder 6 (Concert Programs, 1943)",
     "literature": "BIB:Hiam_2005, pp. 161–72",
     "image_permissions": "no",
+    "externally_hosted_image": "https://digital.ncdcr.gov/digital/collection/p249901coll44/id/628/rec/7",
     "date_added": "2025-1-23"
   },
   {
@@ -10758,6 +10763,7 @@
       "BIB:UMich_1948_49"
     ],
     "image_permissions": "no",
+    "externally_hosted_image": "https://search.lib.umich.edu/catalog/record/990000461900106381",
     "date_added": "2025-1-23"
   },
   {
@@ -11071,6 +11077,7 @@
       "BIB:UMich_1948_49"
     ],
     "image_permissions": "no",
+    "externally_hosted_image": "https://search.lib.umich.edu/catalog/record/990000461900106381",
     "date_added": "2025-1-23"
   },
   {
@@ -11281,6 +11288,7 @@
       "BIB:UMich_1948_49"
     ],
     "image_permissions": "no",
+    "externally_hosted_image": "https://search.lib.umich.edu/catalog/record/990000461900106381",
     "date_added": "2025-1-23"
   },
   {
@@ -12812,8 +12820,10 @@
     "archive_ids": [
       "ARC:BE_CRB"
     ],
-    "signature": "Fonds Emma Piel, CR-04532",
-    "image_permissions": "no",
+    "signature": "Fonds Emma Piel, CR-04532/1 (4)",
+    "image_permissions": "yes",
+    "image_source": "ARC:BE_CRB",
+    "scan_url": "https://programs.concertsdatabase.org/pdf/CON-1952_10_04a.pdf",
     "date_added": "2025-4-9"
   },
   {
@@ -16295,7 +16305,7 @@
     "archive_ids": [
       "ARC:BE_CRB"
     ],
-    "signature": "Fonds Emma Piel, CR-04482",
+    "signature": "Fonds Emma Piel, CR-04482/27",
     "image_permissions": "yes",
     "image_source": "ARC:BE_CRB",
     "scan_url": "https://programs.concertsdatabase.org/pdf/CON-1956_11_08a.pdf",
@@ -18067,7 +18077,7 @@
     "archive_ids": [
       "ARC:BE_CRB"
     ],
-    "signature": "Fonds Emma Piel, CR-04482",
+    "signature": "Fonds Emma Piel, CR-04482/1",
     "image_permissions": "yes",
     "image_source": "ARC:BE_CRB",
     "scan_url": "https://programs.concertsdatabase.org/pdf/CON-1959_02_21a.pdf",

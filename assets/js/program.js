@@ -351,6 +351,27 @@
     container.replaceChildren(fragment);
   }
 
+  function displaySourceUrl(concert) {
+    const section = document.getElementById("program-source-url-section");
+    const container = document.getElementById("program-source-url");
+    if (!section || !container) return;
+
+    container.replaceChildren();
+    section.hidden = true;
+    const value = String(concert.externally_hosted_image || "").trim();
+    let url;
+    try { url = new URL(value); } catch (_) { return; }
+    if (!["http:", "https:"].includes(url.protocol) || url.username || url.password) return;
+
+    const link = document.createElement("a");
+    link.href = url.href;
+    link.textContent = value;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    container.append(link);
+    section.hidden = false;
+  }
+
   function displayImageSource(concert, database) {
     const section = document.getElementById("program-image-source-section");
     const container = document.getElementById("program-image-source");
@@ -369,14 +390,13 @@
       label = String(archive?.short_name || "").trim() || archive?.name || DB.displayIdentifier(reference) || reference;
     } else if (/^(?:BIB|EDN):/.test(reference)) {
       const edition = database.editionsById.get(reference);
-      label = edition ? (reference.startsWith("BIB:") ? window.ConcertBibliography.note(edition) : editionBibliography(edition))
-        : (DB.displayIdentifier(reference) || reference);
+      label = String(edition?.container_title || "").trim() || String(edition?.article_title || "").trim()
+        || DB.displayIdentifier(reference) || reference;
     }
 
     const credit = String(label || "").trim().replace(/[.]+$/, "");
     const creditName = document.createElement(reference.startsWith("ARC:") ? "strong" : "span");
-    appendWithCitations(creditName, credit, reference.startsWith("BIB:")
-      ? [database.editionsById.get(reference)?.container_title].filter(Boolean) : []);
+    appendWithCitations(creditName, credit, /^(?:BIB|EDN):/.test(reference) ? [credit] : []);
     container.replaceChildren(
       document.createTextNode(reference.startsWith("ARC:") ? "Image reproduced by permission of " : "Image reproduced from "),
       creditName,
@@ -780,6 +800,7 @@
     document.querySelector(".event-strip")?.classList.toggle("is-location-only", !hasSeries);
     displayArchiveSources(concert);
     displayImageSource(concert, database);
+    displaySourceUrl(concert);
     DB.setText("#program-id", concert.id);
     const headingDate = document.getElementById("program-heading-date");
     if (headingDate && DB.isoDate(concert)) headingDate.dateTime = DB.isoDate(concert);
