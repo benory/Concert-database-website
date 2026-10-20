@@ -3093,6 +3093,41 @@
     "source_sha256": "99758783fdeeccdce45220b0862354284e6d7f886af1e63910ed947c92150411"
   },
   {
+    "id": "CON:1931_03_06a",
+    "preview_url": "/assets/images/program-previews/CON-1931_03_06a.webp?v=71dee84ec8f1",
+    "pages": [
+      {
+        "page": 1,
+        "url": "/assets/images/program-previews/CON-1931_03_06a.webp?v=71dee84ec8f1",
+        "pixel_width": 1800,
+        "pixel_height": 2271
+      },
+      {
+        "page": 2,
+        "url": "/assets/images/program-previews/pages/71dee84ec8f1a6193b81b4cea5769d1e9319da043db41673027a64b65c14148c-w1800q78/page-002.webp",
+        "pixel_width": 1800,
+        "pixel_height": 1173
+      },
+      {
+        "page": 3,
+        "url": "/assets/images/program-previews/pages/71dee84ec8f1a6193b81b4cea5769d1e9319da043db41673027a64b65c14148c-w1800q78/page-003.webp",
+        "pixel_width": 1800,
+        "pixel_height": 2254
+      }
+    ],
+    "thumbnail_url": "/assets/images/program-previews/CON-1931_03_06a-thumb.webp?v=71dee84ew320q72",
+    "source_url": "https://programs.concertsdatabase.org/pdf/CON-1931_03_06a.pdf",
+    "page_count": 3,
+    "render_width": 1800,
+    "pixel_width": 1800,
+    "pixel_height": 2271,
+    "thumbnail_render_width": 320,
+    "thumbnail_quality": 72,
+    "thumbnail_pixel_width": 320,
+    "thumbnail_pixel_height": 404,
+    "source_sha256": "71dee84ec8f1a6193b81b4cea5769d1e9319da043db41673027a64b65c14148c"
+  },
+  {
     "id": "CON:1931_03_12a",
     "preview_url": "/assets/images/program-previews/CON-1931_03_12a.webp?v=20c4420d2338",
     "pages": [
@@ -6555,6 +6590,29 @@
     "thumbnail_pixel_width": 320,
     "thumbnail_pixel_height": 500,
     "source_sha256": "efc82deefd84d799d596e260051b10bb4e42f583912d1505ac6a7789eb738389"
+  },
+  {
+    "id": "CON:1952_05_23a",
+    "preview_url": "/assets/images/program-previews/CON-1952_05_23a.webp?v=ca1d65a3a9ae",
+    "pages": [
+      {
+        "page": 1,
+        "url": "/assets/images/program-previews/CON-1952_05_23a.webp?v=ca1d65a3a9ae",
+        "pixel_width": 1800,
+        "pixel_height": 2506
+      }
+    ],
+    "thumbnail_url": "/assets/images/program-previews/CON-1952_05_23a-thumb.webp?v=ca1d65a3w320q72",
+    "source_url": "https://programs.concertsdatabase.org/pdf/CON-1952_05_23a.pdf",
+    "page_count": 1,
+    "render_width": 1800,
+    "pixel_width": 1800,
+    "pixel_height": 2506,
+    "thumbnail_render_width": 320,
+    "thumbnail_quality": 72,
+    "thumbnail_pixel_width": 320,
+    "thumbnail_pixel_height": 446,
+    "source_sha256": "ca1d65a3a9ae4ea53ed84a2e2838ab9aaa381a25727088618fa20f404ca06630"
   },
   {
     "id": "CON:1952_09_27a",

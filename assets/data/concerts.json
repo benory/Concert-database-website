@@ -3210,7 +3210,9 @@
       "ARC:CH_SA_Basel"
     ],
     "signature": "Universitätsarchiv XI 2.19 (Musikwissenschaftliches Seminar/Collegium musicum, 1911–1944)",
-    "image_permissions": "no",
+    "image_permissions": "yes",
+    "image_source": "ARC:CH_SA_Basel",
+    "scan_url": "https://programs.concertsdatabase.org/pdf/CON-1931_03_06a.pdf",
     "date_added": "2025-2-24"
   },
   {
@@ -12553,7 +12555,9 @@
       "ARC:CH_SA_Basel"
     ],
     "signature": "ED-REG 1c 622-11 (1) (Schola Cantorum, Berichte, etc.)",
-    "image_permissions": "no",
+    "image_permissions": "yes",
+    "image_source": "ARC:CH_SA_Basel",
+    "scan_url": "https://programs.concertsdatabase.org/pdf/CON-1952_05_23a.pdf",
     "date_added": "2025-2-24"
   },
   {
