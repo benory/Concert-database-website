@@ -91,7 +91,7 @@
           const composer = ids.length ? ids.map((id) => database.composersById.get(id)?.name || DB.displayIdentifier(id)).join("; ")
             : program.composer_name || "Composer unknown";
           // This is a title grouping, never a claim that the rows identify one composition.
-          const key = JSON.stringify([DB.normalize(title), ids.length ? ids : DB.normalize(composer)]);
+          const key = DB.pieceGroupKey(program);
           add(key, { name: `${composer}, ${title}`, title, composer, program }, concert);
         } else if (type === "sources") {
           const ids = [...new Set(program.source_ids || [])];

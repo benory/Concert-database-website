@@ -535,7 +535,7 @@
       bar.dataset.year = String(year);
       bar.style.setProperty("--count", (counts.get(year) || 0) / maximum);
       bar.title = year === TIMELINE_MIN
-        ? `${TIMELINE_MIN} and before: ${counts.get(year) || 0} concerts`
+        ? `≤${TIMELINE_MIN}: ${counts.get(year) || 0} concerts`
         : `${year}: ${counts.get(year) || 0} concerts`;
       fragment.append(bar);
     }
@@ -546,10 +546,10 @@
     const from = clamp(Number(configuration.startInput.value), TIMELINE_MIN, TIMELINE_MAX);
     const to = clamp(Number(configuration.endInput.value), TIMELINE_MIN, TIMELINE_MAX);
     configuration.output.textContent = from === TIMELINE_MIN
-      ? (to === TIMELINE_MIN ? `${TIMELINE_MIN} and before` : `${TIMELINE_MIN} and before–${to}`)
+      ? (to === TIMELINE_MIN ? `≤${TIMELINE_MIN}` : `≤${TIMELINE_MIN}–${to}`)
       : `${from}–${to}`;
-    configuration.startInput.setAttribute("aria-valuetext", from === TIMELINE_MIN ? `${TIMELINE_MIN} and before` : String(from));
-    configuration.endInput.setAttribute("aria-valuetext", String(to));
+    configuration.startInput.setAttribute("aria-valuetext", from === TIMELINE_MIN ? `≤${TIMELINE_MIN}` : String(from));
+    configuration.endInput.setAttribute("aria-valuetext", to === TIMELINE_MIN ? `≤${TIMELINE_MIN}` : String(to));
     const span = TIMELINE_MAX - TIMELINE_MIN;
     configuration.track?.style.setProperty("--range-start", `${((from - TIMELINE_MIN) / span) * 100}%`);
     configuration.track?.style.setProperty("--range-end", `${((to - TIMELINE_MIN) / span) * 100}%`);

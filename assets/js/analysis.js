@@ -29,7 +29,7 @@
 
   function chronologyLabel(state) {
     const first = state.start === Analysis.EARLY_YEAR ? "≤1915" : state.start;
-    return state.end === Analysis.EARLY_YEAR ? "1915 and earlier" : `${first}–${state.end}`;
+    return state.end === Analysis.EARLY_YEAR ? "≤1915" : `${first}–${state.end}`;
   }
 
   function initialState() {
@@ -85,7 +85,7 @@
       return;
     }
 
-    const width = Math.max(320, yearChart.clientWidth || 820);
+    const width = Math.max(240, yearChart.clientWidth || 820);
     const height = 230;
     const margin = { top: 16, right: 12, bottom: 40, left: 44 };
     const plotWidth = width - margin.left - margin.right;
@@ -93,18 +93,20 @@
     const maximum = Math.max(1, ...points.map(([, value]) => value));
     const slot = plotWidth / points.length;
     const barWidth = Math.max(2, Math.min(22, slot * 0.7));
-    const labelEvery = state.group === "decade" ? 1 : Math.max(1, Math.ceil(points.length / Math.max(2, Math.min(10, Math.floor(plotWidth / 55)))));
+    const labelEvery = Math.max(1, Math.ceil(points.length / Math.max(2, Math.min(10, Math.floor(plotWidth / 65)))));
+    const lastPoint = points.length - 1;
     const bars = points.map(([key, value], index) => {
       const barHeight = (value / maximum) * plotHeight;
       const x = margin.left + index * slot + (slot - barWidth) / 2;
       const y = margin.top + plotHeight - barHeight;
       const early = key === Analysis.EARLY_YEAR;
-      const label = early ? "1915 and earlier" : state.group === "decade" ? (key === 1916 ? "1916–1919" : `${key}s`) : key;
+      const label = early ? "≤1915" : state.group === "decade" ? (key === 1916 ? "1916–1919" : `${key}s`) : key;
       const lastYear = early ? Analysis.EARLY_YEAR : state.group === "decade" ? (key === 1916 ? 1919 : key + 9) : key;
       const outside = key > state.end || lastYear < state.start;
       const labelX = (x + barWidth / 2).toFixed(2);
-      const tick = early ? `<tspan x="${labelX}">1915</tspan><tspan x="${labelX}" dy="11">and earlier</tspan>` : DB.escapeHtml(label);
-      return `<g><rect class="chart-bar-mark${outside ? " is-outside-range" : ""}" x="${x.toFixed(2)}" y="${y.toFixed(2)}" width="${barWidth.toFixed(2)}" height="${barHeight.toFixed(2)}"><title>${DB.escapeHtml(label)}: ${value}</title></rect>${index % labelEvery === 0 || index === points.length - 1 ? `<text class="chart-axis-label" x="${labelX}" y="${height - 15}" text-anchor="middle">${tick}</text>` : ""}</g>`;
+      const showTick = index === 0 || index === lastPoint || index % labelEvery === 0 && (lastPoint - index) * slot >= 65;
+      const tick = DB.escapeHtml(label);
+      return `<g><rect class="chart-bar-mark${outside ? " is-outside-range" : ""}" x="${x.toFixed(2)}" y="${y.toFixed(2)}" width="${barWidth.toFixed(2)}" height="${barHeight.toFixed(2)}"><title>${DB.escapeHtml(label)}: ${value}</title></rect>${showTick ? `<text class="chart-axis-label" x="${labelX}" y="${height - 18}" text-anchor="middle">${tick}</text>` : ""}</g>`;
     }).join("");
     const guideValues = [0, Math.ceil(maximum / 2), maximum];
     const guides = guideValues.map((value) => {
@@ -112,7 +114,7 @@
       return `<g><line class="chart-grid-line" x1="${margin.left}" x2="${width - margin.right}" y1="${y}" y2="${y}"></line><text class="chart-axis-label" x="${margin.left - 8}" y="${y + 4}" text-anchor="end">${value}</text></g>`;
     }).join("");
     const metricLabel = state.metric === "performances" ? "performed items" : "concert programs";
-    yearChart.setAttribute("aria-label", `${metricLabel} over time, starting with one combined 1915-and-earlier bin. Selected chronology: ${chronologyLabel(state)}. Years outside the selection are dimmed. Highest count: ${maximum}.`);
+    yearChart.setAttribute("aria-label", `${metricLabel} over time, starting with one combined ≤1915 bin. Selected chronology: ${chronologyLabel(state)}. Years outside the selection are dimmed. Highest count: ${maximum}.`);
     yearChart.innerHTML = `<svg viewBox="0 0 ${width} ${height}" preserveAspectRatio="xMidYMid meet" aria-hidden="true" focusable="false">${guides}${bars}</svg>`;
   }
 
@@ -135,6 +137,7 @@
     const { min, max } = Analysis.bounds(database);
     if (state.start !== min) parsed.searchParams.set("from", state.start);
     if (state.end !== max) parsed.searchParams.set("to", state.end);
+    if (state.place) parsed.searchParams.set("place", state.place);
     return `${parsed.pathname}${parsed.search}`;
   }
 
@@ -146,7 +149,7 @@
     if (state.ranking === "composers") {
       label = DB.personLink(row, "Composer").replace(/href="[^"]*"/, `href="${escape(resultUrl(DB.composerUrl(row), state))}"`);
     } else if (state.ranking === "pieces") {
-      label = `<a href="${escape(DB.pieceUrl(row.program))}">${escape(row.composer)}, <i>${escape(row.title)}</i></a>`;
+      label = link(DB.url("/concerts/", { piece: row.key }), `${escape(row.composer)}, <i>${escape(row.title)}</i>`);
       detail = row.items !== row.count ? `${row.items.toLocaleString()} program entries` : "";
     } else if (state.ranking === "sources") {
       const url = row.id ? DB.sourceConcertsUrl(row.source || { id: row.id, sigla: row.name })
@@ -232,8 +235,8 @@
     const span = Math.max(1, max - min);
     rangeTrack.style.setProperty("--range-start", `${(state.start - min) / span * 100}%`);
     rangeTrack.style.setProperty("--range-end", `${(state.end - min) / span * 100}%`);
-    startInput.setAttribute("aria-valuetext", state.start === min ? "1915 and earlier" : `${state.start}`);
-    endInput.setAttribute("aria-valuetext", state.end === min ? "1915 and earlier" : `${state.end}`);
+    startInput.setAttribute("aria-valuetext", state.start === min ? "≤1915" : `${state.start}`);
+    endInput.setAttribute("aria-valuetext", state.end === min ? "≤1915" : `${state.end}`);
     startInput.style.zIndex = state.start === max ? "3" : "2";
     dateReset.hidden = state.start === min && state.end === max;
     // Keep the overview stationary while the slider filters all downstream totals.
@@ -260,7 +263,7 @@
     });
     startInput.value = state.start;
     endInput.value = state.end;
-    DB.setText("#analysis-first-year", "1915 and earlier");
+    DB.setText("#analysis-first-year", "≤1915");
     DB.setText("#analysis-last-year", max);
     dateReset.addEventListener("click", () => {
       startInput.value = min;

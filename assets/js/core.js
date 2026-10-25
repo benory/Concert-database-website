@@ -74,6 +74,13 @@
     return url("/piece/", { key: program.work_key });
   }
 
+  function pieceGroupKey(program) {
+    const title = program.work_name || program.standardized_work_name;
+    if (!title) return "";
+    const ids = [...new Set(program.composer_ids || [])].sort();
+    return JSON.stringify([normalize(title), ids.length ? ids : normalize(program.composer_name || "Composer unknown")]);
+  }
+
   function composerUrl(person) {
     const id = typeof person === "string" ? person : person && person.id;
     const name = typeof person === "object" && person ? person.name : "";
@@ -602,6 +609,7 @@
     programSlug,
     programUrl,
     pieceUrl,
+    pieceGroupKey,
     composerUrl,
     personConcertsUrl,
     sourceConcertsUrl,

@@ -27,7 +27,7 @@
     }
   });
 
-  window.matchMedia("(min-width: 761px)").addEventListener("change", function (event) {
+  window.matchMedia("(min-width: 1001px)").addEventListener("change", function (event) {
     if (event.matches) closeNavigation();
   });
 }());

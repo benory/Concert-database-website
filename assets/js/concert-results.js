@@ -40,8 +40,10 @@
       (!filters.person || personEntries(concert, database).some((person) => person.id === filters.person))
       && (!filters.composer && !filters.composerName || concert.programs.some((program) => composerMatches(program, filters, database)))
       && (!filters.source && !filters.sourceText || concert.programs.some((program) => sourceMatches(program, filters)))
+      && (!filters.piece || concert.programs.some((program) => DB.pieceGroupKey(program) === filters.piece))
       && (!filters.city || DB.normalize(concert.city) === DB.normalize(filters.city))
       && (!filters.country || DB.normalize(concert.country) === DB.normalize(filters.country))
+      && (!filters.place || ([concert.city, concert.country].filter(Boolean).join(", ") || "Place not recorded") === filters.place)
     ));
   }
 
@@ -51,11 +53,19 @@
   }
 
   function selectionLabel(filters, database) {
+    if (filters.piece) {
+      const program = database.programs.find((entry) => DB.pieceGroupKey(entry) === filters.piece);
+      if (!program) return "Selected piece";
+      const ids = [...new Set(program.composer_ids || [])].sort();
+      const composer = ids.length ? ids.map((id) => database.composersById.get(id)?.name || DB.displayIdentifier(id)).join("; ")
+        : program.composer_name || "Composer unknown";
+      return `${composer}, ${program.work_name || program.standardized_work_name}`;
+    }
     if (filters.composer) return database.composersById.get(filters.composer)?.name || DB.displayIdentifier(filters.composer);
     if (filters.composerName) return filters.composerName;
     if (filters.person) return database.peopleByReference.get(filters.person)?.name || DB.displayIdentifier(filters.person);
     if (filters.source) return sourceLabel(database.sourcesById.get(filters.source)) || DB.displayIdentifier(filters.source);
-    return filters.city || filters.country || filters.sourceText || filters.query || "";
+    return filters.city || filters.country || filters.sourceText || filters.place || filters.query || "";
   }
 
   function queryTerms(filters, database) {
@@ -95,6 +105,7 @@
     const textMatches = (text) => terms.some((term) => text.includes(term))
       && terms.every((term) => text.includes(term) || context.includes(term));
     const programs = concert.programs.filter((program) => {
+      if (filters.piece) return DB.pieceGroupKey(program) === filters.piece;
       if (filters.composer || filters.composerName) return composerMatches(program, filters, database);
       if (filters.source || filters.sourceText) return sourceMatches(program, filters);
       if (filters.person || !terms.length) return false;

@@ -53,6 +53,8 @@
   let cityFilter = "";
   let countryFilter = "";
   let sourceTextFilter = "";
+  let pieceFilter = "";
+  let placeFilter = "";
 
   function queryState() {
     const params = new URLSearchParams(window.location.search);
@@ -70,6 +72,8 @@
       city: params.get("city") || "",
       country: params.get("country") || "",
       sourceText: params.get("source_text") || "",
+      piece: params.get("piece") || "",
+      place: params.get("place") || "",
     };
   }
 
@@ -86,6 +90,8 @@
       city: cityFilter,
       country: countryFilter,
       sourceText: sourceTextFilter,
+      piece: pieceFilter,
+      place: placeFilter,
     };
   }
 
@@ -102,6 +108,8 @@
     if (filters.city) params.set("city", filters.city);
     if (filters.country) params.set("country", filters.country);
     if (filters.sourceText) params.set("source_text", filters.sourceText);
+    if (filters.piece) params.set("piece", filters.piece);
+    if (filters.place) params.set("place", filters.place);
     const method = replace ? "replaceState" : "pushState";
     history[method](null, "", `${window.location.pathname}${params.toString() ? `?${params}` : ""}`);
   }
@@ -349,6 +357,8 @@
         && !filters.city
         && !filters.country
         && !filters.sourceText
+        && !filters.piece
+        && !filters.place
         && filters.from === MapUI.TIMELINE_MIN
         && filters.to === MapUI.TIMELINE_MAX,
     });
@@ -364,6 +374,16 @@
     document.body.classList.toggle("has-person-context", Boolean(person));
     browser?.classList.toggle("is-source-view", Boolean(source) && !person);
     if (contextMeta) contextMeta.hidden = true;
+    if (filters.piece) {
+      renderPersonAuthorities(null);
+      renderSourceLink(null);
+      if (personContext) personContext.hidden = true;
+      const label = Results.selectionLabel(filters, database);
+      if (eyebrow) eyebrow.textContent = "Piece";
+      if (heading) heading.textContent = label;
+      document.title = `${label} · Early Music Concerts`;
+      return;
+    }
     if (filters.composer || filters.composerName) {
       renderPersonAuthorities(null);
       renderSourceLink(null);
@@ -468,6 +488,8 @@
     cityFilter = stored.city;
     countryFilter = stored.country;
     sourceTextFilter = stored.sourceText;
+    pieceFilter = stored.piece;
+    placeFilter = stored.place;
     update({ replace: true });
   }
 
@@ -494,6 +516,8 @@
         cityFilter = suggestion.kind === "city" ? suggestion.name : "";
         countryFilter = suggestion.kind === "country" ? suggestion.name : "";
         sourceTextFilter = suggestion.kind === "source-text" ? suggestion.name : "";
+        pieceFilter = "";
+        placeFilter = "";
         update({ replace: true, resetScroll: true, clearSelected: true });
         results?.focus({ preventScroll: true });
         return true;
@@ -528,6 +552,8 @@
       cityFilter = "";
       countryFilter = "";
       sourceTextFilter = "";
+      pieceFilter = "";
+      placeFilter = "";
       hideProgramPreview({ restoreFocus: false, rerender: false, restoreMapView: false });
       update({ replace: false, resetScroll: true });
       search.focus();

@@ -9,7 +9,6 @@ description: Explore performances of Medieval and Renaissance music in Europe an
 <section class="home-hero" aria-labelledby="home-title">
   <div class="hero-panel">
     <h1 id="home-title">Performances of Medieval and Renaissance Music, 1915–1960</h1>
-    <p>Explore concerts and performed items across pieces, people, places, and surviving program scans.</p>
     <form id="program-search-form" class="hero-search" action="{{ '/concerts/' | relative_url }}" method="get" role="search">
       <label class="sr-only" for="program-search">Search concert programs</label>
       <div class="search-autocomplete">
@@ -53,21 +52,20 @@ description: Explore performances of Medieval and Renaissance music in Europe an
   <div class="date-control timeline-control">
     <div class="date-control-head">
       <span id="date-control-label">Concerts by year</span>
-      <output id="date-range-output" for="date-start date-end">1915 and before–1960</output>
+      <output id="date-range-output" for="date-start date-end">≤1915–1960</output>
     </div>
     <div id="date-histogram" class="date-histogram" aria-hidden="true"></div>
     <div class="dual-range" style="--range-start: 0%; --range-end: 100%">
       <input id="date-start" type="range" min="1915" max="1960" value="1915" aria-label="Start year">
       <input id="date-end" type="range" min="1915" max="1960" value="1960" aria-label="End year">
     </div>
-    <div class="timeline-endpoints" aria-hidden="true"><span>1915 and before</span><span>1960</span></div>
+    <div class="timeline-endpoints" aria-hidden="true"><span>≤1915</span><span>1960</span></div>
   </div>
 </section>
 
 <section class="featured-programs" aria-labelledby="featured-heading">
   <header class="featured-programs-heading">
     <div>
-      <p class="eyebrow">From the collection</p>
       <h2 id="featured-heading">Sample programs</h2>
     </div>
   </header>

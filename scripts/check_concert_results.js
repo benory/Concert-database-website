@@ -32,6 +32,8 @@ function rowIdentifiers(programs) {
 async function main() {
   const DB = context.window.ConcertDB;
   const results = context.window.ConcertResults;
+  vm.runInNewContext(fs.readFileSync(path.join(scriptsRoot, "analysis-data.js"), "utf8"), context);
+  const analysis = context.window.ConcertAnalysisData;
   assert.ok(results, "ConcertResults helper must be exported");
   for (const method of ["composerMatches", "authorityConcerts", "chronologyConcerts", "searchQuery", "hits"]) {
     assert.equal(typeof results[method], "function", `Missing ${method}`);
@@ -214,7 +216,44 @@ async function main() {
     }
   }
 
-  console.log(`Unified concert results: ${database.concerts.length} records; composer/person/source hits, authority aliases, grouping and free text passed`);
+  // Analysis title groups must show the same concerts and matching entries in
+  // the shared browser, without confusing identically named compositions.
+  for (const row of analysis.ranking(database, database.concerts, "pieces").slice(0, 20)) {
+    const filters = { piece: row.key };
+    const found = results.chronologyConcerts(database, filters);
+    assert.equal(found.length, row.count);
+    assert.deepEqual(identifiers(found), Array.from(row.concertIds).sort());
+    assert.equal(results.selectionLabel(filters, database), row.name);
+    assert.equal(results.searchQuery({ ...filters, query: row.name }, database), "");
+    assert.equal(results.searchQuery({ ...filters, query: "Innsbruck" }, database), "Innsbruck");
+    for (const concert of found) {
+      assert.deepEqual(rowIdentifiers(results.hits(concert, filters, database).programs),
+        rowIdentifiers(concert.programs.filter((program) => DB.pieceGroupKey(program) === row.key)));
+    }
+    const place = analysis.placeKey(found[0]);
+    assert.deepEqual(identifiers(results.chronologyConcerts(database, { ...filters, place })),
+      identifiers(found.filter((concert) => analysis.placeKey(concert) === place)));
+  }
+  assert.equal(results.chronologyConcerts(database, { piece: "missing piece" }).length, 0);
+  assert.equal(results.selectionLabel({ piece: "missing piece" }, database), "Selected piece");
+  const firstPiece = { piece_id: "one", work_name: "Ave Maria", standardized_work_name: "Ave Maria", composer_ids: ["COM:A"] };
+  const samePiece = { ...firstPiece, piece_id: "two" };
+  const otherComposer = { ...firstPiece, piece_id: "three", composer_ids: ["COM:B"] };
+  const otherWording = { ...firstPiece, piece_id: "four", work_name: "Ave Maria Virgo" };
+  assert.notEqual(DB.pieceGroupKey(firstPiece), DB.pieceGroupKey(otherComposer));
+  assert.notEqual(DB.pieceGroupKey(firstPiece), DB.pieceGroupKey(otherWording));
+  assert.equal(DB.pieceGroupKey({ ...firstPiece, composer_ids: ["COM:B", "COM:A", "COM:A"] }),
+    DB.pieceGroupKey({ ...firstPiece, composer_ids: ["COM:A", "COM:B"] }));
+  const pieceFixture = { programs: [firstPiece, samePiece, otherComposer, otherWording],
+    concerts: [{ id: "first", programs: [firstPiece, samePiece] }, { id: "second", programs: [otherComposer, otherWording] }] };
+  const fixtureSelection = { piece: DB.pieceGroupKey(firstPiece) };
+  assert.deepEqual(identifiers(results.authorityConcerts(pieceFixture, fixtureSelection)), ["first"]);
+  assert.equal(results.hits(pieceFixture.concerts[0], fixtureSelection, { ...pieceFixture,
+    composersById: new Map([["COM:A", { name: "Composer A" }]]) }).programs.length, 2);
+  assert.equal(results.hits(pieceFixture.concerts[1], fixtureSelection, { ...pieceFixture,
+    composersById: new Map([["COM:A", { name: "Composer A" }]]) }).programs.length, 0);
+
+  console.log(`Unified concert results: ${database.concerts.length} records; composer/person/source/piece hits, authority aliases, grouping and free text passed`);
 }
 
 main().catch((error) => {

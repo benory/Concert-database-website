@@ -48,6 +48,7 @@ body {
   min-height: 100svh;
   margin: 0;
   background: var(--canvas);
+  font-size: 14px;
 }
 
 button,
@@ -55,6 +56,13 @@ input,
 select {
   color: inherit;
   font: inherit;
+}
+
+/* Keep nested small print and footnote markers legible. */
+small,
+sup,
+sub {
+  font-size: max(12px, 0.833333em);
 }
 
 button,
@@ -160,20 +168,23 @@ select:focus-visible,
   z-index: 100;
   display: grid;
   grid-template-columns: minmax(200px, 1fr) auto;
+  column-gap: 24px;
   align-items: center;
-  min-height: 52px;
-  padding: 7px var(--page-gutter);
+  min-height: 68px;
+  padding: 10px var(--page-gutter);
   border-bottom: 1px solid var(--highlight);
   background: var(--accent-soft);
   color: var(--navy);
 }
 
 .site-brand {
-  width: max-content;
+  display: inline-flex;
+  align-items: center;
+  width: 345px;
   max-width: 100%;
   color: var(--navy);
   font-family: var(--display);
-  font-size: 1.08rem;
+  font-size: 1.25rem;
   font-weight: 560;
   letter-spacing: 0.01em;
   line-height: 1.05;
@@ -185,28 +196,27 @@ select:focus-visible,
   color: var(--accent-hover);
 }
 
-.site-brand small {
+.site-brand-wordmark {
   display: block;
-  margin-top: 3px;
-  color: #53616f;
-  font-size: 0.55rem;
-  font-weight: 500;
-  letter-spacing: 0.11em;
-  text-transform: uppercase;
+  width: 100%;
+  height: auto;
 }
 
 .primary-nav {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 24px;
 }
 
 .primary-nav a {
-  padding: 7px 9px;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 9px 12px;
   border: 1px solid transparent;
   border-radius: 8px;
   color: var(--navy);
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 550;
   text-decoration: none;
   white-space: nowrap;
@@ -226,13 +236,13 @@ select:focus-visible,
 
 .nav-toggle {
   display: none;
-  min-height: 34px;
-  padding: 5px 8px;
+  min-height: 40px;
+  padding: 7px 10px;
   border: 1px solid var(--line-strong);
   border-radius: 7px;
   background: var(--surface);
   color: var(--ink);
-  font-size: 0.7rem;
+  font-size: 0.875rem;
 }
 
 .nav-toggle:hover,
@@ -255,7 +265,7 @@ select:focus-visible,
   background: rgb(240 243 247 / 95%);
   backdrop-filter: blur(14px);
   color: var(--muted);
-  font-size: 0.72rem;
+  font-size: 0.75rem;
 }
 
 .footer-inner {
@@ -323,7 +333,7 @@ select:focus-visible,
   margin-inline: 0;
   transform: translateX(-50%);
   border-bottom-color: rgb(155 201 244 / 58%);
-  background: rgb(231 242 252 / 70%);
+  background: rgb(235 245 254 / 88%);
   -webkit-backdrop-filter: saturate(120%) blur(7px);
   backdrop-filter: saturate(120%) blur(7px);
 }
@@ -346,40 +356,55 @@ select:focus-visible,
   color: #fff;
 }
 
+.home-hero::after {
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    transparent 55%,
+    rgb(231 242 252 / 18%) 68%,
+    rgb(231 242 252 / 66%) 84%,
+    var(--map-surround) 100%
+  );
+  pointer-events: none;
+  content: "";
+}
+
 .hero-panel {
   position: relative;
   z-index: 1;
   width: min(480px, calc(100% - 36px));
-  margin: 0 18px 24px;
-  padding: 10px 14px 7px;
+  margin: 0 18px 72px;
+  padding: 14px 16px 10px;
   border: 1px solid rgb(155 201 244 / 88%);
   border-radius: 12px;
   background: rgb(231 242 252 / 92%);
-  box-shadow: 0 15px 36px rgb(3 16 31 / 30%);
+  box-shadow: 0 6px 18px rgb(18 49 77 / 12%);
   color: var(--navy);
   backdrop-filter: blur(5px);
 }
 
 .hero-panel h1 {
-  max-width: 440px;
+  max-width: none;
   margin-bottom: 5px;
-  color: var(--navy);
+  color: #426d8a;
   font-family: var(--display);
-  font-size: clamp(1.28rem, 2.2vw, 1.58rem);
-  font-weight: 550;
-  letter-spacing: -0.035em;
+  font-size: clamp(1.4rem, 2.4vw, 1.75rem);
+  font-weight: 500;
+  letter-spacing: -0.01em;
   line-height: 1.03;
 }
 
 .hero-panel > p {
   margin-bottom: 0;
   color: #53616f;
-  font-size: 0.72rem;
+  font-size: 14px;
   line-height: 1.32;
 }
 
 .hero-search {
-  margin-top: 7px;
+  margin-top: 12px;
 }
 
 .search-autocomplete {
@@ -389,14 +414,14 @@ select:focus-visible,
 
 .hero-search input {
   width: 100%;
-  min-height: 34px;
+  min-height: 38px;
   padding: 5px 10px;
   border: 1px solid var(--highlight);
   border-radius: 10px;
   background: rgb(255 255 255 / 95%);
   box-shadow: 0 7px 20px rgb(3 16 31 / 18%);
   color: #17202a;
-  font-size: 0.8rem;
+  font-size: 14px;
 }
 
 .hero-search input::placeholder {
@@ -440,7 +465,7 @@ select:focus-visible,
 
 .search-suggestion strong {
   min-width: 0;
-  font-size: 0.72rem;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.35;
 }
@@ -466,9 +491,9 @@ select:focus-visible,
   justify-content: flex-end;
   gap: 12px;
   min-height: 18px;
-  margin-top: 3px;
+  margin-top: 6px;
   color: #53616f;
-  font-size: 0.62rem;
+  font-size: 0.75rem;
 }
 
 .search-meta output {
@@ -478,18 +503,31 @@ select:focus-visible,
   white-space: nowrap;
 }
 
-.search-meta a {
+.search-meta a,
+.featured-programs-browse a {
   flex: none;
-  border-bottom: 1px solid currentColor;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 24px;
+  padding-inline: 6px;
+  margin-right: -6px;
+  border-bottom: 0;
+  border-radius: 6px;
   color: var(--accent);
-  font-size: 0.67rem;
-  font-weight: 560;
+  font-size: 14px;
+  font-weight: 600;
   text-decoration: none;
+  transition: background-color 160ms ease, color 160ms ease;
 }
 
 .search-meta a:hover,
-.search-meta a:focus-visible {
+.search-meta a:focus-visible,
+.featured-programs-browse a:hover,
+.featured-programs-browse a:focus-visible {
+  background: color-mix(in srgb, var(--accent-soft) 40%, var(--highlight));
   color: var(--accent-hover);
+  text-decoration: none;
 }
 
 .hero-poster-link {
@@ -503,17 +541,19 @@ select:focus-visible,
   background: var(--surface);
   box-shadow: 0 4px 14px rgb(3 16 31 / 16%);
   color: var(--accent);
-  font-size: 0.68rem;
+  font-size: 0.75rem;
   font-weight: 560;
   text-decoration: none;
+  transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease;
 }
 
 .hero-poster-link:hover,
 .hero-poster-link:focus-visible {
-  border-color: var(--accent-hover);
-  background: var(--accent-soft);
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent-soft) 40%, var(--highlight));
   color: var(--accent-hover);
   outline-color: var(--accent-hover);
+  text-decoration: none;
 }
 
 .map-feature {
@@ -523,7 +563,7 @@ select:focus-visible,
   position: relative;
   min-height: 0;
   padding: 20px 0 14px;
-  border-top: 1px solid var(--line);
+  border-top: 0;
   background: var(--map-surround);
   overflow-anchor: none;
 }
@@ -615,9 +655,7 @@ select:focus-visible,
 }
 
 .map-feature .home-map-grid .regional-map-card::after {
-  background:
-    linear-gradient(90deg, rgb(231 242 252 / 96%) 0%, rgb(231 242 252 / 50%) 18%, transparent 42%),
-    linear-gradient(270deg, rgb(231 242 252 / 96%) 0%, rgb(231 242 252 / 50%) 18%, transparent 42%);
+  display: none;
 }
 
 .home-map-toggle {
@@ -718,7 +756,7 @@ select:focus-visible,
 .program-date {
   padding-top: 1px;
   color: var(--accent);
-  font-size: 0.68rem;
+  font-size: 14px;
   line-height: 1.25;
 }
 
@@ -763,7 +801,7 @@ button.program-title:focus-visible {
 .program-extra {
   overflow: hidden;
   color: var(--muted);
-  font-size: 0.63rem;
+  font-size: 14px;
   line-height: 1.4;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -788,7 +826,7 @@ button.program-title:focus-visible {
 .empty-state {
   padding: 24px 16px;
   color: var(--muted);
-  font-size: 0.75rem;
+  font-size: 14px;
 }
 
 .loading-row {
@@ -835,7 +873,7 @@ button.program-title:focus-visible {
 }
 
 .leaflet-control-attribution {
-  font-size: 0.52rem;
+  font-size: 12px;
 }
 
 .leaflet-control-zoom.leaflet-bar {
@@ -951,7 +989,7 @@ button.program-title:focus-visible {
   box-shadow: 0 0 10px rgb(0 0 0 / 30%);
   color: #fff;
   font-family: var(--sans);
-  font-size: 0.78rem;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1;
 }
@@ -992,14 +1030,14 @@ button.program-title:focus-visible {
 
 .concert-map-popup-copy strong {
   color: var(--navy);
-  font-size: 0.76rem;
+  font-size: 14px;
   font-weight: 650;
   line-height: 1.25;
 }
 
 .concert-map-popup-copy > span {
   color: var(--muted);
-  font-size: 0.61rem;
+  font-size: 14px;
   line-height: 1.4;
 }
 
@@ -1008,7 +1046,7 @@ button.program-title:focus-visible {
   max-width: 100%;
   margin-top: 3px;
   color: var(--accent);
-  font-size: 0.63rem;
+  font-size: 14px;
   font-weight: 650;
   line-height: 1.35;
   text-decoration: none;
@@ -1055,14 +1093,14 @@ button.program-title:focus-visible {
   background: rgb(255 255 255 / 94%);
   box-shadow: 0 5px 18px rgb(35 61 84 / 12%);
   color: var(--muted);
-  font-size: 0.62rem;
+  font-size: 0.75rem;
   line-height: 1.35;
 }
 
 .map-status strong {
   margin-bottom: 1px;
   color: var(--accent);
-  font-size: 0.78rem;
+  font-size: 14px;
   font-weight: 600;
 }
 
@@ -1085,12 +1123,12 @@ button.program-title:focus-visible {
   justify-content: space-between;
   gap: 10px;
   color: var(--muted);
-  font-size: 0.58rem;
+  font-size: 0.75rem;
 }
 
 .date-control-head output {
   color: var(--accent);
-  font-size: 0.65rem;
+  font-size: 14px;
   font-weight: 600;
 }
 
@@ -1229,11 +1267,11 @@ button.program-title:focus-visible {
 }
 
 .timeline-control .date-control-head {
-  font-size: 0.66rem;
+  font-size: 0.75rem;
 }
 
 .timeline-control .date-control-head output {
-  font-size: 0.72rem;
+  font-size: 14px;
 }
 
 .timeline-control .date-histogram {
@@ -1246,7 +1284,7 @@ button.program-title:focus-visible {
   justify-content: space-between;
   margin-top: -2px;
   color: var(--muted);
-  font-size: 0.52rem;
+  font-size: 12px;
 }
 
 /* Featured programs */
@@ -1266,23 +1304,13 @@ button.program-title:focus-visible {
   margin-bottom: 13px;
 }
 
-.featured-programs-heading .eyebrow {
-  margin-bottom: 2px;
-}
-
 .featured-programs-heading h2 {
   margin: 0;
+  color: #426d8a;
   font-family: var(--display);
-  font-size: 1.3rem;
-  font-weight: 620;
-  letter-spacing: -0.025em;
-}
-
-.featured-programs-browse a {
-  color: var(--accent);
-  font-size: 0.72rem;
+  font-size: 1.5rem;
   font-weight: 600;
-  text-decoration: none;
+  letter-spacing: -0.025em;
 }
 
 .featured-program-grid {
@@ -1349,7 +1377,7 @@ button.program-title:focus-visible {
 .featured-program-copy time {
   margin-bottom: 4px;
   color: var(--accent);
-  font-size: 0.66rem;
+  font-size: 14px;
   font-weight: 620;
   letter-spacing: 0.015em;
 }
@@ -1368,7 +1396,7 @@ button.program-title:focus-visible {
   min-width: 0;
   overflow: hidden;
   color: var(--muted);
-  font-size: 0.66rem;
+  font-size: 14px;
   line-height: 1.35;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -1379,7 +1407,7 @@ button.program-title:focus-visible {
   grid-template-columns: auto minmax(0, 1fr);
   gap: 3px 7px;
   margin: 8px 0 0;
-  font-size: 0.63rem;
+  font-size: 14px;
   line-height: 1.35;
 }
 
@@ -1401,7 +1429,7 @@ button.program-title:focus-visible {
 .featured-program-copy small {
   margin-top: 8px;
   color: var(--accent);
-  font-size: 0.65rem;
+  font-size: 14px;
   font-weight: 580;
 }
 
@@ -1442,7 +1470,7 @@ button.program-title:focus-visible {
   width: min(100%, 720px);
   margin: 10px auto 0;
   color: #52606d;
-  font-size: 0.62rem;
+  font-size: 0.75rem;
 }
 
 .poster-image-box figcaption a {
@@ -1491,7 +1519,7 @@ button.program-title:focus-visible {
 .concerts-context-meta {
   margin: 3px 0 0;
   color: var(--muted);
-  font-size: 0.72rem;
+  font-size: 14px;
 }
 
 .concert-search-selection {
@@ -1505,7 +1533,7 @@ button.program-title:focus-visible {
   border-radius: 999px;
   background: var(--accent-soft);
   color: var(--accent);
-  font-size: 0.7rem;
+  font-size: 14px;
   line-height: 1.4;
   text-align: left;
 }
@@ -1527,7 +1555,7 @@ button.program-title:focus-visible {
 
 .concerts-toolbar output {
   color: var(--muted);
-  font-size: 0.68rem;
+  font-size: 14px;
   text-align: right;
   white-space: nowrap;
 }
@@ -1540,7 +1568,7 @@ button.program-title:focus-visible {
   border-radius: 9px;
   background: var(--surface-2);
   color: var(--ink);
-  font-size: 0.78rem;
+  font-size: 14px;
 }
 
 .concerts-search,
@@ -1565,7 +1593,7 @@ button.program-title:focus-visible {
 .person-results-identity {
   margin: 0 0 4px;
   color: var(--navy);
-  font-size: 0.7rem;
+  font-size: 14px;
   font-weight: 650;
 }
 
@@ -1573,7 +1601,7 @@ button.program-title:focus-visible {
   max-width: none;
   margin: 0;
   color: var(--ink);
-  font-size: 0.72rem;
+  font-size: 14px;
   line-height: 1.5;
 }
 
@@ -1622,7 +1650,7 @@ button.program-title:focus-visible {
 .concert-browser-results .program-date {
   padding-top: 3px;
   color: var(--muted);
-  font-size: 0.72rem;
+  font-size: 14px;
 }
 
 .concert-browser-results .program-title {
@@ -1643,7 +1671,7 @@ button.program-title:focus-visible {
 
 .concert-browser-results .program-meta,
 .concert-browser-results .program-extra {
-  font-size: 0.72rem;
+  font-size: 14px;
   line-height: 1.45;
   white-space: normal;
 }
@@ -1664,7 +1692,7 @@ button.program-title:focus-visible {
   padding-left: 10px;
   border-left: 2px solid var(--highlight);
   color: var(--ink);
-  font-size: 0.72rem;
+  font-size: 14px;
   line-height: 1.45;
 }
 
@@ -1672,7 +1700,7 @@ button.program-title:focus-visible {
   display: block;
   margin-bottom: 2px;
   color: var(--muted);
-  font-size: 0.64rem;
+  font-size: 12px;
 }
 
 .program-search-hits ul {
@@ -1697,7 +1725,7 @@ button.program-title:focus-visible {
   border-radius: 999px;
   background: var(--surface);
   color: var(--accent);
-  font-size: 0.7rem;
+  font-size: 14px;
   line-height: 1.4;
 }
 
@@ -1777,7 +1805,7 @@ button.program-title:focus-visible {
 .concert-program-preview-head #concert-program-preview-meta {
   margin: 0;
   color: var(--muted);
-  font-size: 0.72rem;
+  font-size: 14px;
 }
 
 .concert-program-preview-head-actions {
@@ -1792,7 +1820,7 @@ button.program-title:focus-visible {
   align-items: center;
   gap: 6px;
   min-height: 40px;
-  font-size: 0.78rem;
+  font-size: 14px;
   font-weight: 550;
   white-space: nowrap;
   text-decoration: none;
@@ -1806,7 +1834,7 @@ button.program-title:focus-visible {
   border-radius: 8px;
   background: var(--surface);
   color: var(--accent);
-  font-size: 0.78rem;
+  font-size: 14px;
   font-weight: 550;
   white-space: nowrap;
 }
@@ -1856,7 +1884,7 @@ button.program-title:focus-visible {
 .concert-program-preview-order > p {
   margin: 0;
   color: var(--muted);
-  font-size: 0.72rem;
+  font-size: 14px;
 }
 
 .concert-program-preview-order ol {
@@ -1868,7 +1896,7 @@ button.program-title:focus-visible {
   padding: 5px 0 6px 3px;
   border-bottom: 1px solid var(--line);
   color: var(--muted);
-  font-size: 0.68rem;
+  font-size: 14px;
 }
 
 .concert-program-preview-order li strong,
@@ -1878,7 +1906,7 @@ button.program-title:focus-visible {
 
 .concert-program-preview-order li strong {
   color: var(--ink);
-  font-size: 0.74rem;
+  font-size: 14px;
   font-weight: 600;
 }
 
@@ -1945,7 +1973,7 @@ button.program-title:focus-visible {
   border-bottom: 1px solid var(--line);
   background: var(--surface);
   color: var(--muted);
-  font-size: 0.66rem;
+  font-size: 14px;
 }
 
 .back-link {
@@ -1966,7 +1994,7 @@ button.program-title:focus-visible {
 .record-id {
   margin-right: 4px;
   color: var(--muted);
-  font-size: 0.58rem;
+  font-size: 12px;
   white-space: nowrap;
 }
 
@@ -1981,7 +2009,7 @@ button.program-title:focus-visible {
   border-radius: 7px;
   background: transparent;
   color: var(--muted);
-  font-size: 0.69rem;
+  font-size: 0.75rem;
 }
 
 .quiet-button:hover,
@@ -2003,7 +2031,7 @@ button.program-title:focus-visible {
 .eyebrow {
   margin-bottom: 4px;
   color: var(--accent);
-  font-size: 0.6rem;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -2027,7 +2055,7 @@ button.program-title:focus-visible {
 
 .section-heading span {
   color: var(--muted);
-  font-size: 0.58rem;
+  font-size: 0.75rem;
   text-align: right;
 }
 
@@ -2035,7 +2063,7 @@ button.program-title:focus-visible {
   width: 100%;
   border-collapse: collapse;
   table-layout: fixed;
-  font-size: 0.66rem;
+  font-size: 14px;
 }
 
 .data-table th,
@@ -2049,7 +2077,7 @@ button.program-title:focus-visible {
 
 .data-table th {
   color: var(--muted);
-  font-size: 0.52rem;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.07em;
   text-transform: uppercase;
@@ -2079,7 +2107,7 @@ button.program-title:focus-visible {
   display: block;
   margin-top: 2px;
   color: var(--muted);
-  font-size: 0.56rem;
+  font-size: 14px;
 }
 
 .person-preview {
@@ -2092,7 +2120,7 @@ button.program-title:focus-visible {
   background: var(--surface);
   box-shadow: 0 12px 30px rgb(3 16 31 / 18%);
   color: var(--ink);
-  font-size: 0.65rem;
+  font-size: 14px;
 }
 
 .person-preview > strong,
@@ -2102,7 +2130,7 @@ button.program-title:focus-visible {
 
 .person-preview strong {
   margin-bottom: 3px;
-  font-size: 0.78rem;
+  font-size: 14px;
 }
 
 .person-preview > span {
@@ -2116,7 +2144,7 @@ button.program-title:focus-visible {
 .person-preview p {
   margin: 0;
   color: var(--ink);
-  font-size: 0.68rem;
+  font-size: 14px;
   line-height: 1.5;
 }
 
@@ -2139,7 +2167,7 @@ button.program-title:focus-visible {
   width: max-content;
   max-width: 100%;
   margin-top: 6px;
-  font-size: 0.62rem;
+  font-size: 14px;
   font-weight: 650;
 }
 
@@ -2161,7 +2189,7 @@ button.program-title:focus-visible {
   border: 1px solid var(--line);
   border-radius: 999px;
   color: var(--muted);
-  font-size: 0.56rem;
+  font-size: 0.75rem;
   line-height: 1.35;
   text-decoration: none;
 }
@@ -2179,7 +2207,7 @@ button.program-title:focus-visible {
   background: transparent;
   color: var(--accent);
   font: inherit;
-  font-size: 0.6rem;
+  font-size: 0.75rem;
   font-weight: 650;
   cursor: pointer;
 }
@@ -2239,7 +2267,7 @@ button.program-title:focus-visible {
   border-left: 3px solid #b54444;
   background: #fff2f2;
   color: #753434;
-  font-size: 0.7rem;
+  font-size: 14px;
 }
 
 .data-error strong,
@@ -2410,7 +2438,7 @@ button.program-title:focus-visible {
 .detail-meta {
   margin-bottom: 0;
   color: var(--muted);
-  font-size: 0.7rem;
+  font-size: 14px;
   line-height: 1.4;
 }
 
@@ -2420,13 +2448,13 @@ button.program-title:focus-visible {
   gap: 1px;
   padding-top: 4px;
   color: var(--muted);
-  font-size: 0.58rem;
+  font-size: 14px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
 .record-heading-date-label {
-  font-size: 0.52rem;
+  font-size: 12px;
   font-weight: 700;
 }
 
@@ -2463,7 +2491,7 @@ button.program-title:focus-visible {
 
 .event-strip dt {
   color: var(--muted);
-  font-size: 0.52rem;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.07em;
   text-transform: uppercase;
@@ -2471,15 +2499,16 @@ button.program-title:focus-visible {
 
 .event-strip dd {
   margin: 2px 0 0;
-  font-size: 0.68rem;
+  font-size: 14px;
   line-height: 1.32;
 }
 
 .program-order-table th:first-child,
 .program-order-table td:first-child {
-  width: 30px;
+  width: 36px;
   color: var(--muted);
   text-align: right;
+  white-space: nowrap;
 }
 
 .program-order-table th:last-child,
@@ -2494,7 +2523,7 @@ button.program-title:focus-visible {
   padding-left: 8px;
   border-left: 1px solid var(--line-strong);
   color: var(--muted);
-  font-size: 0.58rem;
+  font-size: 14px;
   line-height: 1.42;
 }
 
@@ -2542,7 +2571,7 @@ button.program-title:focus-visible {
   grid-template-columns: 82px minmax(0, 1fr);
   gap: 10px;
   padding: 2px 0;
-  font-size: 0.65rem;
+  font-size: 14px;
   line-height: 1.45;
 }
 
@@ -2559,7 +2588,7 @@ button.program-title:focus-visible {
   padding-top: 10px;
   border-top: 1px solid var(--line);
   color: var(--ink);
-  font-size: 0.68rem;
+  font-size: 14px;
   line-height: 1.5;
 }
 
@@ -2567,7 +2596,7 @@ button.program-title:focus-visible {
   display: block;
   margin: 0 0 2px;
   color: var(--muted);
-  font-size: 0.54rem;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -2631,12 +2660,16 @@ button.program-title:focus-visible {
   align-items: center;
   justify-content: space-between;
   gap: 7px;
-  min-height: 42px;
-  padding: 4px 7px 4px 10px;
+  min-height: 50px;
+  padding: 6px 10px;
   border-bottom: 1px solid var(--line);
   background: var(--surface);
   color: var(--muted);
-  font-size: 0.58rem;
+  font-size: 14px;
+}
+
+#scan-page-label {
+  white-space: nowrap;
 }
 
 .route-program .scan-toolbar {
@@ -2651,7 +2684,7 @@ button.program-title:focus-visible {
 
 .scan-tools {
   display: flex;
-  gap: 1px;
+  gap: 6px;
   justify-content: flex-end;
 }
 
@@ -2673,8 +2706,8 @@ button.program-title:focus-visible {
 
 .scan-action-icon {
   flex: none;
-  width: 16px;
-  height: 16px;
+  width: 18px;
+  height: 18px;
   fill: none;
   stroke: currentColor;
   stroke-width: 1.4;
@@ -2707,14 +2740,14 @@ button.program-title:focus-visible {
 .record-dialog-button:hover { background: var(--accent-soft); color: var(--accent-hover); }
 select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--ink); }
 .record-dialog-button svg { width: 18px; height: 18px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
-.record-citation-text { margin: 16px 0 18px; padding-left: 2em; text-indent: -2em; font-size: 13px; line-height: 1.6; overflow-wrap: anywhere; user-select: text; }
+.record-citation-text { margin: 16px 0 18px; padding-left: 2em; text-indent: -2em; font-size: 14px; line-height: 1.6; overflow-wrap: anywhere; user-select: text; }
 .record-dialog-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; }
-.record-dialog-status { margin: 0; color: var(--accent); font-size: 13px; }
+.record-dialog-status { margin: 0; color: var(--accent); font-size: 14px; }
 .record-dialog-status:empty { display: none; }
 .record-dialog-status.is-error { color: var(--ink); }
 .record-permalink-label { display: block; margin: 16px 0 6px; color: var(--muted); font-size: 12px; }
 .record-permalink-control { display: flex; align-items: stretch; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
-#share-permalink { flex: 1 1 230px; min-width: 0; width: 100%; padding: 8px 10px; border: 1px solid var(--line-strong); border-radius: 5px; background: var(--surface-2); font-size: 13px; }
+#share-permalink { flex: 1 1 230px; min-width: 0; width: 100%; padding: 8px 10px; border: 1px solid var(--line-strong); border-radius: 5px; background: var(--surface-2); font-size: 14px; }
 .record-share-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--line); }
 #share-dialog { width: min(460px, calc(100% - 32px)); padding: 12px; }
 #share-dialog .record-dialog-header h2 { font-size: 16px; }
@@ -2739,9 +2772,9 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
 }
 
 .scan-button {
-  min-height: 30px;
+  min-height: 36px;
   padding-inline: 7px;
-  font-size: 0.62rem;
+  font-size: 14px;
 }
 
 .scan-open-pdf {
@@ -2797,7 +2830,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
 .scan-page-error {
   padding: 20px;
   color: var(--muted);
-  font-size: 0.72rem;
+  font-size: 14px;
 }
 
 .route-program .program-scan-frame {
@@ -2853,7 +2886,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   border-radius: 7px;
   background: var(--accent);
   color: #fff;
-  font-size: 0.68rem;
+  font-size: 14px;
   text-decoration: none;
 }
 
@@ -2870,7 +2903,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
 
 .person-role {
   color: var(--muted);
-  font-size: 0.57rem;
+  font-size: 0.75rem;
 }
 
 .scan-empty {
@@ -2881,7 +2914,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   justify-items: center;
   gap: 9px;
   color: var(--muted);
-  font-size: 0.7rem;
+  font-size: 14px;
 }
 
 .scan-empty p {
@@ -2923,7 +2956,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   margin-top: 3px;
   color: var(--muted);
   font-family: var(--sans);
-  font-size: 0.58rem;
+  font-size: 14px;
 }
 
 .detail-toolbar {
@@ -2943,7 +2976,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--surface);
-  font-size: 0.7rem;
+  font-size: 14px;
 }
 
 .performance-table th:nth-child(1),
@@ -2977,7 +3010,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   border-left: 3px solid var(--highlight);
   background: var(--surface-2);
   color: var(--muted);
-  font-size: 0.64rem;
+  font-size: 14px;
   line-height: 1.45;
 }
 
@@ -2992,7 +3025,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
 .composer-summary p {
   margin: 0;
   color: var(--muted);
-  font-size: 0.68rem;
+  font-size: 14px;
   line-height: 1.5;
 }
 
@@ -3045,7 +3078,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
 .composer-detail-page .detail-meta {
   margin-top: 4px;
   color: var(--muted);
-  font-size: 0.76rem;
+  font-size: 14px;
 }
 
 .composer-detail-page .detail-count {
@@ -3065,7 +3098,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
 .composer-detail-page .detail-count span {
   margin: 0;
   color: var(--muted);
-  font-size: 0.67rem;
+  font-size: 14px;
 }
 
 .composer-map-section {
@@ -3107,7 +3140,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   max-width: 13rem;
   margin: 0;
   color: var(--muted);
-  font-size: 0.6rem;
+  font-size: 14px;
   line-height: 1.25;
   text-align: right;
 }
@@ -3139,12 +3172,12 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   min-height: 34px;
   border-color: var(--line);
   background: var(--surface);
-  font-size: 0.8rem;
+  font-size: 14px;
 }
 
 #composer-filter-count {
   color: var(--muted);
-  font-size: 0.7rem;
+  font-size: 14px;
   font-weight: 600;
   white-space: nowrap;
 }
@@ -3166,7 +3199,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
 }
 
 .composer-detail-page .section-heading span {
-  font-size: 0.58rem;
+  font-size: 14px;
 }
 
 .composer-appearance-list {
@@ -3215,7 +3248,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
 .composer-concert-heading > time {
   padding-top: 2px;
   color: var(--accent);
-  font-size: 0.71rem;
+  font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.01em;
 }
@@ -3238,14 +3271,14 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
 .composer-concert-title p {
   margin: 0;
   color: var(--ink);
-  font-size: 0.75rem;
+  font-size: 14px;
   line-height: 1.35;
 }
 
 .composer-concert-title .composer-concert-meta {
   margin-top: 1px;
   color: var(--muted);
-  font-size: 0.7rem;
+  font-size: 14px;
 }
 
 .composer-piece-count {
@@ -3255,7 +3288,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   border-radius: 0;
   background: transparent;
   color: var(--muted);
-  font-size: 0.65rem;
+  font-size: 14px;
   font-weight: 600;
   white-space: nowrap;
 }
@@ -3272,7 +3305,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   display: block;
   margin: 0 0 2px;
   color: var(--muted);
-  font-size: 0.6rem;
+  font-size: 14px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
@@ -3289,7 +3322,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   display: block;
   position: static;
   padding: 0;
-  font-size: 0.8rem;
+  font-size: 14px;
   line-height: 1.4;
 }
 
@@ -3311,13 +3344,13 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   border-radius: 6px;
   background: var(--surface);
   color: var(--muted);
-  font-size: 0.8rem;
+  font-size: 14px;
   text-align: center;
 }
 
 .composer-appearance-empty strong {
   color: var(--navy);
-  font-size: 0.84rem;
+  font-size: 14px;
 }
 
 .authority-links {
@@ -3331,7 +3364,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
 .authority-links > span {
   padding: 3px 6px;
   border: 1px solid var(--line);
-  font-size: 0.6rem;
+  font-size: 0.75rem;
   text-decoration: none;
 }
 
@@ -3340,7 +3373,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   gap: 4px;
   align-items: center;
   margin-top: 6px;
-  font-size: 0.66rem;
+  font-size: 14px;
   font-weight: 650;
   text-decoration: none;
 }
@@ -3391,7 +3424,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
 
 .analysis-summary span {
   color: var(--muted);
-  font-size: 0.58rem;
+  font-size: 14px;
 }
 
 .analysis-controls {
@@ -3406,7 +3439,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
 .analysis-controls label,
 .metric-switcher legend {
   color: var(--muted);
-  font-size: 0.58rem;
+  font-size: 0.75rem;
 }
 
 .analysis-controls select {
@@ -3451,7 +3484,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   margin: 0;
   padding: 3px 24px 3px 7px;
   border-radius: 7px;
-  font-size: 0.65rem;
+  font-size: 0.75rem;
 }
 
 .analysis-activity-heading #analysis-place-filter {
@@ -3493,7 +3526,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   border-radius: 8px;
   background: transparent;
   color: var(--muted);
-  font-size: 0.65rem;
+  font-size: 0.75rem;
 }
 
 .metric-switcher button[aria-pressed="true"] {
@@ -3533,14 +3566,14 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
 .analysis-card figcaption strong,
 .analysis-card-heading h2 {
   margin: 0;
-  font-size: 0.8rem;
+  font-size: 14px;
   font-weight: 600;
 }
 
 .analysis-card figcaption span,
 .analysis-card-heading span {
   color: var(--muted);
-  font-size: 0.56rem;
+  font-size: 0.75rem;
   text-align: right;
 }
 
@@ -3593,14 +3626,14 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
 .chart-axis-label {
   fill: var(--muted);
   font-family: var(--sans);
-  font-size: 9px;
+  font-size: 12px;
 }
 
 .chart-empty {
   align-self: center;
   margin: auto;
   color: var(--muted);
-  font-size: 0.68rem;
+  font-size: 14px;
 }
 
 .ranked-chart {
@@ -3614,7 +3647,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   grid-template-columns: minmax(90px, 0.7fr) minmax(80px, 1fr) auto;
   gap: 8px;
   align-items: center;
-  font-size: 0.62rem;
+  font-size: 14px;
 }
 
 .ranked-chart .rank-bar-track {
@@ -3632,7 +3665,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   grid-template-columns: 18px minmax(90px, 0.8fr) minmax(80px, 1fr) 38px;
   gap: 7px;
   align-items: center;
-  font-size: 0.62rem;
+  font-size: 14px;
 }
 
 .ranked-chart .rank-number {
@@ -3669,7 +3702,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   padding: 3px 6px;
   border: 1px solid var(--line);
   color: var(--muted);
-  font-size: 0.6rem;
+  font-size: 12px;
 }
 
 .compact-table th:nth-child(n + 2),
@@ -3683,7 +3716,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   padding-top: 10px;
   border-top: 1px solid var(--line);
   color: var(--muted);
-  font-size: 0.6rem;
+  font-size: 14px;
 }
 
 .analysis-card-actions {
@@ -3698,7 +3731,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
 
 .analysis-card-actions > span {
   color: var(--muted);
-  font-size: 0.62rem;
+  font-size: 0.75rem;
 }
 
 .analysis-expand-button {
@@ -3708,7 +3741,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   border-radius: 999px;
   background: var(--surface-2);
   color: var(--accent);
-  font-size: 0.68rem;
+  font-size: 14px;
   font-weight: 650;
 }
 
@@ -3736,14 +3769,16 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
 
 .analysis-range-heading {
   display: flex;
+  flex-wrap: wrap;
   gap: 12px;
   align-items: center;
   margin-bottom: 8px;
   color: var(--muted);
-  font-size: 0.65rem;
+  font-size: 0.75rem;
 }
 
 .analysis-range-heading output {
+  white-space: nowrap;
   color: var(--accent);
   font-weight: 600;
 }
@@ -3754,7 +3789,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   border: 0;
   background: transparent;
   color: var(--accent);
-  font-size: 0.62rem;
+  font-size: 0.75rem;
 }
 
 .analysis-date-range input:focus-visible::-webkit-slider-thumb {
@@ -3789,7 +3824,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   border-radius: 7px;
   background: transparent;
   color: var(--muted);
-  font-size: 0.65rem;
+  font-size: 0.75rem;
   white-space: nowrap;
 }
 
@@ -3803,7 +3838,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
 .analysis-ranking-note {
   margin: 0 0 12px;
   color: var(--muted);
-  font-size: 0.6rem;
+  font-size: 14px;
   line-height: 1.45;
 }
 
@@ -3822,7 +3857,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   display: block;
   margin-top: 2px;
   color: var(--muted);
-  font-size: 0.55rem;
+  font-size: 0.75rem;
   font-weight: 400;
 }
 
@@ -3845,7 +3880,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
 
 .documentation-nav strong {
   margin: 0 6px 7px;
-  font-size: 0.63rem;
+  font-size: 0.75rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -3854,7 +3889,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   padding: 6px 7px;
   border-radius: 6px;
   color: var(--muted);
-  font-size: 0.65rem;
+  font-size: 14px;
   text-decoration: none;
 }
 
@@ -3880,7 +3915,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   max-width: 700px;
   margin-bottom: 0;
   color: var(--muted);
-  font-size: 0.82rem;
+  font-size: 14px;
   line-height: 1.55;
 }
 
@@ -3897,7 +3932,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
 .prose-page section > p,
 .prose-page li {
   color: var(--muted);
-  font-size: 0.7rem;
+  font-size: 14px;
   line-height: 1.6;
 }
 
@@ -3923,12 +3958,12 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
 
 .data-model strong {
   margin-bottom: 2px;
-  font-size: 0.65rem;
+  font-size: 14px;
 }
 
 .data-model span {
   color: var(--muted);
-  font-size: 0.57rem;
+  font-size: 14px;
   line-height: 1.35;
 }
 
@@ -3963,7 +3998,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
 .prose-page .about-acknowledgments p {
   margin: 0;
   color: var(--ink);
-  font-size: 0.78rem;
+  font-size: 14px;
   line-height: 1.68;
 }
 
@@ -3998,7 +4033,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   padding-top: 7px;
   border-top: 1px solid var(--line);
   color: var(--muted);
-  font-size: 0.66rem;
+  font-size: 14px;
   line-height: 1.45;
 }
 
@@ -4024,7 +4059,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   border-radius: 8px;
   background: var(--accent);
   color: #fff;
-  font-size: 0.74rem;
+  font-size: 14px;
 }
 
 .primary-button:hover {
@@ -4160,12 +4195,6 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
     display: none;
   }
 
-  .map-feature .home-map-grid .regional-map-card::after {
-    background:
-      linear-gradient(90deg, rgb(231 242 252 / 96%) 0%, rgb(231 242 252 / 50%) 18%, transparent 42%),
-      linear-gradient(270deg, rgb(231 242 252 / 96%) 0%, rgb(231 242 252 / 50%) 18%, transparent 42%);
-  }
-
   .record-layout {
     grid-template-columns: minmax(380px, 58%) minmax(270px, 42%);
   }
@@ -4176,27 +4205,11 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   }
 }
 
-@media (max-width: 700px) {
-  :root {
-    --page-gutter: 8px;
-  }
-
-  #main-content {
-    border-inline: 0;
-  }
-
+@media (max-width: 1000px) {
   .site-header {
-    grid-template-columns: 1fr auto;
+    grid-template-columns: minmax(0, 1fr) auto;
     gap: 8px;
-    padding: 8px var(--page-gutter);
-  }
-
-  .site-footer {
-    padding-inline: var(--page-gutter);
-  }
-
-  .site-brand small {
-    display: none;
+    padding: 10px var(--page-gutter);
   }
 
   .nav-toggle {
@@ -4209,8 +4222,8 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
     grid-column: 1 / -1;
     display: none;
     flex-wrap: wrap;
-    gap: 4px 8px;
-    padding-top: 5px;
+    gap: 8px 16px;
+    padding-top: 8px;
     border-top: 1px solid var(--line-strong);
     overflow-x: visible;
   }
@@ -4221,8 +4234,22 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   }
 
   .primary-nav a {
-    padding-inline: 7px;
-    font-size: 0.85rem;
+    padding-inline: 10px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 700px) {
+  :root {
+    --page-gutter: 8px;
+  }
+
+  #main-content {
+    border-inline: 0;
+  }
+
+  .site-footer {
+    padding-inline: var(--page-gutter);
   }
 
   .home-hero {
@@ -4233,7 +4260,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
 
   .hero-panel {
     width: calc(100% - 36px);
-    margin: 0 18px 42px;
+    margin: 0 18px 66px;
     padding: 10px 14px 7px;
   }
 
@@ -4244,11 +4271,11 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
 
   .hero-panel h1 {
     max-width: none;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
 
-  .hero-panel > p {
-    font-size: 0.71rem;
+.hero-panel > p {
+    font-size: 14px;
   }
 
   .record-tabs {
@@ -4529,6 +4556,10 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
 }
 
 @media (max-width: 440px) {
+  .site-brand {
+    width: 300px;
+  }
+
   .hero-panel {
     width: calc(100% - 24px);
     margin-inline: 12px;

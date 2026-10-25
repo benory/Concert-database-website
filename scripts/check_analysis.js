@@ -128,8 +128,11 @@ async function main() {
   const get = (id) => nodes.get(`analysis-${id}`);
   assert.equal(get("page").attributes["aria-busy"], "false");
   assert.equal(get("activity-title").textContent, "Programs by Year");
+  get("year-chart").clientWidth = 272;
   metrics[1].trigger("click");
   assert.equal(get("activity-title").textContent, "Performed items by Year");
+  assert.match(get("year-chart").innerHTML, /viewBox="0 0 272 230"/, "Narrow charts must not shrink their 12px axis labels");
+  delete get("year-chart").clientWidth;
   get("group").value = "decade";
   get("group").trigger("change");
   assert.equal(get("activity-title").textContent, "Performed items by Decade");
@@ -139,8 +142,8 @@ async function main() {
   get("group").value = "year";
   get("group").trigger("change");
   assert.equal(get("start").min, 1915);
-  assert.equal(get("first-year").textContent, "1915 and earlier");
-  assert.match(get("year-chart").innerHTML, /1915<\/tspan>.*and earlier/);
+  assert.equal(get("first-year").textContent, "≤1915");
+  assert.match(get("year-chart").innerHTML, /class="chart-axis-label"[^>]*>≤1915<\/text>/);
   assert.ok(!get("year-chart").innerHTML.includes('>1892<'));
   assert.match(get("ranking-title").textContent, /composers/);
   assert.match(get("ranking-chart").innerHTML, /data-person-preview/);
@@ -160,6 +163,17 @@ async function main() {
   categories[1].trigger("click");
   assert.match(get("ranking-note").textContent, /not confirmed work identity/);
   assert.match(get("ranking-chart").innerHTML, /<i>/);
+  const pieceDestination = new URL(get("ranking-chart").innerHTML.match(/href="([^"]+)"/)[1].replaceAll("&amp;", "&"), "https://example.org");
+  assert.equal(pieceDestination.pathname, "/concerts/");
+  assert.equal(pieceDestination.searchParams.get("piece"), A.ranking(database, early, "pieces")[0].key);
+  assert.equal(pieceDestination.searchParams.get("from"), "1924");
+  assert.equal(pieceDestination.searchParams.get("to"), "1925");
+  get("place-filter").value = "Innsbruck, Austria";
+  get("place-filter").trigger("change");
+  const placeDestination = new URL(get("ranking-chart").innerHTML.match(/href="([^"]+)"/)[1].replaceAll("&amp;", "&"), "https://example.org");
+  assert.equal(placeDestination.searchParams.get("place"), "Innsbruck, Austria");
+  get("place-filter").value = "";
+  get("place-filter").trigger("change");
   assert.match(persisted, /ranking=pieces/);
   for (const category of categories.slice(2)) {
     category.trigger("click");
@@ -174,9 +188,9 @@ async function main() {
   get("start").value = "1915";
   get("end").value = "1915";
   get("start").trigger("input");
-  assert.equal(get("date-output").textContent, "1915 and earlier");
+  assert.equal(get("date-output").textContent, "≤1915");
   assert.match(get("summary").innerHTML, new RegExp(`${historic.length} concert programs`));
-  assert.equal(get("start").attributes["aria-valuetext"], "1915 and earlier");
+  assert.equal(get("start").attributes["aria-valuetext"], "≤1915");
   get("date-reset").trigger("click");
   assert.equal(get("date-reset").hidden, true);
   assert.match(get("summary").innerHTML, new RegExp(`${database.concerts.length} concert programs`));
