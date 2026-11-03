@@ -2516,6 +2516,11 @@
     "death_date": "1521-8-27"
   },
   {
+    "id": "COM:Juan_de_Cabezon",
+    "name": "Juan de Cabezon",
+    "aliases": []
+  },
+  {
     "id": "COM:Juan_de_Leon",
     "name": "Juan de Leon",
     "aliases": [],
