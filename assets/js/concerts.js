@@ -365,6 +365,18 @@
     window.requestAnimationFrame(() => maps.invalidate());
   }
 
+  function renderSelectionLabel(container, filters, label) {
+    if (!container) return;
+    const piece = Results.pieceSelection(filters, database);
+    if (!piece) {
+      container.textContent = label;
+      return;
+    }
+    const title = document.createElement("em");
+    title.textContent = piece.title;
+    container.replaceChildren(document.createTextNode(`${piece.composer}, `), title);
+  }
+
   function updateAuthorityContext(filters) {
     const composer = filters.composer && database.composersById.get(filters.composer);
     const person = filters.person && database.peopleByReference.get(filters.person);
@@ -380,7 +392,7 @@
       if (personContext) personContext.hidden = true;
       const label = Results.selectionLabel(filters, database);
       if (eyebrow) eyebrow.textContent = "Piece";
-      if (heading) heading.textContent = label;
+      renderSelectionLabel(heading, filters, label);
       document.title = `${label} · Early Music Concerts`;
       return;
     }
@@ -451,7 +463,7 @@
       const label = Results.selectionLabel(filters, database);
       const hasDates = filters.from !== MapUI.TIMELINE_MIN || filters.to !== MapUI.TIMELINE_MAX;
       clearSearch.hidden = !label && !hasDates;
-      clearSearch.querySelector("[data-active-search-label]").textContent = label || `${filters.from}–${filters.to}`;
+      renderSelectionLabel(clearSearch.querySelector("[data-active-search-label]"), filters, label || `${filters.from}–${filters.to}`);
       clearSearch.title = "Clear search and show all concerts";
     }
     const chronology = chronologyConcerts(filters);

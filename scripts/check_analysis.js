@@ -20,13 +20,14 @@ class Element {
   }
   setAttribute(key, value) { this.attributes[key] = value; }
   addEventListener(key, action) { this.events[key] = action; }
-  add() {}
+  add(option) { (this.options ||= []).push(option); }
+  replaceChildren(...options) { this.options = options; }
   trigger(key) { this.events[key]?.(); }
 }
 
 const ids = ["page", "year-chart", "ranking-chart", "place-table", "summary", "group", "place-filter", "ranking-more", "place-more",
   "ranking-visible-count", "place-visible-count", "start", "end", "date-output", "date-track", "date-reset", "first-year", "last-year",
-  "ranking-title", "ranking-unit", "ranking-note", "activity-title"];
+  "ranking-title", "ranking-unit", "ranking-note", "activity-title", "country-filter"];
 const nodes = new Map(ids.map((id) => [`analysis-${id}`, new Element()]));
 const metrics = ["programs", "performances"].map((analysisMetric) => new Element({ analysisMetric }));
 const categories = ["composers", "pieces", "sources", "editions", "performers"].map((analysisRanking) => new Element({ analysisRanking }));
@@ -42,7 +43,7 @@ const context = {
       : (selector.includes("data-analysis-ranking") ? categories : metrics).find((element) => element.attributes["aria-pressed"] === "true"),
   },
   history: { replaceState: (_a, _b, url) => { persisted = url; } },
-  Option: function Option() {},
+  Option: function Option(text, value) { this.text = text; this.value = value; },
   fetch: async (resource) => ({ ok: true, json: async () => JSON.parse(fs.readFileSync(path.join(root, resource.replace(/^\//, "")), "utf8")) }),
 };
 
@@ -52,6 +53,7 @@ async function main() {
   load("core.js");
   load("bibliography.js");
   load("analysis-data.js");
+  load("concert-results.js");
   const DB = context.window.ConcertDB;
   const A = context.window.ConcertAnalysisData;
   const database = await DB.loadData();
@@ -65,6 +67,17 @@ async function main() {
   assert.ok(early.every((concert) => concert.year >= 1924 && concert.year <= 1925));
   assert.ok(!early.some((concert) => !concert.year));
   assert.equal(A.selectedConcerts(database, { ...full, place: "Unknown place" }).length, 0);
+  const germanConcerts = database.concerts.filter((concert) => concert.country === "Germany");
+  assert.equal(A.selectedConcerts(database, { ...full, country: "Germany" }).length, germanConcerts.length);
+  assert.equal(A.selectedConcerts(database, { ...full, country: "Germany", place: "Innsbruck, Austria" }).length, 0);
+  const germanEarly = A.selectedConcerts(database, { start: 1924, end: 1925, country: "Germany" });
+  assert.ok(germanEarly.length > 0 && germanEarly.every((concert) => concert.country === "Germany" && concert.year >= 1924 && concert.year <= 1925));
+  const unknownCountries = database.concerts.filter((concert) => !String(concert.country || "").trim());
+  assert.equal(A.selectedConcerts(database, { ...full, country: "Country not recorded" }).length, unknownCountries.length);
+  assert.equal(context.window.ConcertResults.authorityConcerts(database, { country: "Country not recorded" }).length, unknownCountries.length,
+    "Country links into the concert browser must include missing-country records too");
+  assert.equal(context.window.ConcertResults.authorityConcerts(database, { country: "Germany" }).length, germanConcerts.length);
+  assert.equal(A.selectedConcerts(database, { ...full, country: "Unknown country" }).length, 0);
 
   for (const type of Object.keys(A.types)) {
     const ranked = A.ranking(database, early, type);
@@ -123,10 +136,13 @@ async function main() {
   // reset, independent expansion state, empty results and persisted chronology.
   DB.setupPersonPreviews = () => {};
   DB.showError = (_page, error) => { throw error; };
+  context.window.location.search = "?breakdown=country";
   load("analysis.js");
   await new Promise(setImmediate);
   const get = (id) => nodes.get(`analysis-${id}`);
   assert.equal(get("page").attributes["aria-busy"], "false");
+  assert.ok(!persisted.includes("breakdown="), "Old comparison URLs return to ordinary totals");
+  assert.ok(get("country-filter").options.every((option) => option.value !== "Country not recorded" && option.value !== "__compare__"), "Only named countries appear in the dropdown");
   assert.equal(get("activity-title").textContent, "Programs by Year");
   get("year-chart").clientWidth = 272;
   metrics[1].trigger("click");
@@ -200,11 +216,32 @@ async function main() {
   assert.equal((get("ranking-chart").innerHTML.match(/role="listitem"/g) || []).length, allComposers.length);
   get("ranking-more").trigger("click");
   assert.equal((get("ranking-chart").innerHTML.match(/role="listitem"/g) || []).length, 20);
+
+  get("place-filter").value = "Innsbruck, Austria";
+  get("country-filter").value = "Germany";
+  get("country-filter").trigger("change");
+  assert.equal(get("place-filter").value, "", "Changing country clears a place outside that country");
+  assert.ok(get("place-filter").options.every((option) => !option.value || option.value.endsWith(", Germany") || option.value === "Germany"));
+  assert.match(persisted, /country=Germany/);
+  assert.ok(!persisted.includes("breakdown="));
+  assert.match(get("summary").innerHTML, new RegExp(`${germanConcerts.length} concert programs`));
+  assert.match(get("ranking-chart").innerHTML, /country=Germany/);
+  assert.ok(!get("place-table").innerHTML.includes("Austria"));
+  get("start").value = "1924";
+  get("end").value = "1925";
+  get("start").trigger("input");
+  assert.match(get("summary").innerHTML, new RegExp(`${germanEarly.length} concert programs`));
+  get("date-reset").trigger("click");
+  assert.match(get("summary").innerHTML, new RegExp(`${germanConcerts.length} concert programs`));
+  get("country-filter").value = "";
+  get("country-filter").trigger("change");
+  assert.match(get("summary").innerHTML, new RegExp(`${database.concerts.length} concert programs`));
+  assert.ok(!persisted.includes("country="));
   get("start").value = String(database.maxYear);
   get("end").value = String(database.maxYear - 1);
   get("start").trigger("input");
   assert.equal(get("start").value, get("end").value, "Slider handles cannot cross");
-  console.log(`Analysis passed: ${database.concerts.length} concerts; five rankings, authority names, concert deduplication, chronology, toggle, reset, empty results and expansion.`);
+  console.log(`Analysis passed: ${database.concerts.length} concerts; five rankings, country filters, missing countries, chronology, toggles, resets, empty results and expansion.`);
 }
 
 main().catch((error) => { console.error(error); process.exitCode = 1; });

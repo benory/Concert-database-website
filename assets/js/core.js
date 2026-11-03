@@ -71,7 +71,7 @@
   }
 
   function pieceUrl(program) {
-    return url("/piece/", { key: program.work_key });
+    return url("/concerts/", { piece: pieceGroupKey(program) });
   }
 
   function pieceGroupKey(program) {

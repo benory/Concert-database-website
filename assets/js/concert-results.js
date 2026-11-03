@@ -42,7 +42,7 @@
       && (!filters.source && !filters.sourceText || concert.programs.some((program) => sourceMatches(program, filters)))
       && (!filters.piece || concert.programs.some((program) => DB.pieceGroupKey(program) === filters.piece))
       && (!filters.city || DB.normalize(concert.city) === DB.normalize(filters.city))
-      && (!filters.country || DB.normalize(concert.country) === DB.normalize(filters.country))
+      && (!filters.country || DB.normalize(String(concert.country || "").trim() || "Country not recorded") === DB.normalize(filters.country))
       && (!filters.place || ([concert.city, concert.country].filter(Boolean).join(", ") || "Place not recorded") === filters.place)
     ));
   }
@@ -52,14 +52,20 @@
       ? `${source.sigla} (${source.alias})` : source?.sigla || source?.alias || DB.displayIdentifier(source?.id);
   }
 
+  function pieceSelection(filters, database) {
+    if (!filters.piece) return null;
+    const program = database.programs.find((entry) => DB.pieceGroupKey(entry) === filters.piece);
+    if (!program) return null;
+    const ids = [...new Set(program.composer_ids || [])].sort();
+    const composer = ids.length ? ids.map((id) => database.composersById.get(id)?.name || DB.displayIdentifier(id)).join("; ")
+      : program.composer_name || "Composer unknown";
+    return { composer, title: program.work_name || program.standardized_work_name };
+  }
+
   function selectionLabel(filters, database) {
     if (filters.piece) {
-      const program = database.programs.find((entry) => DB.pieceGroupKey(entry) === filters.piece);
-      if (!program) return "Selected piece";
-      const ids = [...new Set(program.composer_ids || [])].sort();
-      const composer = ids.length ? ids.map((id) => database.composersById.get(id)?.name || DB.displayIdentifier(id)).join("; ")
-        : program.composer_name || "Composer unknown";
-      return `${composer}, ${program.work_name || program.standardized_work_name}`;
+      const piece = pieceSelection(filters, database);
+      return piece ? `${piece.composer}, ${piece.title}` : "Selected piece";
     }
     if (filters.composer) return database.composersById.get(filters.composer)?.name || DB.displayIdentifier(filters.composer);
     if (filters.composerName) return filters.composerName;
@@ -120,5 +126,5 @@
     return { programs, people };
   }
 
-  window.ConcertResults = { composerMatches, authorityConcerts, chronologyConcerts, selectionLabel, searchQuery, hits };
+  window.ConcertResults = { composerMatches, authorityConcerts, chronologyConcerts, pieceSelection, selectionLabel, searchQuery, hits };
 }());

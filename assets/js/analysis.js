@@ -12,6 +12,7 @@
   const summary = document.getElementById("analysis-summary");
   const groupSelect = document.getElementById("analysis-group");
   const placeSelect = document.getElementById("analysis-place-filter");
+  const countrySelect = document.getElementById("analysis-country-filter");
   const rankingMore = document.getElementById("analysis-ranking-more");
   const placeMore = document.getElementById("analysis-place-more");
   const rankingVisibleCount = document.getElementById("analysis-ranking-visible-count");
@@ -38,6 +39,7 @@
       metric: params.get("metric") === "performances" ? "performances" : "programs",
       group: params.get("group") === "decade" ? "decade" : "year",
       place: params.get("place") || "",
+      country: params.get("country") || "",
       ranking: Object.hasOwn(Analysis.types, params.get("ranking")) ? params.get("ranking") : "composers",
       ...Analysis.range(database, params.get("start"), params.get("end")),
     };
@@ -48,6 +50,7 @@
       metric: document.querySelector("[data-analysis-metric][aria-pressed=true]")?.dataset.analysisMetric || "programs",
       group: groupSelect?.value || "year",
       place: placeSelect?.value || "",
+      country: countrySelect?.value || "",
       ranking: document.querySelector("[data-analysis-ranking][aria-pressed=true]")?.dataset.analysisRanking || "composers",
       ...Analysis.range(database, startInput.value, endInput.value),
     };
@@ -58,6 +61,7 @@
     if (state.metric !== "programs") params.set("metric", state.metric);
     if (state.group !== "year") params.set("group", state.group);
     if (state.place) params.set("place", state.place);
+    if (state.country) params.set("country", state.country);
     if (state.ranking !== "composers") params.set("ranking", state.ranking);
     const { min, max } = Analysis.bounds(database);
     if (state.start !== min) params.set("start", state.start);
@@ -75,6 +79,16 @@
 
   function groupedActivity(concerts, state) {
     return Analysis.activity(database, concerts, state);
+  }
+
+  function populatePlaces(country, selected) {
+    if (!placeSelect) return;
+    const places = [...new Set(database.concerts.filter(inProjectRange)
+      .filter((concert) => !country || Analysis.countryKey(concert) === country).map(placeKey))]
+      .filter((place) => place !== "Place not recorded").sort();
+    placeSelect.replaceChildren(new Option("All places", ""));
+    places.forEach((place) => placeSelect.add(new Option(place, place)));
+    placeSelect.value = places.includes(selected) ? selected : "";
   }
 
   function renderYearChart(concerts, state) {
@@ -106,7 +120,8 @@
       const labelX = (x + barWidth / 2).toFixed(2);
       const showTick = index === 0 || index === lastPoint || index % labelEvery === 0 && (lastPoint - index) * slot >= 65;
       const tick = DB.escapeHtml(label);
-      return `<g><rect class="chart-bar-mark${outside ? " is-outside-range" : ""}" x="${x.toFixed(2)}" y="${y.toFixed(2)}" width="${barWidth.toFixed(2)}" height="${barHeight.toFixed(2)}"><title>${DB.escapeHtml(label)}: ${value}</title></rect>${showTick ? `<text class="chart-axis-label" x="${labelX}" y="${height - 18}" text-anchor="middle">${tick}</text>` : ""}</g>`;
+      const marks = `<rect class="chart-bar-mark${outside ? " is-outside-range" : ""}" x="${x.toFixed(2)}" y="${y.toFixed(2)}" width="${barWidth.toFixed(2)}" height="${barHeight.toFixed(2)}"><title>${DB.escapeHtml(label)}: ${value}</title></rect>`;
+      return `<g>${marks}${showTick ? `<text class="chart-axis-label" x="${labelX}" y="${height - 18}" text-anchor="middle">${tick}</text>` : ""}</g>`;
     }).join("");
     const guideValues = [0, Math.ceil(maximum / 2), maximum];
     const guides = guideValues.map((value) => {
@@ -138,6 +153,7 @@
     if (state.start !== min) parsed.searchParams.set("from", state.start);
     if (state.end !== max) parsed.searchParams.set("to", state.end);
     if (state.place) parsed.searchParams.set("place", state.place);
+    if (state.country) parsed.searchParams.set("country", state.country);
     return `${parsed.pathname}${parsed.search}`;
   }
 
@@ -229,7 +245,7 @@
     DB.setText("#analysis-activity-title", activityTitle);
     const concerts = selectedConcerts(state);
     const itemCount = concerts.reduce((total, concert) => total + concert.programs.length, 0);
-    if (summary) summary.innerHTML = `<strong>${concerts.length.toLocaleString()} concert programs · ${itemCount.toLocaleString()} performed items</strong>${state.place ? `<span>${DB.escapeHtml(state.place)}</span>` : ""}`;
+    if (summary) summary.innerHTML = `<strong>${concerts.length.toLocaleString()} concert programs · ${itemCount.toLocaleString()} performed items</strong>${state.country || state.place ? `<span>${DB.escapeHtml(state.place || state.country)}</span>` : ""}`;
     rangeOutput.textContent = chronologyLabel(state);
     const { min, max } = Analysis.bounds(database);
     const span = Math.max(1, max - min);
@@ -296,10 +312,17 @@
       groupSelect.value = state.group;
       groupSelect.addEventListener("change", render);
     }
+    if (countrySelect) {
+      const countries = [...new Set(database.concerts.map((concert) => String(concert.country || "").trim()).filter(Boolean))].sort();
+      countries.forEach((country) => countrySelect.add(new Option(country, country)));
+      countrySelect.value = countries.includes(state.country) ? state.country : "";
+      countrySelect.addEventListener("change", () => {
+        populatePlaces(countrySelect.value, placeSelect?.value || "");
+        render();
+      });
+    }
     if (placeSelect) {
-      const places = [...new Set(database.concerts.filter(inProjectRange).map(placeKey))].filter((place) => place !== "Place not recorded").sort();
-      places.forEach((place) => placeSelect.add(new Option(place, place)));
-      placeSelect.value = places.includes(state.place) ? state.place : "";
+      populatePlaces(countrySelect?.value || "", state.place);
       placeSelect.addEventListener("change", render);
     }
     rankingMore?.addEventListener("click", () => {

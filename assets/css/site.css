@@ -33,7 +33,7 @@
 
 html {
   min-width: 320px;
-  background: var(--canvas);
+  background: var(--surface);
   color: var(--ink);
   font-family: var(--sans);
   font-size: 16px;
@@ -47,7 +47,7 @@ body {
   min-height: 100vh;
   min-height: 100svh;
   margin: 0;
-  background: var(--canvas);
+  background: var(--surface);
   font-size: 14px;
 }
 
@@ -147,14 +147,15 @@ select:focus-visible,
 #main-content,
 .site-header,
 .site-footer {
-  width: min(100%, var(--content-max));
+  width: 100%;
   margin-inline: auto;
 }
 
 #main-content {
+  width: min(100%, var(--content-max));
   flex: 1 0 auto;
   min-height: 0;
-  border-inline: 1px solid var(--line);
+  border-inline: 0;
   background: var(--surface);
 }
 
@@ -322,14 +323,20 @@ select:focus-visible,
 /* Home */
 
 .route-home #main-content {
+  width: 100%;
+  border-inline: 0;
   background: var(--accent-soft);
+}
+
+.route-home .site-footer {
+  width: 100%;
 }
 
 .route-home .site-header {
   position: absolute;
   top: 0;
   left: 50%;
-  width: min(100%, var(--content-max));
+  width: 100%;
   margin-inline: 0;
   transform: translateX(-50%);
   border-bottom-color: rgb(155 201 244 / 58%);
@@ -557,7 +564,7 @@ select:focus-visible,
 }
 
 .map-feature {
-  --map-frame-gutter: 28%;
+  --map-frame-gutter: max(28%, calc(100% - var(--content-max) * 0.72));
   --map-frame-height: clamp(300px, 34svh, 350px);
   --map-frame-radius: 14px;
   position: relative;
@@ -893,6 +900,7 @@ button.program-title:focus-visible {
 
 .leaflet-container .leaflet-control-zoom.leaflet-bar > a,
 .scan-zoom-button {
+  --zoom-control-gray: #4b5563;
   position: relative;
   box-sizing: border-box;
   display: grid;
@@ -906,7 +914,7 @@ button.program-title:focus-visible {
   padding: 0;
   place-items: center;
   overflow: hidden;
-  border: 1px solid rgb(102 114 128 / 42%);
+  border: 2px solid var(--zoom-control-gray);
   border-radius: 999px !important;
   background: rgb(255 255 255 / 90%);
   box-shadow: 0 1px 2px rgb(0 0 0 / 10%), 0 3px 10px rgb(0 0 0 / 8%);
@@ -926,9 +934,9 @@ button.program-title:focus-visible {
   top: 50%;
   left: 50%;
   width: 12px;
-  height: 1px;
+  height: 2px;
   border-radius: 1px;
-  background: #59636e;
+  background: var(--zoom-control-gray);
   content: "";
   transform: translate(-50%, -50%);
 }
@@ -945,7 +953,7 @@ button.program-title:focus-visible {
 
 .leaflet-container .leaflet-control-zoom.leaflet-bar > a:hover,
 .scan-zoom-button:hover {
-  border-color: rgb(102 114 128 / 62%);
+  --zoom-control-gray: #374151;
   background: rgb(255 255 255 / 98%);
   box-shadow: 0 1px 2px rgb(0 0 0 / 10%), 0 5px 14px rgb(0 0 0 / 10%);
   transform: translateY(-1px);
@@ -964,7 +972,7 @@ button.program-title:focus-visible {
 
 .leaflet-container .leaflet-control-zoom.leaflet-bar > a.leaflet-disabled,
 .scan-zoom-button:disabled {
-  border-color: rgb(102 114 128 / 24%);
+  --zoom-control-gray: rgb(102 114 128 / 24%);
   background: rgb(242 244 247 / 88%);
   box-shadow: 0 1px 2px rgb(0 0 0 / 5%);
   cursor: default;
@@ -1435,6 +1443,11 @@ button.program-title:focus-visible {
 
 /* Featured poster */
 
+.route-poster #main-content {
+  width: 100%;
+  background: var(--accent-soft);
+}
+
 .poster-page {
   min-height: 640px;
   padding: 20px var(--page-gutter) 34px;
@@ -1488,6 +1501,16 @@ button.program-title:focus-visible {
 }
 
 /* All concerts */
+
+.route-concerts #main-content,
+.route-concerts .site-header,
+.route-concerts .site-footer {
+  width: 100%;
+}
+
+.route-concerts #main-content {
+  border-inline: 0;
+}
 
 .concerts-toolbar {
   position: relative;
@@ -3491,6 +3514,10 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   width: clamp(140px, 17vw, 220px);
 }
 
+.analysis-activity-heading #analysis-country-filter {
+  width: clamp(160px, 15vw, 190px);
+}
+
 .analysis-activity-heading .metric-switcher {
   min-width: 0;
   flex-shrink: 0;
@@ -4076,6 +4103,31 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
 @media (min-width: 1600px) {
   .route-program .record-layout {
     grid-template-columns: minmax(0, 60fr) minmax(0, 40fr);
+  }
+}
+
+@media (min-width: 1601px) {
+  .site-header,
+  .site-footer,
+  .route-home .timeline-section,
+  .route-home .featured-programs {
+    padding-inline: calc((100% - var(--content-max)) / 2 + var(--page-gutter));
+  }
+
+  .route-home .hero-panel {
+    margin-left: calc((100% - var(--content-max)) / 2 + 18px);
+  }
+
+  .route-home .hero-poster-link {
+    right: calc((100% - var(--content-max)) / 2 + 18px);
+  }
+
+  .route-concerts .concert-browser {
+    grid-template-columns: minmax(0, 864px) minmax(420px, 1fr);
+  }
+
+  .route-concerts .concert-browser.is-person-view {
+    grid-template-columns: minmax(0, 800px) minmax(0, 1fr);
   }
 }
 

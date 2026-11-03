@@ -28,11 +28,16 @@
     return [concert.city, concert.country].filter(Boolean).join(", ") || "Place not recorded";
   }
 
+  function countryKey(concert) {
+    return String(concert.country || "").trim() || "Country not recorded";
+  }
+
   function selectedConcerts(database, state, ignoreDates = false) {
     const dates = range(database, state.start, state.end);
     const { min, max } = bounds(database);
     const fullRange = dates.start === min && dates.end === max;
     return database.concerts.filter((concert) => {
+      if (state.country && countryKey(concert) !== state.country) return false;
       if (state.place && placeKey(concert) !== state.place) return false;
       const dated = Number.isFinite(concert.year) && concert.year > 0;
       if (ignoreDates) return true;
@@ -40,18 +45,19 @@
     });
   }
 
+  function activityBucket(year, state) {
+    if (year <= EARLY_YEAR) return EARLY_YEAR;
+    if (state.group !== "decade") return year;
+    return year < 1920 ? 1916 : Math.floor(year / 10) * 10;
+  }
+
   function activity(database, concerts, state) {
     const counts = new Map();
-    const bucket = (year) => {
-      if (year <= EARLY_YEAR) return EARLY_YEAR;
-      if (state.group !== "decade") return year;
-      return year < 1920 ? 1916 : Math.floor(year / 10) * 10;
-    };
     const { min, max } = bounds(database);
-    for (let year = min; year <= max; year += 1) counts.set(bucket(year), 0);
+    for (let year = min; year <= max; year += 1) counts.set(activityBucket(year, state), 0);
     concerts.forEach((concert) => {
       if (!Number.isFinite(concert.year) || concert.year <= 0) return;
-      const key = bucket(concert.year);
+      const key = activityBucket(concert.year, state);
       const value = state.metric === "performances" ? concert.programs.length : 1;
       counts.set(key, (counts.get(key) || 0) + value);
     });
@@ -121,5 +127,5 @@
       .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name) || a.key.localeCompare(b.key));
   }
 
-  window.ConcertAnalysisData = { EARLY_YEAR, types, bounds, range, placeKey, selectedConcerts, activity, ranking };
+  window.ConcertAnalysisData = { EARLY_YEAR, types, bounds, range, placeKey, countryKey, selectedConcerts, activity, ranking };
 }());

@@ -128,8 +128,9 @@
       const progress = rawProgress * rawProgress * (3 - (2 * rawProgress));
       expansionProgress = progress;
       const featureWidth = mapFeature.clientWidth || window.innerWidth;
-      const previousStartGutter = Math.min(150, Math.max(72, featureWidth * 0.1));
-      const startGutter = featureWidth - (0.8 * (featureWidth - previousStartGutter));
+      const contentWidth = Math.min(featureWidth, parseFloat(window.getComputedStyle(mapFeature).getPropertyValue("--content-max")) || featureWidth);
+      const previousStartGutter = Math.min(150, Math.max(72, contentWidth * 0.1));
+      const startGutter = featureWidth - (0.8 * (contentWidth - previousStartGutter));
       const startHeight = MapUI.clamp(window.innerHeight * 0.34, 300, 350);
       const endHeight = MapUI.clamp(window.innerHeight * 0.56, 470, 560);
 
