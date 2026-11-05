@@ -313,9 +313,15 @@
       groupSelect.addEventListener("change", render);
     }
     if (countrySelect) {
-      const countries = [...new Set(database.concerts.map((concert) => String(concert.country || "").trim()).filter(Boolean))].sort();
-      countries.forEach((country) => countrySelect.add(new Option(country, country)));
-      countrySelect.value = countries.includes(state.country) ? state.country : "";
+      const programCounts = new Map();
+      database.concerts.forEach((concert) => {
+        const country = String(concert.country || "").trim();
+        if (country) programCounts.set(country, (programCounts.get(country) || 0) + 1);
+      });
+      [...programCounts.keys()].sort().forEach((country) => {
+        countrySelect.add(new Option(`${country} [${programCounts.get(country).toLocaleString()}]`, country));
+      });
+      countrySelect.value = programCounts.has(state.country) ? state.country : "";
       countrySelect.addEventListener("change", () => {
         populatePlaces(countrySelect.value, placeSelect?.value || "");
         render();

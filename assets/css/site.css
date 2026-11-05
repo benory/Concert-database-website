@@ -3738,6 +3738,12 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   text-align: right;
 }
 
+.compact-table th:nth-child(2),
+.compact-table td:nth-child(2) {
+  width: 86px;
+  white-space: nowrap;
+}
+
 .analysis-method-note {
   margin: 13px 0 0;
   padding-top: 10px;

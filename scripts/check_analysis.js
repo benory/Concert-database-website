@@ -143,6 +143,10 @@ async function main() {
   assert.equal(get("page").attributes["aria-busy"], "false");
   assert.ok(!persisted.includes("breakdown="), "Old comparison URLs return to ordinary totals");
   assert.ok(get("country-filter").options.every((option) => option.value !== "Country not recorded" && option.value !== "__compare__"), "Only named countries appear in the dropdown");
+  for (const option of get("country-filter").options) {
+    const count = A.selectedConcerts(database, { ...full, country: option.value }).length;
+    assert.equal(option.text, `${option.value} [${count.toLocaleString()}]`);
+  }
   assert.equal(get("activity-title").textContent, "Programs by Year");
   get("year-chart").clientWidth = 272;
   metrics[1].trigger("click");
