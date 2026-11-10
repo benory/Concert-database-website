@@ -44,6 +44,7 @@
       "Gümpelshaimer, Adam",
       "Gümpelsheimer, Adam"
     ],
+    "birth_date": "1559",
     "cya_start": "1581",
     "cya_end": "1620",
     "death_date": "1625-11-2"
@@ -58,14 +59,18 @@
   {
     "id": "COM:Adam_of_St_Victor",
     "name": "Adam of St Victor",
-    "aliases": []
+    "aliases": [],
+    "cya_start": "1098",
+    "cya_end": "1146",
+    "death_date": "1146"
   },
   {
     "id": "COM:Adam_von_Fulda",
     "name": "Adam von Fulda",
     "aliases": [],
     "cya_start": "1490",
-    "cya_end": "1505"
+    "cya_end": "1505",
+    "death_date": "1505"
   },
   {
     "id": "COM:Adrian_Denss",
@@ -80,7 +85,8 @@
   {
     "id": "COM:Adrian_Le_Roy",
     "name": "Adrian Le Roy",
-    "aliases": []
+    "aliases": [],
+    "death_date": "1598"
   },
   {
     "id": "COM:Adrian_Willaert",
@@ -139,7 +145,8 @@
       "Ferribosco, Alfonso"
     ],
     "cya_start": "1602",
-    "cya_end": "1628"
+    "cya_end": "1628",
+    "death_date": "1628"
   },
   {
     "id": "COM:Alonso_de_Mondejar",
@@ -180,7 +187,8 @@
   {
     "id": "COM:Anthoine_Francisque",
     "name": "Anthoine Francisque",
-    "aliases": []
+    "aliases": [],
+    "death_date": "1605"
   },
   {
     "id": "COM:Antoine_Barbe",
@@ -225,7 +233,8 @@
       "De Busne, Antoine"
     ],
     "cya_start": "1450",
-    "cya_end": "1483"
+    "cya_end": "1483",
+    "death_date": "1492"
   },
   {
     "id": "COM:Antoine_de_Fevin",
@@ -250,6 +259,7 @@
       "Ciffria, Antonio",
       "Zifra, Antonio"
     ],
+    "birth_date": "1584",
     "cya_start": "1605",
     "cya_end": "1629",
     "death_date": "1629-10-2"
@@ -298,12 +308,14 @@
       "Holborn, Antony"
     ],
     "cya_start": "1581",
-    "cya_end": "1599"
+    "cya_end": "1599",
+    "death_date": "1602"
   },
   {
     "id": "COM:Arnold_de_Lantins",
     "name": "Arnold de Lantins",
-    "aliases": []
+    "aliases": [],
+    "death_date": "1432"
   },
   {
     "id": "COM:Arnold_von_Bruck",
@@ -347,7 +359,8 @@
   {
     "id": "COM:Aurelio_Bonelli",
     "name": "Aurelio Bonelli",
-    "aliases": []
+    "aliases": [],
+    "birth_date": "1569"
   },
   {
     "id": "COM:Baldasar",
@@ -368,6 +381,7 @@
       "Donato, Baldessare",
       "Donato, Baldissera"
     ],
+    "birth_date": "1529",
     "cya_start": "1546",
     "cya_end": "1596",
     "death_date": "1603-2-17"
@@ -395,7 +409,8 @@
       "Göss, Bartholomäus"
     ],
     "cya_start": "1582",
-    "cya_end": "1613"
+    "cya_end": "1613",
+    "death_date": "1613"
   },
   {
     "id": "COM:Bartolomeo_Brolo",
@@ -456,7 +471,8 @@
       "Prince de la gilde de St. Luc"
     ],
     "cya_start": "1532",
-    "cya_end": "1544"
+    "cya_end": "1544",
+    "death_date": "1544"
   },
   {
     "id": "COM:Benedictus_Grep",
@@ -473,7 +489,9 @@
   {
     "id": "COM:Bernhard_Schmid_I",
     "name": "Bernhard Schmid I",
-    "aliases": []
+    "aliases": [],
+    "birth_date": "1535",
+    "death_date": "1592"
   },
   {
     "id": "COM:Blondel_de_Nesle",
@@ -516,14 +534,17 @@
   {
     "id": "COM:Christoph_Demantius",
     "name": "Christoph Demantius",
-    "aliases": []
+    "aliases": [],
+    "birth_date": "1567-12-15",
+    "death_date": "1643-4-20"
   },
   {
     "id": "COM:Christoph_Praetorius",
     "name": "Christoph Praetorius",
     "aliases": [],
     "cya_start": "1560",
-    "cya_end": "1581"
+    "cya_end": "1581",
+    "death_date": "1609"
   },
   {
     "id": "COM:Cipriano_de_Rore",
@@ -539,7 +560,8 @@
       "Rore, Cyprien de"
     ],
     "cya_start": "1542",
-    "cya_end": "1565"
+    "cya_end": "1565",
+    "death_date": "1565-9"
   },
   {
     "id": "COM:Claude_Gervaise",
@@ -564,7 +586,8 @@
       "Jodymel, Claude"
     ],
     "cya_start": "1551",
-    "cya_end": "1572"
+    "cya_end": "1572",
+    "death_date": "1572-8"
   },
   {
     "id": "COM:Claude_Le_Jeune",
@@ -635,7 +658,8 @@
       "Jacobus Clement non papa"
     ],
     "cya_start": "1538",
-    "cya_end": "1555"
+    "cya_end": "1555",
+    "death_date": "1555"
   },
   {
     "id": "COM:Clement_Janequin",
@@ -677,6 +701,7 @@
       "Schuyt, Cornelius Floriszoon",
       "Scutius, Cornelis"
     ],
+    "birth_date": "1557",
     "cya_start": "1584",
     "cya_end": "1616",
     "death_date": "1616-6-9"
@@ -708,7 +733,8 @@
       "Morales, Christophoro'"
     ],
     "cya_start": "1522",
-    "cya_end": "1553"
+    "cya_end": "1553",
+    "death_date": "1553"
   },
   {
     "id": "COM:Defronciaco",
@@ -739,12 +765,14 @@
   {
     "id": "COM:Ephrem_Syrus",
     "name": "Ephrem Syrus",
-    "aliases": []
+    "aliases": [],
+    "death_date": "373-6-9"
   },
   {
     "id": "COM:Erasmus_Lapicida",
     "name": "Erasmus Lapicida",
-    "aliases": []
+    "aliases": [],
+    "death_date": "1547-11-19"
   },
   {
     "id": "COM:Erasmus_Widmann",
@@ -753,6 +781,7 @@
       "Wideman, Erasm.",
       "Widemann, Erasmus"
     ],
+    "birth_date": "1572-9-15",
     "cya_start": "1595",
     "cya_end": "1629",
     "death_date": "1634-10-31"
@@ -764,8 +793,10 @@
       "Bodenschatz, August M. Eberhard",
       "Bodenschatz, Leonhard"
     ],
+    "birth_date": "1576",
     "cya_start": "1600",
-    "cya_end": "1636"
+    "cya_end": "1636",
+    "death_date": "1636"
   },
   {
     "id": "COM:Estienne_Du_Tetre",
@@ -786,6 +817,7 @@
       "Ducaurroy, Eustache",
       "Ducauvroy, Eustache"
     ],
+    "birth_date": "1549",
     "cya_start": "1574",
     "cya_end": "1609",
     "death_date": "1609-8-7"
@@ -834,7 +866,7 @@
   },
   {
     "id": "COM:Francesco_dAna",
-    "name": "Francesco D'Ana",
+    "name": "Francesco d'Ana",
     "aliases": [
       "Ana, Francesco",
       "Ana, Francesco d'",
@@ -909,12 +941,15 @@
   {
     "id": "COM:Francis_Pilkington",
     "name": "Francis Pilkington",
-    "aliases": []
+    "aliases": [],
+    "death_date": "1638"
   },
   {
     "id": "COM:Francisco_Guerrero",
     "name": "Francisco Guerrero",
-    "aliases": []
+    "aliases": [],
+    "birth_date": "1528-10-4",
+    "death_date": "1599-11-8"
   },
   {
     "id": "COM:Franciscus_Niger",
@@ -997,7 +1032,8 @@
   {
     "id": "COM:Georg_Forster",
     "name": "Georg Forster",
-    "aliases": []
+    "aliases": [],
+    "death_date": "1568-11-12"
   },
   {
     "id": "COM:Georg_Rhau",
@@ -1009,6 +1045,7 @@
       "Rhau, Jörg",
       "Rhaw, Georg"
     ],
+    "birth_date": "1488",
     "cya_start": "1514",
     "cya_end": "1548",
     "death_date": "1548-8-6"
@@ -1058,6 +1095,7 @@
       "Werth",
       "Werth, Jakob"
     ],
+    "birth_date": "1535",
     "cya_start": "1556",
     "cya_end": "1595",
     "death_date": "1596-5-6"
@@ -1078,6 +1116,7 @@
       "Jac. Fo.",
       "Jacobus Folianus Mutinensis"
     ],
+    "birth_date": "1468",
     "cya_start": "1479",
     "cya_end": "1548",
     "death_date": "1548-4-10"
@@ -1089,7 +1128,8 @@
       "Farnabie, Giles"
     ],
     "cya_start": "1592",
-    "cya_end": "1639"
+    "cya_end": "1639",
+    "death_date": "1640"
   },
   {
     "id": "COM:Gilles_Binchois",
@@ -1136,7 +1176,8 @@
     ],
     "birth_date": "1542-1-27",
     "cya_start": "1562",
-    "cya_end": "1611"
+    "cya_end": "1611",
+    "death_date": "1611"
   },
   {
     "id": "COM:Gioseppe_Caimo",
@@ -1145,7 +1186,8 @@
       "Caimo, Giuseppe"
     ],
     "cya_start": "1563",
-    "cya_end": "1584"
+    "cya_end": "1584",
+    "death_date": "1584"
   },
   {
     "id": "COM:Giovan_Leonardo_Primavera",
@@ -1193,7 +1235,8 @@
       "Nolla, Giovanni Domenico da"
     ],
     "cya_start": "1541",
-    "cya_end": "1592"
+    "cya_end": "1592",
+    "death_date": "1592-5"
   },
   {
     "id": "COM:Giovanni_Gabrieli",
@@ -1203,7 +1246,8 @@
       "Gabrielli, Giovanni"
     ],
     "cya_start": "1578",
-    "cya_end": "1612"
+    "cya_end": "1612",
+    "death_date": "1612-8"
   },
   {
     "id": "COM:Giovanni_Giacomo_Gastoldi",
@@ -1322,7 +1366,8 @@
     ],
     "birth_date": "1551-10-8",
     "cya_start": "1565",
-    "cya_end": "1618"
+    "cya_end": "1618",
+    "death_date": "1618"
   },
   {
     "id": "COM:Grazioso_da_Padua",
@@ -1334,7 +1379,8 @@
   {
     "id": "COM:Gregor_Aichinger",
     "name": "Gregor Aichinger",
-    "aliases": []
+    "aliases": [],
+    "death_date": "1628-1"
   },
   {
     "id": "COM:Gregor_Peschin",
@@ -1380,7 +1426,8 @@
       "Michault, Guillaume de"
     ],
     "cya_start": "1323",
-    "cya_end": "1377"
+    "cya_end": "1377",
+    "death_date": "1377-4"
   },
   {
     "id": "COM:Guillaume_Du_Fay",
@@ -1438,17 +1485,21 @@
     ],
     "birth_date": "1483-10-26",
     "cya_start": "1506",
-    "cya_end": "1526"
+    "cya_end": "1526",
+    "death_date": "1538"
   },
   {
     "id": "COM:Hans_Christoph_Haiden",
     "name": "Hans Christoph Haiden",
-    "aliases": []
+    "aliases": [],
+    "birth_date": "1572",
+    "death_date": "1617"
   },
   {
     "id": "COM:Hans_Gerle",
     "name": "Hans Gerle",
-    "aliases": []
+    "aliases": [],
+    "death_date": "1570"
   },
   {
     "id": "COM:Hans_Judenkonig",
@@ -1460,7 +1511,8 @@
     "name": "Hans Kotter",
     "aliases": [],
     "cya_start": "1500",
-    "cya_end": "1541"
+    "cya_end": "1541",
+    "death_date": "1541"
   },
   {
     "id": "COM:Hans_Leo_Hassler",
@@ -1493,6 +1545,7 @@
       "Haster, Hans Leo",
       "Haßler, Hans Leo"
     ],
+    "birth_date": "1564",
     "cya_start": "1584",
     "cya_end": "1612",
     "death_date": "1612-6-8"
@@ -1552,6 +1605,7 @@
       "Loritis",
       "Loritti"
     ],
+    "birth_date": "1488-6",
     "cya_start": "1512",
     "cya_end": "1558",
     "death_date": "1563-3-28"
@@ -1627,7 +1681,9 @@
   {
     "id": "COM:Hermannus_Contractus",
     "name": "Hermannus Contractus",
-    "aliases": []
+    "aliases": [],
+    "birth_date": "1013-7-18",
+    "death_date": "1054-9-24"
   },
   {
     "id": "COM:Hesdin",
@@ -1644,7 +1700,8 @@
   {
     "id": "COM:Hubert_Waelrant",
     "name": "Hubert Waelrant",
-    "aliases": []
+    "aliases": [],
+    "death_date": "1595-11-19"
   },
   {
     "id": "COM:Hugh_Aston",
@@ -1710,17 +1767,21 @@
       "Ubreto, Jacob"
     ],
     "cya_start": "1480",
-    "cya_end": "1505"
+    "cya_end": "1505",
+    "death_date": "1505"
   },
   {
     "id": "COM:Jacob_Regnart",
     "name": "Jacob Regnart",
-    "aliases": []
+    "aliases": [],
+    "death_date": "1599-10-16"
   },
   {
     "id": "COM:Jacobus_Barbireau",
     "name": "Jacobus Barbireau",
-    "aliases": []
+    "aliases": [],
+    "birth_date": "1455",
+    "death_date": "1491-8-7"
   },
   {
     "id": "COM:Jacobus_Handl",
@@ -1749,6 +1810,7 @@
       "Händl, Jacob",
       "Petelin, Jacobus"
     ],
+    "birth_date": "1550",
     "cya_start": "1579",
     "cya_end": "1591",
     "death_date": "1591-7-18"
@@ -1773,12 +1835,16 @@
   {
     "id": "COM:Jacopo_Fogliano",
     "name": "Jacopo Fogliano",
-    "aliases": []
+    "aliases": [],
+    "birth_date": "1468",
+    "death_date": "1548-4-10"
   },
   {
     "id": "COM:Jacopo_Peri",
     "name": "Jacopo Peri",
-    "aliases": []
+    "aliases": [],
+    "birth_date": "1561-8-20",
+    "death_date": "1633-8-12"
   },
   {
     "id": "COM:Jacopone_da_Todi",
@@ -1828,6 +1894,7 @@
       "Harchadelt, Jacques",
       "Jacobus Flandrus"
     ],
+    "birth_date": "1507",
     "cya_start": "1530",
     "cya_end": "1562",
     "death_date": "1562-10-14"
@@ -1835,7 +1902,9 @@
   {
     "id": "COM:Jacques_Mauduit",
     "name": "Jacques Mauduit",
-    "aliases": []
+    "aliases": [],
+    "birth_date": "1557-9-16",
+    "death_date": "1627-8-21"
   },
   {
     "id": "COM:Jacquet_de_Berchem",
@@ -1869,7 +1938,8 @@
       "Nascus, Johannes"
     ],
     "cya_start": "1547",
-    "cya_end": "1561"
+    "cya_end": "1561",
+    "death_date": "1561"
   },
   {
     "id": "COM:Jan_Pieterszoon_Sweelinck",
@@ -1890,6 +1960,7 @@
       "Swelingh, Jan Pieterszoon",
       "Zwelinck, Jan Pieterszoon"
     ],
+    "birth_date": "1562-5",
     "cya_start": "1577",
     "cya_end": "1621",
     "death_date": "1621-10-16"
@@ -1941,7 +2012,8 @@
       "Du Conseil, Jean"
     ],
     "cya_start": "1526",
-    "cya_end": "1534"
+    "cya_end": "1534",
+    "death_date": "1534"
   },
   {
     "id": "COM:Jean_de_Castro",
@@ -2029,6 +2101,7 @@
       "Libanus, Georgius",
       "Weihrauch, Georg"
     ],
+    "birth_date": "1464",
     "cya_start": "1506",
     "cya_end": "1540"
   },
@@ -2047,7 +2120,9 @@
   {
     "id": "COM:Jobst_vom_Brandt",
     "name": "Jobst vom Brant",
-    "aliases": []
+    "aliases": [],
+    "birth_date": "1517-10-28",
+    "death_date": "1570-1-22"
   },
   {
     "id": "COM:Johann_Eccard",
@@ -2062,15 +2137,18 @@
       "Eccart, Johannes",
       "Eckard, Johann"
     ],
+    "birth_date": "1533",
     "cya_start": "1569",
-    "cya_end": "1611"
+    "cya_end": "1611",
+    "death_date": "1611"
   },
   {
     "id": "COM:Johann_Kugelmann",
     "name": "Johann Kugelmann",
     "aliases": [],
     "cya_start": "1518",
-    "cya_end": "1540"
+    "cya_end": "1540",
+    "death_date": "1542"
   },
   {
     "id": "COM:Johann_Leonhard_von_Langenaw",
@@ -2088,7 +2166,8 @@
       "Stephanus, Johann"
     ],
     "cya_start": "1589",
-    "cya_end": "1609"
+    "cya_end": "1609",
+    "death_date": "1616"
   },
   {
     "id": "COM:Johann_Walter",
@@ -2097,6 +2176,7 @@
       "Walter, Johannes",
       "Walther, Johann"
     ],
+    "birth_date": "1496",
     "cya_start": "1521",
     "cya_end": "1570",
     "death_date": "1570-3-25"
@@ -2111,12 +2191,14 @@
   {
     "id": "COM:Johannes_Brassart",
     "name": "Johannes Brassart",
-    "aliases": []
+    "aliases": [],
+    "death_date": "1455"
   },
   {
     "id": "COM:Johannes_Ciconia",
     "name": "Johannes Ciconia",
-    "aliases": []
+    "aliases": [],
+    "death_date": "1412"
   },
   {
     "id": "COM:Johannes_Cochlaeus",
@@ -2154,8 +2236,10 @@
       "Wendelsterner, Johannes",
       "Wendelstinus, Johannes"
     ],
+    "birth_date": "1479-1-10",
     "cya_start": "1510",
-    "cya_end": "1552"
+    "cya_end": "1552",
+    "death_date": "1552-1-10"
   },
   {
     "id": "COM:Johannes_Cornago",
@@ -2186,7 +2270,8 @@
   {
     "id": "COM:Johannes_de_Stokem",
     "name": "Johannes de Stokem",
-    "aliases": []
+    "aliases": [],
+    "death_date": "1487-10"
   },
   {
     "id": "COM:Johannes_Escobar",
@@ -2231,12 +2316,14 @@
     "name": "Johannes Mangon",
     "aliases": [],
     "cya_start": "1535",
-    "cya_end": "1578"
+    "cya_end": "1578",
+    "death_date": "1578"
   },
   {
     "id": "COM:Johannes_Nucius",
     "name": "Johannes Nucius",
-    "aliases": []
+    "aliases": [],
+    "death_date": "1620-3-25"
   },
   {
     "id": "COM:Johannes_Okeghem",
@@ -2281,7 +2368,8 @@
   {
     "id": "COM:Johannes_Tinctoris",
     "name": "Johannes Tinctoris",
-    "aliases": []
+    "aliases": [],
+    "death_date": "1511-2-9"
   },
   {
     "id": "COM:Johannes_Touront",
@@ -2300,12 +2388,14 @@
       "Wannenmacher, Johannes"
     ],
     "cya_start": "1510",
-    "cya_end": "1531"
+    "cya_end": "1531",
+    "death_date": "1551"
   },
   {
     "id": "COM:John_Adson",
     "name": "John Adson",
-    "aliases": []
+    "aliases": [],
+    "death_date": "1640-6-29"
   },
   {
     "id": "COM:John_Bartlet",
@@ -2365,7 +2455,8 @@
   {
     "id": "COM:John_Danyel",
     "name": "John Danyel",
-    "aliases": []
+    "aliases": [],
+    "birth_date": "1564"
   },
   {
     "id": "COM:John_Dowland",
@@ -2379,6 +2470,7 @@
       "Dulandi, John",
       "Dulandt, John"
     ],
+    "birth_date": "1563",
     "cya_start": "1588",
     "cya_end": "1626",
     "death_date": "1626-2-20"
@@ -2447,7 +2539,8 @@
   {
     "id": "COM:John_Ward",
     "name": "John Ward",
-    "aliases": []
+    "aliases": [],
+    "death_date": "1638"
   },
   {
     "id": "COM:John_Wilbye",
@@ -2456,8 +2549,10 @@
       "Willonghbye, John",
       "Willoughbye, John"
     ],
+    "birth_date": "1574",
     "cya_start": "1598",
-    "cya_end": "1638"
+    "cya_end": "1638",
+    "death_date": "1638"
   },
   {
     "id": "COM:Josquin_Baston",
@@ -2518,7 +2613,8 @@
   {
     "id": "COM:Juan_de_Cabezon",
     "name": "Juan de Cabezon",
-    "aliases": []
+    "aliases": [],
+    "death_date": "1566-5-18"
   },
   {
     "id": "COM:Juan_de_Leon",
@@ -2530,17 +2626,22 @@
   {
     "id": "COM:Juan_del_Encina",
     "name": "Juan del Encina",
-    "aliases": []
+    "aliases": [],
+    "birth_date": "1468-7-12"
   },
   {
     "id": "COM:Konrad_Hagius",
     "name": "Konrad Hagius",
-    "aliases": []
+    "aliases": [],
+    "birth_date": "1550",
+    "death_date": "1616"
   },
   {
     "id": "COM:Krystof_Harant",
     "name": "Kryštof Harant",
-    "aliases": []
+    "aliases": [],
+    "birth_date": "1564",
+    "death_date": "1621-6-21"
   },
   {
     "id": "COM:Leonel_Power",
@@ -2586,7 +2687,9 @@
   {
     "id": "COM:Leonhard_Paminger",
     "name": "Leonhard Paminger",
-    "aliases": []
+    "aliases": [],
+    "birth_date": "1495-3-25",
+    "death_date": "1567-5-3"
   },
   {
     "id": "COM:Leonhard_Schroeter",
@@ -2609,7 +2712,8 @@
   {
     "id": "COM:Lodovico_Viadana",
     "name": "Lodovico Viadana",
-    "aliases": []
+    "aliases": [],
+    "death_date": "1627-5-2"
   },
   {
     "id": "COM:Lope_de_Baena",
@@ -2654,6 +2758,7 @@
     "aliases": [
       "Osiander, Lukas"
     ],
+    "birth_date": "1534-12",
     "cya_start": "1558",
     "cya_end": "1604",
     "death_date": "1604-9-17"
@@ -2690,7 +2795,8 @@
       "Sänfli, Ludwig"
     ],
     "cya_start": "1507",
-    "cya_end": "1540"
+    "cya_end": "1540",
+    "death_date": "1543"
   },
   {
     "id": "COM:Luis_Milan",
@@ -2731,7 +2837,8 @@
       "Wulframus, Lupus"
     ],
     "cya_start": "1518",
-    "cya_end": "1541"
+    "cya_end": "1541",
+    "death_date": "1541-1"
   },
   {
     "id": "COM:Marbrianus_de_Orto",
@@ -2746,7 +2853,8 @@
       "Orto, Marbriano de"
     ],
     "cya_start": "1482",
-    "cya_end": "1522"
+    "cya_end": "1522",
+    "death_date": "1529"
   },
   {
     "id": "COM:MarcAntonio_Ingegneri",
@@ -2762,7 +2870,8 @@
       "Inzigneri, Marco Antonio"
     ],
     "cya_start": "1557",
-    "cya_end": "1592"
+    "cya_end": "1592",
+    "death_date": "1592-7-1"
   },
   {
     "id": "COM:Marchetto_Cara",
@@ -2773,7 +2882,8 @@
       "De Cara, Marchetto"
     ],
     "cya_start": "1494",
-    "cya_end": "1525"
+    "cya_end": "1525",
+    "death_date": "1525"
   },
   {
     "id": "COM:Marco_Antonio_Cavazzoni",
@@ -2880,7 +2990,8 @@
       "Pierson, Martin"
     ],
     "cya_start": "1604",
-    "cya_end": "1630"
+    "cya_end": "1630",
+    "death_date": "1561"
   },
   {
     "id": "COM:Matheo_Flecha_I",
@@ -2903,7 +3014,8 @@
   {
     "id": "COM:Mathias_Apiarius",
     "name": "Mathias Apiarius",
-    "aliases": []
+    "aliases": [],
+    "death_date": "1554"
   },
   {
     "id": "COM:Mathias_Greiter",
@@ -2958,7 +3070,8 @@
       "Meistre, Mattheus"
     ],
     "cya_start": "1554",
-    "cya_end": "1577"
+    "cya_end": "1577",
+    "death_date": "1577"
   },
   {
     "id": "COM:Matthaus_Waissel",
@@ -2973,7 +3086,8 @@
       "Waisselius, Mattheus"
     ],
     "cya_start": "1573",
-    "cya_end": "1599"
+    "cya_end": "1599",
+    "death_date": "1602"
   },
   {
     "id": "COM:Meister_Rumelant",
@@ -2995,7 +3109,8 @@
   {
     "id": "COM:Melchior_Vulpius",
     "name": "Melchior Vulpius",
-    "aliases": []
+    "aliases": [],
+    "death_date": "1615"
   },
   {
     "id": "COM:Mesomedes",
@@ -3016,7 +3131,8 @@
   {
     "id": "COM:Michael_Cavendish",
     "name": "Michael Cavendish",
-    "aliases": []
+    "aliases": [],
+    "death_date": "1628"
   },
   {
     "id": "COM:Michael_East",
@@ -3027,7 +3143,8 @@
       "Hayes, Michel"
     ],
     "cya_start": "1601",
-    "cya_end": "1648"
+    "cya_end": "1648",
+    "death_date": "1648"
   },
   {
     "id": "COM:Michael_Praetorius",
@@ -3065,7 +3182,8 @@
       "Vicentino, Michele"
     ],
     "cya_start": "1504",
-    "cya_end": "1528"
+    "cya_end": "1528",
+    "death_date": "1528-5"
   },
   {
     "id": "COM:Moniot_dArras",
@@ -3130,7 +3248,8 @@
       "Grenon, Nicole"
     ],
     "cya_start": "1399",
-    "cya_end": "1456"
+    "cya_end": "1456",
+    "death_date": "1456"
   },
   {
     "id": "COM:Nikolaus_Zangius",
@@ -3206,6 +3325,7 @@
       "Vechi, Orazio Tiberio",
       "Vergus, Horatius"
     ],
+    "birth_date": "1550",
     "cya_start": "1577",
     "cya_end": "1603",
     "death_date": "1605-2-19"
@@ -3240,6 +3360,7 @@
       "Gibons, Orlando",
       "Gybbons, Orlando"
     ],
+    "birth_date": "1583",
     "cya_start": "1605",
     "cya_end": "1625",
     "death_date": "1625-6-5"
@@ -3258,7 +3379,8 @@
   {
     "id": "COM:Othmar_Luscinius",
     "name": "Othmar Luscinius",
-    "aliases": []
+    "aliases": [],
+    "death_date": "1537-9-5"
   },
   {
     "id": "COM:Paolo_da_Firenze",
@@ -3290,7 +3412,8 @@
     ],
     "birth_date": "1459-1-25",
     "cya_start": "1478",
-    "cya_end": "1537"
+    "cya_end": "1537",
+    "death_date": "1537"
   },
   {
     "id": "COM:Paul_Peuerl",
@@ -3341,6 +3464,7 @@
     "id": "COM:Peter_Abelard",
     "name": "Peter Abelard",
     "aliases": [],
+    "birth_date": "1079",
     "cya_start": "1118",
     "cya_end": "1142",
     "death_date": "1142-4-21"
@@ -3358,7 +3482,8 @@
       "Schöffer, Peter [der Jüngere]"
     ],
     "cya_start": "1503",
-    "cya_end": "1542"
+    "cya_end": "1542",
+    "death_date": "1547"
   },
   {
     "id": "COM:Petit_Jean_de_Latre",
@@ -3410,14 +3535,16 @@
   {
     "id": "COM:Philip_Rosseter",
     "name": "Philip Rosseter",
-    "aliases": []
+    "aliases": [],
+    "death_date": "1623-5-5"
   },
   {
     "id": "COM:Philippe_Basiron",
     "name": "Philippe Basiron",
     "aliases": [],
     "cya_start": "1458",
-    "cya_end": "1490"
+    "cya_end": "1490",
+    "death_date": "1491"
   },
   {
     "id": "COM:Philippe_de_Monte",
@@ -3434,6 +3561,7 @@
       "Monte, Philippus de",
       "Philippus de Monte"
     ],
+    "birth_date": "1521",
     "cya_start": "1554",
     "cya_end": "1586",
     "death_date": "1603-7-4"
@@ -3505,6 +3633,7 @@
     "id": "COM:Pierre_Bonnet",
     "name": "Pierre Bonnet",
     "aliases": [],
+    "birth_date": "x",
     "cya_start": "1585",
     "cya_end": "1600"
   },
@@ -3565,6 +3694,7 @@
       "Bissianus, Pontus T.",
       "Bissy, Pontus de T. de"
     ],
+    "birth_date": "1521",
     "cya_start": "1552",
     "cya_end": "1605",
     "death_date": "1605-9-23"
@@ -3590,12 +3720,14 @@
       "Davys, Richard"
     ],
     "cya_start": "1483",
-    "cya_end": "1535"
+    "cya_end": "1535",
+    "death_date": "1538"
   },
   {
     "id": "COM:Richard_Loqueville",
     "name": "Richard Loqueville",
-    "aliases": []
+    "aliases": [],
+    "death_date": "1418"
   },
   {
     "id": "COM:Richard_Nicholson",
@@ -3603,13 +3735,17 @@
     "aliases": [
       "Nicolson, Richard"
     ],
+    "birth_date": "1563",
     "cya_start": "1595",
-    "cya_end": "1639"
+    "cya_end": "1639",
+    "death_date": "1639"
   },
   {
     "id": "COM:Richard_the_Lionheart",
     "name": "Richard the Lionheart",
-    "aliases": []
+    "aliases": [],
+    "birth_date": "1157-9",
+    "death_date": "1199-4-11"
   },
   {
     "id": "COM:Rinaldo_del_Mel",
@@ -3641,7 +3777,8 @@
     "name": "Robert Johnson",
     "aliases": [],
     "cya_start": "1604",
-    "cya_end": "1633"
+    "cya_end": "1633",
+    "death_date": "1633"
   },
   {
     "id": "COM:Robert_Jones_II",
@@ -3680,13 +3817,16 @@
       "Rossi, Salomone",
       "Rossi, Shlomo"
     ],
+    "birth_date": "1570-8-19",
     "cya_start": "1589",
     "cya_end": "1628"
   },
   {
     "id": "COM:Samuel_Mareschall",
     "name": "Samuel Mareschall",
-    "aliases": []
+    "aliases": [],
+    "birth_date": "1554-5",
+    "death_date": "1640-12"
   },
   {
     "id": "COM:Santino_Garsi",
@@ -3700,8 +3840,10 @@
       "Santino detto Valdes",
       "Valdes, Santino"
     ],
+    "birth_date": "1542-2-22",
     "cya_start": "1570",
-    "cya_end": "1604"
+    "cya_end": "1604",
+    "death_date": "1604"
   },
   {
     "id": "COM:Sebastian_Forster",
@@ -3757,7 +3899,8 @@
       "Mahu, Steffanus"
     ],
     "cya_start": "1528",
-    "cya_end": "1541"
+    "cya_end": "1541",
+    "death_date": "1541"
   },
   {
     "id": "COM:Stephan_Zirler",
@@ -3774,7 +3917,8 @@
       "Zyrlerus, Stephanus"
     ],
     "cya_start": "1537",
-    "cya_end": "1568"
+    "cya_end": "1568",
+    "death_date": "1568-7"
   },
   {
     "id": "COM:Thibaut_de_Navarre",
@@ -3808,7 +3952,8 @@
   {
     "id": "COM:Thomas_Crecquillon",
     "name": "Thomas Crecquillon",
-    "aliases": []
+    "aliases": [],
+    "death_date": "1557"
   },
   {
     "id": "COM:Thomas_Greaves",
@@ -3822,8 +3967,10 @@
       "Luppo, Thomas",
       "Lupus, Thomas"
     ],
+    "birth_date": "1571",
     "cya_start": "1591",
-    "cya_end": "1627"
+    "cya_end": "1627",
+    "death_date": "1627-12"
   },
   {
     "id": "COM:Thomas_Morley",
@@ -3833,7 +3980,8 @@
       "Morlei, Tomaso"
     ],
     "cya_start": "1574",
-    "cya_end": "1602"
+    "cya_end": "1602",
+    "death_date": "1602"
   },
   {
     "id": "COM:Thomas_Ravenscroft",
@@ -3843,7 +3991,8 @@
   {
     "id": "COM:Thomas_Simpson",
     "name": "Thomas Simpson",
-    "aliases": []
+    "aliases": [],
+    "birth_date": "1582-4-1"
   },
   {
     "id": "COM:Thomas_Stoltzer",
@@ -3863,7 +4012,8 @@
       "Stolzer, Thomas"
     ],
     "cya_start": "1519",
-    "cya_end": "1526"
+    "cya_end": "1526",
+    "death_date": "1526"
   },
   {
     "id": "COM:Thomas_Tomkins",
@@ -3874,8 +4024,10 @@
       "Tompkins, Thomas",
       "Tonkins, Thomas"
     ],
+    "birth_date": "1572",
     "cya_start": "1596",
-    "cya_end": "1654"
+    "cya_end": "1654",
+    "death_date": "1656"
   },
   {
     "id": "COM:Thomas_Tzamen",
@@ -3899,15 +4051,19 @@
       "Weekes, Thomas",
       "Wilkes, Thomas"
     ],
+    "birth_date": "1576",
     "cya_start": "1597",
-    "cya_end": "1623"
+    "cya_end": "1623",
+    "death_date": "1623"
   },
   {
     "id": "COM:Thomas_Whythorne",
     "name": "Thomas Whythorne",
     "aliases": [],
+    "birth_date": "1528",
     "cya_start": "1555",
-    "cya_end": "1596"
+    "cya_end": "1596",
+    "death_date": "1596"
   },
   {
     "id": "COM:Tobias_Hume",
@@ -3976,13 +4132,14 @@
   },
   {
     "id": "COM:Vincenzo_Galilei",
-    "name": "Vincenzo Gallilei",
+    "name": "Vincenzo Galilei",
     "aliases": [
       "Galilei, Vincentio",
       "Galilei, Vincenzio"
     ],
     "cya_start": "1568",
-    "cya_end": "1591"
+    "cya_end": "1591",
+    "death_date": "1591"
   },
   {
     "id": "COM:Vitslav_von_Rugen",
@@ -4062,17 +4219,20 @@
       "William [Cornyshe]"
     ],
     "cya_start": "1493",
-    "cya_end": "1523"
+    "cya_end": "1523",
+    "death_date": "1523"
   },
   {
     "id": "COM:William_Daman",
     "name": "William Daman",
-    "aliases": []
+    "aliases": [],
+    "death_date": "1591"
   },
   {
     "id": "COM:Wolff_Heintz",
     "name": "Wolff Heintz",
-    "aliases": []
+    "aliases": [],
+    "death_date": "1552"
   },
   {
     "id": "COM:Wolfgang_Grefinger",
