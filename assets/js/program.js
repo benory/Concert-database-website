@@ -251,6 +251,15 @@
       link.dataset.personName = canonicalName;
       link.dataset.personRole = "Composer";
       fragment.append(link);
+
+      const dating = DB.composerDating(authority);
+      if (dating) {
+        const dates = document.createElement("span");
+        dates.className = "composer-dates";
+        DB.appendDating(dates, dating, "(");
+        dates.append(")");
+        fragment.append(" ", dates);
+      }
     });
     container.replaceChildren(fragment);
   }

@@ -883,6 +883,45 @@ button.program-title:focus-visible {
   font-size: 12px;
 }
 
+.leaflet-bottom.leaflet-right .map-attribution {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 6px;
+  margin: 0 12px 6px 0;
+}
+
+.map-attribution-toggle {
+  display: grid;
+  place-items: center;
+  flex: 0 0 36px;
+  height: 30px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: #4b5563;
+}
+
+.map-attribution-icon {
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  background: var(--surface);
+  font: bold 14px/1 Georgia, serif;
+}
+
+.leaflet-container .map-attribution .leaflet-control-attribution {
+  margin: 0;
+  padding: 3px 8px;
+  white-space: nowrap;
+  border-radius: 4px;
+  background: var(--surface);
+}
+
 .leaflet-control-zoom.leaflet-bar {
   display: grid;
   gap: 7px;
@@ -3744,14 +3783,6 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   white-space: nowrap;
 }
 
-.analysis-method-note {
-  margin: 13px 0 0;
-  padding-top: 10px;
-  border-top: 1px solid var(--line);
-  color: var(--muted);
-  font-size: 14px;
-}
-
 .analysis-card-actions {
   display: flex;
   align-items: center;
@@ -3884,6 +3915,11 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   white-space: normal;
   line-height: 1.35;
   overflow-wrap: anywhere;
+}
+
+.composer-dates {
+  color: var(--muted);
+  white-space: nowrap;
 }
 
 .rank-detail {

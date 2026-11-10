@@ -153,6 +153,72 @@
     });
   }
 
+  function addBaseMap(map) {
+    const L = window.L;
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 18,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    }).addTo(map);
+
+    const attribution = map.attributionControl;
+    if (!attribution) return;
+    attribution.setPrefix(false);
+    const credit = attribution.getContainer();
+    credit.id = `${map.getContainer().id}-attribution`;
+    const control = L.control({ position: attribution.getPosition() });
+    let observer;
+    let collapseTimer;
+
+    control.onAdd = () => {
+      const container = L.DomUtil.create("div", "map-attribution");
+      const toggle = L.DomUtil.create("button", "map-attribution-toggle", container);
+      toggle.type = "button";
+      toggle.setAttribute("aria-label", "Map credits");
+      toggle.setAttribute("aria-controls", credit.id);
+      const icon = L.DomUtil.create("span", "map-attribution-icon", toggle);
+      icon.setAttribute("aria-hidden", "true");
+      icon.textContent = "i";
+      container.appendChild(credit);
+      L.DomEvent.disableClickPropagation(container);
+
+      function setExpanded(expanded) {
+        toggle.setAttribute("aria-expanded", String(expanded));
+        credit.hidden = !expanded;
+      }
+
+      function scheduleCollapse() {
+        observer?.disconnect();
+        collapseTimer = window.setTimeout(() => {
+          if (!credit.contains(document.activeElement)) setExpanded(false);
+        }, 5000);
+      }
+
+      setExpanded(true);
+      // The homepage map may start below the fold.
+      if ("IntersectionObserver" in window) {
+        observer = new window.IntersectionObserver(([entry]) => {
+          if (entry.isIntersecting) scheduleCollapse();
+        });
+        observer.observe(credit);
+      } else {
+        scheduleCollapse();
+      }
+
+      toggle.addEventListener("click", () => {
+        observer?.disconnect();
+        window.clearTimeout(collapseTimer);
+        setExpanded(credit.hidden);
+      });
+
+      return container;
+    };
+    control.onRemove = () => {
+      observer?.disconnect();
+      window.clearTimeout(collapseTimer);
+    };
+    control.addTo(map);
+  }
+
   function createRegionMap(configuration, onSelect) {
     let definition = REGION_DEFINITIONS[configuration.region];
     const node = document.getElementById(configuration.nodeId);
@@ -167,13 +233,10 @@
       zoomSnap: 0.25,
       zoomDelta: 0.5,
     });
+    addBaseMap(map);
     if (configuration.zoomControl === true && map.zoomControl) {
       map.zoomControl.setPosition(configuration.zoomPosition || "topleft");
     }
-    window.L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      maxZoom: 18,
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-    }).addTo(map);
 
     const markerLayer = markerCollection(map);
     markerLayer.addTo(map);
@@ -424,13 +487,10 @@
       zoomSnap: 0.25,
       zoomDelta: 0.5,
     });
+    addBaseMap(map);
     if (configuration.zoomControl === true && map.zoomControl) {
       map.zoomControl.setPosition(configuration.zoomPosition || "topleft");
     }
-    window.L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      maxZoom: 18,
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-    }).addTo(map);
 
     const markerLayer = markerCollection(map);
     markerLayer.addTo(map);

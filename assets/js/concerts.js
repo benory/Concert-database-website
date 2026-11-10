@@ -401,18 +401,13 @@
       renderSourceLink(null);
       if (personContext) personContext.hidden = true;
       const name = Results.selectionLabel(filters, database);
-      const year = (value) => String(value || "").match(/\d{3,4}/)?.[0] || "";
-      const birth = year(composer?.birth_date);
-      const death = year(composer?.death_date);
-      const start = year(composer?.cya_start);
-      const end = year(composer?.cya_end);
-      const dates = birth && death ? `${birth}–${death}` : birth ? `b. ${birth}` : death ? `d. ${death}`
-        : start || end ? `fl. ${[start, end].filter(Boolean).filter((value, index, all) => all.indexOf(value) === index).join("–")}` : "";
+      const dating = DB.composerDating(composer);
       if (eyebrow) eyebrow.textContent = "Composer";
       if (heading) heading.textContent = name;
       if (contextMeta) {
-        contextMeta.textContent = dates;
-        contextMeta.hidden = !dates;
+        contextMeta.replaceChildren();
+        DB.appendDating(contextMeta, dating, "");
+        contextMeta.hidden = !dating;
       }
       document.title = `${name} · Early Music Concerts`;
       return;

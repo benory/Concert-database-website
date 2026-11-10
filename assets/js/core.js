@@ -70,6 +70,45 @@
     return `${concert.year}-${String(concert.month).padStart(2, "0")}-${String(concert.day).padStart(2, "0")}`;
   }
 
+  function leadingYear(value) {
+    const match = String(value || "").match(/(?:^|\D)(\d{3,4})(?=\D|$)/);
+    return match ? match[1] : "";
+  }
+
+  function lifeDating(birthDate, deathDate) {
+    const birth = leadingYear(birthDate);
+    const death = leadingYear(deathDate);
+    if (birth && death) return { prefix: "", years: `${birth}–${death}` };
+    if (birth) return { prefix: "b.", years: birth };
+    if (death) return { prefix: "d.", years: death };
+    return null;
+  }
+
+  function composerDating(composer) {
+    const lifespan = lifeDating(composer?.birth_date, composer?.death_date);
+    if (lifespan) return lifespan;
+
+    const start = leadingYear(composer?.cya_start);
+    const end = leadingYear(composer?.cya_end);
+    if (!start && !end) return null;
+    return {
+      prefix: "fl.",
+      years: start && end && start !== end ? `${start}–${end}` : (start || end),
+    };
+  }
+
+  function appendDating(container, dating, separator = ", ") {
+    if (!dating) return;
+    container.append(separator);
+    if (dating.prefix === "fl.") {
+      const prefix = document.createElement("i");
+      prefix.textContent = dating.prefix;
+      container.append(prefix, ` ${dating.years}`);
+    } else {
+      container.append(`${dating.prefix ? `${dating.prefix} ` : ""}${dating.years}`);
+    }
+  }
+
   function pieceUrl(program) {
     return url("/concerts/", { piece: pieceGroupKey(program) });
   }
@@ -605,6 +644,9 @@
     locationLabel,
     compactDate,
     isoDate,
+    lifeDating,
+    composerDating,
+    appendDating,
     programId,
     programSlug,
     programUrl,

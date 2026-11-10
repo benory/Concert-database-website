@@ -164,6 +164,11 @@
     let detail = row.detail || "";
     if (state.ranking === "composers") {
       label = DB.personLink(row, "Composer").replace(/href="[^"]*"/, `href="${escape(resultUrl(DB.composerUrl(row), state))}"`);
+      const dating = DB.composerDating(database.composersById.get(row.id));
+      if (dating) {
+        const prefix = dating.prefix === "fl." ? "<i>fl.</i>" : escape(dating.prefix);
+        label += ` <span class="composer-dates">(${prefix ? `${prefix} ` : ""}${escape(dating.years)})</span>`;
+      }
     } else if (state.ranking === "pieces") {
       label = link(DB.url("/concerts/", { piece: row.key }), `${escape(row.composer)}, <i>${escape(row.title)}</i>`);
       detail = row.items !== row.count ? `${row.items.toLocaleString()} program entries` : "";

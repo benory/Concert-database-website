@@ -4,44 +4,14 @@
   const DB = window.ConcertDB;
   if (!DB) return;
 
-  function leadingYear(value) {
-    const match = String(value || "").match(/(?:^|\D)(\d{3,4})(?=\D|$)/);
-    return match ? match[1] : "";
-  }
-
-  function composerDating(composer) {
-    const birth = leadingYear(composer?.birth_date);
-    const death = leadingYear(composer?.death_date);
-    if (birth && death) return { prefix: "", years: `${birth}–${death}` };
-    if (birth) return { prefix: "b.", years: birth };
-    if (death) return { prefix: "d.", years: death };
-
-    const start = leadingYear(composer?.cya_start);
-    const end = leadingYear(composer?.cya_end);
-    if (!start && !end) return null;
-    return {
-      prefix: "fl.",
-      years: start && end && start !== end ? `${start}–${end}` : (start || end),
-    };
-  }
-
-  function personDating(person) {
-    const birth = leadingYear(person?.birth_year);
-    const death = leadingYear(person?.death_year);
-    if (birth && death) return { prefix: "", years: `${birth}–${death}` };
-    if (birth) return { prefix: "b.", years: birth };
-    if (death) return { prefix: "d.", years: death };
-    return null;
-  }
-
   function composerSuggestionLabel(composer) {
-    const dating = composerDating(composer.authority);
+    const dating = DB.composerDating(composer.authority);
     const dates = dating ? `, ${dating.prefix ? `${dating.prefix} ` : ""}${dating.years}` : "";
     return `${composer.name} (composer${dates})`;
   }
 
   function personSuggestionLabel(person) {
-    const dating = personDating(person.authority);
+    const dating = DB.lifeDating(person.authority?.birth_year, person.authority?.death_year);
     const identity = [
       person.authority?.position,
       dating ? `${dating.prefix ? `${dating.prefix} ` : ""}${dating.years}` : "",
@@ -222,18 +192,6 @@
     return Number.POSITIVE_INFINITY;
   }
 
-  function appendDating(qualifier, dating, separator) {
-    if (!dating) return;
-    qualifier.append(document.createTextNode(separator === undefined ? ", " : separator));
-    if (dating.prefix === "fl.") {
-      const flourish = document.createElement("i");
-      flourish.textContent = "fl.";
-      qualifier.append(flourish, document.createTextNode(` ${dating.years}`));
-    } else {
-      qualifier.append(document.createTextNode(`${dating.prefix ? `${dating.prefix} ` : ""}${dating.years}`));
-    }
-  }
-
   function setup(input, database, options) {
     const settings = options || {};
     const container = input?.closest(".search-autocomplete");
@@ -325,18 +283,18 @@
         const qualifier = document.createElement("span");
         qualifier.className = "search-suggestion-qualifier";
         if (suggestion.kind === "person") {
-          const dating = personDating(suggestion.authority);
+          const dating = DB.lifeDating(suggestion.authority?.birth_year, suggestion.authority?.death_year);
           const position = suggestion.authority?.position;
           if (position || dating) {
             qualifier.append(document.createTextNode(" ("));
             if (position) qualifier.append(document.createTextNode(position));
-            appendDating(qualifier, dating, position ? ", " : "");
+            DB.appendDating(qualifier, dating, position ? ", " : "");
             qualifier.append(document.createTextNode(")"));
           }
         } else if (suggestion.kind === "composer") {
-          const dating = composerDating(suggestion.authority);
+          const dating = DB.composerDating(suggestion.authority);
           qualifier.append(document.createTextNode(" (composer"));
-          appendDating(qualifier, dating);
+          DB.appendDating(qualifier, dating);
           qualifier.append(document.createTextNode(")"));
         }
         const concertCount = document.createElement("span");
