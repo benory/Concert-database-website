@@ -96,12 +96,7 @@
     const source = database.sourcesById.get(match[0]);
     if (!source) return DB.displayIdentifier(statement) || statement;
     const note = statement.replace(match[0], "").trim();
-    let label;
-    if (source.sigla && source.alias && DB.normalize(source.sigla) !== DB.normalize(source.alias)) {
-      label = `${source.sigla} (${source.alias})`;
-    } else {
-      label = source.sigla || source.alias || DB.displayIdentifier(match[0]) || match[0];
-    }
+    const label = DB.sourceLabel(source) || DB.displayIdentifier(match[0]) || match[0];
     return joinAuthorityNote(label, note);
   }
 
@@ -245,7 +240,7 @@
       const canonicalName = authority?.name || credit.canonicalName || DB.displayIdentifier(credit.id);
       const link = document.createElement("a");
       link.href = DB.composerUrl({ id: credit.id, name: canonicalName });
-      link.textContent = credit.name || canonicalName;
+      link.textContent = authority?.name || credit.name || canonicalName;
       link.dataset.personPreview = "";
       link.dataset.personId = credit.id;
       link.dataset.personName = canonicalName;

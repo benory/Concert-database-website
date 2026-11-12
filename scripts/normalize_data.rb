@@ -236,7 +236,14 @@ def normalize_composers(records)
       "birth_date" => temporal(record["Birth Date"] || record["birth_date"]),
       "cya_start" => temporal(record["Start of CYA"] || record["cya_start"]),
       "cya_end" => temporal(record["End of CYA"] || record["cya_end"]),
-      "death_date" => temporal(record["Death Date"] || record["death_date"])
+      "death_date" => temporal(record["Death Date"] || record["death_date"]),
+      "rism_id" => clean(record["Composer RISM ID"] || record["rism_id"]),
+      "rism_url" => web_url(record["Composer RISM Link"] || record["rism_url"]),
+      "diamm_url" => web_url(record["Composer DIAMM page"] || record["diamm_url"]),
+      "gnd_id" => clean(record["GND ID"] || record["gnd_id"]),
+      "gnd_url" => web_url(record["GND URL"] || record["gnd_url"]),
+      "viaf_id" => clean(record["VIAF ID"] || record["viaf_id"]),
+      "viaf_url" => web_url(record["VIAF URL"] || record["viaf_url"])
     }.compact
   end
 end
@@ -277,7 +284,8 @@ def normalize_sources(records)
       "id" => identifier,
       "sigla" => clean(record["Source Sigla"] || record["sigla"]),
       "alias" => clean(record["Source Alias"] || record["alias"]),
-      "diamm_url" => web_url(record["DIAMM Source Link"] || record["DIAMM Source URL"] || record["diamm_url"])
+      "diamm_url" => web_url(record["DIAMM Source Link"] || record["DIAMM Source URL"] || record["diamm_url"]),
+      "rism_url" => web_url(record["RISM Source Link"] || record["RISM Source URL"] || record["rism_url"])
     }.compact
   end
 end

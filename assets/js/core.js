@@ -147,6 +147,13 @@
     return url("/concerts/", identifier ? { person: identifier } : { q: name });
   }
 
+  function sourceLabel(source) {
+    if (source?.sigla && source.alias && normalize(source.sigla) !== normalize(source.alias)) {
+      return `${source.sigla} ("${source.alias}")`;
+    }
+    return source?.sigla || source?.alias || displayIdentifier(source?.id);
+  }
+
   function sourceConcertsUrl(source) {
     const identifier = source && source.id;
     const name = source && (source.sigla || source.alias);
@@ -156,9 +163,11 @@
   function personAuthorityIdentifiers(person) {
     return [
       { label: "BMLO", value: person?.bmlo_id, url: person?.bmlo_url },
+      { label: "RISM", value: person?.rism_id?.replace(/^people\//, ""), url: person?.rism_url },
+      { label: "DIAMM", url: person?.diamm_url },
       { label: "GND", value: person?.gnd_id, url: person?.gnd_url },
       { label: "VIAF", value: person?.viaf_id, url: person?.viaf_url },
-    ].filter((identifier) => identifier.value);
+    ].filter((identifier) => identifier.value || identifier.url);
   }
 
   async function fetchJson(relativePath) {
@@ -518,7 +527,7 @@
         : `See all ${concertCount} ${concertCount === 1 ? "concert" : "concerts"}`;
       const authorityIdentifiers = personAuthorityIdentifiers(person);
       const authorityLinks = authorityIdentifiers.map((identifier) => {
-        const text = `${identifier.label} ${identifier.value}`;
+        const text = [identifier.label, identifier.value].filter(Boolean).join(" ");
         return identifier.url
           ? `<a href="${escapeHtml(identifier.url)}" target="_blank" rel="noopener">${escapeHtml(text)} <span aria-hidden="true">↗</span></a>`
           : `<span>${escapeHtml(text)}</span>`;
@@ -654,6 +663,7 @@
     pieceGroupKey,
     composerUrl,
     personConcertsUrl,
+    sourceLabel,
     sourceConcertsUrl,
     personAuthorityIdentifiers,
     personLink,

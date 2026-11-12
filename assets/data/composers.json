@@ -8,7 +8,12 @@
       "Luyr, Adam"
     ],
     "cya_start": "1510",
-    "cya_end": "1510"
+    "cya_end": "1510",
+    "rism_id": "people/30096239",
+    "rism_url": "https://rism.online/people/30096239",
+    "diamm_url": "https://www.diamm.ac.uk/people/1050/",
+    "viaf_id": "221161272272747442952",
+    "viaf_url": "http://viaf.org/viaf/221161272272747442952"
   },
   {
     "id": "COM:Adam_de_la_Halle",
@@ -26,7 +31,14 @@
       "Li Bossu"
     ],
     "cya_start": "1276",
-    "cya_end": "1288"
+    "cya_end": "1288",
+    "rism_id": "people/30006257",
+    "rism_url": "https://rism.online/people/30006257",
+    "diamm_url": "https://www.diamm.ac.uk/people/63/",
+    "gnd_id": "118500511",
+    "gnd_url": "https://explore.gnd.network/gnd/118500511",
+    "viaf_id": "86885965",
+    "viaf_url": "http://viaf.org/viaf/86885965"
   },
   {
     "id": "COM:Adam_Gumpelzhaimer",
@@ -47,14 +59,25 @@
     "birth_date": "1559",
     "cya_start": "1581",
     "cya_end": "1620",
-    "death_date": "1625-11-2"
+    "death_date": "1625-11-2",
+    "rism_id": "people/93196",
+    "rism_url": "https://rism.online/people/93196",
+    "diamm_url": "https://www.diamm.ac.uk/people/3549/",
+    "gnd_id": "119355329",
+    "gnd_url": "https://explore.gnd.network/gnd/119355329",
+    "viaf_id": "76434373",
+    "viaf_url": "http://viaf.org/viaf/76434373"
   },
   {
     "id": "COM:Adam_Ileborgh",
     "name": "Adam Ileborgh",
     "aliases": [],
     "cya_start": "1448",
-    "cya_end": "1448"
+    "cya_end": "1448",
+    "gnd_id": "1139443623",
+    "gnd_url": "https://explore.gnd.network/gnd/1139443623",
+    "viaf_id": "18150516602803441397",
+    "viaf_url": "http://viaf.org/viaf/18150516602803441397"
   },
   {
     "id": "COM:Adam_of_St_Victor",
@@ -70,7 +93,14 @@
     "aliases": [],
     "cya_start": "1490",
     "cya_end": "1505",
-    "death_date": "1505"
+    "death_date": "1505",
+    "rism_id": "people/30016305",
+    "rism_url": "https://rism.online/people/30016305",
+    "diamm_url": "https://www.diamm.ac.uk/people/169/",
+    "gnd_id": "118646885",
+    "gnd_url": "https://explore.gnd.network/gnd/118646885",
+    "viaf_id": "40171884",
+    "viaf_url": "http://viaf.org/viaf/40171884"
   },
   {
     "id": "COM:Adrian_Denss",
@@ -80,7 +110,13 @@
       "Denssius, Adrian"
     ],
     "cya_start": "1594",
-    "cya_end": "1594"
+    "cya_end": "1594",
+    "rism_id": "people/30090416",
+    "rism_url": "https://rism.online/people/30090416",
+    "gnd_id": "118677780",
+    "gnd_url": "https://explore.gnd.network/gnd/118677780",
+    "viaf_id": "70617781",
+    "viaf_url": "http://viaf.org/viaf/70617781"
   },
   {
     "id": "COM:Adrian_Le_Roy",
@@ -114,7 +150,14 @@
     ],
     "cya_start": "1515",
     "cya_end": "1560",
-    "death_date": "1562-12-7"
+    "death_date": "1562-12-7",
+    "rism_id": "people/30005312",
+    "rism_url": "https://rism.online/people/30005312",
+    "diamm_url": "https://www.diamm.ac.uk/people/217/",
+    "gnd_id": "118771957",
+    "gnd_url": "https://explore.gnd.network/gnd/118771957",
+    "viaf_id": "14959955",
+    "viaf_url": "http://viaf.org/viaf/14959955"
   },
   {
     "id": "COM:Alexander_Agricola",
@@ -122,7 +165,14 @@
     "aliases": [],
     "cya_start": "1475",
     "cya_end": "1506",
-    "death_date": "1506-8-15"
+    "death_date": "1506-8-15",
+    "rism_id": "people/30005595",
+    "rism_url": "https://rism.online/people/30005595",
+    "diamm_url": "https://www.diamm.ac.uk/people/182/",
+    "gnd_id": "11900321X",
+    "gnd_url": "https://explore.gnd.network/gnd/11900321X",
+    "viaf_id": "37105288",
+    "viaf_url": "http://viaf.org/viaf/37105288"
   },
   {
     "id": "COM:Alfonso_el_Sabio",
@@ -131,7 +181,11 @@
     "birth_date": "1221-11-23",
     "cya_start": "1252",
     "cya_end": "1284",
-    "death_date": "1284-4-4"
+    "death_date": "1284-4-4",
+    "gnd_id": "11864811X",
+    "gnd_url": "https://explore.gnd.network/gnd/11864811X",
+    "viaf_id": "66476694",
+    "viaf_url": "http://viaf.org/viaf/66476694"
   },
   {
     "id": "COM:Alfonso_Ferrabosco_II",
@@ -146,14 +200,25 @@
     ],
     "cya_start": "1602",
     "cya_end": "1628",
-    "death_date": "1628"
+    "death_date": "1628",
+    "rism_id": "people/30008119",
+    "rism_url": "https://rism.online/people/30008119",
+    "gnd_id": "100470912",
+    "gnd_url": "https://explore.gnd.network/gnd/100470912",
+    "viaf_id": "24787049",
+    "viaf_url": "http://viaf.org/viaf/24787049"
   },
   {
     "id": "COM:Alonso_de_Mondejar",
     "name": "Alonso de Mondejar",
     "aliases": [],
     "cya_start": "1502",
-    "cya_end": "1516"
+    "cya_end": "1516",
+    "diamm_url": "https://www.diamm.ac.uk/people/594/",
+    "gnd_id": "1089741456",
+    "gnd_url": "https://explore.gnd.network/gnd/1089741456",
+    "viaf_id": "34648335",
+    "viaf_url": "http://viaf.org/viaf/34648335"
   },
   {
     "id": "COM:Alonso_Mudarra",
@@ -170,7 +235,14 @@
     ],
     "cya_start": "1557",
     "cya_end": "1585",
-    "death_date": "1585-8-30"
+    "death_date": "1585-8-30",
+    "rism_id": "people/30001185",
+    "rism_url": "https://rism.online/people/30001185",
+    "diamm_url": "https://www.diamm.ac.uk/people/745/",
+    "gnd_id": "118689061",
+    "gnd_url": "https://explore.gnd.network/gnd/118689061",
+    "viaf_id": "86532091",
+    "viaf_url": "http://viaf.org/viaf/86532091"
   },
   {
     "id": "COM:Anonymous",
@@ -199,7 +271,14 @@
     ],
     "cya_start": "1528",
     "cya_end": "1562",
-    "death_date": "1564-12-2"
+    "death_date": "1564-12-2",
+    "rism_id": "people/30102587",
+    "rism_url": "https://rism.online/people/30102587",
+    "diamm_url": "https://www.diamm.ac.uk/people/1092/",
+    "gnd_id": "137375662",
+    "gnd_url": "https://explore.gnd.network/gnd/137375662",
+    "viaf_id": "81574894",
+    "viaf_url": "http://viaf.org/viaf/81574894"
   },
   {
     "id": "COM:Antoine_Brumel",
@@ -221,7 +300,14 @@
       "Brunello, Antoine"
     ],
     "cya_start": "1483",
-    "cya_end": "1510"
+    "cya_end": "1510",
+    "rism_id": "people/20000368",
+    "rism_url": "https://rism.online/people/20000368",
+    "diamm_url": "https://www.diamm.ac.uk/people/199/",
+    "gnd_id": "12404106X",
+    "gnd_url": "https://explore.gnd.network/gnd/12404106X",
+    "viaf_id": "39561173",
+    "viaf_url": "http://viaf.org/viaf/39561173"
   },
   {
     "id": "COM:Antoine_Busnois",
@@ -234,7 +320,14 @@
     ],
     "cya_start": "1450",
     "cya_end": "1483",
-    "death_date": "1492"
+    "death_date": "1492",
+    "rism_id": "people/30016323",
+    "rism_url": "https://rism.online/people/30016323",
+    "diamm_url": "https://www.diamm.ac.uk/people/187/",
+    "gnd_id": "118858025",
+    "gnd_url": "https://explore.gnd.network/gnd/118858025",
+    "viaf_id": "100249538",
+    "viaf_url": "http://viaf.org/viaf/100249538"
   },
   {
     "id": "COM:Antoine_de_Fevin",
@@ -250,7 +343,14 @@
       "Ffenim, Antoine de"
     ],
     "cya_start": "1507",
-    "cya_end": "1512"
+    "cya_end": "1512",
+    "rism_id": "people/30006140",
+    "rism_url": "https://rism.online/people/30006140",
+    "diamm_url": "https://www.diamm.ac.uk/people/228/",
+    "gnd_id": "120889692",
+    "gnd_url": "https://explore.gnd.network/gnd/120889692",
+    "viaf_id": "3285407",
+    "viaf_url": "http://viaf.org/viaf/3285407"
   },
   {
     "id": "COM:Antonio_Cifra",
@@ -262,7 +362,14 @@
     "birth_date": "1584",
     "cya_start": "1605",
     "cya_end": "1629",
-    "death_date": "1629-10-2"
+    "death_date": "1629-10-2",
+    "rism_id": "people/30004964",
+    "rism_url": "https://rism.online/people/30004964",
+    "diamm_url": "https://www.diamm.ac.uk/people/1800/",
+    "gnd_id": "129867144",
+    "gnd_url": "https://explore.gnd.network/gnd/129867144",
+    "viaf_id": "89090383",
+    "viaf_url": "http://viaf.org/viaf/89090383"
   },
   {
     "id": "COM:Antonio_de_Cabezon",
@@ -275,7 +382,14 @@
     ],
     "cya_start": "1526",
     "cya_end": "1566",
-    "death_date": "1566-3-26"
+    "death_date": "1566-3-26",
+    "rism_id": "people/30103269",
+    "rism_url": "https://rism.online/people/30103269",
+    "diamm_url": "https://www.diamm.ac.uk/people/1119/",
+    "gnd_id": "118518224",
+    "gnd_url": "https://explore.gnd.network/gnd/118518224",
+    "viaf_id": "17406964",
+    "viaf_url": "http://viaf.org/viaf/17406964"
   },
   {
     "id": "COM:Antonio_Scandello",
@@ -289,7 +403,14 @@
     "birth_date": "1517-1-17",
     "cya_start": "1550",
     "cya_end": "1580",
-    "death_date": "1580-1-18"
+    "death_date": "1580-1-18",
+    "rism_id": "people/3000659",
+    "rism_url": "https://rism.online/people/3000659",
+    "diamm_url": "https://www.diamm.ac.uk/people/656/",
+    "gnd_id": "120633728",
+    "gnd_url": "https://explore.gnd.network/gnd/120633728",
+    "viaf_id": "44488716",
+    "viaf_url": "http://viaf.org/viaf/44488716"
   },
   {
     "id": "COM:Antonius_Gosswin",
@@ -309,7 +430,14 @@
     ],
     "cya_start": "1581",
     "cya_end": "1599",
-    "death_date": "1602"
+    "death_date": "1602",
+    "rism_id": "people/30009456",
+    "rism_url": "https://rism.online/people/30009456",
+    "diamm_url": "https://www.diamm.ac.uk/people/1798/",
+    "gnd_id": "124509800",
+    "gnd_url": "https://explore.gnd.network/gnd/124509800",
+    "viaf_id": "54332700",
+    "viaf_url": "http://viaf.org/viaf/54332700"
   },
   {
     "id": "COM:Arnold_de_Lantins",
@@ -341,7 +469,14 @@
     ],
     "cya_start": "1527",
     "cya_end": "1545",
-    "death_date": "1554-2-6"
+    "death_date": "1554-2-6",
+    "rism_id": "people/30008561",
+    "rism_url": "https://rism.online/people/30008561",
+    "diamm_url": "https://www.diamm.ac.uk/people/653/",
+    "gnd_id": "118665790",
+    "gnd_url": "https://explore.gnd.network/gnd/118665790",
+    "viaf_id": "27330861",
+    "viaf_url": "http://viaf.org/viaf/27330861"
   },
   {
     "id": "COM:Arnolt_Schlick",
@@ -354,7 +489,14 @@
       "Schlicken, Arnolt"
     ],
     "cya_start": "1486",
-    "cya_end": "1521"
+    "cya_end": "1521",
+    "rism_id": "people/30009641",
+    "rism_url": "https://rism.online/people/30009641",
+    "diamm_url": "https://www.diamm.ac.uk/people/2211/",
+    "gnd_id": "118931121",
+    "gnd_url": "https://explore.gnd.network/gnd/118931121",
+    "viaf_id": "61814705",
+    "viaf_url": "http://viaf.org/viaf/61814705"
   },
   {
     "id": "COM:Aurelio_Bonelli",
@@ -384,7 +526,14 @@
     "birth_date": "1529",
     "cya_start": "1546",
     "cya_end": "1596",
-    "death_date": "1603-2-17"
+    "death_date": "1603-2-17",
+    "rism_id": "people/318482",
+    "rism_url": "https://rism.online/people/318482",
+    "diamm_url": "https://www.diamm.ac.uk/people/1091/",
+    "gnd_id": "103829016",
+    "gnd_url": "https://explore.gnd.network/gnd/103829016",
+    "viaf_id": "305854926",
+    "viaf_url": "http://viaf.org/viaf/305854926"
   },
   {
     "id": "COM:Balthasar_Resinarius",
@@ -396,7 +545,14 @@
     ],
     "cya_start": "1523",
     "cya_end": "1544",
-    "death_date": "1544-4-12"
+    "death_date": "1544-4-12",
+    "rism_id": "people/30009855",
+    "rism_url": "https://rism.online/people/30009855",
+    "diamm_url": "https://www.diamm.ac.uk/people/660/",
+    "gnd_id": "118744585",
+    "gnd_url": "https://explore.gnd.network/gnd/118744585",
+    "viaf_id": "37112616",
+    "viaf_url": "http://viaf.org/viaf/37112616"
   },
   {
     "id": "COM:Bartholomaus_Gesius",
@@ -410,7 +566,14 @@
     ],
     "cya_start": "1582",
     "cya_end": "1613",
-    "death_date": "1613"
+    "death_date": "1613",
+    "rism_id": "people/1616917",
+    "rism_url": "https://rism.online/people/1616917",
+    "diamm_url": "https://www.diamm.ac.uk/people/916/",
+    "gnd_id": "118694405",
+    "gnd_url": "https://explore.gnd.network/gnd/118694405",
+    "viaf_id": "20148739",
+    "viaf_url": "http://viaf.org/viaf/20148739"
   },
   {
     "id": "COM:Bartolomeo_Brolo",
@@ -430,7 +593,14 @@
       "DeBrolis, Bartholomeus"
     ],
     "cya_start": "1420",
-    "cya_end": "1435"
+    "cya_end": "1435",
+    "rism_id": "people/30109018",
+    "rism_url": "https://rism.online/people/30109018",
+    "diamm_url": "https://www.diamm.ac.uk/people/479/",
+    "gnd_id": "135910021",
+    "gnd_url": "https://explore.gnd.network/gnd/135910021",
+    "viaf_id": "43099739",
+    "viaf_url": "http://viaf.org/viaf/43099739"
   },
   {
     "id": "COM:Bartolomeo_Tromboncino",
@@ -446,7 +616,14 @@
       "Trombonzino, Bartolomeo"
     ],
     "cya_start": "1489",
-    "cya_end": "1535"
+    "cya_end": "1535",
+    "rism_id": "people/30004948",
+    "rism_url": "https://rism.online/people/30004948",
+    "diamm_url": "https://www.diamm.ac.uk/people/40/",
+    "gnd_id": "118921592",
+    "gnd_url": "https://explore.gnd.network/gnd/118921592",
+    "viaf_id": "51876790",
+    "viaf_url": "http://viaf.org/viaf/51876790"
   },
   {
     "id": "COM:Beltrame_Feragut",
@@ -456,7 +633,9 @@
   {
     "id": "COM:Ben_Cosyns",
     "name": "Ben Cosyns",
-    "aliases": []
+    "aliases": [],
+    "viaf_id": "66732790",
+    "viaf_url": "http://viaf.org/viaf/66732790"
   },
   {
     "id": "COM:Benedictus_Ducis",
@@ -472,7 +651,14 @@
     ],
     "cya_start": "1532",
     "cya_end": "1544",
-    "death_date": "1544"
+    "death_date": "1544",
+    "rism_id": "people/30007516",
+    "rism_url": "https://rism.online/people/30007516",
+    "diamm_url": "https://www.diamm.ac.uk/people/289/",
+    "gnd_id": "119368706",
+    "gnd_url": "https://explore.gnd.network/gnd/119368706",
+    "viaf_id": "208370653",
+    "viaf_url": "http://viaf.org/viaf/208370653"
   },
   {
     "id": "COM:Benedictus_Grep",
@@ -484,7 +670,11 @@
     "name": "Bernart de Ventadorn",
     "aliases": [],
     "cya_start": "1150",
-    "cya_end": "1200"
+    "cya_end": "1200",
+    "gnd_id": "118656260",
+    "gnd_url": "https://explore.gnd.network/gnd/118656260",
+    "viaf_id": "10639625",
+    "viaf_url": "http://viaf.org/viaf/10639625"
   },
   {
     "id": "COM:Bernhard_Schmid_I",
@@ -512,7 +702,14 @@
     "birth_date": "1566-3-8",
     "cya_start": "1593",
     "cya_end": "1613",
-    "death_date": "1613-9-8"
+    "death_date": "1613-9-8",
+    "rism_id": "people/30010374",
+    "rism_url": "https://rism.online/people/30010374",
+    "diamm_url": "https://www.diamm.ac.uk/people/1787/",
+    "gnd_id": "118694456",
+    "gnd_url": "https://explore.gnd.network/gnd/118694456",
+    "viaf_id": "102315314",
+    "viaf_url": "http://viaf.org/viaf/102315314"
   },
   {
     "id": "COM:Caspar_Othmayr",
@@ -529,7 +726,14 @@
     "birth_date": "1515-3-12",
     "cya_start": "1543",
     "cya_end": "1553",
-    "death_date": "1553-2-4"
+    "death_date": "1553-2-4",
+    "rism_id": "people/30010222",
+    "rism_url": "https://rism.online/people/30010222",
+    "diamm_url": "https://www.diamm.ac.uk/people/654/",
+    "gnd_id": "121138143",
+    "gnd_url": "https://explore.gnd.network/gnd/121138143",
+    "viaf_id": "22406644",
+    "viaf_url": "http://viaf.org/viaf/22406644"
   },
   {
     "id": "COM:Christoph_Demantius",
@@ -544,7 +748,14 @@
     "aliases": [],
     "cya_start": "1560",
     "cya_end": "1581",
-    "death_date": "1609"
+    "death_date": "1609",
+    "rism_id": "people/30006592",
+    "rism_url": "https://rism.online/people/30006592",
+    "diamm_url": "https://www.diamm.ac.uk/people/1612/",
+    "gnd_id": "128638877",
+    "gnd_url": "https://explore.gnd.network/gnd/128638877",
+    "viaf_id": "52744084",
+    "viaf_url": "http://viaf.org/viaf/52744084"
   },
   {
     "id": "COM:Cipriano_de_Rore",
@@ -561,7 +772,14 @@
     ],
     "cya_start": "1542",
     "cya_end": "1565",
-    "death_date": "1565-9"
+    "death_date": "1565-9",
+    "rism_id": "people/30006899",
+    "rism_url": "https://rism.online/people/30006899",
+    "diamm_url": "https://www.diamm.ac.uk/people/363/",
+    "gnd_id": "119316897",
+    "gnd_url": "https://explore.gnd.network/gnd/119316897",
+    "viaf_id": "2622801",
+    "viaf_url": "http://viaf.org/viaf/2622801"
   },
   {
     "id": "COM:Claude_Gervaise",
@@ -570,7 +788,13 @@
       "Gervais, Claude"
     ],
     "cya_start": "1540",
-    "cya_end": "1560"
+    "cya_end": "1560",
+    "rism_id": "people/30010120",
+    "rism_url": "https://rism.online/people/30010120",
+    "gnd_id": "124988938",
+    "gnd_url": "https://explore.gnd.network/gnd/124988938",
+    "viaf_id": "49408050",
+    "viaf_url": "http://viaf.org/viaf/49408050"
   },
   {
     "id": "COM:Claude_Goudimel",
@@ -587,7 +811,14 @@
     ],
     "cya_start": "1551",
     "cya_end": "1572",
-    "death_date": "1572-8"
+    "death_date": "1572-8",
+    "rism_id": "people/387526",
+    "rism_url": "https://rism.online/people/387526",
+    "diamm_url": "https://www.diamm.ac.uk/people/1009/",
+    "gnd_id": "118696750",
+    "gnd_url": "https://explore.gnd.network/gnd/118696750",
+    "viaf_id": "90633859",
+    "viaf_url": "http://viaf.org/viaf/90633859"
   },
   {
     "id": "COM:Claude_Le_Jeune",
@@ -597,7 +828,14 @@
     ],
     "cya_start": "1552",
     "cya_end": "1598",
-    "death_date": "1600-9-26"
+    "death_date": "1600-9-26",
+    "rism_id": "people/30006876",
+    "rism_url": "https://rism.online/people/30006876",
+    "diamm_url": "https://www.diamm.ac.uk/people/1811/",
+    "gnd_id": "119024705",
+    "gnd_url": "https://explore.gnd.network/gnd/119024705",
+    "viaf_id": "105871811",
+    "viaf_url": "http://viaf.org/viaf/105871811"
   },
   {
     "id": "COM:Claudin_de_Sermisy",
@@ -616,7 +854,14 @@
     ],
     "cya_start": "1508",
     "cya_end": "1555",
-    "death_date": "1562-10-13"
+    "death_date": "1562-10-13",
+    "rism_id": "people/20000369",
+    "rism_url": "https://rism.online/people/20000369",
+    "diamm_url": "https://www.diamm.ac.uk/people/222/",
+    "gnd_id": "118764756",
+    "gnd_url": "https://explore.gnd.network/gnd/118764756",
+    "viaf_id": "89469141",
+    "viaf_url": "http://viaf.org/viaf/89469141"
   },
   {
     "id": "COM:Claudio_Merulo",
@@ -630,7 +875,14 @@
     "birth_date": "1533-4-8",
     "cya_start": "1556",
     "cya_end": "1604",
-    "death_date": "1604-5-4"
+    "death_date": "1604-5-4",
+    "rism_id": "people/30005476",
+    "rism_url": "https://rism.online/people/30005476",
+    "diamm_url": "https://www.diamm.ac.uk/people/805/",
+    "gnd_id": "118783432",
+    "gnd_url": "https://explore.gnd.network/gnd/118783432",
+    "viaf_id": "42026057",
+    "viaf_url": "http://viaf.org/viaf/42026057"
   },
   {
     "id": "COM:Claudio_Monteverdi",
@@ -646,7 +898,14 @@
     "birth_date": "1567-5-15",
     "cya_start": "1587",
     "cya_end": "1643",
-    "death_date": "1643-11-29"
+    "death_date": "1643-11-29",
+    "rism_id": "people/20000259",
+    "rism_url": "https://rism.online/people/20000259",
+    "diamm_url": "https://www.diamm.ac.uk/people/1820/",
+    "gnd_id": "118583700",
+    "gnd_url": "https://explore.gnd.network/gnd/118583700",
+    "viaf_id": "44485902",
+    "viaf_url": "http://viaf.org/viaf/44485902"
   },
   {
     "id": "COM:Clemens_non_Papa",
@@ -659,7 +918,14 @@
     ],
     "cya_start": "1538",
     "cya_end": "1555",
-    "death_date": "1555"
+    "death_date": "1555",
+    "rism_id": "people/30000686",
+    "rism_url": "https://rism.online/people/30000686",
+    "diamm_url": "https://www.diamm.ac.uk/people/669/",
+    "gnd_id": "118666215",
+    "gnd_url": "https://explore.gnd.network/gnd/118666215",
+    "viaf_id": "59349417",
+    "viaf_url": "http://viaf.org/viaf/59349417"
   },
   {
     "id": "COM:Clement_Janequin",
@@ -673,7 +939,14 @@
       "Jennequin, Clément"
     ],
     "cya_start": "1505",
-    "cya_end": "1558"
+    "cya_end": "1558",
+    "rism_id": "people/30004014",
+    "rism_url": "https://rism.online/people/30004014",
+    "diamm_url": "https://www.diamm.ac.uk/people/126/",
+    "gnd_id": "118711709",
+    "gnd_url": "https://explore.gnd.network/gnd/118711709",
+    "viaf_id": "51875566",
+    "viaf_url": "http://viaf.org/viaf/51875566"
   },
   {
     "id": "COM:Conrad_Paumann",
@@ -687,7 +960,14 @@
     ],
     "cya_start": "1446",
     "cya_end": "1473",
-    "death_date": "1473-1-24"
+    "death_date": "1473-1-24",
+    "rism_id": "people/20001052",
+    "rism_url": "https://rism.online/people/20001052",
+    "diamm_url": "https://www.diamm.ac.uk/people/579/",
+    "gnd_id": "115497374",
+    "gnd_url": "https://explore.gnd.network/gnd/115497374",
+    "viaf_id": "305407764",
+    "viaf_url": "http://viaf.org/viaf/305407764"
   },
   {
     "id": "COM:Cornelis_Schuyt",
@@ -704,7 +984,13 @@
     "birth_date": "1557",
     "cya_start": "1584",
     "cya_end": "1616",
-    "death_date": "1616-6-9"
+    "death_date": "1616-6-9",
+    "rism_id": "people/30010273",
+    "rism_url": "https://rism.online/people/30010273",
+    "gnd_id": "134924924",
+    "gnd_url": "https://explore.gnd.network/gnd/134924924",
+    "viaf_id": "30346835",
+    "viaf_url": "http://viaf.org/viaf/30346835"
   },
   {
     "id": "COM:Cosmas_Adler",
@@ -721,7 +1007,14 @@
     ],
     "cya_start": "1514",
     "cya_end": "1545",
-    "death_date": "1545-4-10"
+    "death_date": "1545-4-10",
+    "rism_id": "people/30004621",
+    "rism_url": "https://rism.online/people/30004621",
+    "diamm_url": "https://www.diamm.ac.uk/people/213/",
+    "gnd_id": "118532677",
+    "gnd_url": "https://explore.gnd.network/gnd/118532677",
+    "viaf_id": "2658765",
+    "viaf_url": "http://viaf.org/viaf/2658765"
   },
   {
     "id": "COM:Cristobal_de_Morales",
@@ -734,7 +1027,14 @@
     ],
     "cya_start": "1522",
     "cya_end": "1553",
-    "death_date": "1553"
+    "death_date": "1553",
+    "rism_id": "people/30002254",
+    "rism_url": "https://rism.online/people/30002254",
+    "diamm_url": "https://www.diamm.ac.uk/people/270/",
+    "gnd_id": "100833187",
+    "gnd_url": "https://explore.gnd.network/gnd/100833187",
+    "viaf_id": "100166082",
+    "viaf_url": "http://viaf.org/viaf/100166082"
   },
   {
     "id": "COM:Defronciaco",
@@ -748,7 +1048,14 @@
       "Ortiz, Didacus"
     ],
     "cya_start": "1553",
-    "cya_end": "1570"
+    "cya_end": "1570",
+    "rism_id": "people/30010423",
+    "rism_url": "https://rism.online/people/30010423",
+    "diamm_url": "https://www.diamm.ac.uk/people/405/",
+    "gnd_id": "100833047",
+    "gnd_url": "https://explore.gnd.network/gnd/100833047",
+    "viaf_id": "100204884",
+    "viaf_url": "http://viaf.org/viaf/100204884"
   },
   {
     "id": "COM:Dietmar_von_Aist",
@@ -760,7 +1067,14 @@
     "name": "Domenico da Piacenza",
     "aliases": [],
     "cya_start": "1435",
-    "cya_end": "1472"
+    "cya_end": "1472",
+    "rism_id": "people/40206430",
+    "rism_url": "https://rism.online/people/40206430",
+    "diamm_url": "https://www.diamm.ac.uk/people/1503/",
+    "gnd_id": "136187110",
+    "gnd_url": "https://explore.gnd.network/gnd/136187110",
+    "viaf_id": "76503682",
+    "viaf_url": "http://viaf.org/viaf/76503682"
   },
   {
     "id": "COM:Ephrem_Syrus",
@@ -784,7 +1098,13 @@
     "birth_date": "1572-9-15",
     "cya_start": "1595",
     "cya_end": "1629",
-    "death_date": "1634-10-31"
+    "death_date": "1634-10-31",
+    "rism_id": "people/30003347",
+    "rism_url": "https://rism.online/people/30003347",
+    "gnd_id": "118807196",
+    "gnd_url": "https://explore.gnd.network/gnd/118807196",
+    "viaf_id": "32184967",
+    "viaf_url": "http://viaf.org/viaf/32184967"
   },
   {
     "id": "COM:Erhard_Bodenschatz",
@@ -796,7 +1116,14 @@
     "birth_date": "1576",
     "cya_start": "1600",
     "cya_end": "1636",
-    "death_date": "1636"
+    "death_date": "1636",
+    "rism_id": "people/30010573",
+    "rism_url": "https://rism.online/people/30010573",
+    "diamm_url": "https://www.diamm.ac.uk/people/1932/",
+    "gnd_id": "119127717",
+    "gnd_url": "https://explore.gnd.network/gnd/119127717",
+    "viaf_id": "22944462",
+    "viaf_url": "http://viaf.org/viaf/22944462"
   },
   {
     "id": "COM:Estienne_Du_Tetre",
@@ -820,7 +1147,14 @@
     "birth_date": "1549",
     "cya_start": "1574",
     "cya_end": "1609",
-    "death_date": "1609-8-7"
+    "death_date": "1609-8-7",
+    "rism_id": "people/30010778",
+    "rism_url": "https://rism.online/people/30010778",
+    "diamm_url": "https://www.diamm.ac.uk/people/1765/",
+    "gnd_id": "122848926",
+    "gnd_url": "https://explore.gnd.network/gnd/122848926",
+    "viaf_id": "17407277",
+    "viaf_url": "http://viaf.org/viaf/17407277"
   },
   {
     "id": "COM:Fabritio_Caroso",
@@ -832,7 +1166,13 @@
       "Maestro di ballare, Fabritio"
     ],
     "cya_start": "1581",
-    "cya_end": "1605"
+    "cya_end": "1605",
+    "rism_id": "people/600160540",
+    "rism_url": "https://rism.online/people/600160540",
+    "gnd_id": "121664678",
+    "gnd_url": "https://explore.gnd.network/gnd/121664678",
+    "viaf_id": "173508960",
+    "viaf_url": "http://viaf.org/viaf/173508960"
   },
   {
     "id": "COM:Fernand_Perez_de_Medina",
@@ -850,7 +1190,9 @@
     "aliases": [],
     "cya_start": "1178",
     "cya_end": "1231",
-    "death_date": "1231-12-25"
+    "death_date": "1231-12-25",
+    "viaf_id": "54942563",
+    "viaf_url": "http://viaf.org/viaf/54942563"
   },
   {
     "id": "COM:Forest",
@@ -862,7 +1204,13 @@
     "name": "Francesco Bendusi",
     "aliases": [],
     "cya_start": "1550",
-    "cya_end": "1550"
+    "cya_end": "1550",
+    "rism_id": "people/30010713",
+    "rism_url": "https://rism.online/people/30010713",
+    "gnd_id": "12844102X",
+    "gnd_url": "https://explore.gnd.network/gnd/12844102X",
+    "viaf_id": "214544406",
+    "viaf_url": "http://viaf.org/viaf/214544406"
   },
   {
     "id": "COM:Francesco_dAna",
@@ -878,12 +1226,21 @@
       "Franciscus de Dana, Francesco"
     ],
     "cya_start": "1490",
-    "cya_end": "1503"
+    "cya_end": "1503",
+    "rism_id": "people/30005323",
+    "rism_url": "https://rism.online/people/30005323",
+    "gnd_id": "132507161",
+    "gnd_url": "https://explore.gnd.network/gnd/132507161",
+    "viaf_id": "49407186",
+    "viaf_url": "http://viaf.org/viaf/49407186"
   },
   {
     "id": "COM:Francesco_de_la_Torre",
     "name": "Francesco de la Torre",
-    "aliases": []
+    "aliases": [],
+    "diamm_url": "https://www.diamm.ac.uk/people/585/",
+    "viaf_id": "33477388",
+    "viaf_url": "http://viaf.org/viaf/33477388"
   },
   {
     "id": "COM:Francesco_Landini",
@@ -913,7 +1270,14 @@
     ],
     "cya_start": "1361",
     "cya_end": "1397",
-    "death_date": "1397-9-2"
+    "death_date": "1397-9-2",
+    "rism_id": "people/30102707",
+    "rism_url": "https://rism.online/people/30102707",
+    "diamm_url": "https://www.diamm.ac.uk/people/629/",
+    "gnd_id": "100951422",
+    "gnd_url": "https://explore.gnd.network/gnd/100951422",
+    "viaf_id": "100198876",
+    "viaf_url": "http://viaf.org/viaf/100198876"
   },
   {
     "id": "COM:Franchinus_Gaffurius",
@@ -936,7 +1300,14 @@
     "birth_date": "1451-1-14",
     "cya_start": "1474",
     "cya_end": "1511",
-    "death_date": "1522-6-24"
+    "death_date": "1522-6-24",
+    "rism_id": "people/30102810",
+    "rism_url": "https://rism.online/people/30102810",
+    "diamm_url": "https://www.diamm.ac.uk/people/307/",
+    "gnd_id": "118689118",
+    "gnd_url": "https://explore.gnd.network/gnd/118689118",
+    "viaf_id": "71536697",
+    "viaf_url": "http://viaf.org/viaf/71536697"
   },
   {
     "id": "COM:Francis_Pilkington",
@@ -970,7 +1341,13 @@
     ],
     "birth_date": "1452-4-17",
     "cya_start": "1480",
-    "cya_end": "1523"
+    "cya_end": "1523",
+    "rism_id": "people/30010899",
+    "rism_url": "https://rism.online/people/30010899",
+    "gnd_id": "100955398",
+    "gnd_url": "https://explore.gnd.network/gnd/100955398",
+    "viaf_id": "66822989",
+    "viaf_url": "http://viaf.org/viaf/66822989"
   },
   {
     "id": "COM:Francois_Regnart",
@@ -992,7 +1369,11 @@
     ],
     "cya_start": "1287",
     "cya_end": "1318",
-    "death_date": "1318-11-29"
+    "death_date": "1318-11-29",
+    "rism_id": "people/30057005",
+    "rism_url": "https://rism.online/people/30057005",
+    "viaf_id": "100222978",
+    "viaf_url": "http://viaf.org/viaf/100222978"
   },
   {
     "id": "COM:Fridolin_Sicher",
@@ -1001,12 +1382,19 @@
     "birth_date": "1490-3-6",
     "cya_start": "1515",
     "cya_end": "1545",
-    "death_date": "1546-6-13"
+    "death_date": "1546-6-13",
+    "diamm_url": "https://www.diamm.ac.uk/people/3289/",
+    "gnd_id": "123424623",
+    "gnd_url": "https://explore.gnd.network/gnd/123424623",
+    "viaf_id": "29797541",
+    "viaf_url": "http://viaf.org/viaf/29797541"
   },
   {
     "id": "COM:Fulbert_de_Chartes",
     "name": "Fulbert de Chartes",
-    "aliases": []
+    "aliases": [],
+    "viaf_id": "41811055",
+    "viaf_url": "http://viaf.org/viaf/41811055"
   },
   {
     "id": "COM:Gabriel_Mena",
@@ -1014,7 +1402,12 @@
     "aliases": [],
     "cya_start": "1496",
     "cya_end": "1528",
-    "death_date": "1528-9-3"
+    "death_date": "1528-9-3",
+    "diamm_url": "https://www.diamm.ac.uk/people/3979/",
+    "gnd_id": "1162856688",
+    "gnd_url": "https://explore.gnd.network/gnd/1162856688",
+    "viaf_id": "49413342",
+    "viaf_url": "http://viaf.org/viaf/49413342"
   },
   {
     "id": "COM:Gace_Brule",
@@ -1027,7 +1420,12 @@
     "aliases": [],
     "cya_start": "1193",
     "cya_end": "1236",
-    "death_date": "1236-9-25"
+    "death_date": "1236-9-25",
+    "diamm_url": "https://www.diamm.ac.uk/people/1034/",
+    "gnd_id": "118716557",
+    "gnd_url": "https://explore.gnd.network/gnd/118716557",
+    "viaf_id": "95263624",
+    "viaf_url": "http://viaf.org/viaf/95263624"
   },
   {
     "id": "COM:Georg_Forster",
@@ -1048,7 +1446,13 @@
     "birth_date": "1488",
     "cya_start": "1514",
     "cya_end": "1548",
-    "death_date": "1548-8-6"
+    "death_date": "1548-8-6",
+    "rism_id": "people/30080925",
+    "rism_url": "https://rism.online/people/30080925",
+    "gnd_id": "115690387",
+    "gnd_url": "https://explore.gnd.network/gnd/115690387",
+    "viaf_id": "88648190",
+    "viaf_url": "http://viaf.org/viaf/88648190"
   },
   {
     "id": "COM:Georg_Vintz",
@@ -1059,7 +1463,13 @@
       "Wintz, Georg"
     ],
     "cya_start": "1600",
-    "cya_end": "1635"
+    "cya_end": "1635",
+    "rism_id": "people/30011618",
+    "rism_url": "https://rism.online/people/30011618",
+    "gnd_id": "135305306",
+    "gnd_url": "https://explore.gnd.network/gnd/135305306",
+    "viaf_id": "6650159035174901380003",
+    "viaf_url": "http://viaf.org/viaf/6650159035174901380003"
   },
   {
     "id": "COM:Georg_Vogelhuber",
@@ -1069,7 +1479,8 @@
   {
     "id": "COM:Gherardello_da_Firenze",
     "name": "Gherardello da Firenze",
-    "aliases": []
+    "aliases": [],
+    "diamm_url": "https://www.diamm.ac.uk/people/155/"
   },
   {
     "id": "COM:Giaches_de_Wert",
@@ -1098,7 +1509,14 @@
     "birth_date": "1535",
     "cya_start": "1556",
     "cya_end": "1595",
-    "death_date": "1596-5-6"
+    "death_date": "1596-5-6",
+    "rism_id": "people/1644932",
+    "rism_url": "https://rism.online/people/1644932",
+    "diamm_url": "https://www.diamm.ac.uk/people/719/",
+    "gnd_id": "118975420",
+    "gnd_url": "https://explore.gnd.network/gnd/118975420",
+    "viaf_id": "89543989",
+    "viaf_url": "http://viaf.org/viaf/89543989"
   },
   {
     "id": "COM:Giacomo_Fogliano",
@@ -1119,7 +1537,14 @@
     "birth_date": "1468",
     "cya_start": "1479",
     "cya_end": "1548",
-    "death_date": "1548-4-10"
+    "death_date": "1548-4-10",
+    "rism_id": "people/30016149",
+    "rism_url": "https://rism.online/people/30016149",
+    "diamm_url": "https://www.diamm.ac.uk/people/2287/",
+    "gnd_id": "172798396",
+    "gnd_url": "https://explore.gnd.network/gnd/172798396",
+    "viaf_id": "44493863",
+    "viaf_url": "http://viaf.org/viaf/44493863"
   },
   {
     "id": "COM:Giles_Farnaby",
@@ -1129,7 +1554,14 @@
     ],
     "cya_start": "1592",
     "cya_end": "1639",
-    "death_date": "1640"
+    "death_date": "1640",
+    "rism_id": "people/30011317",
+    "rism_url": "https://rism.online/people/30011317",
+    "diamm_url": "https://www.diamm.ac.uk/people/1777/",
+    "gnd_id": "124265952",
+    "gnd_url": "https://explore.gnd.network/gnd/124265952",
+    "viaf_id": "284854406",
+    "viaf_url": "http://viaf.org/viaf/284854406"
   },
   {
     "id": "COM:Gilles_Binchois",
@@ -1153,7 +1585,14 @@
     ],
     "cya_start": "1420",
     "cya_end": "1453",
-    "death_date": "1460-9-20"
+    "death_date": "1460-9-20",
+    "rism_id": "people/30020900",
+    "rism_url": "https://rism.online/people/30020900",
+    "diamm_url": "https://www.diamm.ac.uk/people/153/",
+    "gnd_id": "118884891",
+    "gnd_url": "https://explore.gnd.network/gnd/118884891",
+    "viaf_id": "2655463",
+    "viaf_url": "http://viaf.org/viaf/2655463"
   },
   {
     "id": "COM:Gines_de_Morata",
@@ -1177,7 +1616,14 @@
     "birth_date": "1542-1-27",
     "cya_start": "1562",
     "cya_end": "1611",
-    "death_date": "1611"
+    "death_date": "1611",
+    "rism_id": "people/20000528",
+    "rism_url": "https://rism.online/people/20000528",
+    "diamm_url": "https://www.diamm.ac.uk/people/864/",
+    "gnd_id": "131967983",
+    "gnd_url": "https://explore.gnd.network/gnd/131967983",
+    "viaf_id": "49408169",
+    "viaf_url": "http://viaf.org/viaf/49408169"
   },
   {
     "id": "COM:Gioseppe_Caimo",
@@ -1187,7 +1633,13 @@
     ],
     "cya_start": "1563",
     "cya_end": "1584",
-    "death_date": "1584"
+    "death_date": "1584",
+    "rism_id": "people/30011214",
+    "rism_url": "https://rism.online/people/30011214",
+    "gnd_id": "102411220",
+    "gnd_url": "https://explore.gnd.network/gnd/102411220",
+    "viaf_id": "29726898",
+    "viaf_url": "http://viaf.org/viaf/29726898"
   },
   {
     "id": "COM:Giovan_Leonardo_Primavera",
@@ -1204,7 +1656,14 @@
     ],
     "cya_start": "1576",
     "cya_end": "1617",
-    "death_date": "1617-8-16"
+    "death_date": "1617-8-16",
+    "rism_id": "people/30011165",
+    "rism_url": "https://rism.online/people/30011165",
+    "diamm_url": "https://www.diamm.ac.uk/people/623/",
+    "gnd_id": "124498698",
+    "gnd_url": "https://explore.gnd.network/gnd/124498698",
+    "viaf_id": "100229944",
+    "viaf_url": "http://viaf.org/viaf/100229944"
   },
   {
     "id": "COM:Giovanni_da_Cascia",
@@ -1216,7 +1675,14 @@
       "Toscano, Gian"
     ],
     "cya_start": "1340",
-    "cya_end": "1350"
+    "cya_end": "1350",
+    "rism_id": "people/40201110",
+    "rism_url": "https://rism.online/people/40201110",
+    "diamm_url": "https://www.diamm.ac.uk/people/1227/",
+    "gnd_id": "121716503",
+    "gnd_url": "https://explore.gnd.network/gnd/121716503",
+    "viaf_id": "8249957",
+    "viaf_url": "http://viaf.org/viaf/8249957"
   },
   {
     "id": "COM:Giovanni_Domenico_da_Nola",
@@ -1236,7 +1702,14 @@
     ],
     "cya_start": "1541",
     "cya_end": "1592",
-    "death_date": "1592-5"
+    "death_date": "1592-5",
+    "rism_id": "people/30011248",
+    "rism_url": "https://rism.online/people/30011248",
+    "diamm_url": "https://www.diamm.ac.uk/people/1900/",
+    "gnd_id": "128460156",
+    "gnd_url": "https://explore.gnd.network/gnd/128460156",
+    "viaf_id": "66652589",
+    "viaf_url": "http://viaf.org/viaf/66652589"
   },
   {
     "id": "COM:Giovanni_Gabrieli",
@@ -1247,7 +1720,14 @@
     ],
     "cya_start": "1578",
     "cya_end": "1612",
-    "death_date": "1612-8"
+    "death_date": "1612-8",
+    "rism_id": "people/30001186",
+    "rism_url": "https://rism.online/people/30001186",
+    "diamm_url": "https://www.diamm.ac.uk/people/686/",
+    "gnd_id": "118537024",
+    "gnd_url": "https://explore.gnd.network/gnd/118537024",
+    "viaf_id": "37101750",
+    "viaf_url": "http://viaf.org/viaf/37101750"
   },
   {
     "id": "COM:Giovanni_Giacomo_Gastoldi",
@@ -1261,7 +1741,14 @@
     ],
     "cya_start": "1572",
     "cya_end": "1609",
-    "death_date": "1609-1-4"
+    "death_date": "1609-1-4",
+    "rism_id": "people/30001243",
+    "rism_url": "https://rism.online/people/30001243",
+    "diamm_url": "https://www.diamm.ac.uk/people/679/",
+    "gnd_id": "122192117",
+    "gnd_url": "https://explore.gnd.network/gnd/122192117",
+    "viaf_id": "88638687",
+    "viaf_url": "http://viaf.org/viaf/88638687"
   },
   {
     "id": "COM:Giovanni_Pierluigi_da_Palestrina",
@@ -1338,14 +1825,25 @@
     ],
     "cya_start": "1551",
     "cya_end": "1594",
-    "death_date": "1594-2-2"
+    "death_date": "1594-2-2",
+    "rism_id": "people/1904",
+    "rism_url": "https://rism.online/people/1904",
+    "diamm_url": "https://www.diamm.ac.uk/people/422/",
+    "gnd_id": "118818686",
+    "gnd_url": "https://explore.gnd.network/gnd/118818686",
+    "viaf_id": "92280854",
+    "viaf_url": "http://viaf.org/viaf/92280854"
   },
   {
     "id": "COM:Giraut_de_Bornelh",
     "name": "Giraut de Bornelh",
     "aliases": [],
     "cya_start": "1160",
-    "cya_end": "1200"
+    "cya_end": "1200",
+    "gnd_id": "118695118",
+    "gnd_url": "https://explore.gnd.network/gnd/118695118",
+    "viaf_id": "107532836",
+    "viaf_url": "http://viaf.org/viaf/107532836"
   },
   {
     "id": "COM:Girolamo_Cavazzoni",
@@ -1355,7 +1853,13 @@
       "Girolamo da Urbino"
     ],
     "cya_start": "1542",
-    "cya_end": "1577"
+    "cya_end": "1577",
+    "rism_id": "people/30011226",
+    "rism_url": "https://rism.online/people/30011226",
+    "gnd_id": "10249956X",
+    "gnd_url": "https://explore.gnd.network/gnd/10249956X",
+    "viaf_id": "79147957",
+    "viaf_url": "http://viaf.org/viaf/79147957"
   },
   {
     "id": "COM:Giulio_Romano_Caccini",
@@ -1367,14 +1871,22 @@
     "birth_date": "1551-10-8",
     "cya_start": "1565",
     "cya_end": "1618",
-    "death_date": "1618"
+    "death_date": "1618",
+    "rism_id": "people/30006198",
+    "rism_url": "https://rism.online/people/30006198",
+    "diamm_url": "https://www.diamm.ac.uk/people/1763/",
+    "gnd_id": "119283263",
+    "gnd_url": "https://explore.gnd.network/gnd/119283263",
+    "viaf_id": "10032703",
+    "viaf_url": "http://viaf.org/viaf/10032703"
   },
   {
     "id": "COM:Grazioso_da_Padua",
     "name": "Grazioso da Padua",
     "aliases": [],
     "cya_start": "1350",
-    "cya_end": "1400"
+    "cya_end": "1400",
+    "diamm_url": "https://www.diamm.ac.uk/people/139/"
   },
   {
     "id": "COM:Gregor_Aichinger",
@@ -1392,7 +1904,11 @@
     "name": "Guglielmo Ebreo da Pesaro",
     "aliases": [],
     "cya_start": "1465",
-    "cya_end": "1480"
+    "cya_end": "1480",
+    "gnd_id": "119173972",
+    "gnd_url": "https://explore.gnd.network/gnd/119173972",
+    "viaf_id": "40182551",
+    "viaf_url": "http://viaf.org/viaf/40182551"
   },
   {
     "id": "COM:Guillaume_Costeley",
@@ -1404,14 +1920,25 @@
     ],
     "cya_start": "1554",
     "cya_end": "1588",
-    "death_date": "1606-1-28"
+    "death_date": "1606-1-28",
+    "rism_id": "people/30006035",
+    "rism_url": "https://rism.online/people/30006035",
+    "diamm_url": "https://www.diamm.ac.uk/people/1960/",
+    "gnd_id": "118677047",
+    "gnd_url": "https://explore.gnd.network/gnd/118677047",
+    "viaf_id": "71658174",
+    "viaf_url": "http://viaf.org/viaf/71658174"
   },
   {
     "id": "COM:Guillaume_dAmiens",
     "name": "Guillaume d'Amiens",
     "aliases": [],
     "cya_start": "1301",
-    "cya_end": "1301"
+    "cya_end": "1301",
+    "gnd_id": "102470251",
+    "gnd_url": "https://explore.gnd.network/gnd/102470251",
+    "viaf_id": "10113574",
+    "viaf_url": "http://viaf.org/viaf/10113574"
   },
   {
     "id": "COM:Guillaume_de_Machaut",
@@ -1427,7 +1954,14 @@
     ],
     "cya_start": "1323",
     "cya_end": "1377",
-    "death_date": "1377-4"
+    "death_date": "1377-4",
+    "rism_id": "people/30016307",
+    "rism_url": "https://rism.online/people/30016307",
+    "diamm_url": "https://www.diamm.ac.uk/people/2743/",
+    "gnd_id": "118699121",
+    "gnd_url": "https://explore.gnd.network/gnd/118699121",
+    "viaf_id": "63976026",
+    "viaf_url": "http://viaf.org/viaf/63976026"
   },
   {
     "id": "COM:Guillaume_Du_Fay",
@@ -1441,7 +1975,14 @@
     ],
     "cya_start": "1420",
     "cya_end": "1465",
-    "death_date": "1474-11-27"
+    "death_date": "1474-11-27",
+    "rism_id": "people/30005374",
+    "rism_url": "https://rism.online/people/30005374",
+    "diamm_url": "https://www.diamm.ac.uk/people/91/",
+    "gnd_id": "118527924",
+    "gnd_url": "https://explore.gnd.network/gnd/118527924",
+    "viaf_id": "100955223",
+    "viaf_url": "http://viaf.org/viaf/100955223"
   },
   {
     "id": "COM:Guillaume_Legrant",
@@ -1453,12 +1994,17 @@
     "name": "Guiraut Riquier",
     "aliases": [],
     "cya_start": "1254",
-    "cya_end": "1292"
+    "cya_end": "1292",
+    "gnd_id": "118719424",
+    "gnd_url": "https://explore.gnd.network/gnd/118719424",
+    "viaf_id": "107532827",
+    "viaf_url": "http://viaf.org/viaf/107532827"
   },
   {
     "id": "COM:Gulielmus",
     "name": "Gulielmus",
-    "aliases": []
+    "aliases": [],
+    "diamm_url": "https://www.diamm.ac.uk/people/192/"
   },
   {
     "id": "COM:Hans_Buchner",
@@ -1486,7 +2032,14 @@
     "birth_date": "1483-10-26",
     "cya_start": "1506",
     "cya_end": "1526",
-    "death_date": "1538"
+    "death_date": "1538",
+    "rism_id": "people/50050040",
+    "rism_url": "https://rism.online/people/50050040",
+    "diamm_url": "https://www.diamm.ac.uk/people/694/",
+    "gnd_id": "134339290",
+    "gnd_url": "https://explore.gnd.network/gnd/134339290",
+    "viaf_id": "15037191",
+    "viaf_url": "http://viaf.org/viaf/15037191"
   },
   {
     "id": "COM:Hans_Christoph_Haiden",
@@ -1512,7 +2065,12 @@
     "aliases": [],
     "cya_start": "1500",
     "cya_end": "1541",
-    "death_date": "1541"
+    "death_date": "1541",
+    "diamm_url": "https://www.diamm.ac.uk/people/695/",
+    "gnd_id": "118715232",
+    "gnd_url": "https://explore.gnd.network/gnd/118715232",
+    "viaf_id": "17490499",
+    "viaf_url": "http://viaf.org/viaf/17490499"
   },
   {
     "id": "COM:Hans_Leo_Hassler",
@@ -1548,7 +2106,14 @@
     "birth_date": "1564",
     "cya_start": "1584",
     "cya_end": "1612",
-    "death_date": "1612-6-8"
+    "death_date": "1612-6-8",
+    "rism_id": "people/52044",
+    "rism_url": "https://rism.online/people/52044",
+    "diamm_url": "https://www.diamm.ac.uk/people/853/",
+    "gnd_id": "118917447",
+    "gnd_url": "https://explore.gnd.network/gnd/118917447",
+    "viaf_id": "76500260",
+    "viaf_url": "http://viaf.org/viaf/76500260"
   },
   {
     "id": "COM:Hans_Neusiedler",
@@ -1561,7 +2126,13 @@
     ],
     "cya_start": "1530",
     "cya_end": "1563",
-    "death_date": "1563-2-2"
+    "death_date": "1563-2-2",
+    "rism_id": "people/30011783",
+    "rism_url": "https://rism.online/people/30011783",
+    "gnd_id": "123658292",
+    "gnd_url": "https://explore.gnd.network/gnd/123658292",
+    "viaf_id": "76579992",
+    "viaf_url": "http://viaf.org/viaf/76579992"
   },
   {
     "id": "COM:Hans_von_Konstanz",
@@ -1585,7 +2156,14 @@
       "Van Ghizeghem, Hayne"
     ],
     "cya_start": "1467",
-    "cya_end": "1493"
+    "cya_end": "1493",
+    "rism_id": "people/30005404",
+    "rism_url": "https://rism.online/people/30005404",
+    "diamm_url": "https://www.diamm.ac.uk/people/186/",
+    "gnd_id": "103900543",
+    "gnd_url": "https://explore.gnd.network/gnd/103900543",
+    "viaf_id": "76500273",
+    "viaf_url": "http://viaf.org/viaf/76500273"
   },
   {
     "id": "COM:Heinrich_Finck",
@@ -1593,7 +2171,14 @@
     "aliases": [],
     "cya_start": "1482",
     "cya_end": "1527",
-    "death_date": "1527-6-9"
+    "death_date": "1527-6-9",
+    "rism_id": "people/30016306",
+    "rism_url": "https://rism.online/people/30016306",
+    "diamm_url": "https://www.diamm.ac.uk/people/549/",
+    "gnd_id": "123911117",
+    "gnd_url": "https://explore.gnd.network/gnd/123911117",
+    "viaf_id": "59269465",
+    "viaf_url": "http://viaf.org/viaf/59269465"
   },
   {
     "id": "COM:Heinrich_Glarean",
@@ -1608,7 +2193,13 @@
     "birth_date": "1488-6",
     "cya_start": "1512",
     "cya_end": "1558",
-    "death_date": "1563-3-28"
+    "death_date": "1563-3-28",
+    "rism_id": "people/30019872",
+    "rism_url": "https://rism.online/people/30019872",
+    "gnd_id": "11905339X",
+    "gnd_url": "https://explore.gnd.network/gnd/11905339X",
+    "viaf_id": "73950690",
+    "viaf_url": "http://viaf.org/viaf/73950690"
   },
   {
     "id": "COM:Heinrich_Isaac",
@@ -1634,7 +2225,14 @@
     ],
     "cya_start": "1484",
     "cya_end": "1516",
-    "death_date": "1517-3-26"
+    "death_date": "1517-3-26",
+    "rism_id": "people/20000364",
+    "rism_url": "https://rism.online/people/20000364",
+    "diamm_url": "https://www.diamm.ac.uk/people/195/",
+    "gnd_id": "11855588X",
+    "gnd_url": "https://explore.gnd.network/gnd/11855588X",
+    "viaf_id": "34643473",
+    "viaf_url": "http://viaf.org/viaf/34643473"
   },
   {
     "id": "COM:Heinrich_Laufenberg",
@@ -1642,7 +2240,13 @@
     "aliases": [],
     "cya_start": "1417",
     "cya_end": "1445",
-    "death_date": "1460-3-31"
+    "death_date": "1460-3-31",
+    "rism_id": "people/30049595",
+    "rism_url": "https://rism.online/people/30049595",
+    "gnd_id": "118773747",
+    "gnd_url": "https://explore.gnd.network/gnd/118773747",
+    "viaf_id": "61592510",
+    "viaf_url": "http://viaf.org/viaf/61592510"
   },
   {
     "id": "COM:Henry_VIII",
@@ -1665,7 +2269,14 @@
     "birth_date": "1491-6-28",
     "cya_start": "1507",
     "cya_end": "1547",
-    "death_date": "1547-1-28"
+    "death_date": "1547-1-28",
+    "rism_id": "people/30007104",
+    "rism_url": "https://rism.online/people/30007104",
+    "diamm_url": "https://www.diamm.ac.uk/people/1796/",
+    "gnd_id": "118548204",
+    "gnd_url": "https://explore.gnd.network/gnd/118548204",
+    "viaf_id": "172419710",
+    "viaf_url": "http://viaf.org/viaf/172419710"
   },
   {
     "id": "COM:Hermann_Finck",
@@ -1676,7 +2287,13 @@
     "birth_date": "1527-3-21",
     "cya_start": "1554",
     "cya_end": "1558",
-    "death_date": "1558-12-29"
+    "death_date": "1558-12-29",
+    "rism_id": "people/30011729",
+    "rism_url": "https://rism.online/people/30011729",
+    "gnd_id": "123936063",
+    "gnd_url": "https://explore.gnd.network/gnd/123936063",
+    "viaf_id": "14944206",
+    "viaf_url": "http://viaf.org/viaf/14944206"
   },
   {
     "id": "COM:Hermannus_Contractus",
@@ -1695,7 +2312,14 @@
     ],
     "cya_start": "1530",
     "cya_end": "1538",
-    "death_date": "1538-8-21"
+    "death_date": "1538-8-21",
+    "rism_id": "people/30008303",
+    "rism_url": "https://rism.online/people/30008303",
+    "diamm_url": "https://www.diamm.ac.uk/people/283/",
+    "gnd_id": "1170106188",
+    "gnd_url": "https://explore.gnd.network/gnd/1170106188",
+    "viaf_id": "71585440",
+    "viaf_url": "http://viaf.org/viaf/71585440"
   },
   {
     "id": "COM:Hubert_Waelrant",
@@ -1720,7 +2344,14 @@
     ],
     "cya_start": "1520",
     "cya_end": "1558",
-    "death_date": "1558-11-17"
+    "death_date": "1558-11-17",
+    "rism_id": "people/30092449",
+    "rism_url": "https://rism.online/people/30092449",
+    "diamm_url": "https://www.diamm.ac.uk/people/1012/",
+    "gnd_id": "124384420",
+    "gnd_url": "https://explore.gnd.network/gnd/124384420",
+    "viaf_id": "79497376",
+    "viaf_url": "http://viaf.org/viaf/79497376"
   },
   {
     "id": "COM:Hugo_de_Lantins",
@@ -1745,7 +2376,14 @@
     ],
     "birth_date": "1532-4-20",
     "cya_start": "1555",
-    "cya_end": "1566"
+    "cya_end": "1566",
+    "rism_id": "people/50035776",
+    "rism_url": "https://rism.online/people/50035776",
+    "diamm_url": "https://www.diamm.ac.uk/people/3539/",
+    "gnd_id": "1089800193",
+    "gnd_url": "https://explore.gnd.network/gnd/1089800193",
+    "viaf_id": "57493359",
+    "viaf_url": "http://viaf.org/viaf/57493359"
   },
   {
     "id": "COM:Jacob_Obrecht",
@@ -1768,7 +2406,14 @@
     ],
     "cya_start": "1480",
     "cya_end": "1505",
-    "death_date": "1505"
+    "death_date": "1505",
+    "rism_id": "people/30005499",
+    "rism_url": "https://rism.online/people/30005499",
+    "diamm_url": "https://www.diamm.ac.uk/people/100/",
+    "gnd_id": "118735853",
+    "gnd_url": "https://explore.gnd.network/gnd/118735853",
+    "viaf_id": "111839700",
+    "viaf_url": "http://viaf.org/viaf/111839700"
   },
   {
     "id": "COM:Jacob_Regnart",
@@ -1813,7 +2458,14 @@
     "birth_date": "1550",
     "cya_start": "1579",
     "cya_end": "1591",
-    "death_date": "1591-7-18"
+    "death_date": "1591-7-18",
+    "rism_id": "people/30001209",
+    "rism_url": "https://rism.online/people/30001209",
+    "diamm_url": "https://www.diamm.ac.uk/people/790/",
+    "gnd_id": "118689363",
+    "gnd_url": "https://explore.gnd.network/gnd/118689363",
+    "viaf_id": "27251963",
+    "viaf_url": "http://viaf.org/viaf/27251963"
   },
   {
     "id": "COM:Jacobus_Vaet",
@@ -1823,14 +2475,28 @@
     ],
     "cya_start": "1550",
     "cya_end": "1567",
-    "death_date": "1567-1-8"
+    "death_date": "1567-1-8",
+    "rism_id": "people/30012872",
+    "rism_url": "https://rism.online/people/30012872",
+    "diamm_url": "https://www.diamm.ac.uk/people/707/",
+    "gnd_id": "123928389",
+    "gnd_url": "https://explore.gnd.network/gnd/123928389",
+    "viaf_id": "107585159",
+    "viaf_url": "http://viaf.org/viaf/107585159"
   },
   {
     "id": "COM:Jacopo_da_Bologna",
     "name": "Jacopo da Bologna",
     "aliases": [],
     "cya_start": "1340",
-    "cya_end": "1360"
+    "cya_end": "1360",
+    "rism_id": "people/40201111",
+    "rism_url": "https://rism.online/people/40201111",
+    "diamm_url": "https://www.diamm.ac.uk/people/154/",
+    "gnd_id": "10250377X",
+    "gnd_url": "https://explore.gnd.network/gnd/10250377X",
+    "viaf_id": "73700060",
+    "viaf_url": "http://viaf.org/viaf/73700060"
   },
   {
     "id": "COM:Jacopo_Fogliano",
@@ -1873,7 +2539,13 @@
       "Todi, Jacopone da"
     ],
     "cya_start": "1278",
-    "cya_end": "1298"
+    "cya_end": "1298",
+    "rism_id": "people/20000446",
+    "rism_url": "https://rism.online/people/20000446",
+    "gnd_id": "119523442",
+    "gnd_url": "https://explore.gnd.network/gnd/119523442",
+    "viaf_id": "54194694",
+    "viaf_url": "http://viaf.org/viaf/54194694"
   },
   {
     "id": "COM:Jacques_Arcadelt",
@@ -1897,7 +2569,14 @@
     "birth_date": "1507",
     "cya_start": "1530",
     "cya_end": "1562",
-    "death_date": "1562-10-14"
+    "death_date": "1562-10-14",
+    "rism_id": "people/30004860",
+    "rism_url": "https://rism.online/people/30004860",
+    "diamm_url": "https://www.diamm.ac.uk/people/286/",
+    "gnd_id": "119501716",
+    "gnd_url": "https://explore.gnd.network/gnd/119501716",
+    "viaf_id": "61730880",
+    "viaf_url": "http://viaf.org/viaf/61730880"
   },
   {
     "id": "COM:Jacques_Mauduit",
@@ -1918,14 +2597,26 @@
       "Jachet de Berchem"
     ],
     "cya_start": "1538",
-    "cya_end": "1565"
+    "cya_end": "1565",
+    "rism_id": "people/30005625",
+    "rism_url": "https://rism.online/people/30005625",
+    "gnd_id": "102420025",
+    "gnd_url": "https://explore.gnd.network/gnd/102420025",
+    "viaf_id": "90639154",
+    "viaf_url": "http://viaf.org/viaf/90639154"
   },
   {
     "id": "COM:Jan_Belle",
     "name": "Jan Belle",
     "aliases": [],
     "cya_start": "1546",
-    "cya_end": "1566"
+    "cya_end": "1566",
+    "rism_id": "people/50048667",
+    "rism_url": "https://rism.online/people/50048667",
+    "gnd_id": "104342447",
+    "gnd_url": "https://explore.gnd.network/gnd/104342447",
+    "viaf_id": "10281492",
+    "viaf_url": "http://viaf.org/viaf/10281492"
   },
   {
     "id": "COM:Jan_Nasco",
@@ -1939,7 +2630,14 @@
     ],
     "cya_start": "1547",
     "cya_end": "1561",
-    "death_date": "1561"
+    "death_date": "1561",
+    "rism_id": "people/30005591",
+    "rism_url": "https://rism.online/people/30005591",
+    "diamm_url": "https://www.diamm.ac.uk/people/1177/",
+    "gnd_id": "102410887",
+    "gnd_url": "https://explore.gnd.network/gnd/102410887",
+    "viaf_id": "316874838",
+    "viaf_url": "http://viaf.org/viaf/316874838"
   },
   {
     "id": "COM:Jan_Pieterszoon_Sweelinck",
@@ -1963,7 +2661,14 @@
     "birth_date": "1562-5",
     "cya_start": "1577",
     "cya_end": "1621",
-    "death_date": "1621-10-16"
+    "death_date": "1621-10-16",
+    "rism_id": "people/30006120",
+    "rism_url": "https://rism.online/people/30006120",
+    "diamm_url": "https://www.diamm.ac.uk/people/1851/",
+    "gnd_id": "118799517",
+    "gnd_url": "https://explore.gnd.network/gnd/118799517",
+    "viaf_id": "89618631",
+    "viaf_url": "http://viaf.org/viaf/89618631"
   },
   {
     "id": "COM:Jan_van_Turnhout",
@@ -1973,12 +2678,22 @@
       "Turnhout, Jan-Jacob van"
     ],
     "cya_start": "1577",
-    "cya_end": "1618"
+    "cya_end": "1618",
+    "rism_id": "people/30012197",
+    "rism_url": "https://rism.online/people/30012197",
+    "gnd_id": "122230450",
+    "gnd_url": "https://explore.gnd.network/gnd/122230450",
+    "viaf_id": "55023870",
+    "viaf_url": "http://viaf.org/viaf/55023870"
   },
   {
     "id": "COM:Jan_van_Wintelroy",
     "name": "Jan van Wintelroy",
-    "aliases": []
+    "aliases": [],
+    "gnd_id": "1264370490",
+    "gnd_url": "https://explore.gnd.network/gnd/1264370490",
+    "viaf_id": "270159032653501181321",
+    "viaf_url": "http://viaf.org/viaf/270159032653501181321"
   },
   {
     "id": "COM:Jaquemin_de_Senleches",
@@ -1994,7 +2709,13 @@
       "Besardus, Johannes Baptista"
     ],
     "cya_start": "1587",
-    "cya_end": "1616"
+    "cya_end": "1616",
+    "rism_id": "people/30014855",
+    "rism_url": "https://rism.online/people/30014855",
+    "gnd_id": "124555578",
+    "gnd_url": "https://explore.gnd.network/gnd/124555578",
+    "viaf_id": "69114877",
+    "viaf_url": "http://viaf.org/viaf/69114877"
   },
   {
     "id": "COM:Jean_Conseil",
@@ -2013,7 +2734,14 @@
     ],
     "cya_start": "1526",
     "cya_end": "1534",
-    "death_date": "1534"
+    "death_date": "1534",
+    "rism_id": "people/30025536",
+    "rism_url": "https://rism.online/people/30025536",
+    "diamm_url": "https://www.diamm.ac.uk/people/232/",
+    "gnd_id": "1089850476",
+    "gnd_url": "https://explore.gnd.network/gnd/1089850476",
+    "viaf_id": "49488204",
+    "viaf_url": "http://viaf.org/viaf/49488204"
   },
   {
     "id": "COM:Jean_de_Castro",
@@ -2027,7 +2755,14 @@
       "De Castro, Jean"
     ],
     "cya_start": "1570",
-    "cya_end": "1600"
+    "cya_end": "1600",
+    "rism_id": "people/30006809",
+    "rism_url": "https://rism.online/people/30006809",
+    "diamm_url": "https://www.diamm.ac.uk/people/1617//",
+    "gnd_id": "123908418",
+    "gnd_url": "https://explore.gnd.network/gnd/123908418",
+    "viaf_id": "64201802",
+    "viaf_url": "http://viaf.org/viaf/64201802"
   },
   {
     "id": "COM:Jean_Japart",
@@ -2039,7 +2774,14 @@
       "Zaparth, Jean"
     ],
     "cya_start": "1476",
-    "cya_end": "1481"
+    "cya_end": "1481",
+    "rism_id": "people/30100993",
+    "rism_url": "https://rism.online/people/30100993",
+    "diamm_url": "https://www.diamm.ac.uk/people/145/",
+    "gnd_id": "134628713",
+    "gnd_url": "https://explore.gnd.network/gnd/134628713",
+    "viaf_id": "69120905",
+    "viaf_url": "http://viaf.org/viaf/69120905"
   },
   {
     "id": "COM:Jean_Mouton",
@@ -2064,7 +2806,14 @@
     ],
     "cya_start": "1483",
     "cya_end": "1522",
-    "death_date": "1522-10-30"
+    "death_date": "1522-10-30",
+    "rism_id": "people/30005489",
+    "rism_url": "https://rism.online/people/30005489",
+    "diamm_url": "https://www.diamm.ac.uk/people/318/",
+    "gnd_id": "104066911",
+    "gnd_url": "https://explore.gnd.network/gnd/104066911",
+    "viaf_id": "100249517",
+    "viaf_url": "http://viaf.org/viaf/100249517"
   },
   {
     "id": "COM:Jehan_Titelouze",
@@ -2072,7 +2821,13 @@
     "aliases": [],
     "cya_start": "1585",
     "cya_end": "1623",
-    "death_date": "1633-10-24"
+    "death_date": "1633-10-24",
+    "rism_id": "people/30012851",
+    "rism_url": "https://rism.online/people/30012851",
+    "gnd_id": "118975099",
+    "gnd_url": "https://explore.gnd.network/gnd/118975099",
+    "viaf_id": "85510352",
+    "viaf_url": "http://viaf.org/viaf/85510352"
   },
   {
     "id": "COM:Jehan_Vaillant",
@@ -2084,7 +2839,14 @@
       "Vayllant, Johannes"
     ],
     "cya_start": "1360",
-    "cya_end": "1390"
+    "cya_end": "1390",
+    "rism_id": "people/30109695",
+    "rism_url": "https://rism.online/people/30109695",
+    "diamm_url": "https://www.diamm.ac.uk/people/19/",
+    "gnd_id": "134580222",
+    "gnd_url": "https://explore.gnd.network/gnd/134580222",
+    "viaf_id": "85523678",
+    "viaf_url": "http://viaf.org/viaf/85523678"
   },
   {
     "id": "COM:Jerzy_Liban",
@@ -2103,7 +2865,13 @@
     ],
     "birth_date": "1464",
     "cya_start": "1506",
-    "cya_end": "1540"
+    "cya_end": "1540",
+    "rism_id": "people/51017670",
+    "rism_url": "https://rism.online/people/51017670",
+    "gnd_id": "104245581",
+    "gnd_url": "https://explore.gnd.network/gnd/104245581",
+    "viaf_id": "24727994",
+    "viaf_url": "http://viaf.org/viaf/24727994"
   },
   {
     "id": "COM:Joannes_Tollius",
@@ -2115,7 +2883,14 @@
       "Tollius, Johannes"
     ],
     "cya_start": "1578",
-    "cya_end": "1603"
+    "cya_end": "1603",
+    "rism_id": "people/30012853",
+    "rism_url": "https://rism.online/people/30012853",
+    "diamm_url": "https://www.diamm.ac.uk/people/1740/",
+    "gnd_id": "102419868",
+    "gnd_url": "https://explore.gnd.network/gnd/102419868",
+    "viaf_id": "10040044",
+    "viaf_url": "http://viaf.org/viaf/10040044"
   },
   {
     "id": "COM:Jobst_vom_Brandt",
@@ -2140,7 +2915,14 @@
     "birth_date": "1533",
     "cya_start": "1569",
     "cya_end": "1611",
-    "death_date": "1611"
+    "death_date": "1611",
+    "rism_id": "people/479630",
+    "rism_url": "https://rism.online/people/479630",
+    "diamm_url": "https://www.diamm.ac.uk/people/718/",
+    "gnd_id": "118528688",
+    "gnd_url": "https://explore.gnd.network/gnd/118528688",
+    "viaf_id": "76499950",
+    "viaf_url": "http://viaf.org/viaf/76499950"
   },
   {
     "id": "COM:Johann_Kugelmann",
@@ -2148,12 +2930,23 @@
     "aliases": [],
     "cya_start": "1518",
     "cya_end": "1540",
-    "death_date": "1542"
+    "death_date": "1542",
+    "diamm_url": "https://www.diamm.ac.uk/people/1210/",
+    "gnd_id": "123857775",
+    "gnd_url": "https://explore.gnd.network/gnd/123857775",
+    "viaf_id": "54413953",
+    "viaf_url": "http://viaf.org/viaf/54413953"
   },
   {
     "id": "COM:Johann_Leonhard_von_Langenaw",
     "name": "Johann Leonhard von Langenaw",
-    "aliases": []
+    "aliases": [],
+    "rism_id": "people/30008565",
+    "rism_url": "https://rism.online/people/30008565",
+    "gnd_id": "136285996",
+    "gnd_url": "https://explore.gnd.network/gnd/136285996",
+    "viaf_id": "120184952",
+    "viaf_url": "http://viaf.org/viaf/120184952"
   },
   {
     "id": "COM:Johann_Steffens",
@@ -2167,7 +2960,14 @@
     ],
     "cya_start": "1589",
     "cya_end": "1609",
-    "death_date": "1616"
+    "death_date": "1616",
+    "rism_id": "people/30006463",
+    "rism_url": "https://rism.online/people/30006463",
+    "diamm_url": "https://www.diamm.ac.uk/people/1443/",
+    "gnd_id": "124772773",
+    "gnd_url": "https://explore.gnd.network/gnd/124772773",
+    "viaf_id": "10040823",
+    "viaf_url": "http://viaf.org/viaf/10040823"
   },
   {
     "id": "COM:Johann_Walter",
@@ -2179,14 +2979,24 @@
     "birth_date": "1496",
     "cya_start": "1521",
     "cya_end": "1570",
-    "death_date": "1570-3-25"
+    "death_date": "1570-3-25",
+    "rism_id": "people/30006178",
+    "rism_url": "https://rism.online/people/30006178",
+    "diamm_url": "https://www.diamm.ac.uk/people/3737/",
+    "gnd_id": "118764187",
+    "gnd_url": "https://explore.gnd.network/gnd/118764187",
+    "viaf_id": "42002488",
+    "viaf_url": "http://viaf.org/viaf/42002488"
   },
   {
     "id": "COM:Johann_Weck",
     "name": "Johann Weck",
     "aliases": [],
     "cya_start": "1512",
-    "cya_end": "1536"
+    "cya_end": "1536",
+    "diamm_url": "https://www.diamm.ac.uk/people/697/",
+    "viaf_id": "39560345",
+    "viaf_url": "http://viaf.org/viaf/39560345"
   },
   {
     "id": "COM:Johannes_Brassart",
@@ -2239,7 +3049,13 @@
     "birth_date": "1479-1-10",
     "cya_start": "1510",
     "cya_end": "1552",
-    "death_date": "1552-1-10"
+    "death_date": "1552-1-10",
+    "rism_id": "people/62342",
+    "rism_url": "https://rism.online/people/62342",
+    "gnd_id": "118521330",
+    "gnd_url": "https://explore.gnd.network/gnd/118521330",
+    "viaf_id": "4969350",
+    "viaf_url": "http://viaf.org/viaf/4969350"
   },
   {
     "id": "COM:Johannes_Cornago",
@@ -2265,7 +3081,14 @@
       "Vinandi, Johannes"
     ],
     "cya_start": "1431",
-    "cya_end": "1431"
+    "cya_end": "1431",
+    "rism_id": "people/30109863",
+    "rism_url": "https://rism.online/people/30109863",
+    "diamm_url": "https://www.diamm.ac.uk/people/164/",
+    "gnd_id": "1047876353",
+    "gnd_url": "https://explore.gnd.network/gnd/1047876353",
+    "viaf_id": "239856545",
+    "viaf_url": "http://viaf.org/viaf/239856545"
   },
   {
     "id": "COM:Johannes_de_Stokem",
@@ -2295,7 +3118,14 @@
       "Johannes de Gemblaco"
     ],
     "cya_start": "1417",
-    "cya_end": "1420"
+    "cya_end": "1420",
+    "rism_id": "people/30109764",
+    "rism_url": "https://rism.online/people/30109764",
+    "diamm_url": "https://www.diamm.ac.uk/people/163/",
+    "gnd_id": "108963157X",
+    "gnd_url": "https://explore.gnd.network/gnd/108963157X",
+    "viaf_id": "69356762",
+    "viaf_url": "http://viaf.org/viaf/69356762"
   },
   {
     "id": "COM:Johannes_Lebrung",
@@ -2309,7 +3139,14 @@
       "Lebrung, Jean"
     ],
     "cya_start": "1500",
-    "cya_end": "1510"
+    "cya_end": "1510",
+    "rism_id": "people/993109494",
+    "rism_url": "https://rism.online/people/993109494",
+    "diamm_url": "https://www.diamm.ac.uk/people/766/",
+    "gnd_id": "102420114",
+    "gnd_url": "https://explore.gnd.network/gnd/102420114",
+    "viaf_id": "74242736",
+    "viaf_url": "http://viaf.org/viaf/74242736"
   },
   {
     "id": "COM:Johannes_Mangon",
@@ -2317,7 +3154,14 @@
     "aliases": [],
     "cya_start": "1535",
     "cya_end": "1578",
-    "death_date": "1578"
+    "death_date": "1578",
+    "rism_id": "people/30024380",
+    "rism_url": "https://rism.online/people/30024380",
+    "diamm_url": "https://www.diamm.ac.uk/people/1682/",
+    "gnd_id": "120747510",
+    "gnd_url": "https://explore.gnd.network/gnd/120747510",
+    "viaf_id": "300205555",
+    "viaf_url": "http://viaf.org/viaf/300205555"
   },
   {
     "id": "COM:Johannes_Nucius",
@@ -2341,14 +3185,28 @@
     ],
     "cya_start": "1443",
     "cya_end": "1494",
-    "death_date": "1497-2-6"
+    "death_date": "1497-2-6",
+    "rism_id": "people/30016300",
+    "rism_url": "https://rism.online/people/30016300",
+    "diamm_url": "https://www.diamm.ac.uk/people/185/",
+    "gnd_id": "118735926",
+    "gnd_url": "https://explore.gnd.network/gnd/118735926",
+    "viaf_id": "22150988",
+    "viaf_url": "http://viaf.org/viaf/22150988"
   },
   {
     "id": "COM:Johannes_Prioris",
     "name": "Johannes Prioris",
     "aliases": [],
     "cya_start": "1485",
-    "cya_end": "1512"
+    "cya_end": "1512",
+    "rism_id": "people/30016484",
+    "rism_url": "https://rism.online/people/30016484",
+    "diamm_url": "https://www.diamm.ac.uk/people/99/",
+    "gnd_id": "134488970",
+    "gnd_url": "https://explore.gnd.network/gnd/134488970",
+    "viaf_id": "44566584",
+    "viaf_url": "http://viaf.org/viaf/44566584"
   },
   {
     "id": "COM:Johannes_Schrem",
@@ -2363,7 +3221,14 @@
       "Tapissier, Jean"
     ],
     "cya_start": "1400",
-    "cya_end": "1410"
+    "cya_end": "1410",
+    "rism_id": "people/41016871",
+    "rism_url": "https://rism.online/people/41016871",
+    "diamm_url": "https://www.diamm.ac.uk/people/4/",
+    "gnd_id": "104329378",
+    "gnd_url": "https://explore.gnd.network/gnd/104329378",
+    "viaf_id": "37349247",
+    "viaf_url": "http://viaf.org/viaf/37349247"
   },
   {
     "id": "COM:Johannes_Tinctoris",
@@ -2389,7 +3254,14 @@
     ],
     "cya_start": "1510",
     "cya_end": "1531",
-    "death_date": "1551"
+    "death_date": "1551",
+    "rism_id": "people/30012902",
+    "rism_url": "https://rism.online/people/30012902",
+    "diamm_url": "https://www.diamm.ac.uk/people/599/",
+    "gnd_id": "118920928",
+    "gnd_url": "https://explore.gnd.network/gnd/118920928",
+    "viaf_id": "17490531",
+    "viaf_url": "http://viaf.org/viaf/17490531"
   },
   {
     "id": "COM:John_Adson",
@@ -2404,7 +3276,14 @@
       "Bartlett, John"
     ],
     "cya_start": "1606",
-    "cya_end": "1610"
+    "cya_end": "1610",
+    "rism_id": "people/30012029",
+    "rism_url": "https://rism.online/people/30012029",
+    "diamm_url": "https://www.diamm.ac.uk/people/1595/",
+    "gnd_id": "134714733",
+    "gnd_url": "https://explore.gnd.network/gnd/134714733",
+    "viaf_id": "56455668",
+    "viaf_url": "http://viaf.org/viaf/56455668"
   },
   {
     "id": "COM:John_Bennet",
@@ -2416,14 +3295,23 @@
       "Bennett, John"
     ],
     "cya_start": "1599",
-    "cya_end": "1614"
+    "cya_end": "1614",
+    "rism_id": "people/30006797",
+    "rism_url": "https://rism.online/people/30006797",
+    "gnd_id": "134106210",
+    "gnd_url": "https://explore.gnd.network/gnd/134106210",
+    "viaf_id": "271275190",
+    "viaf_url": "http://viaf.org/viaf/271275190"
   },
   {
     "id": "COM:John_Browne",
     "name": "John Browne",
     "aliases": [],
     "cya_start": "1480",
-    "cya_end": "1505"
+    "cya_end": "1505",
+    "diamm_url": "https://www.diamm.ac.uk/people/562/",
+    "viaf_id": "65145304375278571206",
+    "viaf_url": "http://viaf.org/viaf/65145304375278571206"
   },
   {
     "id": "COM:John_Bull",
@@ -2437,7 +3325,14 @@
     ],
     "cya_start": "1578",
     "cya_end": "1626",
-    "death_date": "1628-3-12"
+    "death_date": "1628-3-12",
+    "rism_id": "people/30004671",
+    "rism_url": "https://rism.online/people/30004671",
+    "diamm_url": "https://www.diamm.ac.uk/people/925/",
+    "gnd_id": "120297450",
+    "gnd_url": "https://explore.gnd.network/gnd/120297450",
+    "viaf_id": "54331967",
+    "viaf_url": "http://viaf.org/viaf/54331967"
   },
   {
     "id": "COM:John_Coprario",
@@ -2450,7 +3345,14 @@
       "Cowper, John"
     ],
     "cya_start": "1601",
-    "cya_end": "1626"
+    "cya_end": "1626",
+    "rism_id": "people/30005926",
+    "rism_url": "https://rism.online/people/30005926",
+    "diamm_url": "https://www.diamm.ac.uk/people/4002/",
+    "gnd_id": "118836161",
+    "gnd_url": "https://explore.gnd.network/gnd/118836161",
+    "viaf_id": "99982724",
+    "viaf_url": "http://viaf.org/viaf/99982724"
   },
   {
     "id": "COM:John_Danyel",
@@ -2473,7 +3375,14 @@
     "birth_date": "1563",
     "cya_start": "1588",
     "cya_end": "1626",
-    "death_date": "1626-2-20"
+    "death_date": "1626-2-20",
+    "rism_id": "people/30005371",
+    "rism_url": "https://rism.online/people/30005371",
+    "diamm_url": "https://www.diamm.ac.uk/people/1770/",
+    "gnd_id": "11867238X",
+    "gnd_url": "https://explore.gnd.network/gnd/11867238X",
+    "viaf_id": "14744124",
+    "viaf_url": "http://viaf.org/viaf/14744124"
   },
   {
     "id": "COM:John_Dunstaple",
@@ -2488,7 +3397,14 @@
     ],
     "cya_start": "1420",
     "cya_end": "1453",
-    "death_date": "1453-12-24"
+    "death_date": "1453-12-24",
+    "rism_id": "people/30020903",
+    "rism_url": "https://rism.online/people/30020903",
+    "diamm_url": "https://www.diamm.ac.uk/people/3/",
+    "gnd_id": "119386518",
+    "gnd_url": "https://explore.gnd.network/gnd/119386518",
+    "viaf_id": "12491221",
+    "viaf_url": "http://viaf.org/viaf/12491221"
   },
   {
     "id": "COM:John_Farmer",
@@ -2497,7 +3413,14 @@
       "Fermer, John"
     ],
     "cya_start": "1591",
-    "cya_end": "1601"
+    "cya_end": "1601",
+    "rism_id": "people/30006836",
+    "rism_url": "https://rism.online/people/30006836",
+    "diamm_url": "https://www.diamm.ac.uk/people/1776/",
+    "gnd_id": "128352132",
+    "gnd_url": "https://explore.gnd.network/gnd/128352132",
+    "viaf_id": "104247632",
+    "viaf_url": "http://viaf.org/viaf/104247632"
   },
   {
     "id": "COM:John_Mundy",
@@ -2518,7 +3441,14 @@
     ],
     "cya_start": "1580",
     "cya_end": "1630",
-    "death_date": "1630-6-29"
+    "death_date": "1630-6-29",
+    "rism_id": "people/30006887",
+    "rism_url": "https://rism.online/people/30006887",
+    "diamm_url": "https://www.diamm.ac.uk/people/956/",
+    "gnd_id": "140466959",
+    "gnd_url": "https://explore.gnd.network/gnd/140466959",
+    "viaf_id": "56797160",
+    "viaf_url": "http://viaf.org/viaf/56797160"
   },
   {
     "id": "COM:John_of_Fornsete",
@@ -2534,7 +3464,14 @@
     ],
     "cya_start": "1514",
     "cya_end": "1537",
-    "death_date": "1545-10-18"
+    "death_date": "1545-10-18",
+    "rism_id": "people/30008216",
+    "rism_url": "https://rism.online/people/30008216",
+    "diamm_url": "https://www.diamm.ac.uk/people/960/",
+    "gnd_id": "118801457",
+    "gnd_url": "https://explore.gnd.network/gnd/118801457",
+    "viaf_id": "3267137",
+    "viaf_url": "http://viaf.org/viaf/3267137"
   },
   {
     "id": "COM:John_Ward",
@@ -2552,7 +3489,14 @@
     "birth_date": "1574",
     "cya_start": "1598",
     "cya_end": "1638",
-    "death_date": "1638"
+    "death_date": "1638",
+    "rism_id": "people/30005311",
+    "rism_url": "https://rism.online/people/30005311",
+    "diamm_url": "https://www.diamm.ac.uk/people/1876/",
+    "gnd_id": "118807277",
+    "gnd_url": "https://explore.gnd.network/gnd/118807277",
+    "viaf_id": "10116739",
+    "viaf_url": "http://viaf.org/viaf/10116739"
   },
   {
     "id": "COM:Josquin_Baston",
@@ -2562,7 +3506,11 @@
   {
     "id": "COM:Josquin_Dascanio",
     "name": "Josquin Dascanio",
-    "aliases": []
+    "aliases": [],
+    "rism_id": "people/51006974",
+    "rism_url": "https://rism.online/people/51006974",
+    "viaf_id": "245154381059130292455",
+    "viaf_url": "http://viaf.org/viaf/245154381059130292455"
   },
   {
     "id": "COM:Josquin_des_Prez",
@@ -2608,7 +3556,12 @@
     ],
     "cya_start": "1480",
     "cya_end": "1520",
-    "death_date": "1521-8-27"
+    "death_date": "1521-8-27",
+    "rism_id": "people/20000367",
+    "rism_url": "https://rism.online/people/20000367",
+    "diamm_url": "https://www.diamm.ac.uk/people/204/",
+    "viaf_id": "100226284",
+    "viaf_url": "http://viaf.org/viaf/100226284"
   },
   {
     "id": "COM:Juan_de_Cabezon",
@@ -2621,7 +3574,8 @@
     "name": "Juan de Leon",
     "aliases": [],
     "cya_start": "1480",
-    "cya_end": "1514"
+    "cya_end": "1514",
+    "diamm_url": "https://www.diamm.ac.uk/people/125/"
   },
   {
     "id": "COM:Juan_del_Encina",
@@ -2660,7 +3614,14 @@
     ],
     "cya_start": "1410",
     "cya_end": "1440",
-    "death_date": "1445-6-5"
+    "death_date": "1445-6-5",
+    "rism_id": "people/30102578",
+    "rism_url": "https://rism.online/people/30102578",
+    "diamm_url": "https://www.diamm.ac.uk/people/111/",
+    "gnd_id": "119386526",
+    "gnd_url": "https://explore.gnd.network/gnd/119386526",
+    "viaf_id": "79169248",
+    "viaf_url": "http://viaf.org/viaf/79169248"
   },
   {
     "id": "COM:Leonhard_Kleber",
@@ -2668,7 +3629,13 @@
     "aliases": [],
     "cya_start": "1516",
     "cya_end": "1556",
-    "death_date": "1556-3-4"
+    "death_date": "1556-3-4",
+    "rism_id": "people/30075085",
+    "rism_url": "https://rism.online/people/30075085",
+    "gnd_id": "122635418",
+    "gnd_url": "https://explore.gnd.network/gnd/122635418",
+    "viaf_id": "44565717",
+    "viaf_url": "http://viaf.org/viaf/44565717"
   },
   {
     "id": "COM:Leonhard_Lechner",
@@ -2682,7 +3649,14 @@
     ],
     "cya_start": "1575",
     "cya_end": "1606",
-    "death_date": "1606-9-9"
+    "death_date": "1606-9-9",
+    "rism_id": "people/30013110",
+    "rism_url": "https://rism.online/people/30013110",
+    "diamm_url": "https://www.diamm.ac.uk/people/778/",
+    "gnd_id": "118890638",
+    "gnd_url": "https://explore.gnd.network/gnd/118890638",
+    "viaf_id": "107534994",
+    "viaf_url": "http://viaf.org/viaf/107534994"
   },
   {
     "id": "COM:Leonhard_Paminger",
@@ -2700,14 +3674,25 @@
       "Schröter-Torgensem, Leonhart"
     ],
     "cya_start": "1561",
-    "cya_end": "1595"
+    "cya_end": "1595",
+    "rism_id": "people/30004157",
+    "rism_url": "https://rism.online/people/30004157",
+    "diamm_url": "https://www.diamm.ac.uk/people/867/",
+    "gnd_id": "137399456",
+    "gnd_url": "https://explore.gnd.network/gnd/137399456",
+    "viaf_id": "116747186",
+    "viaf_url": "http://viaf.org/viaf/116747186"
   },
   {
     "id": "COM:Leonin",
     "name": "Léonin",
     "aliases": [],
     "cya_start": "1150",
-    "cya_end": "1201"
+    "cya_end": "1201",
+    "gnd_id": "123386098",
+    "gnd_url": "https://explore.gnd.network/gnd/123386098",
+    "viaf_id": "265152270",
+    "viaf_url": "http://viaf.org/viaf/265152270"
   },
   {
     "id": "COM:Lodovico_Viadana",
@@ -2731,7 +3716,14 @@
       "Lemlein, Lorenz"
     ],
     "cya_start": "1514",
-    "cya_end": "1549"
+    "cya_end": "1549",
+    "rism_id": "people/30008567",
+    "rism_url": "https://rism.online/people/30008567",
+    "diamm_url": "https://www.diamm.ac.uk/people/782/",
+    "gnd_id": "130624675",
+    "gnd_url": "https://explore.gnd.network/gnd/130624675",
+    "viaf_id": "115736493",
+    "viaf_url": "http://viaf.org/viaf/115736493"
   },
   {
     "id": "COM:Loyset_Compere",
@@ -2739,7 +3731,14 @@
     "aliases": [],
     "cya_start": "1465",
     "cya_end": "1508",
-    "death_date": "1518-8-16"
+    "death_date": "1518-8-16",
+    "rism_id": "people/30005358",
+    "rism_url": "https://rism.online/people/30005358",
+    "diamm_url": "https://www.diamm.ac.uk/people/183/",
+    "gnd_id": "128825006",
+    "gnd_url": "https://explore.gnd.network/gnd/128825006",
+    "viaf_id": "14957872",
+    "viaf_url": "http://viaf.org/viaf/14957872"
   },
   {
     "id": "COM:Luca_Marenzio",
@@ -2750,7 +3749,14 @@
     ],
     "cya_start": "1568",
     "cya_end": "1598",
-    "death_date": "1599-8-22"
+    "death_date": "1599-8-22",
+    "rism_id": "people/30003955",
+    "rism_url": "https://rism.online/people/30003955",
+    "diamm_url": "https://www.diamm.ac.uk/people/869/",
+    "gnd_id": "118781847",
+    "gnd_url": "https://explore.gnd.network/gnd/118781847",
+    "viaf_id": "2656905",
+    "viaf_url": "http://viaf.org/viaf/2656905"
   },
   {
     "id": "COM:Lucas_Osiander",
@@ -2761,7 +3767,13 @@
     "birth_date": "1534-12",
     "cya_start": "1558",
     "cya_end": "1604",
-    "death_date": "1604-9-17"
+    "death_date": "1604-9-17",
+    "rism_id": "people/30013137",
+    "rism_url": "https://rism.online/people/30013137",
+    "gnd_id": "11955111X",
+    "gnd_url": "https://explore.gnd.network/gnd/11955111X",
+    "viaf_id": "66477263",
+    "viaf_url": "http://viaf.org/viaf/66477263"
   },
   {
     "id": "COM:Ludwig_Senfl",
@@ -2796,7 +3808,14 @@
     ],
     "cya_start": "1507",
     "cya_end": "1540",
-    "death_date": "1543"
+    "death_date": "1543",
+    "rism_id": "people/20000365",
+    "rism_url": "https://rism.online/people/20000365",
+    "diamm_url": "https://www.diamm.ac.uk/people/3599/",
+    "gnd_id": "118764551",
+    "gnd_url": "https://explore.gnd.network/gnd/118764551",
+    "viaf_id": "19866990",
+    "viaf_url": "http://viaf.org/viaf/19866990"
   },
   {
     "id": "COM:Luis_Milan",
@@ -2819,7 +3838,14 @@
       "Milán, Luys"
     ],
     "cya_start": "1538",
-    "cya_end": "1560"
+    "cya_end": "1560",
+    "rism_id": "people/30013127",
+    "rism_url": "https://rism.online/people/30013127",
+    "diamm_url": "https://www.diamm.ac.uk/people/555/",
+    "gnd_id": "119525011",
+    "gnd_url": "https://explore.gnd.network/gnd/119525011",
+    "viaf_id": "99920521",
+    "viaf_url": "http://viaf.org/viaf/99920521"
   },
   {
     "id": "COM:Lupus_Hellinck",
@@ -2838,7 +3864,14 @@
     ],
     "cya_start": "1518",
     "cya_end": "1541",
-    "death_date": "1541-1"
+    "death_date": "1541-1",
+    "rism_id": "people/30006996",
+    "rism_url": "https://rism.online/people/30006996",
+    "diamm_url": "https://www.diamm.ac.uk/people/264/",
+    "gnd_id": "103901361",
+    "gnd_url": "https://explore.gnd.network/gnd/103901361",
+    "viaf_id": "291576828",
+    "viaf_url": "http://viaf.org/viaf/291576828"
   },
   {
     "id": "COM:Marbrianus_de_Orto",
@@ -2854,7 +3887,14 @@
     ],
     "cya_start": "1482",
     "cya_end": "1522",
-    "death_date": "1529"
+    "death_date": "1529",
+    "rism_id": "people/30013316",
+    "rism_url": "https://rism.online/people/30013316",
+    "diamm_url": "https://www.diamm.ac.uk/people/301/",
+    "gnd_id": "123166896",
+    "gnd_url": "https://explore.gnd.network/gnd/123166896",
+    "viaf_id": "56810510",
+    "viaf_url": "http://viaf.org/viaf/56810510"
   },
   {
     "id": "COM:MarcAntonio_Ingegneri",
@@ -2871,7 +3911,14 @@
     ],
     "cya_start": "1557",
     "cya_end": "1592",
-    "death_date": "1592-7-1"
+    "death_date": "1592-7-1",
+    "rism_id": "people/30005043",
+    "rism_url": "https://rism.online/people/30005043",
+    "diamm_url": "https://www.diamm.ac.uk/people/1418/",
+    "gnd_id": "119409542",
+    "gnd_url": "https://explore.gnd.network/gnd/119409542",
+    "viaf_id": "100196245",
+    "viaf_url": "http://viaf.org/viaf/100196245"
   },
   {
     "id": "COM:Marchetto_Cara",
@@ -2883,7 +3930,14 @@
     ],
     "cya_start": "1494",
     "cya_end": "1525",
-    "death_date": "1525"
+    "death_date": "1525",
+    "rism_id": "people/30004942",
+    "rism_url": "https://rism.online/people/30004942",
+    "diamm_url": "https://www.diamm.ac.uk/people/42/",
+    "gnd_id": "118702262",
+    "gnd_url": "https://explore.gnd.network/gnd/118702262",
+    "viaf_id": "17406986",
+    "viaf_url": "http://viaf.org/viaf/17406986"
   },
   {
     "id": "COM:Marco_Antonio_Cavazzoni",
@@ -2896,7 +3950,13 @@
       "Marco Antonio di Bologna"
     ],
     "cya_start": "1512",
-    "cya_end": "1560"
+    "cya_end": "1560",
+    "rism_id": "people/30013241",
+    "rism_url": "https://rism.online/people/30013241",
+    "gnd_id": "119111098",
+    "gnd_url": "https://explore.gnd.network/gnd/119111098",
+    "viaf_id": "106999662",
+    "viaf_url": "http://viaf.org/viaf/106999662"
   },
   {
     "id": "COM:Marco_da_Gagliano",
@@ -2908,7 +3968,14 @@
     "birth_date": "1582-5-1",
     "cya_start": "1602",
     "cya_end": "1624",
-    "death_date": "1643-2-25"
+    "death_date": "1643-2-25",
+    "rism_id": "people/30003811",
+    "rism_url": "https://rism.online/people/30003811",
+    "diamm_url": "https://www.diamm.ac.uk/people/1649/",
+    "gnd_id": "118716123",
+    "gnd_url": "https://explore.gnd.network/gnd/118716123",
+    "viaf_id": "71660223",
+    "viaf_url": "http://viaf.org/viaf/71660223"
   },
   {
     "id": "COM:Martin_Agricola",
@@ -2920,7 +3987,13 @@
     ],
     "cya_start": "1520",
     "cya_end": "1556",
-    "death_date": "1556-6-10"
+    "death_date": "1556-6-10",
+    "rism_id": "people/30006496",
+    "rism_url": "https://rism.online/people/30006496",
+    "gnd_id": "119209314",
+    "gnd_url": "https://explore.gnd.network/gnd/119209314",
+    "viaf_id": "2577925",
+    "viaf_url": "http://viaf.org/viaf/2577925"
   },
   {
     "id": "COM:Martin_Codax",
@@ -2933,7 +4006,11 @@
     "aliases": [],
     "cya_start": "1503",
     "cya_end": "1525",
-    "death_date": "1528-6-24"
+    "death_date": "1528-6-24",
+    "gnd_id": "174024045",
+    "gnd_url": "https://explore.gnd.network/gnd/174024045",
+    "viaf_id": "66317968",
+    "viaf_url": "http://viaf.org/viaf/66317968"
   },
   {
     "id": "COM:Martin_Luther",
@@ -2979,7 +4056,13 @@
     "birth_date": "1483-11-10",
     "cya_start": "1512",
     "cya_end": "1546",
-    "death_date": "1546-2-18"
+    "death_date": "1546-2-18",
+    "rism_id": "people/133052",
+    "rism_url": "https://rism.online/people/133052",
+    "gnd_id": "118575449",
+    "gnd_url": "https://explore.gnd.network/gnd/118575449",
+    "viaf_id": "14773105",
+    "viaf_url": "http://viaf.org/viaf/14773105"
   },
   {
     "id": "COM:Martin_Peerson",
@@ -2991,7 +4074,13 @@
     ],
     "cya_start": "1604",
     "cya_end": "1630",
-    "death_date": "1561"
+    "death_date": "1561",
+    "rism_id": "people/30013411",
+    "rism_url": "https://rism.online/people/30013411",
+    "gnd_id": "119016532",
+    "gnd_url": "https://explore.gnd.network/gnd/119016532",
+    "viaf_id": "69116501",
+    "viaf_url": "http://viaf.org/viaf/69116501"
   },
   {
     "id": "COM:Matheo_Flecha_I",
@@ -3009,7 +4098,13 @@
       "Flexa, Matteo"
     ],
     "cya_start": "1522",
-    "cya_end": "1548"
+    "cya_end": "1548",
+    "rism_id": "people/30102725",
+    "rism_url": "https://rism.online/people/30102725",
+    "gnd_id": "102427739",
+    "gnd_url": "https://explore.gnd.network/gnd/102427739",
+    "viaf_id": "19865215",
+    "viaf_url": "http://viaf.org/viaf/19865215"
   },
   {
     "id": "COM:Mathias_Apiarius",
@@ -3035,7 +4130,14 @@
     ],
     "cya_start": "1522",
     "cya_end": "1550",
-    "death_date": "1550-12-20"
+    "death_date": "1550-12-20",
+    "rism_id": "people/30016302",
+    "rism_url": "https://rism.online/people/30016302",
+    "diamm_url": "https://www.diamm.ac.uk/people/879/",
+    "gnd_id": "104059389",
+    "gnd_url": "https://explore.gnd.network/gnd/104059389",
+    "viaf_id": "61731997",
+    "viaf_url": "http://viaf.org/viaf/61731997"
   },
   {
     "id": "COM:Mathieu_Gascongne",
@@ -3051,7 +4153,14 @@
       "Guascogna, Mathieu"
     ],
     "cya_start": "1515",
-    "cya_end": "1518"
+    "cya_end": "1518",
+    "rism_id": "people/30022179",
+    "rism_url": "https://rism.online/people/30022179",
+    "diamm_url": "https://www.diamm.ac.uk/people/227/",
+    "gnd_id": "121486583",
+    "gnd_url": "https://explore.gnd.network/gnd/121486583",
+    "viaf_id": "2735013",
+    "viaf_url": "http://viaf.org/viaf/2735013"
   },
   {
     "id": "COM:Matteo_da_Perugia",
@@ -3071,7 +4180,13 @@
     ],
     "cya_start": "1554",
     "cya_end": "1577",
-    "death_date": "1577"
+    "death_date": "1577",
+    "rism_id": "people/30013377",
+    "rism_url": "https://rism.online/people/30013377",
+    "gnd_id": "12926699X",
+    "gnd_url": "https://explore.gnd.network/gnd/12926699X",
+    "viaf_id": "22331642",
+    "viaf_url": "http://viaf.org/viaf/22331642"
   },
   {
     "id": "COM:Matthaus_Waissel",
@@ -3087,12 +4202,22 @@
     ],
     "cya_start": "1573",
     "cya_end": "1599",
-    "death_date": "1602"
+    "death_date": "1602",
+    "rism_id": "people/30013472",
+    "rism_url": "https://rism.online/people/30013472",
+    "gnd_id": "128740205",
+    "gnd_url": "https://explore.gnd.network/gnd/128740205",
+    "viaf_id": "69117107",
+    "viaf_url": "http://viaf.org/viaf/69117107"
   },
   {
     "id": "COM:Meister_Rumelant",
     "name": "Meister Rumelant",
-    "aliases": []
+    "aliases": [],
+    "gnd_id": "101272375",
+    "gnd_url": "https://explore.gnd.network/gnd/101272375",
+    "viaf_id": "290927878",
+    "viaf_url": "http://viaf.org/viaf/290927878"
   },
   {
     "id": "COM:Melchior_Franck",
@@ -3104,7 +4229,13 @@
     ],
     "cya_start": "1601",
     "cya_end": "1636",
-    "death_date": "1639-6-1"
+    "death_date": "1639-6-1",
+    "rism_id": "people/70106",
+    "rism_url": "https://rism.online/people/70106",
+    "gnd_id": "11869250X",
+    "gnd_url": "https://explore.gnd.network/gnd/11869250X",
+    "viaf_id": "275552",
+    "viaf_url": "http://viaf.org/viaf/275552"
   },
   {
     "id": "COM:Melchior_Vulpius",
@@ -3126,7 +4257,13 @@
       "Mesomedes [Lyriker]",
       "Mesomedes [von Kreta]",
       "Μεσομήδης ὁ Κρής"
-    ]
+    ],
+    "rism_id": "people/30099088",
+    "rism_url": "https://rism.online/people/30099088",
+    "gnd_id": "118783467",
+    "gnd_url": "https://explore.gnd.network/gnd/118783467",
+    "viaf_id": "89040910",
+    "viaf_url": "http://viaf.org/viaf/89040910"
   },
   {
     "id": "COM:Michael_Cavendish",
@@ -3144,7 +4281,14 @@
     ],
     "cya_start": "1601",
     "cya_end": "1648",
-    "death_date": "1648"
+    "death_date": "1648",
+    "rism_id": "people/30006652",
+    "rism_url": "https://rism.online/people/30006652",
+    "diamm_url": "https://www.diamm.ac.uk/people/966/",
+    "gnd_id": "115823859",
+    "gnd_url": "https://explore.gnd.network/gnd/115823859",
+    "viaf_id": "42025129",
+    "viaf_url": "http://viaf.org/viaf/42025129"
   },
   {
     "id": "COM:Michael_Praetorius",
@@ -3162,7 +4306,14 @@
     ],
     "cya_start": "1587",
     "cya_end": "1620",
-    "death_date": "1621-2-15"
+    "death_date": "1621-2-15",
+    "rism_id": "people/477425",
+    "rism_url": "https://rism.online/people/477425",
+    "diamm_url": "https://www.diamm.ac.uk/people/894/",
+    "gnd_id": "118741713",
+    "gnd_url": "https://explore.gnd.network/gnd/118741713",
+    "viaf_id": "61732864",
+    "viaf_url": "http://viaf.org/viaf/61732864"
   },
   {
     "id": "COM:Michele_Pesenti",
@@ -3183,21 +4334,39 @@
     ],
     "cya_start": "1504",
     "cya_end": "1528",
-    "death_date": "1528-5"
+    "death_date": "1528-5",
+    "rism_id": "people/30008803",
+    "rism_url": "https://rism.online/people/30008803",
+    "diamm_url": "https://www.diamm.ac.uk/people/352/",
+    "gnd_id": "138388539",
+    "gnd_url": "https://explore.gnd.network/gnd/138388539",
+    "viaf_id": "22328346",
+    "viaf_url": "http://viaf.org/viaf/22328346"
   },
   {
     "id": "COM:Moniot_dArras",
     "name": "Moniot d'Arras",
     "aliases": [],
     "cya_start": "1213",
-    "cya_end": "1239"
+    "cya_end": "1239",
+    "rism_id": "people/40220476",
+    "rism_url": "https://rism.online/people/40220476",
+    "gnd_id": "11919872X",
+    "gnd_url": "https://explore.gnd.network/gnd/11919872X",
+    "viaf_id": "75149294304780521667",
+    "viaf_url": "http://viaf.org/viaf/75149294304780521667"
   },
   {
     "id": "COM:Monk_of_Salzburg",
     "name": "Monk of Salzburg",
     "aliases": [],
     "cya_start": "1350",
-    "cya_end": "1400"
+    "cya_end": "1400",
+    "rism_id": "people/30108948",
+    "rism_url": "https://rism.online/people/30108948",
+    "diamm_url": "https://www.diamm.ac.uk/people/2762/",
+    "viaf_id": "803755",
+    "viaf_url": "http://viaf.org/viaf/803755"
   },
   {
     "id": "COM:Neidhart",
@@ -3216,7 +4385,13 @@
       "Reuenthal, Neidhart von"
     ],
     "cya_start": "1210",
-    "cya_end": "1236"
+    "cya_end": "1236",
+    "rism_id": "people/381470",
+    "rism_url": "https://rism.online/people/381470",
+    "gnd_id": "118586874",
+    "gnd_url": "https://explore.gnd.network/gnd/118586874",
+    "viaf_id": "289392117",
+    "viaf_url": "http://viaf.org/viaf/289392117"
   },
   {
     "id": "COM:Newman",
@@ -3237,7 +4412,14 @@
       "Nicolas"
     ],
     "cya_start": "1526",
-    "cya_end": "1547"
+    "cya_end": "1547",
+    "rism_id": "people/30006168",
+    "rism_url": "https://rism.online/people/30006168",
+    "diamm_url": "https://www.diamm.ac.uk/people/263/",
+    "gnd_id": "118696343",
+    "gnd_url": "https://explore.gnd.network/gnd/118696343",
+    "viaf_id": "87113257",
+    "viaf_url": "http://viaf.org/viaf/87113257"
   },
   {
     "id": "COM:Nicolas_Grenon",
@@ -3249,7 +4431,14 @@
     ],
     "cya_start": "1399",
     "cya_end": "1456",
-    "death_date": "1456"
+    "death_date": "1456",
+    "rism_id": "people/30109807",
+    "rism_url": "https://rism.online/people/30109807",
+    "diamm_url": "https://www.diamm.ac.uk/people/97/",
+    "gnd_id": "13439075X",
+    "gnd_url": "https://explore.gnd.network/gnd/13439075X",
+    "viaf_id": "17412224",
+    "viaf_url": "http://viaf.org/viaf/17412224"
   },
   {
     "id": "COM:Nikolaus_Zangius",
@@ -3262,14 +4451,26 @@
       "Zangius, Nicolaus"
     ],
     "cya_start": "1597",
-    "cya_end": "1615"
+    "cya_end": "1615",
+    "rism_id": "people/30006607",
+    "rism_url": "https://rism.online/people/30006607",
+    "diamm_url": "https://www.diamm.ac.uk/people/1877/",
+    "gnd_id": "134587928",
+    "gnd_url": "https://explore.gnd.network/gnd/134587928",
+    "viaf_id": "29953937",
+    "viaf_url": "http://viaf.org/viaf/29953937"
   },
   {
     "id": "COM:Nino_le_Petit",
     "name": "Nino le Petit",
     "aliases": [],
     "cya_start": "1500",
-    "cya_end": "1500"
+    "cya_end": "1500",
+    "rism_id": "people/30016722",
+    "rism_url": "https://rism.online/people/30016722",
+    "diamm_url": "https://www.diamm.ac.uk/people/144/",
+    "viaf_id": "301999266",
+    "viaf_url": "http://viaf.org/viaf/301999266"
   },
   {
     "id": "COM:Noe_Faignient",
@@ -3301,7 +4502,14 @@
       "Valduin, Noel"
     ],
     "cya_start": "1509",
-    "cya_end": "1517"
+    "cya_end": "1517",
+    "rism_id": "people/30001642",
+    "rism_url": "https://rism.online/people/30001642",
+    "diamm_url": "https://www.diamm.ac.uk/people/265/",
+    "gnd_id": "131891618",
+    "gnd_url": "https://explore.gnd.network/gnd/131891618",
+    "viaf_id": "16252408",
+    "viaf_url": "http://viaf.org/viaf/16252408"
   },
   {
     "id": "COM:Notker_Balbulus",
@@ -3315,7 +4523,13 @@
     ],
     "cya_start": "875",
     "cya_end": "912",
-    "death_date": "912-4-6"
+    "death_date": "912-4-6",
+    "rism_id": "people/30020544",
+    "rism_url": "https://rism.online/people/30020544",
+    "gnd_id": "118588850",
+    "gnd_url": "https://explore.gnd.network/gnd/118588850",
+    "viaf_id": "27863792",
+    "viaf_url": "http://viaf.org/viaf/27863792"
   },
   {
     "id": "COM:Orazio_Vecchi",
@@ -3328,7 +4542,14 @@
     "birth_date": "1550",
     "cya_start": "1577",
     "cya_end": "1603",
-    "death_date": "1605-2-19"
+    "death_date": "1605-2-19",
+    "rism_id": "people/30006912",
+    "rism_url": "https://rism.online/people/30006912",
+    "diamm_url": "https://www.diamm.ac.uk/people/3489/",
+    "gnd_id": "118767429",
+    "gnd_url": "https://explore.gnd.network/gnd/118767429",
+    "viaf_id": "37025941",
+    "viaf_url": "http://viaf.org/viaf/37025941"
   },
   {
     "id": "COM:Orlando_di_Lasso",
@@ -3350,7 +4571,14 @@
     ],
     "cya_start": "1551",
     "cya_end": "1594",
-    "death_date": "1594-6-14"
+    "death_date": "1594-6-14",
+    "rism_id": "people/506",
+    "rism_url": "https://rism.online/people/506",
+    "diamm_url": "https://www.diamm.ac.uk/people/777/",
+    "gnd_id": "118569945",
+    "gnd_url": "https://explore.gnd.network/gnd/118569945",
+    "viaf_id": "23356192",
+    "viaf_url": "http://viaf.org/viaf/23356192"
   },
   {
     "id": "COM:Orlando_Gibbons",
@@ -3363,7 +4591,14 @@
     "birth_date": "1583",
     "cya_start": "1605",
     "cya_end": "1625",
-    "death_date": "1625-6-5"
+    "death_date": "1625-6-5",
+    "rism_id": "people/30005405",
+    "rism_url": "https://rism.online/people/30005405",
+    "diamm_url": "https://www.diamm.ac.uk/people/910/",
+    "gnd_id": "118717294",
+    "gnd_url": "https://explore.gnd.network/gnd/118717294",
+    "viaf_id": "12491395",
+    "viaf_url": "http://viaf.org/viaf/12491395"
   },
   {
     "id": "COM:Oswald_von_Wolkenstein",
@@ -3374,7 +4609,14 @@
     ],
     "cya_start": "1400",
     "cya_end": "1445",
-    "death_date": "1445-8-2"
+    "death_date": "1445-8-2",
+    "rism_id": "people/30008941",
+    "rism_url": "https://rism.online/people/30008941",
+    "diamm_url": "https://www.diamm.ac.uk/people/1063/",
+    "gnd_id": "118590618",
+    "gnd_url": "https://explore.gnd.network/gnd/118590618",
+    "viaf_id": "9855604",
+    "viaf_url": "http://viaf.org/viaf/9855604"
   },
   {
     "id": "COM:Othmar_Luscinius",
@@ -3387,7 +4629,12 @@
     "name": "Paolo da Firenze",
     "aliases": [],
     "cya_start": "1401",
-    "cya_end": "1436"
+    "cya_end": "1436",
+    "diamm_url": "https://www.diamm.ac.uk/people/630/",
+    "gnd_id": "10393247X",
+    "gnd_url": "https://explore.gnd.network/gnd/10393247X",
+    "viaf_id": "49413199",
+    "viaf_url": "http://viaf.org/viaf/49413199"
   },
   {
     "id": "COM:Paul_Hofhaimer",
@@ -3413,7 +4660,14 @@
     "birth_date": "1459-1-25",
     "cya_start": "1478",
     "cya_end": "1537",
-    "death_date": "1537"
+    "death_date": "1537",
+    "rism_id": "people/20000366",
+    "rism_url": "https://rism.online/people/20000366",
+    "diamm_url": "https://www.diamm.ac.uk/people/644/",
+    "gnd_id": "118706055",
+    "gnd_url": "https://explore.gnd.network/gnd/118706055",
+    "viaf_id": "76500336",
+    "viaf_url": "http://viaf.org/viaf/76500336"
   },
   {
     "id": "COM:Paul_Peuerl",
@@ -3429,7 +4683,13 @@
       "Peyerl, Paul"
     ],
     "cya_start": "1602",
-    "cya_end": "1625"
+    "cya_end": "1625",
+    "rism_id": "people/30013898",
+    "rism_url": "https://rism.online/people/30013898",
+    "gnd_id": "101383592",
+    "gnd_url": "https://explore.gnd.network/gnd/101383592",
+    "viaf_id": "54338122",
+    "viaf_url": "http://viaf.org/viaf/54338122"
   },
   {
     "id": "COM:Paulus_de_Roda",
@@ -3453,7 +4713,14 @@
       "Pérotin, le Grand"
     ],
     "cya_start": "1200",
-    "cya_end": "1200"
+    "cya_end": "1200",
+    "rism_id": "people/40206756",
+    "rism_url": "https://rism.online/people/40206756",
+    "diamm_url": "https://www.diamm.ac.uk/people/77/",
+    "gnd_id": "102558957",
+    "gnd_url": "https://explore.gnd.network/gnd/102558957",
+    "viaf_id": "69324662",
+    "viaf_url": "http://viaf.org/viaf/69324662"
   },
   {
     "id": "COM:Perrin_dAngicourt",
@@ -3467,7 +4734,11 @@
     "birth_date": "1079",
     "cya_start": "1118",
     "cya_end": "1142",
-    "death_date": "1142-4-21"
+    "death_date": "1142-4-21",
+    "gnd_id": "11850004X",
+    "gnd_url": "https://explore.gnd.network/gnd/11850004X",
+    "viaf_id": "88995118",
+    "viaf_url": "http://viaf.org/viaf/88995118"
   },
   {
     "id": "COM:Peter_Schoeffer",
@@ -3483,7 +4754,13 @@
     ],
     "cya_start": "1503",
     "cya_end": "1542",
-    "death_date": "1547"
+    "death_date": "1547",
+    "rism_id": "people/30107806",
+    "rism_url": "https://rism.online/people/30107806",
+    "gnd_id": "118795295",
+    "gnd_url": "https://explore.gnd.network/gnd/118795295",
+    "viaf_id": "8183890",
+    "viaf_url": "http://viaf.org/viaf/8183890"
   },
   {
     "id": "COM:Petit_Jean_de_Latre",
@@ -3505,14 +4782,26 @@
     ],
     "cya_start": "1538",
     "cya_end": "1569",
-    "death_date": "1569-8-31"
+    "death_date": "1569-8-31",
+    "rism_id": "people/30010226",
+    "rism_url": "https://rism.online/people/30010226",
+    "diamm_url": "https://www.diamm.ac.uk/people/240/",
+    "gnd_id": "122685164",
+    "gnd_url": "https://explore.gnd.network/gnd/122685164",
+    "viaf_id": "39529528",
+    "viaf_url": "http://viaf.org/viaf/39529528"
   },
   {
     "id": "COM:Petrus_de_Cruce",
     "name": "Petrus de Cruce",
     "aliases": [],
     "cya_start": "1290",
-    "cya_end": "1302"
+    "cya_end": "1302",
+    "diamm_url": "https://www.diamm.ac.uk/people/79/",
+    "gnd_id": "118833715",
+    "gnd_url": "https://explore.gnd.network/gnd/118833715",
+    "viaf_id": "121553042",
+    "viaf_url": "http://viaf.org/viaf/121553042"
   },
   {
     "id": "COM:Petrus_Tritonius",
@@ -3525,7 +4814,14 @@
       "Treybenreif, Petrus"
     ],
     "cya_start": "1497",
-    "cya_end": "1525"
+    "cya_end": "1525",
+    "rism_id": "people/30013934",
+    "rism_url": "https://rism.online/people/30013934",
+    "diamm_url": "https://www.diamm.ac.uk/people/610/",
+    "gnd_id": "100649416",
+    "gnd_url": "https://explore.gnd.network/gnd/100649416",
+    "viaf_id": "37182597",
+    "viaf_url": "http://viaf.org/viaf/37182597"
   },
   {
     "id": "COM:Pfabinschswantz_von_Augsburg",
@@ -3544,7 +4840,14 @@
     "aliases": [],
     "cya_start": "1458",
     "cya_end": "1490",
-    "death_date": "1491"
+    "death_date": "1491",
+    "rism_id": "people/30016303",
+    "rism_url": "https://rism.online/people/30016303",
+    "diamm_url": "https://www.diamm.ac.uk/people/198//",
+    "gnd_id": "1013041607",
+    "gnd_url": "https://explore.gnd.network/gnd/1013041607",
+    "viaf_id": "44567375",
+    "viaf_url": "http://viaf.org/viaf/44567375"
   },
   {
     "id": "COM:Philippe_de_Monte",
@@ -3564,7 +4867,14 @@
     "birth_date": "1521",
     "cya_start": "1554",
     "cya_end": "1586",
-    "death_date": "1603-7-4"
+    "death_date": "1603-7-4",
+    "rism_id": "people/30005218",
+    "rism_url": "https://rism.online/people/30005218",
+    "diamm_url": "https://www.diamm.ac.uk/people/736/",
+    "gnd_id": "11858362X",
+    "gnd_url": "https://explore.gnd.network/gnd/11858362X",
+    "viaf_id": "66652493",
+    "viaf_url": "http://viaf.org/viaf/66652493"
   },
   {
     "id": "COM:Philippe_de_Vitry",
@@ -3581,7 +4891,12 @@
     "birth_date": "1291-10-31",
     "cya_start": "1321",
     "cya_end": "1361",
-    "death_date": "1361-6-9"
+    "death_date": "1361-6-9",
+    "rism_id": "people/41000736",
+    "rism_url": "https://rism.online/people/41000736",
+    "diamm_url": "https://www.diamm.ac.uk/people/2754/",
+    "viaf_id": "10035697",
+    "viaf_url": "http://viaf.org/viaf/10035697"
   },
   {
     "id": "COM:Philippe_Verdelot",
@@ -3592,7 +4907,14 @@
       "Verdelotto, Philippe"
     ],
     "cya_start": "1521",
-    "cya_end": "1527"
+    "cya_end": "1527",
+    "rism_id": "people/30013948",
+    "rism_url": "https://rism.online/people/30013948",
+    "diamm_url": "https://www.diamm.ac.uk/people/249/",
+    "gnd_id": "119503670",
+    "gnd_url": "https://explore.gnd.network/gnd/119503670",
+    "viaf_id": "122374708",
+    "viaf_url": "http://viaf.org/viaf/122374708"
   },
   {
     "id": "COM:Philippus_de_Caserta",
@@ -3609,14 +4931,24 @@
       "Philippot [de Caserta]"
     ],
     "cya_start": "1370",
-    "cya_end": "1370"
+    "cya_end": "1370",
+    "rism_id": "people/30104417",
+    "rism_url": "https://rism.online/people/30104417",
+    "diamm_url": "https://www.diamm.ac.uk/people/26/",
+    "gnd_id": "118901680",
+    "gnd_url": "https://explore.gnd.network/gnd/118901680",
+    "viaf_id": "232806685",
+    "viaf_url": "http://viaf.org/viaf/232806685"
   },
   {
     "id": "COM:Piero",
     "name": "Piero",
     "aliases": [],
     "cya_start": "1340",
-    "cya_end": "1350"
+    "cya_end": "1350",
+    "rism_id": "people/40214318",
+    "rism_url": "https://rism.online/people/40214318",
+    "diamm_url": "https://www.diamm.ac.uk/people/1098/"
   },
   {
     "id": "COM:Pierre_Attaingnant",
@@ -3627,7 +4959,13 @@
       "Attingens, Pierre"
     ],
     "cya_start": "1513",
-    "cya_end": "1551"
+    "cya_end": "1551",
+    "rism_id": "people/30043244",
+    "rism_url": "https://rism.online/people/30043244",
+    "gnd_id": "123996066",
+    "gnd_url": "https://explore.gnd.network/gnd/123996066",
+    "viaf_id": "59135590",
+    "viaf_url": "http://viaf.org/viaf/59135590"
   },
   {
     "id": "COM:Pierre_Bonnet",
@@ -3635,7 +4973,14 @@
     "aliases": [],
     "birth_date": "x",
     "cya_start": "1585",
-    "cya_end": "1600"
+    "cya_end": "1600",
+    "rism_id": "people/30013725",
+    "rism_url": "https://rism.online/people/30013725",
+    "diamm_url": "https://www.diamm.ac.uk/people/124/",
+    "gnd_id": "11851332X",
+    "gnd_url": "https://explore.gnd.network/gnd/11851332X",
+    "viaf_id": "49407402",
+    "viaf_url": "http://viaf.org/viaf/49407402"
   },
   {
     "id": "COM:Pierre_Cadeac",
@@ -3663,7 +5008,14 @@
     ],
     "cya_start": "1492",
     "cya_end": "1516",
-    "death_date": "1518-11-20"
+    "death_date": "1518-11-20",
+    "rism_id": "people/30001841",
+    "rism_url": "https://rism.online/people/30001841",
+    "diamm_url": "https://www.diamm.ac.uk/people/142/",
+    "gnd_id": "122783166",
+    "gnd_url": "https://explore.gnd.network/gnd/122783166",
+    "viaf_id": "265244429",
+    "viaf_url": "http://viaf.org/viaf/265244429"
   },
   {
     "id": "COM:Pierre_Passereau",
@@ -3675,7 +5027,12 @@
     "name": "Pietrequin Bonnel",
     "aliases": [],
     "cya_start": "1488",
-    "cya_end": "1499"
+    "cya_end": "1499",
+    "rism_id": "people/40214328",
+    "rism_url": "https://rism.online/people/40214328",
+    "diamm_url": "https://www.diamm.ac.uk/people/1110/",
+    "viaf_id": "21154380994030291644",
+    "viaf_url": "http://viaf.org/viaf/21154380994030291644"
   },
   {
     "id": "COM:Pontus_de_Tyard",
@@ -3697,7 +5054,13 @@
     "birth_date": "1521",
     "cya_start": "1552",
     "cya_end": "1605",
-    "death_date": "1605-9-23"
+    "death_date": "1605-9-23",
+    "rism_id": "people/30044363",
+    "rism_url": "https://rism.online/people/30044363",
+    "gnd_id": "118801910",
+    "gnd_url": "https://explore.gnd.network/gnd/118801910",
+    "viaf_id": "39384871",
+    "viaf_url": "http://viaf.org/viaf/39384871"
   },
   {
     "id": "COM:Rainieri",
@@ -3706,12 +5069,16 @@
       "Ranier"
     ],
     "cya_start": "1519",
-    "cya_end": "1519"
+    "cya_end": "1519",
+    "rism_id": "people/41018964",
+    "rism_url": "https://rism.online/people/41018964"
   },
   {
     "id": "COM:Rambaut_de_Vaquerias",
     "name": "Rambaut de Vaquerias",
-    "aliases": []
+    "aliases": [],
+    "viaf_id": "1035154380900530290003",
+    "viaf_url": "http://viaf.org/viaf/1035154380900530290003"
   },
   {
     "id": "COM:Richard_Davy",
@@ -3721,7 +5088,14 @@
     ],
     "cya_start": "1483",
     "cya_end": "1535",
-    "death_date": "1538"
+    "death_date": "1538",
+    "rism_id": "people/30025328",
+    "rism_url": "https://rism.online/people/30025328",
+    "diamm_url": "https://www.diamm.ac.uk/people/561/",
+    "gnd_id": "102498644",
+    "gnd_url": "https://explore.gnd.network/gnd/102498644",
+    "viaf_id": "56802047",
+    "viaf_url": "http://viaf.org/viaf/56802047"
   },
   {
     "id": "COM:Richard_Loqueville",
@@ -3738,7 +5112,14 @@
     "birth_date": "1563",
     "cya_start": "1595",
     "cya_end": "1639",
-    "death_date": "1639"
+    "death_date": "1639",
+    "rism_id": "people/30022818",
+    "rism_url": "https://rism.online/people/30022818",
+    "diamm_url": "https://www.diamm.ac.uk/people/2595/",
+    "gnd_id": "134472993",
+    "gnd_url": "https://explore.gnd.network/gnd/134472993",
+    "viaf_id": "2657154",
+    "viaf_url": "http://viaf.org/viaf/2657154"
   },
   {
     "id": "COM:Richard_the_Lionheart",
@@ -3762,7 +5143,14 @@
     "birth_date": "1464-4-23",
     "cya_start": "1497",
     "cya_end": "1520",
-    "death_date": "1521-10-24"
+    "death_date": "1521-10-24",
+    "rism_id": "people/30008185",
+    "rism_url": "https://rism.online/people/30008185",
+    "diamm_url": "https://www.diamm.ac.uk/people/2442/",
+    "gnd_id": "119055473",
+    "gnd_url": "https://explore.gnd.network/gnd/119055473",
+    "viaf_id": "34722466",
+    "viaf_url": "http://viaf.org/viaf/34722466"
   },
   {
     "id": "COM:Robert_II_le_Pieux",
@@ -3770,7 +5158,11 @@
     "aliases": [],
     "cya_start": "987",
     "cya_end": "1031",
-    "death_date": "1031-7-20"
+    "death_date": "1031-7-20",
+    "gnd_id": "118789058",
+    "gnd_url": "https://explore.gnd.network/gnd/118789058",
+    "viaf_id": "72190302",
+    "viaf_url": "http://viaf.org/viaf/72190302"
   },
   {
     "id": "COM:Robert_Johnson",
@@ -3778,7 +5170,13 @@
     "aliases": [],
     "cya_start": "1604",
     "cya_end": "1633",
-    "death_date": "1633"
+    "death_date": "1633",
+    "rism_id": "people/30005154",
+    "rism_url": "https://rism.online/people/30005154",
+    "gnd_id": "104066717",
+    "gnd_url": "https://explore.gnd.network/gnd/104066717",
+    "viaf_id": "19865726",
+    "viaf_url": "http://viaf.org/viaf/19865726"
   },
   {
     "id": "COM:Robert_Jones_II",
@@ -3797,7 +5195,14 @@
     ],
     "cya_start": "1457",
     "cya_end": "1476",
-    "death_date": "1483-9-16"
+    "death_date": "1483-9-16",
+    "rism_id": "people/30005487",
+    "rism_url": "https://rism.online/people/30005487",
+    "diamm_url": "https://www.diamm.ac.uk/people/196/",
+    "gnd_id": "134228332",
+    "gnd_url": "https://explore.gnd.network/gnd/134228332",
+    "viaf_id": "3686042",
+    "viaf_url": "http://viaf.org/viaf/3686042"
   },
   {
     "id": "COM:Roy_Henry",
@@ -3819,7 +5224,14 @@
     ],
     "birth_date": "1570-8-19",
     "cya_start": "1589",
-    "cya_end": "1628"
+    "cya_end": "1628",
+    "rism_id": "people/30005265",
+    "rism_url": "https://rism.online/people/30005265",
+    "diamm_url": "https://www.diamm.ac.uk/people/1846/",
+    "gnd_id": "118791257",
+    "gnd_url": "https://explore.gnd.network/gnd/118791257",
+    "viaf_id": "100234936",
+    "viaf_url": "http://viaf.org/viaf/100234936"
   },
   {
     "id": "COM:Samuel_Mareschall",
@@ -3843,14 +5255,24 @@
     "birth_date": "1542-2-22",
     "cya_start": "1570",
     "cya_end": "1604",
-    "death_date": "1604"
+    "death_date": "1604",
+    "rism_id": "people/30014860",
+    "rism_url": "https://rism.online/people/30014860",
+    "gnd_id": "118689614",
+    "gnd_url": "https://explore.gnd.network/gnd/118689614",
+    "viaf_id": "71587340",
+    "viaf_url": "http://viaf.org/viaf/71587340"
   },
   {
     "id": "COM:Sebastian_Forster",
     "name": "Sebastian Forster",
     "aliases": [
       "Förster, Sebastian"
-    ]
+    ],
+    "rism_id": "people/30102297",
+    "rism_url": "https://rism.online/people/30102297",
+    "viaf_id": "250339201",
+    "viaf_url": "http://viaf.org/viaf/250339201"
   },
   {
     "id": "COM:Sebastian_Ochsenkuhn",
@@ -3872,7 +5294,13 @@
       "Sentlerus, Simon"
     ],
     "cya_start": "1547",
-    "cya_end": "1547"
+    "cya_end": "1547",
+    "rism_id": "people/30014225",
+    "rism_url": "https://rism.online/people/30014225",
+    "gnd_id": "103786899",
+    "gnd_url": "https://explore.gnd.network/gnd/103786899",
+    "viaf_id": "61973655",
+    "viaf_url": "http://viaf.org/viaf/61973655"
   },
   {
     "id": "COM:Sixt_Dietrich",
@@ -3889,7 +5317,14 @@
     ],
     "cya_start": "1517",
     "cya_end": "1548",
-    "death_date": "1548-10-21"
+    "death_date": "1548-10-21",
+    "rism_id": "people/30014204",
+    "rism_url": "https://rism.online/people/30014204",
+    "diamm_url": "https://www.diamm.ac.uk/people/615/",
+    "gnd_id": "118678396",
+    "gnd_url": "https://explore.gnd.network/gnd/118678396",
+    "viaf_id": "32261395",
+    "viaf_url": "http://viaf.org/viaf/32261395"
   },
   {
     "id": "COM:Stephan_Mahu",
@@ -3900,7 +5335,14 @@
     ],
     "cya_start": "1528",
     "cya_end": "1541",
-    "death_date": "1541"
+    "death_date": "1541",
+    "rism_id": "people/30005045",
+    "rism_url": "https://rism.online/people/30005045",
+    "diamm_url": "https://www.diamm.ac.uk/people/839/",
+    "gnd_id": "134452798",
+    "gnd_url": "https://explore.gnd.network/gnd/134452798",
+    "viaf_id": "12570613",
+    "viaf_url": "http://viaf.org/viaf/12570613"
   },
   {
     "id": "COM:Stephan_Zirler",
@@ -3918,7 +5360,14 @@
     ],
     "cya_start": "1537",
     "cya_end": "1568",
-    "death_date": "1568-7"
+    "death_date": "1568-7",
+    "rism_id": "people/30008907",
+    "rism_url": "https://rism.online/people/30008907",
+    "diamm_url": "https://www.diamm.ac.uk/people/727/",
+    "gnd_id": "104342455",
+    "gnd_url": "https://explore.gnd.network/gnd/104342455",
+    "viaf_id": "76752553",
+    "viaf_url": "http://viaf.org/viaf/76752553"
   },
   {
     "id": "COM:Thibaut_de_Navarre",
@@ -3927,7 +5376,11 @@
     "birth_date": "1201-5-30",
     "cya_start": "1224",
     "cya_end": "1253",
-    "death_date": "1253-7-7"
+    "death_date": "1253-7-7",
+    "gnd_id": "1265695660",
+    "gnd_url": "https://explore.gnd.network/gnd/1265695660",
+    "viaf_id": "261887210",
+    "viaf_url": "http://viaf.org/viaf/261887210"
   },
   {
     "id": "COM:Thoinot_Arbeau",
@@ -3938,7 +5391,13 @@
     "birth_date": "1520-3-17",
     "cya_start": "1582",
     "cya_end": "1589",
-    "death_date": "1595-7-23"
+    "death_date": "1595-7-23",
+    "rism_id": "people/30005324",
+    "rism_url": "https://rism.online/people/30005324",
+    "gnd_id": "119024578",
+    "gnd_url": "https://explore.gnd.network/gnd/119024578",
+    "viaf_id": "46945433",
+    "viaf_url": "http://viaf.org/viaf/46945433"
   },
   {
     "id": "COM:Thomas_Campion",
@@ -3947,7 +5406,14 @@
     "birth_date": "1567-2-12",
     "cya_start": "1595",
     "cya_end": "1619",
-    "death_date": "1620-3-1"
+    "death_date": "1620-3-1",
+    "rism_id": "people/30005345",
+    "rism_url": "https://rism.online/people/30005345",
+    "diamm_url": "https://www.diamm.ac.uk/people/1731/",
+    "gnd_id": "118668161",
+    "gnd_url": "https://explore.gnd.network/gnd/118668161",
+    "viaf_id": "41886212",
+    "viaf_url": "http://viaf.org/viaf/41886212"
   },
   {
     "id": "COM:Thomas_Crecquillon",
@@ -3970,7 +5436,14 @@
     "birth_date": "1571",
     "cya_start": "1591",
     "cya_end": "1627",
-    "death_date": "1627-12"
+    "death_date": "1627-12",
+    "rism_id": "people/30005190",
+    "rism_url": "https://rism.online/people/30005190",
+    "diamm_url": "https://www.diamm.ac.uk/people/1002/",
+    "gnd_id": "103790152",
+    "gnd_url": "https://explore.gnd.network/gnd/103790152",
+    "viaf_id": "79168175",
+    "viaf_url": "http://viaf.org/viaf/79168175"
   },
   {
     "id": "COM:Thomas_Morley",
@@ -3981,7 +5454,14 @@
     ],
     "cya_start": "1574",
     "cya_end": "1602",
-    "death_date": "1602"
+    "death_date": "1602",
+    "rism_id": "people/3492424",
+    "rism_url": "https://rism.online/people/3492424",
+    "diamm_url": "https://www.diamm.ac.uk/people/978/",
+    "gnd_id": "119063891",
+    "gnd_url": "https://explore.gnd.network/gnd/119063891",
+    "viaf_id": "77117535",
+    "viaf_url": "http://viaf.org/viaf/77117535"
   },
   {
     "id": "COM:Thomas_Ravenscroft",
@@ -4013,7 +5493,14 @@
     ],
     "cya_start": "1519",
     "cya_end": "1526",
-    "death_date": "1526"
+    "death_date": "1526",
+    "rism_id": "people/20000363",
+    "rism_url": "https://rism.online/people/20000363",
+    "diamm_url": "https://www.diamm.ac.uk/people/597/",
+    "gnd_id": "118799010",
+    "gnd_url": "https://explore.gnd.network/gnd/118799010",
+    "viaf_id": "27253302",
+    "viaf_url": "http://viaf.org/viaf/27253302"
   },
   {
     "id": "COM:Thomas_Tomkins",
@@ -4027,7 +5514,14 @@
     "birth_date": "1572",
     "cya_start": "1596",
     "cya_end": "1654",
-    "death_date": "1656"
+    "death_date": "1656",
+    "rism_id": "people/30014509",
+    "rism_url": "https://rism.online/people/30014509",
+    "diamm_url": "https://www.diamm.ac.uk/people/899/",
+    "gnd_id": "118802496",
+    "gnd_url": "https://explore.gnd.network/gnd/118802496",
+    "viaf_id": "56797777",
+    "viaf_url": "http://viaf.org/viaf/56797777"
   },
   {
     "id": "COM:Thomas_Tzamen",
@@ -4037,7 +5531,12 @@
       "Aquisgranens"
     ],
     "cya_start": "1508",
-    "cya_end": "1508"
+    "cya_end": "1508",
+    "rism_id": "people/30096240",
+    "rism_url": "https://rism.online/people/30096240",
+    "diamm_url": "https://www.diamm.ac.uk/people/1454/",
+    "viaf_id": "353152742926527731825",
+    "viaf_url": "http://viaf.org/viaf/353152742926527731825"
   },
   {
     "id": "COM:Thomas_Vautor",
@@ -4054,7 +5553,14 @@
     "birth_date": "1576",
     "cya_start": "1597",
     "cya_end": "1623",
-    "death_date": "1623"
+    "death_date": "1623",
+    "rism_id": "people/30006755",
+    "rism_url": "https://rism.online/people/30006755",
+    "diamm_url": "https://www.diamm.ac.uk/people/909/",
+    "gnd_id": "100679684",
+    "gnd_url": "https://explore.gnd.network/gnd/100679684",
+    "viaf_id": "185083671",
+    "viaf_url": "http://viaf.org/viaf/185083671"
   },
   {
     "id": "COM:Thomas_Whythorne",
@@ -4063,7 +5569,13 @@
     "birth_date": "1528",
     "cya_start": "1555",
     "cya_end": "1596",
-    "death_date": "1596"
+    "death_date": "1596",
+    "rism_id": "people/30014522",
+    "rism_url": "https://rism.online/people/30014522",
+    "gnd_id": "123425387",
+    "gnd_url": "https://explore.gnd.network/gnd/123425387",
+    "viaf_id": "22340139",
+    "viaf_url": "http://viaf.org/viaf/22340139"
   },
   {
     "id": "COM:Tobias_Hume",
@@ -4071,7 +5583,13 @@
     "aliases": [],
     "cya_start": "1605",
     "cya_end": "1607",
-    "death_date": "1645-4-16"
+    "death_date": "1645-4-16",
+    "rism_id": "people/30014444",
+    "rism_url": "https://rism.online/people/30014444",
+    "gnd_id": "130544841",
+    "gnd_url": "https://explore.gnd.network/gnd/130544841",
+    "viaf_id": "196514",
+    "viaf_url": "http://viaf.org/viaf/196514"
   },
   {
     "id": "COM:Tomas_Luis_de_Victoria",
@@ -4088,7 +5606,14 @@
     ],
     "cya_start": "1569",
     "cya_end": "1611",
-    "death_date": "1611-8-20"
+    "death_date": "1611-8-20",
+    "rism_id": "people/30003250",
+    "rism_url": "https://rism.online/people/30003250",
+    "diamm_url": "https://www.diamm.ac.uk/people/891/",
+    "gnd_id": "118975579",
+    "gnd_url": "https://explore.gnd.network/gnd/118975579",
+    "viaf_id": "32192606",
+    "viaf_url": "http://viaf.org/viaf/32192606"
   },
   {
     "id": "COM:Tylman_Susato",
@@ -4101,14 +5626,26 @@
       "Susato, Tilman"
     ],
     "cya_start": "1529",
-    "cya_end": "1561"
+    "cya_end": "1561",
+    "rism_id": "people/30014500",
+    "rism_url": "https://rism.online/people/30014500",
+    "diamm_url": "https://www.diamm.ac.uk/people/360/",
+    "gnd_id": "11875789X",
+    "gnd_url": "https://explore.gnd.network/gnd/11875789X",
+    "viaf_id": "280466455",
+    "viaf_url": "http://viaf.org/viaf/280466455"
   },
   {
     "id": "COM:Ulrich_Bratel",
     "name": "Ulrich Brätel",
     "aliases": [],
     "cya_start": "1534",
-    "cya_end": "1544"
+    "cya_end": "1544",
+    "diamm_url": "https://www.diamm.ac.uk/people/730/",
+    "gnd_id": "103872841",
+    "gnd_url": "https://explore.gnd.network/gnd/103872841",
+    "viaf_id": "61975499",
+    "viaf_url": "http://viaf.org/viaf/61975499"
   },
   {
     "id": "COM:Valentin_Haussmann",
@@ -4123,7 +5660,14 @@
       "Husmanus, Valentin"
     ],
     "cya_start": "1590",
-    "cya_end": "1613"
+    "cya_end": "1613",
+    "rism_id": "people/30003735",
+    "rism_url": "https://rism.online/people/30003735",
+    "diamm_url": "https://www.diamm.ac.uk/people/895/",
+    "gnd_id": "119469049",
+    "gnd_url": "https://explore.gnd.network/gnd/119469049",
+    "viaf_id": "7526197",
+    "viaf_url": "http://viaf.org/viaf/7526197"
   },
   {
     "id": "COM:Vincenzo_da_Rimini",
@@ -4139,7 +5683,11 @@
     ],
     "cya_start": "1568",
     "cya_end": "1591",
-    "death_date": "1591"
+    "death_date": "1591",
+    "rism_id": "people/30014566",
+    "rism_url": "https://rism.online/people/30014566",
+    "gnd_id": "118716204",
+    "gnd_url": "https://explore.gnd.network/gnd/118716204"
   },
   {
     "id": "COM:Vitslav_von_Rugen",
@@ -4150,7 +5698,13 @@
       "Wizlâv III"
     ],
     "cya_start": "1300",
-    "cya_end": "1300"
+    "cya_end": "1300",
+    "rism_id": "people/30057006",
+    "rism_url": "https://rism.online/people/30057006",
+    "gnd_id": "119066955",
+    "gnd_url": "https://explore.gnd.network/gnd/119066955",
+    "viaf_id": "267331762",
+    "viaf_url": "http://viaf.org/viaf/267331762"
   },
   {
     "id": "COM:Walter_Frye",
@@ -4162,7 +5716,14 @@
       "Frie, Walter"
     ],
     "cya_start": "1456",
-    "cya_end": "1474"
+    "cya_end": "1474",
+    "rism_id": "people/30016321",
+    "rism_url": "https://rism.online/people/30016321",
+    "diamm_url": "https://www.diamm.ac.uk/people/338/",
+    "gnd_id": "128576820",
+    "gnd_url": "https://explore.gnd.network/gnd/128576820",
+    "viaf_id": "5117570",
+    "viaf_url": "http://viaf.org/viaf/5117570"
   },
   {
     "id": "COM:Walther_von_der_Vogelweide",
@@ -4171,7 +5732,13 @@
       "Walter, von der Vogelweide"
     ],
     "cya_start": "1200",
-    "cya_end": "1200"
+    "cya_end": "1200",
+    "rism_id": "people/210579",
+    "rism_url": "https://rism.online/people/210579",
+    "gnd_id": "118628976",
+    "gnd_url": "https://explore.gnd.network/gnd/118628976",
+    "viaf_id": "78772012",
+    "viaf_url": "http://viaf.org/viaf/78772012"
   },
   {
     "id": "COM:William_Brade",
@@ -4182,7 +5749,13 @@
     ],
     "cya_start": "1594",
     "cya_end": "1625",
-    "death_date": "1630-2-26"
+    "death_date": "1630-2-26",
+    "rism_id": "people/30005718",
+    "rism_url": "https://rism.online/people/30005718",
+    "gnd_id": "12881926X",
+    "gnd_url": "https://explore.gnd.network/gnd/12881926X",
+    "viaf_id": "74120442",
+    "viaf_url": "http://viaf.org/viaf/74120442"
   },
   {
     "id": "COM:William_Byrd",
@@ -4197,7 +5770,14 @@
     ],
     "cya_start": "1563",
     "cya_end": "1614",
-    "death_date": "1623-7-4"
+    "death_date": "1623-7-4",
+    "rism_id": "people/119881",
+    "rism_url": "https://rism.online/people/119881",
+    "diamm_url": "https://www.diamm.ac.uk/people/3926/",
+    "gnd_id": "118675109",
+    "gnd_url": "https://explore.gnd.network/gnd/118675109",
+    "viaf_id": "112781480",
+    "viaf_url": "http://viaf.org/viaf/112781480"
   },
   {
     "id": "COM:William_Cornysh_Junior",
@@ -4220,7 +5800,12 @@
     ],
     "cya_start": "1493",
     "cya_end": "1523",
-    "death_date": "1523"
+    "death_date": "1523",
+    "rism_id": "people/30101129",
+    "rism_url": "https://rism.online/people/30101129",
+    "diamm_url": "https://www.diamm.ac.uk/people/536/",
+    "viaf_id": "223822040",
+    "viaf_url": "http://viaf.org/viaf/223822040"
   },
   {
     "id": "COM:William_Daman",

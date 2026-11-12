@@ -47,11 +47,6 @@
     ));
   }
 
-  function sourceLabel(source) {
-    return source?.sigla && source?.alias && DB.normalize(source.sigla) !== DB.normalize(source.alias)
-      ? `${source.sigla} (${source.alias})` : source?.sigla || source?.alias || DB.displayIdentifier(source?.id);
-  }
-
   function pieceSelection(filters, database) {
     if (!filters.piece) return null;
     const program = database.programs.find((entry) => DB.pieceGroupKey(entry) === filters.piece);
@@ -70,7 +65,7 @@
     if (filters.composer) return database.composersById.get(filters.composer)?.name || DB.displayIdentifier(filters.composer);
     if (filters.composerName) return filters.composerName;
     if (filters.person) return database.peopleByReference.get(filters.person)?.name || DB.displayIdentifier(filters.person);
-    if (filters.source) return sourceLabel(database.sourcesById.get(filters.source)) || DB.displayIdentifier(filters.source);
+    if (filters.source) return DB.sourceLabel(database.sourcesById.get(filters.source)) || DB.displayIdentifier(filters.source);
     return filters.city || filters.country || filters.sourceText || filters.place || filters.query || "";
   }
 
@@ -116,7 +111,7 @@
       if (filters.source || filters.sourceText) return sourceMatches(program, filters);
       if (filters.person || !terms.length) return false;
       const text = DB.normalize([program.work_name, program.standardized_work_name, program.source_id,
-        ...composerNames(program, database), ...(program.source_ids || []).map((id) => sourceLabel(database.sourcesById.get(id)))].filter(Boolean).join(" "));
+        ...composerNames(program, database), ...(program.source_ids || []).map((id) => DB.sourceLabel(database.sourcesById.get(id)))].filter(Boolean).join(" "));
       return textMatches(text);
     });
     const people = personEntries(concert, database).filter((person) => (

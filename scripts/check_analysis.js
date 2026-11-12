@@ -111,7 +111,7 @@ async function main() {
   assert.equal(pieces[0].count, 2);
   assert.equal(pieces[0].items, 3);
   assert.equal(A.ranking(fixture, concerts, "composers")[0].count, 3);
-  assert.equal(A.ranking(fixture, concerts, "sources")[0].name, "D-Bas (Bamberg)");
+  assert.equal(A.ranking(fixture, concerts, "sources")[0].name, 'D-Bas ("Bamberg")');
   assert.equal(A.ranking(fixture, concerts, "sources")[0].count, 2);
   const editions = A.ranking(fixture, concerts, "editions");
   assert.equal(editions.length, 2);

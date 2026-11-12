@@ -11,7 +11,11 @@ description: Search and browse every concert in the Early Music Concerts databas
     <p id="concerts-eyebrow" class="eyebrow">Concert programs</p>
     <h1 id="concerts-heading">All concerts</h1>
     <p id="concerts-context-meta" class="concerts-context-meta" hidden></p>
-    <a id="source-diamm-link" class="authority-page-link" href="#" target="_blank" rel="noopener" hidden>View this source in DIAMM <span aria-hidden="true">↗</span></a>
+    <div id="composer-context-authorities" class="authority-links composer-context-authorities" aria-label="Composer authority records" hidden></div>
+    <div id="source-catalog-links" class="authority-links source-catalog-links" hidden>
+      <a data-source-url="diamm_url" target="_blank" rel="noopener" hidden>DIAMM <span aria-hidden="true">↗</span></a>
+      <a data-source-url="rism_url" target="_blank" rel="noopener" hidden>RISM <span aria-hidden="true">↗</span></a>
+    </div>
   </div>
   <form id="program-search-form" class="concerts-search" role="search">
     <label class="sr-only" for="program-search">Search concert programs</label>

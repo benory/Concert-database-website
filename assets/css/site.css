@@ -3430,22 +3430,34 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   text-decoration: none;
 }
 
-.authority-page-link {
-  display: inline-flex;
-  gap: 4px;
-  align-items: center;
+.composer-context-authorities,
+.source-catalog-links {
   margin-top: 6px;
-  font-size: 14px;
-  font-weight: 650;
-  text-decoration: none;
 }
 
-.authority-page-link[hidden] {
-  display: none;
+.authority-links a,
+.person-preview-authorities a {
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 650;
+  line-height: 1.45;
 }
 
 .person-context-authorities {
   margin: 7px 0 10px;
+}
+
+.authority-links a {
+  border-color: var(--accent);
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+}
+
+.authority-links a:is(:hover, :focus-visible) {
+  border-color: var(--accent-hover);
+  background: var(--accent-hover);
+  color: #fff;
 }
 
 /* Analysis */
@@ -4139,6 +4151,11 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
 @media (min-width: 1200px) {
   .route-program .record-layout {
     grid-template-columns: minmax(0, 55fr) minmax(0, 45fr);
+  }
+
+  .program-order-table th:last-child,
+  .program-order-table td:last-child {
+    width: 42%;
   }
 }
 

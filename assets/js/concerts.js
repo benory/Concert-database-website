@@ -26,7 +26,8 @@
   const personContextIdentity = document.getElementById("person-context-identity");
   const personContextNarrative = document.getElementById("person-context-narrative");
   const personContextAuthorities = document.getElementById("person-context-authorities");
-  const sourceDiammLink = document.getElementById("source-diamm-link");
+  const composerContextAuthorities = document.getElementById("composer-context-authorities");
+  const sourceCatalogLinks = document.getElementById("source-catalog-links");
   const clearSearch = document.getElementById("concert-clear-search");
   const contextMeta = document.getElementById("concerts-context-meta");
   const programPreview = document.getElementById("concert-program-preview");
@@ -125,13 +126,13 @@
     node.hidden = !value;
   }
 
-  function renderPersonAuthorities(person) {
-    if (!personContextAuthorities) return;
-    const identifiers = person ? DB.personAuthorityIdentifiers(person) : [];
+  function renderAuthorityLinks(container, person) {
+    if (!container) return;
+    const identifiers = DB.personAuthorityIdentifiers(person);
     const fragment = document.createDocumentFragment();
     identifiers.forEach((identifier) => {
       const node = document.createElement(identifier.url ? "a" : "span");
-      node.textContent = `${identifier.label} ${identifier.value}`;
+      node.textContent = [identifier.label, identifier.value].filter(Boolean).join(" ");
       if (identifier.url) {
         node.href = identifier.url;
         node.target = "_blank";
@@ -140,16 +141,20 @@
       }
       fragment.append(node);
     });
-    personContextAuthorities.replaceChildren(fragment);
-    personContextAuthorities.hidden = identifiers.length === 0;
+    container.replaceChildren(fragment);
+    container.hidden = identifiers.length === 0;
   }
 
-  function renderSourceLink(source) {
-    if (!sourceDiammLink) return;
-    const url = String(source?.diamm_url || "").trim();
-    sourceDiammLink.hidden = !url;
-    if (url) sourceDiammLink.href = url;
-    else sourceDiammLink.removeAttribute("href");
+  function renderSourceLinks(source) {
+    if (!sourceCatalogLinks) return;
+    const links = sourceCatalogLinks.querySelectorAll("[data-source-url]");
+    links.forEach((link) => {
+      const url = String(source?.[link.dataset.sourceUrl] || "").trim();
+      link.hidden = !url;
+      if (url) link.href = url;
+      else link.removeAttribute("href");
+    });
+    sourceCatalogLinks.hidden = !sourceCatalogLinks.querySelector("a[href]");
   }
 
   function renderCardHits(container, concert, filters) {
@@ -386,9 +391,10 @@
     document.body.classList.toggle("has-person-context", Boolean(person));
     browser?.classList.toggle("is-source-view", Boolean(source) && !person);
     if (contextMeta) contextMeta.hidden = true;
+    if (composerContextAuthorities) composerContextAuthorities.hidden = true;
     if (filters.piece) {
-      renderPersonAuthorities(null);
-      renderSourceLink(null);
+      renderAuthorityLinks(personContextAuthorities, null);
+      renderSourceLinks(null);
       if (personContext) personContext.hidden = true;
       const label = Results.selectionLabel(filters, database);
       if (eyebrow) eyebrow.textContent = "Piece";
@@ -397,11 +403,12 @@
       return;
     }
     if (filters.composer || filters.composerName) {
-      renderPersonAuthorities(null);
-      renderSourceLink(null);
+      renderAuthorityLinks(personContextAuthorities, null);
+      renderSourceLinks(null);
       if (personContext) personContext.hidden = true;
       const name = Results.selectionLabel(filters, database);
       const dating = DB.composerDating(composer);
+      renderAuthorityLinks(composerContextAuthorities, composer);
       if (eyebrow) eyebrow.textContent = "Composer";
       if (heading) heading.textContent = name;
       if (contextMeta) {
@@ -413,8 +420,8 @@
       return;
     }
     if (person) {
-      renderSourceLink(null);
-      renderPersonAuthorities(person);
+      renderSourceLinks(null);
+      renderAuthorityLinks(personContextAuthorities, person);
       const lifeDates = person.birth_year && person.death_year
         ? `${person.birth_year}–${person.death_year}`
         : (person.birth_year ? `b. ${person.birth_year}` : (person.death_year ? `d. ${person.death_year}` : ""));
@@ -427,19 +434,17 @@
       return;
     }
     if (source) {
-      renderPersonAuthorities(null);
-      renderSourceLink(source);
-      const sourceName = source.sigla && source.alias && DB.normalize(source.sigla) !== DB.normalize(source.alias)
-        ? `${source.sigla} (${source.alias})`
-        : (source.sigla || source.alias || DB.displayIdentifier(source.id));
+      renderAuthorityLinks(personContextAuthorities, null);
+      renderSourceLinks(source);
+      const sourceName = DB.sourceLabel(source);
       if (eyebrow) eyebrow.textContent = "Musical source";
       if (heading) heading.textContent = sourceName;
       if (personContext) personContext.hidden = true;
       document.title = `${sourceName} · Early Music Concerts`;
       return;
     }
-    renderPersonAuthorities(null);
-    renderSourceLink(null);
+    renderAuthorityLinks(personContextAuthorities, null);
+    renderSourceLinks(null);
     if (eyebrow) eyebrow.textContent = "Concert programs";
     if (heading) heading.textContent = "All concerts";
     if (personContext) personContext.hidden = true;

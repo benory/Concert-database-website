@@ -106,8 +106,7 @@
           }
           ids.forEach((id) => {
             const source = database.sourcesById.get(id);
-            const name = source?.sigla && source?.alias && DB.normalize(source.sigla) !== DB.normalize(source.alias)
-              ? `${source.sigla} (${source.alias})` : source?.sigla || source?.alias || DB.displayIdentifier(id);
+            const name = DB.sourceLabel(source) || DB.displayIdentifier(id);
             add(id, { id, name, source }, concert);
           });
         } else if (type === "editions") {

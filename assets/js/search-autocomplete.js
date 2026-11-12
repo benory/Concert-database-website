@@ -119,13 +119,6 @@
     }));
   }
 
-  function sourceName(source) {
-    if (source.sigla && source.alias && DB.normalize(source.sigla) !== DB.normalize(source.alias)) {
-      return `${source.sigla} (${source.alias})`;
-    }
-    return source.sigla || source.alias || DB.displayIdentifier(source.id) || source.id;
-  }
-
   function buildSourceSuggestions(programs, sourcesById) {
     const grouped = new Map();
     const unlinked = new Map();
@@ -151,7 +144,7 @@
           grouped.set(identifier, {
             kind: "source",
             id: identifier,
-            name: sourceName(source),
+            name: DB.sourceLabel(source) || source.id,
             authority: source,
             aliases: new Set(),
             concertIds: new Set(),
