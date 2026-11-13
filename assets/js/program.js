@@ -772,6 +772,7 @@
     const archivalSources = Array.from(document.querySelectorAll("#program-source .archive-source-entry"),
       (row, index) => ({ id: concert.archive_references[index]?.id || "", label: row.textContent.trim() }));
     window.ConcertRecordActions.setup(concert, { archivalSources });
+    window.ConcertCorrections.setup(concert);
     document.querySelectorAll("[data-record-view]").forEach((button) => button.addEventListener("click", () => {
       const view = button.dataset.recordView;
       detail.dataset.mobileView = view;

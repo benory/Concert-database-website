@@ -1,0 +1,10 @@
+name = "early-music-concerts-corrections"
+main = "worker.mjs"
+compatibility_date = "2026-11-13"
+
+[vars]
+ALLOWED_ORIGINS = "https://concertsdatabase.org,https://www.concertsdatabase.org"
+GOOGLE_FORM_POST_URL = "https://docs.google.com/forms/d/e/FORM_ID/formResponse"
+GOOGLE_FORM_ENTRY_CONCERT = "entry.FIELD_ID"
+GOOGLE_FORM_ENTRY_DESCRIPTION = "entry.FIELD_ID"
+GOOGLE_FORM_ENTRY_EMAIL = "entry.FIELD_ID"

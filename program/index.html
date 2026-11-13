@@ -72,11 +72,17 @@ description: View a digitized concert program beside standardized performance da
           </tbody>
         </table>
       </div>
+      <div class="program-record-footer">
+        <p class="program-record-id">
+          <strong>Concert ID:</strong>
+          <span id="program-id"></span>
+        </p>
+        <button type="button" class="record-dialog-button correction-trigger" data-open-correction aria-haspopup="dialog" aria-controls="correction-dialog" hidden>
+          <img src="{{ '/assets/images/report-error.svg' | relative_url }}" alt="" width="22" height="22">
+          <span>Submit a correction</span>
+        </button>
+      </div>
     </section>
-
-    <div class="source-note program-provenance">
-      <p id="program-id" class="record-id program-record-id"></p>
-    </div>
   </section>
 
   <aside id="program-scan" class="scan-panel" aria-label="Program scan viewer">
@@ -146,6 +152,26 @@ description: View a digitized concert program beside standardized performance da
   </div>
   <p id="share-status" class="record-dialog-status" role="status"></p>
   <nav id="share-links" class="record-share-links" aria-label="Share this concert on social media"></nav>
+</dialog>
+
+<dialog id="correction-dialog" class="record-action-dialog" aria-labelledby="correction-heading"
+  data-worker-url="{{ site.correction_report.worker_url | escape }}" data-sitekey="{{ site.correction_report.turnstile_sitekey | escape }}">
+  <div class="record-dialog-header">
+    <h2 id="correction-heading">Submit a correction</h2>
+    <button type="button" class="record-dialog-close" data-dialog-close aria-label="Close correction form">&times;</button>
+  </div>
+  <p class="correction-concert"><strong data-correction-title></strong><span data-correction-date></span></p>
+  <form class="correction-form">
+    <label for="correction-description">Correction</label>
+    <textarea id="correction-description" name="description" rows="4" maxlength="5000" required autofocus></textarea>
+    <label for="correction-email">Your email</label>
+    <input id="correction-email" name="email" type="email" autocomplete="email" maxlength="254" required>
+    <div class="correction-verification" data-correction-turnstile></div>
+    <div class="record-dialog-actions">
+      <button type="submit" class="record-dialog-button" disabled>Send correction</button>
+    </div>
+  </form>
+  <p class="record-dialog-status correction-status" role="status"></p>
 </dialog>
 
 <template id="program-order-row-template">
