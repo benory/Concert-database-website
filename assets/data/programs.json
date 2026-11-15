@@ -10335,11 +10335,11 @@
     "work_name": "Das Innsbrucklied",
     "standardized_work_name": "Das Innsbrucklied",
     "composer_name": "Heinrich Isaak; Sebastian Ochsenkuhn",
-    "composer_id": "COM:Heinrich_Isaac; COM:Sebastian_Ochsenkuhn",
+    "composer_id": "COM:Heinrich_Isaac; COM:Sebastian_Ochsenkun",
     "source_id": "Tabulaturbuch des Hoflautenisten Otto Heinrichs von der Pfalz",
     "edition": "Alte Lautenkunst aus drei Jahrhunderten, herausgegeben von Dagobert Brauer, Georg Kallmeyer-Verlag, Wolfenbüttel",
     "edition_pages": "Heft I",
-    "work_key": "das innsbrucklied::com heinrich isaac com sebastian ochsenkuhn"
+    "work_key": "das innsbrucklied::com heinrich isaac com sebastian ochsenkun"
   },
   {
     "piece_id": "CON:1933_09_03a_p13",

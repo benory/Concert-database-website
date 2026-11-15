@@ -1504,7 +1504,11 @@
   {
     "id": "PER:Gerda_Lammers",
     "name": "Gerda Lammers",
-    "aliases": []
+    "aliases": [],
+    "birth_year": "1915",
+    "death_year": "1993",
+    "position": "soprano",
+    "narrative_description": "A German soprano who began her career as a concert singer before making her operatic debut as Marie in Wozzeck at Kassel in 1955. She remained with the company until 1968, singing dramatic roles including Alcestis, Medea, Isolde, Brünnhilde, and Electra. Her acclaimed Covent Garden debut as Electra in 1957 was followed by appearances there as Kundry. She made her only American appearance at the Metropolitan Opera as Electra in 1962."
   },
   {
     "id": "PER:Gerda_Neuser",
@@ -1607,7 +1611,12 @@
   {
     "id": "PER:Gottfried_Wolters",
     "name": "Gottfried Wolters",
-    "aliases": []
+    "aliases": [],
+    "birth_year": "1910",
+    "death_year": "1989",
+    "position": "choirmaster, musicologist",
+    "education": "Universität Köln; Friedrich-Wilhelms-Universität Berlin",
+    "narrative_description": "A German choirmaster and musicologist who studied German philology and musicology in Cologne and Berlin. In 1950 he founded the Norddeutscher Singkreis, whose performances influenced the style of other choirs. His song-sheet series Das singende Jahr (1951–68) combined German repertory with folksongs from across Europe. With César Geoffray, Wolters co-founded the European Federation of Youth Choirs and helped develop its Europa Cantat festivals. He also composed choral music and edited works by Monteverdi and Carissimi."
   },
   {
     "id": "PER:Grete_Heukeshoven",
@@ -2995,7 +3004,12 @@
   {
     "id": "PER:Leopold_Nowak",
     "name": "Leopold Nowak",
-    "aliases": []
+    "aliases": [],
+    "birth_year": "1904",
+    "death_year": "1991",
+    "position": "musicologist",
+    "education": "PhD, Universität Wien, 1927",
+    "narrative_description": "An Austrian musicologist and editor who studied at the Vienna Academy and Vienna University, earning his doctorate with a dissertation on Renaissance German song. He taught at Vienna University and directed the music collection of the Austrian National Library from 1946 to 1969, overseeing its postwar reconstruction. Nowak was a leading Bruckner scholar and prepared critical editions of most of the composer’s symphonies and masses. He also edited Mozart’s Requiem, distinguishing Mozart’s incomplete autograph from the later contributions of Eybler and Süssmayr."
   },
   {
     "id": "PER:Li_Stadelmann",

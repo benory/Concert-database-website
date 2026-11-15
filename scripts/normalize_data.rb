@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
+require "csv"
 require "fileutils"
 require "json"
 require "tempfile"
@@ -11,8 +12,8 @@ concerts_path, programs_path, composers_path, people_path, sources_path, edition
 
 PROGRAM_SCAN_BASE_URL = ENV.fetch("PROGRAM_SCAN_BASE_URL", "https://programs.concertsdatabase.org/pdf").sub(%r{/+\z}, "").freeze
 
-def read_records(path)
-  source = File.read(path, encoding: "UTF-8")
+def read_records(path, csv: false)
+  source = File.read(path, encoding: "bom|utf-8")
   if source.include?("google.visualization.Query.setResponse(")
     json_source = source.sub(/\A\s*\/\*O_o\*\/\s*google\.visualization\.Query\.setResponse\(/, "").sub(/\);\s*\z/, "")
     response = JSON.parse(json_source)
@@ -33,6 +34,13 @@ def read_records(path)
     end
   end
 
+  if csv && !source.lstrip.start_with?("[", "{")
+    table = CSV.parse(source, headers: true)
+    abort "#{path}: missing composer CSV headers" unless %w[ID Composer].all? { |key| table.headers.include?(key) }
+
+    return table.map(&:to_h)
+  end
+
   payload = JSON.parse(source)
   records = if payload.is_a?(Array)
               payload
@@ -48,8 +56,8 @@ def read_records(path)
 
   abort "#{path}: every record must be a JSON object" unless records.all? { |record| record.is_a?(Hash) }
   records
-rescue JSON::ParserError => error
-  abort "#{path}: invalid JSON (#{error.message})"
+rescue CSV::MalformedCSVError, JSON::ParserError => error
+  abort "#{path}: invalid data (#{error.message})"
 end
 
 def clean(value)
@@ -237,6 +245,7 @@ def normalize_composers(records)
       "cya_start" => temporal(record["Start of CYA"] || record["cya_start"]),
       "cya_end" => temporal(record["End of CYA"] || record["cya_end"]),
       "death_date" => temporal(record["Death Date"] || record["death_date"]),
+      "places_active" => clean(record["Places Active"] || record["places_active"]),
       "rism_id" => clean(record["Composer RISM ID"] || record["rism_id"]),
       "rism_url" => web_url(record["Composer RISM Link"] || record["rism_url"]),
       "diamm_url" => web_url(record["Composer DIAMM page"] || record["diamm_url"]),
@@ -350,7 +359,7 @@ concerts = read_records(concerts_path).filter_map do |record|
   concert if concert["id"]
 end
 programs = normalize_programs(read_records(programs_path))
-composers = normalize_composers(read_records(composers_path))
+composers = normalize_composers(read_records(composers_path, csv: true))
 people = normalize_people(read_records(people_path))
 sources = normalize_sources(read_records(sources_path))
 editions = normalize_editions(read_records(editions_path)) + normalize_editions(read_records(bibliography_path))

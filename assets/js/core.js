@@ -71,8 +71,9 @@
   }
 
   function leadingYear(value) {
-    const match = String(value || "").match(/(?:^|\D)(\d{3,4})(?=\D|$)/);
-    return match ? match[1] : "";
+    const match = String(value || "").match(/(?:^|\D)(\bca\.\s*)?(\d{3,4})(?=\D|$)/i);
+    if (!match) return "";
+    return match[1] ? `ca. ${match[2]}` : match[2];
   }
 
   function lifeDating(birthDate, deathDate) {
@@ -521,6 +522,7 @@
       const isComposer = person.id
         ? person.id.startsWith("COM:")
         : person.composerPerformances > 0 || /composer/i.test(target.dataset.personRole || "");
+      const placesActive = isComposer ? person.places_active : "";
       const destination = isComposer ? composerUrl(person) : personConcertsUrl(person);
       const destinationLabel = isComposer
         ? "View all performances"
@@ -535,6 +537,7 @@
       preview.innerHTML = `
         <strong id="person-preview-title">${escapeHtml(person.name)}</strong>
         ${identity ? `<span>${escapeHtml(identity)}</span>` : (roles.length ? `<span>${escapeHtml(roles.join(" · "))}</span>` : "")}
+        ${placesActive ? `<span>Places active: ${escapeHtml(placesActive)}</span>` : ""}
         <a class="person-preview-link" href="${escapeHtml(destination)}">${escapeHtml(destinationLabel)} <span aria-hidden="true">→</span></a>
         ${authorityLinks ? `<div class="person-preview-authorities" aria-label="Unique identifiers">${authorityLinks}</div>` : ""}
         ${person.narrative_description ? `

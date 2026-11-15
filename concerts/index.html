@@ -10,8 +10,6 @@ description: Search and browse every concert in the Early Music Concerts databas
   <div>
     <p id="concerts-eyebrow" class="eyebrow">Concert programs</p>
     <h1 id="concerts-heading">All concerts</h1>
-    <p id="concerts-context-meta" class="concerts-context-meta" hidden></p>
-    <div id="composer-context-authorities" class="authority-links composer-context-authorities" aria-label="Composer authority records" hidden></div>
     <div id="source-catalog-links" class="authority-links source-catalog-links" hidden>
       <a data-source-url="diamm_url" target="_blank" rel="noopener" hidden>DIAMM <span aria-hidden="true">↗</span></a>
       <a data-source-url="rism_url" target="_blank" rel="noopener" hidden>RISM <span aria-hidden="true">↗</span></a>
@@ -34,10 +32,10 @@ description: Search and browse every concert in the Early Music Concerts databas
 
 <section class="concert-browser" aria-label="Concert browser">
   <div class="concert-browser-primary" role="region" aria-label="Concert results" tabindex="0">
-    <section id="person-context" class="person-results-context" aria-labelledby="concerts-heading" hidden>
-      <p id="person-context-identity" class="person-results-identity"></p>
-      <div id="person-context-authorities" class="authority-links person-context-authorities" aria-label="Unique identifiers" hidden></div>
-      <p id="person-context-narrative" class="person-results-narrative"></p>
+    <section id="authority-context" class="authority-results-context" aria-labelledby="concerts-heading" hidden>
+      <p id="authority-context-identity" class="authority-results-identity" hidden></p>
+      <div id="authority-context-links" class="authority-links authority-context-links" aria-label="Unique identifiers" hidden></div>
+      <p id="authority-context-details" class="authority-results-details" hidden></p>
     </section>
 
     <div class="program-results concert-browser-results" id="program-results" aria-busy="true" tabindex="-1">

@@ -1578,12 +1578,6 @@ button.program-title:focus-visible {
   overflow-wrap: anywhere;
 }
 
-.concerts-context-meta {
-  margin: 3px 0 0;
-  color: var(--muted);
-  font-size: 14px;
-}
-
 .concert-search-selection {
   display: inline-flex;
   align-items: center;
@@ -1645,21 +1639,21 @@ button.program-title:focus-visible {
   margin: 0;
 }
 
-.person-results-context {
+.authority-results-context {
   flex: none;
   padding: 14px 16px 15px;
   border-bottom: 1px solid var(--highlight);
   background: var(--accent-soft);
 }
 
-.person-results-identity {
+.authority-results-identity {
   margin: 0 0 4px;
   color: var(--navy);
   font-size: 14px;
   font-weight: 650;
 }
 
-.person-results-narrative {
+.authority-results-details {
   max-width: none;
   margin: 0;
   color: var(--ink);
@@ -1675,7 +1669,7 @@ button.program-title:focus-visible {
   background: var(--surface);
 }
 
-.concert-browser.is-person-view {
+.concert-browser.is-authority-view {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
@@ -3486,7 +3480,6 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   text-decoration: none;
 }
 
-.composer-context-authorities,
 .source-catalog-links {
   margin-top: 6px;
 }
@@ -3499,8 +3492,12 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   line-height: 1.45;
 }
 
-.person-context-authorities {
-  margin: 7px 0 10px;
+.authority-context-links {
+  margin-top: 7px;
+}
+
+.authority-context-links:not([hidden]) + .authority-results-details {
+  margin-top: 10px;
 }
 
 .authority-links a {
@@ -4241,7 +4238,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
     grid-template-columns: minmax(0, 864px) minmax(420px, 1fr);
   }
 
-  .route-concerts .concert-browser.is-person-view {
+  .route-concerts .concert-browser.is-authority-view {
     grid-template-columns: minmax(0, 800px) minmax(0, 1fr);
   }
 }
@@ -4253,7 +4250,7 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
   }
 
   .concert-browser,
-  .concert-browser.is-person-view {
+  .concert-browser.is-authority-view {
     grid-template-columns: 1fr;
   }
 
@@ -4276,15 +4273,15 @@ select.record-dialog-button { max-width: 100%; appearance: auto; color: var(--in
     min-height: 0;
   }
 
-  .concert-browser.is-person-view .person-results-context {
+  .concert-browser.is-authority-view .authority-results-context {
     grid-row: 1;
   }
 
-  .concert-browser.is-person-view .concert-map-rail {
+  .concert-browser.is-authority-view .concert-map-rail {
     grid-row: 2;
   }
 
-  .concert-browser.is-person-view .concert-browser-results {
+  .concert-browser.is-authority-view .concert-browser-results {
     grid-row: 3;
   }
 

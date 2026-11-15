@@ -3,7 +3,7 @@ SHELL := /bin/bash
 
 CONCERTS_URL ?= https://script.googleusercontent.com/macros/echo?user_content_key=AUkAhnQhVKjy3vPIyx00-6bhYf5M0U16rcSpt68Bgyq3-T2eZ1l39KJSshgc2MbGHGTBgijHi9JcxEDRfapsFWwCpmYQ8cqMAIABWxowTAKKclnWC1uMQaiF2-AEpzRPcRHdTZlcIW7hW_lTCgt3uQR9ybV8BUpMsnz-XtCx9V5QDEtXsaEFoT5JoubOWwXUnJ0ETi9UknWxAF_oK1fMjFcfeTxjfWWLh3gL0X09Vt1VZG2QsgCSgSx9sQhRId_Z0HzFz7NX8F8JpRmZ26ChXR6t87tXRfoTcg&lib=MTzKYCYrnbC3PO_wkIY5IRwnFwFTz1JXk
 PROGRAMS_URL ?= https://docs.google.com/spreadsheets/d/1awiufcTMCv4TptNYQgDzyrmWzRzMWzJjjU9kShRd4KU/gviz/tq?tqx=out:json&gid=546871662&range=A:L&headers=1
-COMPOSERS_URL ?= https://docs.google.com/spreadsheets/d/1awiufcTMCv4TptNYQgDzyrmWzRzMWzJjjU9kShRd4KU/gviz/tq?tqx=out:json&gid=70240979&range=A:N&headers=1
+COMPOSERS_URL ?= https://docs.google.com/spreadsheets/d/1awiufcTMCv4TptNYQgDzyrmWzRzMWzJjjU9kShRd4KU/export?format=csv&gid=70240979&range=A:P
 PEOPLE_URL ?= https://docs.google.com/spreadsheets/d/1awiufcTMCv4TptNYQgDzyrmWzRzMWzJjjU9kShRd4KU/gviz/tq?tqx=out:json&gid=1536272733&range=A:N&headers=1
 SOURCES_URL ?= https://docs.google.com/spreadsheets/d/1awiufcTMCv4TptNYQgDzyrmWzRzMWzJjjU9kShRd4KU/gviz/tq?tqx=out:json&gid=1344935347&range=A:G&headers=1
 EARLY_EDITIONS_URL ?= https://docs.google.com/spreadsheets/d/1awiufcTMCv4TptNYQgDzyrmWzRzMWzJjjU9kShRd4KU/gviz/tq?tqx=out:json&gid=327907017&range=A:L&headers=1
@@ -11,6 +11,7 @@ BIBLIOGRAPHY_URL ?= https://docs.google.com/spreadsheets/d/1awiufcTMCv4TptNYQgDz
 ARCHIVES_URL ?= https://docs.google.com/spreadsheets/d/1awiufcTMCv4TptNYQgDzyrmWzRzMWzJjjU9kShRd4KU/gviz/tq?tqx=out:json&gid=1929140918&range=A:I&headers=1
 
 RAW_DIR := .cache/data
+COMPOSERS_FEED := $(RAW_DIR)/composers.csv
 DATA_DIR := assets/data
 PROGRAM_BUILD_DIR ?= ../Concert-project-build
 PROGRAM_PYTHON ?= $(PROGRAM_BUILD_DIR)/.venv/bin/python
@@ -43,10 +44,10 @@ download:
 	@$(CURL) "$(PROGRAMS_URL)" --output "$(RAW_DIR)/programs.json.tmp"
 	@ruby -e 'text = File.read(ARGV.fetch(0)); abort "Programs download is not a JSON or Google Visualization response" unless text.lstrip.start_with?("[", "{", "/*O_o*/")' "$(RAW_DIR)/programs.json.tmp"
 	@mv "$(RAW_DIR)/programs.json.tmp" "$(RAW_DIR)/programs.json"
-	@echo "Downloading canonical composer names…"
-	@$(CURL) "$(COMPOSERS_URL)" --output "$(RAW_DIR)/composers.json.tmp"
-	@ruby -e 'text = File.read(ARGV.fetch(0)); abort "Composers download is not a JSON or Google Visualization response" unless text.lstrip.start_with?("[", "{", "/*O_o*/")' "$(RAW_DIR)/composers.json.tmp"
-	@mv "$(RAW_DIR)/composers.json.tmp" "$(RAW_DIR)/composers.json"
+	@echo "Downloading composer records…"
+	@$(CURL) "$(COMPOSERS_URL)" --output "$(COMPOSERS_FEED).tmp"
+	@ruby -rcsv -e 'text = File.read(ARGV.fetch(0), encoding: "bom|utf-8").lstrip; unless text.start_with?("[", "{", "/*O_o*/"); headers = CSV.parse_line(text.lines.first.to_s) || []; abort "Missing composer CSV headers" unless %w[ID Composer].all? { |key| headers.include?(key) }; end' "$(COMPOSERS_FEED).tmp"
+	@mv "$(COMPOSERS_FEED).tmp" "$(COMPOSERS_FEED)"
 	@echo "Downloading people authority records…"
 	@$(CURL) "$(PEOPLE_URL)" --output "$(RAW_DIR)/people.json.tmp"
 	@ruby -e 'text = File.read(ARGV.fetch(0)); abort "People download is not a JSON or Google Visualization response" unless text.lstrip.start_with?("[", "{", "/*O_o*/")' "$(RAW_DIR)/people.json.tmp"
@@ -70,7 +71,7 @@ download:
 
 normalize:
 	@mkdir -p "$(DATA_DIR)"
-	@ruby scripts/normalize_data.rb "$(RAW_DIR)/concerts.json" "$(RAW_DIR)/programs.json" "$(RAW_DIR)/composers.json" "$(RAW_DIR)/people.json" "$(RAW_DIR)/sources.json" "$(RAW_DIR)/editions.json" "$(RAW_DIR)/bibliography.json" "$(RAW_DIR)/archives.json" "$(DATA_DIR)"
+	@ruby scripts/normalize_data.rb "$(RAW_DIR)/concerts.json" "$(RAW_DIR)/programs.json" "$(or $(wildcard $(COMPOSERS_FEED)),$(RAW_DIR)/composers.json)" "$(RAW_DIR)/people.json" "$(RAW_DIR)/sources.json" "$(RAW_DIR)/editions.json" "$(RAW_DIR)/bibliography.json" "$(RAW_DIR)/archives.json" "$(DATA_DIR)"
 
 program-assets:
 	$(PROGRAM_ASSETS)

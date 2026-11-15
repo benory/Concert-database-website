@@ -22,14 +22,12 @@
   const eyebrow = document.getElementById("concerts-eyebrow");
   const browser = document.querySelector(".concert-browser");
   const mapView = document.getElementById("concert-map-view");
-  const personContext = document.getElementById("person-context");
-  const personContextIdentity = document.getElementById("person-context-identity");
-  const personContextNarrative = document.getElementById("person-context-narrative");
-  const personContextAuthorities = document.getElementById("person-context-authorities");
-  const composerContextAuthorities = document.getElementById("composer-context-authorities");
+  const authorityContext = document.getElementById("authority-context");
+  const authorityContextIdentity = document.getElementById("authority-context-identity");
+  const authorityContextLinks = document.getElementById("authority-context-links");
+  const authorityContextDetails = document.getElementById("authority-context-details");
   const sourceCatalogLinks = document.getElementById("source-catalog-links");
   const clearSearch = document.getElementById("concert-clear-search");
-  const contextMeta = document.getElementById("concerts-context-meta");
   const programPreview = document.getElementById("concert-program-preview");
   const programPreviewTitle = document.getElementById("concert-program-preview-title");
   const programPreviewMeta = document.getElementById("concert-program-preview-meta");
@@ -383,72 +381,57 @@
   }
 
   function updateAuthorityContext(filters) {
-    const composer = filters.composer && database.composersById.get(filters.composer);
-    const person = filters.person && database.peopleByReference.get(filters.person);
-    const source = filters.source && database.sourcesById.get(filters.source);
-    if (timelinePanel) timelinePanel.hidden = !person && !source;
-    browser?.classList.toggle("is-person-view", Boolean(person));
-    document.body.classList.toggle("has-person-context", Boolean(person));
-    browser?.classList.toggle("is-source-view", Boolean(source) && !person);
-    if (contextMeta) contextMeta.hidden = true;
-    if (composerContextAuthorities) composerContextAuthorities.hidden = true;
+    const composerSelected = !filters.piece && Boolean(filters.composer || filters.composerName);
+    const composer = composerSelected ? database.composersById.get(filters.composer) : null;
+    const person = !filters.piece && !composerSelected && database.peopleByReference.get(filters.person);
+    const source = !filters.piece && !composerSelected && !person && database.sourcesById.get(filters.source);
+    const hasAuthorityLayout = composerSelected || Boolean(person);
+    if (timelinePanel) timelinePanel.hidden = !hasAuthorityLayout && !source;
+    browser?.classList.toggle("is-authority-view", hasAuthorityLayout);
+    renderSourceLinks(source);
+    renderAuthorityLinks(authorityContextLinks, composer || person);
+
+    let section = "Concert programs";
+    let name = "All concerts";
+    let identity = "";
+    let details = "";
+    const dating = composer ? DB.composerDating(composer) : null;
     if (filters.piece) {
-      renderAuthorityLinks(personContextAuthorities, null);
-      renderSourceLinks(null);
-      if (personContext) personContext.hidden = true;
-      const label = Results.selectionLabel(filters, database);
-      if (eyebrow) eyebrow.textContent = "Piece";
-      renderSelectionLabel(heading, filters, label);
-      document.title = `${label} · Early Music Concerts`;
-      return;
-    }
-    if (filters.composer || filters.composerName) {
-      renderAuthorityLinks(personContextAuthorities, null);
-      renderSourceLinks(null);
-      if (personContext) personContext.hidden = true;
-      const name = Results.selectionLabel(filters, database);
-      const dating = DB.composerDating(composer);
-      renderAuthorityLinks(composerContextAuthorities, composer);
-      if (eyebrow) eyebrow.textContent = "Composer";
-      if (heading) heading.textContent = name;
-      if (contextMeta) {
-        contextMeta.replaceChildren();
-        DB.appendDating(contextMeta, dating, "");
-        contextMeta.hidden = !dating;
-      }
-      document.title = `${name} · Early Music Concerts`;
-      return;
-    }
-    if (person) {
-      renderSourceLinks(null);
-      renderAuthorityLinks(personContextAuthorities, person);
+      section = "Piece";
+      name = Results.selectionLabel(filters, database);
+    } else if (composerSelected) {
+      section = "Composer";
+      name = Results.selectionLabel(filters, database);
+      if (composer?.places_active) details = `Places active: ${composer.places_active}`;
+    } else if (person) {
+      section = "Person";
+      name = person.name;
       const lifeDates = person.birth_year && person.death_year
         ? `${person.birth_year}–${person.death_year}`
         : (person.birth_year ? `b. ${person.birth_year}` : (person.death_year ? `d. ${person.death_year}` : ""));
-      if (eyebrow) eyebrow.textContent = "Person";
-      if (heading) heading.textContent = person.name;
-      if (personContextIdentity) personContextIdentity.textContent = [lifeDates, person.position].filter(Boolean).join(" · ");
-      if (personContextNarrative) personContextNarrative.textContent = person.narrative_description || "Biographical description not yet available.";
-      if (personContext) personContext.hidden = false;
-      document.title = `${person.name} · Early Music Concerts`;
-      return;
+      identity = [lifeDates, person.position].filter(Boolean).join(" · ");
+      details = person.narrative_description || "Biographical description not yet available.";
+    } else if (source) {
+      section = "Musical source";
+      name = DB.sourceLabel(source);
     }
-    if (source) {
-      renderAuthorityLinks(personContextAuthorities, null);
-      renderSourceLinks(source);
-      const sourceName = DB.sourceLabel(source);
-      if (eyebrow) eyebrow.textContent = "Musical source";
-      if (heading) heading.textContent = sourceName;
-      if (personContext) personContext.hidden = true;
-      document.title = `${sourceName} · Early Music Concerts`;
-      return;
+
+    if (authorityContextIdentity) {
+      authorityContextIdentity.textContent = identity;
+      DB.appendDating(authorityContextIdentity, dating, "");
+      authorityContextIdentity.hidden = !identity && !dating;
     }
-    renderAuthorityLinks(personContextAuthorities, null);
-    renderSourceLinks(null);
-    if (eyebrow) eyebrow.textContent = "Concert programs";
-    if (heading) heading.textContent = "All concerts";
-    if (personContext) personContext.hidden = true;
-    document.title = "All concerts · Early Music Concerts";
+    if (authorityContextDetails) {
+      authorityContextDetails.textContent = details;
+      authorityContextDetails.hidden = !details;
+    }
+    if (authorityContext) {
+      const hasLinks = authorityContextLinks && !authorityContextLinks.hidden;
+      authorityContext.hidden = !identity && !dating && !details && !hasLinks;
+    }
+    if (eyebrow) eyebrow.textContent = section;
+    renderSelectionLabel(heading, filters, name);
+    document.title = `${name} · Early Music Concerts`;
   }
 
   function update(options) {
