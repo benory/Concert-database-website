@@ -1261,64 +1261,64 @@
   },
   {
     "id": "CON:1927_03_30a",
-    "preview_url": "/assets/images/program-previews/CON-1927_03_30a.webp?v=3c7a6d56ea18",
+    "preview_url": "/assets/images/program-previews/CON-1927_03_30a.webp?v=b690541943e5",
     "pages": [
       {
         "page": 1,
-        "url": "/assets/images/program-previews/CON-1927_03_30a.webp?v=3c7a6d56ea18",
+        "url": "/assets/images/program-previews/CON-1927_03_30a.webp?v=b690541943e5",
         "pixel_width": 1800,
         "pixel_height": 2183
       },
       {
         "page": 2,
-        "url": "/assets/images/program-previews/pages/3c7a6d56ea18842c600ff772113e372ce9455ddb8161a818a74927619e38116e-w1800q78/page-002.webp",
+        "url": "/assets/images/program-previews/pages/b690541943e57c9ff9caaf47008b21233e3422871e6d20ac7999f0bca26c31c6-w1800q78/page-002.webp",
         "pixel_width": 1800,
         "pixel_height": 1164
       },
       {
         "page": 3,
-        "url": "/assets/images/program-previews/pages/3c7a6d56ea18842c600ff772113e372ce9455ddb8161a818a74927619e38116e-w1800q78/page-003.webp",
+        "url": "/assets/images/program-previews/pages/b690541943e57c9ff9caaf47008b21233e3422871e6d20ac7999f0bca26c31c6-w1800q78/page-003.webp",
         "pixel_width": 1800,
         "pixel_height": 2122
       },
       {
         "page": 4,
-        "url": "/assets/images/program-previews/pages/3c7a6d56ea18842c600ff772113e372ce9455ddb8161a818a74927619e38116e-w1800q78/page-004.webp",
+        "url": "/assets/images/program-previews/pages/b690541943e57c9ff9caaf47008b21233e3422871e6d20ac7999f0bca26c31c6-w1800q78/page-004.webp",
         "pixel_width": 1800,
         "pixel_height": 2186
       },
       {
         "page": 5,
-        "url": "/assets/images/program-previews/pages/3c7a6d56ea18842c600ff772113e372ce9455ddb8161a818a74927619e38116e-w1800q78/page-005.webp",
+        "url": "/assets/images/program-previews/pages/b690541943e57c9ff9caaf47008b21233e3422871e6d20ac7999f0bca26c31c6-w1800q78/page-005.webp",
         "pixel_width": 1800,
         "pixel_height": 1162
       },
       {
         "page": 6,
-        "url": "/assets/images/program-previews/pages/3c7a6d56ea18842c600ff772113e372ce9455ddb8161a818a74927619e38116e-w1800q78/page-006.webp",
-        "pixel_width": 1800,
-        "pixel_height": 2192
-      },
-      {
-        "page": 7,
-        "url": "/assets/images/program-previews/pages/3c7a6d56ea18842c600ff772113e372ce9455ddb8161a818a74927619e38116e-w1800q78/page-007.webp",
-        "pixel_width": 1800,
-        "pixel_height": 2163
-      },
-      {
-        "page": 8,
-        "url": "/assets/images/program-previews/pages/3c7a6d56ea18842c600ff772113e372ce9455ddb8161a818a74927619e38116e-w1800q78/page-008.webp",
+        "url": "/assets/images/program-previews/pages/b690541943e57c9ff9caaf47008b21233e3422871e6d20ac7999f0bca26c31c6-w1800q78/page-006.webp",
         "pixel_width": 1800,
         "pixel_height": 1149
       },
       {
-        "page": 9,
-        "url": "/assets/images/program-previews/pages/3c7a6d56ea18842c600ff772113e372ce9455ddb8161a818a74927619e38116e-w1800q78/page-009.webp",
+        "page": 7,
+        "url": "/assets/images/program-previews/pages/b690541943e57c9ff9caaf47008b21233e3422871e6d20ac7999f0bca26c31c6-w1800q78/page-007.webp",
         "pixel_width": 1800,
         "pixel_height": 2186
+      },
+      {
+        "page": 8,
+        "url": "/assets/images/program-previews/pages/b690541943e57c9ff9caaf47008b21233e3422871e6d20ac7999f0bca26c31c6-w1800q78/page-008.webp",
+        "pixel_width": 1800,
+        "pixel_height": 2192
+      },
+      {
+        "page": 9,
+        "url": "/assets/images/program-previews/pages/b690541943e57c9ff9caaf47008b21233e3422871e6d20ac7999f0bca26c31c6-w1800q78/page-009.webp",
+        "pixel_width": 1800,
+        "pixel_height": 2163
       }
     ],
-    "thumbnail_url": "/assets/images/program-previews/CON-1927_03_30a-thumb.webp?v=3c7a6d56w320q72",
+    "thumbnail_url": "/assets/images/program-previews/CON-1927_03_30a-thumb.webp?v=b6905419w320q72",
     "source_url": "https://programs.concertsdatabase.org/pdf/CON-1927_03_30a.pdf",
     "page_count": 9,
     "render_width": 1800,
@@ -1328,7 +1328,7 @@
     "thumbnail_quality": 72,
     "thumbnail_pixel_width": 320,
     "thumbnail_pixel_height": 389,
-    "source_sha256": "3c7a6d56ea18842c600ff772113e372ce9455ddb8161a818a74927619e38116e"
+    "source_sha256": "b690541943e57c9ff9caaf47008b21233e3422871e6d20ac7999f0bca26c31c6"
   },
   {
     "id": "CON:1927_05_16a",

@@ -987,7 +987,7 @@
     "standardized_work_name": "Maniere esgarder",
     "composer_name": "Anonymous",
     "composer_id": "COM:Anonymous",
-    "source_id": "Handschrift Munich, Staatsbibliothek mus. 4775",
+    "source_id": "SRC:Munich_4775",
     "folios": "fol. 7r",
     "edition": "Kopie von Prof. Dr. Fr. Ludwig (Göttingen)",
     "work_key": "maniere esgarder::com anonymous"
@@ -1266,7 +1266,7 @@
     "composer_name": "Bernart de Ventadorn",
     "composer_id": "COM:Bernart_de_Ventadorn",
     "source_id": "SRC:Paris_22543",
-    "folios": "fol. 58",
+    "folios": "fol. 58r",
     "edition": "Kopie von Prof. Dr. Fr. Ludwig; C. Appel, Bernart de Ventadorn (1915)",
     "edition_pages": "Tafel 16",
     "work_key": "lancan folhon bosc e jarric::com bernart de ventadorn"
@@ -1379,7 +1379,7 @@
     "composer_name": "Heinrich von Meissen gen. Frauenlob",
     "composer_id": "COM:Frauenlob",
     "source_id": "SRC:Vienna_2701",
-    "folios": "fols. 17r–17v",
+    "folios": "fols. 17r–v",
     "edition": "Heinrich Rietsch, Denkmäler der Tonkunst in Österreich, Jahrgang 20 (Vienna, 1913)",
     "edition_pages": "S. 67",
     "work_key": "myn vroud ist gar czu gangyn::com frauenlob"
@@ -1421,7 +1421,7 @@
     "composer_name": "Anonymous",
     "composer_id": "COM:Anonymous",
     "source_id": "SRC:London_29987",
-    "folios": "fol. 63",
+    "folios": "fol. 63r",
     "edition": "Johannes Wolf, Archiv für Musikwissenschaft, Jahrgang 1 (Leipzig, 1918)",
     "edition_pages": "S. 41, Nr. 13",
     "work_key": "ductia lamento di tristano mit rotta::com anonymous"
@@ -1435,7 +1435,7 @@
     "composer_name": "Anonymous",
     "composer_id": "COM:Anonymous",
     "source_id": "SRC:London_29987",
-    "folios": "fol. 62",
+    "folios": "fol. 62r",
     "edition": "Johannes Wolf, Archiv für Musikwissenschaft, Jahrgang 1 (Leipzig, 1918)",
     "edition_pages": "S. 39 f., Nr. 11",
     "work_key": "saltarello::com anonymous"
@@ -1449,7 +1449,7 @@
     "composer_name": "Anonymous",
     "composer_id": "COM:Anonymous",
     "source_id": "SRC:Paris_844",
-    "folios": "fol. 5",
+    "folios": "fol. 5r",
     "edition": "P. Aubry, Estampies et danses royales (Paris, 1907)",
     "edition_pages": "S. 14",
     "work_key": "danse royal::com anonymous"
@@ -1463,7 +1463,7 @@
     "composer_name": "Anonymous",
     "composer_id": "COM:Anonymous",
     "source_id": "SRC:Paris_844",
-    "folios": "fol. 103v bis 104",
+    "folios": "fols. 103v–104r",
     "edition": "P. Aubry, Estampies et danses royales (Paris, 1907)",
     "edition_pages": "S. 15 f.",
     "work_key": "estampie royal::com anonymous"
@@ -1477,7 +1477,7 @@
     "composer_name": "Piero di Firenze",
     "composer_id": "COM:Piero",
     "source_id": "SRC:Florence_26",
-    "folios": "fol. 93",
+    "folios": "fol. 93r",
     "edition": "Joh. Wolf, Geschichte der Mensuralnotation",
     "edition_pages": "Nr. 56",
     "work_key": "con bracchi assai e molti sparveri::com piero"
@@ -1505,7 +1505,7 @@
     "composer_name": "Guillaume de Machaut",
     "composer_id": "COM:Guillaume_de_Machaut",
     "source_id": "Handschriften Paris, Bibl. nat. f. fr. 22546 und nouv. acq. 6771",
-    "folios": "fol. 144; fol. 72",
+    "folios": "fol. 144; fol. 72r",
     "edition": "Kopien des musikwissenschaftlichen Seminars der Universität Freiburg i. Br.; The Oxford History of Music, Vol. II (1905)",
     "edition_pages": "S. 33 ff.",
     "work_key": "de toutes flours n avoit et de tous fruis::com guillaume de machaut"
@@ -1519,7 +1519,7 @@
     "composer_name": "Guillaume de Machaut",
     "composer_id": "COM:Guillaume_de_Machaut",
     "source_id": "Handschriften Paris, Bibl. nat. f. fr. 22546 und nouv. acq. 6771",
-    "folios": "fol. 147v; fol. 65",
+    "folios": "fol. 147v; fol. 65r",
     "edition": "Kopien des musikwissenschaftlichen Seminars der Universität Freiburg i. Br.",
     "work_key": "gais et iolis liez chantants::com guillaume de machaut"
   },
@@ -1532,7 +1532,7 @@
     "composer_name": "Gilles Binchois",
     "composer_id": "COM:Gilles_Binchois",
     "source_id": "SRC:Escorial_VIII24; SRC:Oxford_213; SRC:Trent_1374; SRC:Bologna_2216",
-    "folios": "fol. 15v; fol. 79v; fol. 166v; fol. 10",
+    "folios": "fol. 15v; fol. 79v; fol. 166v; fol. 10r",
     "edition": "Kopien des musikwissenschaftlichen Seminars der Universität Freiburg i. Br.",
     "work_key": "liesse m a mande salut::com gilles binchois"
   },
@@ -1545,7 +1545,7 @@
     "composer_name": "Gilles Binchois",
     "composer_id": "COM:Gilles_Binchois",
     "source_id": "Handschriften Oxford und Escorial",
-    "folios": "fol. 66; fol. 16v",
+    "folios": "fol. 66r; fol. 16v",
     "edition": "Stainer, Dufay and his contemporaries (London, 1898); Kopie des musikwissenschaftlichen Seminars der Universität Freiburg i. Br.",
     "edition_pages": "S. 77 ff.",
     "work_key": "plains de pluors et gemissemens::com gilles binchois"
@@ -1559,7 +1559,7 @@
     "composer_name": "Gilles Binchois",
     "composer_id": "COM:Gilles_Binchois",
     "source_id": "Handschriften Escorial; Oxford; Rome, Bibl. Vat. urb. lat. 1411; Escorial IV a 24",
-    "folios": "fol. 27v; fol. 56v; Nr. 3; fol. 5v",
+    "folios": "fol. 27v; fol. 56v; no. 3; fol. 5v",
     "edition": "Kopien des musikwissenschaftlichen Seminars der Universität Freiburg i. Br.; Stainer, Dufay and his contemporaries (London, 1898)",
     "edition_pages": "S. 44 ff.",
     "work_key": "adieu adieu mon joileux souvenir::com gilles binchois"
@@ -1587,7 +1587,7 @@
     "composer_name": "Gilles Binchois",
     "composer_id": "COM:Gilles_Binchois",
     "source_id": "Handschriften Oxford; Paris, Bibl. nat. nouv. acq. fr. 4379",
-    "folios": "fol. 86v; fol. 59",
+    "folios": "fol. 86v; fol. 59r",
     "edition": "Kopien des musikwissenschaftlichen Seminars der Universität Freiburg i. Br.",
     "work_key": "adieu m amour et ma maitresse::com gilles binchois"
   },
@@ -1626,7 +1626,7 @@
     "composer_name": "Anonymous",
     "composer_id": "COM:Anonymous",
     "source_id": "SRC:Berlin_40613",
-    "folios": "S. 38 f.",
+    "folios": "p. 38 f.",
     "edition": "Fr. Ed. Arnold, Das Lochamer Liederbuch, in Jahrbücher für musikalische Wissenschaft, Bd. II (Leipzig, 1867); Kopie des musikwissenschaftlichen Seminars der Universität Freiburg i. Br.",
     "edition_pages": "Nr. 40",
     "work_key": "mein traut gesell mein hochster hort::com anonymous"
@@ -1640,7 +1640,7 @@
     "composer_name": "Anonymous",
     "composer_id": "COM:Anonymous",
     "source_id": "SRC:Berlin_40613",
-    "folios": "S. 20",
+    "folios": "p. 20",
     "edition": "Fr. Ed. Arnold, Das Lochamer Liederbuch, in Jahrbücher für musikalische Wissenschaft, Bd. II (Leipzig, 1867)",
     "edition_pages": "Nr. 18",
     "work_key": "ein vrouleen edel von naturen::com anonymous"
@@ -1654,7 +1654,7 @@
     "composer_name": "Anonymous",
     "composer_id": "COM:Anonymous",
     "source_id": "SRC:Berlin_40613",
-    "folios": "S. 16 bis 17",
+    "folios": "pp. 16–17",
     "edition": "Fr. Ed. Arnold, Das Lochamer Liederbuch, in Jahrbücher für musikalische Wissenschaft, Bd. II (Leipzig, 1867)",
     "edition_pages": "Nr. 17",
     "work_key": "der wallt hat sich entlawbet::com anonymous"
@@ -1741,7 +1741,7 @@
     "standardized_work_name": "Triste estaba",
     "composer_name": "Anonymous",
     "composer_id": "COM:Anonymous",
-    "source_id": "Alonso de Mudarra, Tres libros de musica, en cifras (1546)",
+    "source_id": "SRC:Mudarra_1546a",
     "work_key": "triste estaba::com anonymous"
   },
   {
@@ -1929,7 +1929,7 @@
     "standardized_work_name": "Alma Redemptoris mater",
     "composer_name": "Anonymous",
     "composer_id": "COM:Anonymous",
-    "source_id": "Bamberger Motettenhandschrift",
+    "source_id": "SRC:Bamberg_115",
     "edition": "Pierre Aubry, Cent Motets du XIIIe siècle (Paris, 1908)",
     "edition_pages": "No. 5",
     "work_key": "alma redemptoris mater::com anonymous"
@@ -1942,7 +1942,7 @@
     "standardized_work_name": "O Maria maris stella",
     "composer_name": "Anonymous",
     "composer_id": "COM:Anonymous",
-    "source_id": "Bamberger Motettenhandschrift",
+    "source_id": "SRC:Bamberg_115",
     "edition": "Pierre Aubry, Cent Motets du XIIIe siècle (Paris, 1908)",
     "edition_pages": "No. 75",
     "work_key": "o maria maris stella::com anonymous"
@@ -2503,6 +2503,249 @@
     "composer_name": "Benedictus Ducis",
     "composer_id": "COM:Benedictus_Ducis",
     "work_key": "nun freut euch lieben christen gemein::com benedictus ducis"
+  },
+  {
+    "piece_id": "CON:1925_10_01a_p01",
+    "concert_id": "CON:1925_10_01a",
+    "order": 1,
+    "work_name": "Resurrexi et adhuc tecum sum",
+    "standardized_work_name": "Resurrexi et adhuc tecum sum",
+    "composer_name": "Anonymous",
+    "composer_id": "COM:Anonymous",
+    "edition": "Editio Vaticana",
+    "work_key": "resurrexi et adhuc tecum sum::com anonymous"
+  },
+  {
+    "piece_id": "CON:1925_10_01a_p02",
+    "concert_id": "CON:1925_10_01a",
+    "order": 2,
+    "work_name": "Haec dies",
+    "standardized_work_name": "Haec dies",
+    "composer_name": "Anonymous",
+    "composer_id": "COM:Anonymous",
+    "edition": "Editio Vaticana",
+    "work_key": "haec dies::com anonymous"
+  },
+  {
+    "piece_id": "CON:1925_10_01a_p03",
+    "concert_id": "CON:1925_10_01a",
+    "order": 3,
+    "work_name": "Alleluia: Pascha nostrum",
+    "standardized_work_name": "Alleluia: Pascha nostrum",
+    "composer_name": "Anonymous",
+    "composer_id": "COM:Anonymous",
+    "edition": "Editio Vaticana",
+    "work_key": "alleluia pascha nostrum::com anonymous"
+  },
+  {
+    "piece_id": "CON:1925_10_01a_p04",
+    "concert_id": "CON:1925_10_01a",
+    "order": 4,
+    "work_name": "Victimae paschali laudes",
+    "standardized_work_name": "Victimae paschali laudes",
+    "composer_name": "Anonymous",
+    "composer_id": "COM:Anonymous",
+    "edition": "Editio Vaticana",
+    "work_key": "victimae paschali laudes::com anonymous"
+  },
+  {
+    "piece_id": "CON:1925_10_01a_p05",
+    "concert_id": "CON:1925_10_01a",
+    "order": 5,
+    "work_name": "Pascha nostrum immolatus est Christus",
+    "standardized_work_name": "Pascha nostrum immolatus est Christus",
+    "composer_name": "Anonymous",
+    "composer_id": "COM:Anonymous",
+    "edition": "Editio Vaticana",
+    "work_key": "pascha nostrum immolatus est christus::com anonymous"
+  },
+  {
+    "piece_id": "CON:1925_10_01a_p06",
+    "concert_id": "CON:1925_10_01a",
+    "order": 6,
+    "work_name": "Organum Alleluya Pascha nostrum",
+    "standardized_work_name": "Organum Alleluya Pascha nostrum",
+    "composer_name": "Magister Leoninus",
+    "composer_id": "COM:Leonin",
+    "source_id": "SRC:Wolfenbuttel_628",
+    "edition": "Zeitschrift für Musikwissenschaft, V",
+    "edition_pages": "448 ff.",
+    "work_key": "organum alleluya pascha nostrum::com leonin"
+  },
+  {
+    "piece_id": "CON:1925_10_01a_p07",
+    "concert_id": "CON:1925_10_01a",
+    "order": 7,
+    "work_name": "Deus in adjutorium",
+    "standardized_work_name": "Deus in adjutorium",
+    "composer_name": "Anonymous",
+    "composer_id": "COM:Anonymous",
+    "source_id": "SRC:Bamberg_115",
+    "edition": "Pierre Aubry, Cent Motets du 13e siècle (Paris, 1908)",
+    "work_key": "deus in adjutorium::com anonymous"
+  },
+  {
+    "piece_id": "CON:1925_10_01a_p08",
+    "concert_id": "CON:1925_10_01a",
+    "order": 8,
+    "work_name": "Homo luge / Homo miserabilis / Brumans est mors",
+    "standardized_work_name": "Homo luge / Homo miserabilis / Brumans est mors",
+    "composer_name": "Anonymous",
+    "composer_id": "COM:Anonymous",
+    "source_id": "SRC:Bamberg_115",
+    "edition": "Pierre Aubry, Cent Motets du 13e siècle (Paris, 1908)",
+    "work_key": "homo luge homo miserabilis brumans est mors::com anonymous"
+  },
+  {
+    "piece_id": "CON:1925_10_01a_p09",
+    "concert_id": "CON:1925_10_01a",
+    "order": 9,
+    "work_name": "Entre Copin / Je me cuidoie / Bele Ysabelot",
+    "standardized_work_name": "Entre Copin / Je me cuidoie / Bele Ysabelot",
+    "composer_name": "Anonymous",
+    "composer_id": "COM:Anonymous",
+    "source_id": "SRC:Bamberg_115",
+    "edition": "Pierre Aubry, Cent Motets du 13e siècle (Paris, 1908)",
+    "work_key": "entre copin je me cuidoie bele ysabelot::com anonymous"
+  },
+  {
+    "piece_id": "CON:1925_10_01a_p10",
+    "concert_id": "CON:1925_10_01a",
+    "order": 10,
+    "work_name": "Rose lis",
+    "standardized_work_name": "Rose lis",
+    "composer_name": "Guillaume de Machaut",
+    "composer_id": "COM:Guillaume_de_Machaut",
+    "work_key": "rose lis::com guillaume de machaut"
+  },
+  {
+    "piece_id": "CON:1925_10_01a_p11",
+    "concert_id": "CON:1925_10_01a",
+    "order": 11,
+    "work_name": "Quant en moy vint premierement",
+    "standardized_work_name": "Quant en moy vint premierement",
+    "composer_name": "Guillaume de Machaut",
+    "composer_id": "COM:Guillaume_de_Machaut",
+    "source_id": "SRC:Paris_22545-46",
+    "edition": "Johannes Wolf, Geschichte der Mensuralnotation von 1250–1460, III (Leipzig, 1904)",
+    "work_key": "quant en moy vint premierement::com guillaume de machaut"
+  },
+  {
+    "piece_id": "CON:1925_10_01a_p12",
+    "concert_id": "CON:1925_10_01a",
+    "order": 12,
+    "work_name": "Ave regina coelorum",
+    "standardized_work_name": "Ave regina coelorum",
+    "composer_name": "Anonymous",
+    "composer_id": "COM:Anonymous",
+    "source_id": "SRC:Bologna_2216",
+    "folios": "p. 69",
+    "work_key": "ave regina coelorum::com anonymous"
+  },
+  {
+    "piece_id": "CON:1925_10_01a_p13",
+    "concert_id": "CON:1925_10_01a",
+    "order": 13,
+    "work_name": "Ave regina coelorum",
+    "standardized_work_name": "Ave regina coelorum",
+    "composer_name": "Guillaume Dufay",
+    "composer_id": "COM:Guillaume_Du_Fay",
+    "source_id": "SRC:Oxford_213; SRC:Bologna_Q15; SRC:Venice_145",
+    "folios": "fol. 62r; no. 258; fol. 29v–30r",
+    "work_key": "ave regina coelorum::com guillaume du fay"
+  },
+  {
+    "piece_id": "CON:1925_10_01a_p14",
+    "concert_id": "CON:1925_10_01a",
+    "order": 14,
+    "work_name": "Ave regina coelorum",
+    "standardized_work_name": "Ave regina coelorum",
+    "composer_name": "Leonellus",
+    "composer_id": "COM:Leonel_Power",
+    "source_id": "SRC:London_57950",
+    "edition": "W. Barclay Squire, Sammelbände der Internationalen Musikgesellschaft, II",
+    "edition_pages": "378 f.",
+    "work_key": "ave regina coelorum::com leonel power"
+  },
+  {
+    "piece_id": "CON:1925_10_01a_p15",
+    "concert_id": "CON:1925_10_01a",
+    "order": 15,
+    "work_name": "Deul angoisseux",
+    "standardized_work_name": "Deul angoisseux",
+    "composer_name": "Gilles Binchois",
+    "composer_id": "COM:Gilles_Binchois",
+    "source_id": "SRC:Escorial_VIII24; SRC:Trent_1375",
+    "folios": "fol. 36v–38r",
+    "edition": "Denkmäler der Tonkunst in Österreich, VII",
+    "edition_pages": "242 ff.",
+    "work_key": "deul angoisseux::com gilles binchois"
+  },
+  {
+    "piece_id": "CON:1925_10_01a_p16",
+    "concert_id": "CON:1925_10_01a",
+    "order": 16,
+    "work_name": "Mon cuer me fait",
+    "standardized_work_name": "Mon cuer me fait",
+    "composer_name": "Guillaume Dufay",
+    "composer_id": "COM:Guillaume_Du_Fay",
+    "source_id": "SRC:Oxford_213",
+    "edition": "Sir John Stainer, Dufay and his Contemporaries (London, 1898)",
+    "edition_pages": "118 f.",
+    "work_key": "mon cuer me fait::com guillaume du fay"
+  },
+  {
+    "piece_id": "CON:1925_10_01a_p17",
+    "concert_id": "CON:1925_10_01a",
+    "order": 17,
+    "work_name": "Der Tag der ist so freudenreich",
+    "standardized_work_name": "Der Tag der ist so freudenreich",
+    "composer_name": "Anonymous",
+    "composer_id": "COM:Anonymous",
+    "source_id": "SRC:Trent_1375",
+    "edition": "Denkmäler der Tonkunst in Österreich, VII",
+    "edition_pages": "264 f.",
+    "work_key": "der tag der ist so freudenreich::com anonymous"
+  },
+  {
+    "piece_id": "CON:1925_10_01a_p18",
+    "concert_id": "CON:1925_10_01a",
+    "order": 18,
+    "work_name": "Beata mater",
+    "standardized_work_name": "Beata mater",
+    "composer_name": "Dunstaple",
+    "composer_id": "COM:John_Dunstaple",
+    "source_id": "SRC:Trent_1374; SRC:Modena_X111",
+    "folios": "fol. 91r",
+    "edition": "Denkmäler der Tonkunst in Österreich, VII",
+    "edition_pages": "94 ff.",
+    "work_key": "beata mater::com john dunstaple"
+  },
+  {
+    "piece_id": "CON:1925_10_01a_p19",
+    "concert_id": "CON:1925_10_01a",
+    "order": 19,
+    "work_name": "Kyrie",
+    "standardized_work_name": "Kyrie",
+    "composer_name": "Guillaume Dufay",
+    "composer_id": "COM:Guillaume_Du_Fay",
+    "source_id": "SRC:Cambrai_6; SRC:Cambrai_11; SRC:Trent_1379",
+    "folios": "fol. 4v–6r; fol. 2v–3r; fol. 144a",
+    "work_key": "kyrie::com guillaume du fay"
+  },
+  {
+    "piece_id": "CON:1925_10_01a_p20",
+    "concert_id": "CON:1925_10_01a",
+    "order": 20,
+    "work_name": "Salve regina",
+    "standardized_work_name": "Salve regina",
+    "composer_name": "Guillaume Dufay",
+    "composer_id": "COM:Guillaume_Du_Fay",
+    "source_id": "SRC:Trent_1376; SRC:Munich_3154",
+    "folios": "fol. 86b;",
+    "edition": "Denkmäler der Tonkunst in Österreich, VII",
+    "edition_pages": "178 ff.",
+    "work_key": "salve regina::com guillaume du fay"
   },
   {
     "piece_id": "CON:1925_12_05a_p01",
@@ -3711,7 +3954,7 @@
     "standardized_work_name": "Crist ist erstanden",
     "composer_name": "Unbekannter Meister",
     "composer_id": "COM:Anonymous",
-    "source_id": "Trienter Codices",
+    "source_id": "Trent Codices",
     "edition": "G. Adler und O. Koller, Denkmäler der Tonkunst in Österreich",
     "edition_pages": "Jahrgang VII",
     "work_key": "crist ist erstanden::com anonymous"
@@ -3724,7 +3967,7 @@
     "standardized_work_name": "Sancta Maria",
     "composer_name": "John Dunstaple",
     "composer_id": "COM:John_Dunstaple",
-    "source_id": "Trienter Codices",
+    "source_id": "Trent Codices",
     "edition": "G. Adler und O. Koller, Denkmäler der Tonkunst in Österreich",
     "edition_pages": "Jahrgang VII",
     "work_key": "sancta maria::com john dunstaple"
@@ -3737,7 +3980,7 @@
     "standardized_work_name": "Salve Regina",
     "composer_name": "Unbekannter Meister",
     "composer_id": "COM:Anonymous",
-    "source_id": "Trienter Codices",
+    "source_id": "Trent Codices",
     "edition": "G. Adler und O. Koller, Denkmäler der Tonkunst in Österreich (unter Dufays Namen)",
     "edition_pages": "Jahrgang VII",
     "work_key": "salve regina::com anonymous"
@@ -3803,6 +4046,126 @@
     "composer_name": "Claudio Monteverdi",
     "composer_id": "COM:Claudio_Monteverdi",
     "work_key": "sonata sopra sancta maria::com claudio monteverdi"
+  },
+  {
+    "piece_id": "CON:1927_03_30a_p01",
+    "concert_id": "CON:1927_03_30a",
+    "order": 1,
+    "work_name": "Alleluya",
+    "standardized_work_name": "Alleluya",
+    "composer_name": "Perotinus",
+    "composer_id": "COM:Perotin",
+    "source_id": "SRC:Florence_29; SRC:Montpellier_196",
+    "folios": "fol. 30v; fol. 16r",
+    "work_key": "alleluya::com perotin"
+  },
+  {
+    "piece_id": "CON:1927_03_30a_p02",
+    "concert_id": "CON:1927_03_30a",
+    "order": 2,
+    "work_name": "Ad solitum vomitum / Regnat",
+    "standardized_work_name": "Ad solitum vomitum / Regnat",
+    "composer_name": "Anonymous",
+    "composer_id": "COM:Anonymous",
+    "source_id": "SRC:Florence_29; SRC:Wolfenbuttel_1099",
+    "folios": "fol. 394r; fol. 12v",
+    "work_key": "ad solitum vomitum regnat::com anonymous"
+  },
+  {
+    "piece_id": "CON:1927_03_30a_p03",
+    "concert_id": "CON:1927_03_30a",
+    "order": 3,
+    "work_name": "Virga cultus / Stirps Jesse / Flos",
+    "standardized_work_name": "Virga cultus / Stirps Jesse / Flos",
+    "composer_name": "Anonymous",
+    "composer_id": "COM:Anonymous",
+    "source_id": "SRC:Florence_29; SRC:Wolfenbuttel_1099",
+    "folios": "fols. 11r and 409v; fols. 145r and 206v",
+    "work_key": "virga cultus stirps jesse flos::com anonymous"
+  },
+  {
+    "piece_id": "CON:1927_03_30a_p04",
+    "concert_id": "CON:1927_03_30a",
+    "order": 4,
+    "work_name": "Descendit de coelis",
+    "standardized_work_name": "Descendit de coelis",
+    "composer_name": "Anonymous (Perotinus?)",
+    "composer_id": "COM:Anonymous",
+    "source_id": "SRC:Florence_29; SRC:Wolfenbuttel_628; SRC:Wolfenbuttel_1099",
+    "folios": "fol. 14r; fol. 85v; fol. 7v",
+    "work_key": "descendit de coelis::com anonymous"
+  },
+  {
+    "piece_id": "CON:1927_03_30a_p05",
+    "concert_id": "CON:1927_03_30a",
+    "order": 5,
+    "work_name": "In nova fert / Garrit gallus",
+    "standardized_work_name": "In nova fert / Garrit gallus",
+    "composer_name": "Anonymous (Philipp de Vitry?)",
+    "composer_id": "COM:Anonymous",
+    "source_id": "SRC:Paris_146; SRC:Paris_67",
+    "folios": "fol. 44v; fol. 67r",
+    "work_key": "in nova fert garrit gallus::com anonymous"
+  },
+  {
+    "piece_id": "CON:1927_03_30a_p06",
+    "concert_id": "CON:1927_03_30a",
+    "order": 6,
+    "work_name": "Plange regni / Tu qui gregem",
+    "standardized_work_name": "Plange regni / Tu qui gregem",
+    "composer_name": "Guillaume de Machaut",
+    "composer_id": "COM:Guillaume_de_Machaut",
+    "source_id": "SRC:Paris_22545-46; SRC:Paris_9221; SRC:Paris_1584",
+    "folios": "fol. 123v; fol. 145r; fol. 435v",
+    "work_key": "plange regni tu qui gregem::com guillaume de machaut"
+  },
+  {
+    "piece_id": "CON:1927_03_30a_p07",
+    "concert_id": "CON:1927_03_30a",
+    "order": 7,
+    "work_name": "Io son un pellegrin",
+    "standardized_work_name": "Io son un pellegrin",
+    "composer_name": "Johannes de Florentia",
+    "composer_id": "COM:Giovanni_da_Cascia",
+    "source_id": "SRC:Florence_26; SRC:Paris_568; SRC:Paris_6771",
+    "folios": "fol. 48r; fol. 42v; fol. 27v",
+    "work_key": "io son un pellegrin::com giovanni da cascia"
+  },
+  {
+    "piece_id": "CON:1927_03_30a_p08",
+    "concert_id": "CON:1927_03_30a",
+    "order": 8,
+    "work_name": "De toutes flours",
+    "standardized_work_name": "De toutes flours",
+    "composer_name": "Guillaume de Machaut",
+    "composer_id": "COM:Guillaume_de_Machaut",
+    "source_id": "SRC:Paris_22545-46; SRC:Paris_6771; SRC:Paris_568; Modena 1305",
+    "folios": "fol. 144r; fol. 72r; fol. 120v; fol. 25r",
+    "work_key": "de toutes flours::com guillaume de machaut"
+  },
+  {
+    "piece_id": "CON:1927_03_30a_p09",
+    "concert_id": "CON:1927_03_30a",
+    "order": 9,
+    "work_name": "Precursor",
+    "standardized_work_name": "Precursor",
+    "composer_name": "John Dunstaple",
+    "composer_id": "COM:John_Dunstaple",
+    "source_id": "SRC:Trent_1379; SRC:Modena_X111",
+    "folios": "fol. 184v; fol. 127v",
+    "work_key": "precursor::com john dunstaple"
+  },
+  {
+    "piece_id": "CON:1927_03_30a_p10",
+    "concert_id": "CON:1927_03_30a",
+    "order": 10,
+    "work_name": "Ave virgo lux",
+    "standardized_work_name": "Ave virgo lux",
+    "composer_name": "Johannes Franchois de Gemblaco",
+    "composer_id": "COM:Johannes_Franchois_de_Gemblaco",
+    "source_id": "SRC:Bologna_Q15",
+    "folios": "fol. 240v",
+    "work_key": "ave virgo lux::com johannes franchois de gemblaco"
   },
   {
     "piece_id": "CON:1927_04_26a_p01",
@@ -4071,7 +4434,7 @@
     "standardized_work_name": "Io son un pellegrin",
     "composer_name": "Johannes de Florentia",
     "composer_id": "COM:Giovanni_da_Cascia",
-    "source_id": "Florence, Bibl. Naz., Panc. 26; Paris, Bibl. Nat., it. 568; Paris, Bibl. Nat., n. a. fr. 6771",
+    "source_id": "SRC:Florence_26; SRC:Paris_568; SRC:Paris_6771",
     "edition": "R. Ficker (Übertragung)",
     "work_key": "io son un pellegrin::com giovanni da cascia"
   },
@@ -4096,6 +4459,138 @@
     "composer_id": "COM:Francesco_Landini",
     "edition": "F. Ludwig, Zeitschrift für Musikwissenschaft V",
     "work_key": "gram piant agl occhi::com francesco landini"
+  },
+  {
+    "piece_id": "CON:1927_05_30a_p01",
+    "concert_id": "CON:1927_05_30a",
+    "order": 1,
+    "work_name": "Rex coeli ... malis",
+    "standardized_work_name": "Rex coeli ... malis",
+    "composer_name": "Anonymous",
+    "composer_id": "COM:Anonymous",
+    "edition": "M. Gerbert, Scriptores, I",
+    "edition_pages": "169 f.",
+    "work_key": "rex coeli malis::com anonymous"
+  },
+  {
+    "piece_id": "CON:1927_05_30a_p02",
+    "concert_id": "CON:1927_05_30a",
+    "order": 2,
+    "work_name": "Psallat ecclesia",
+    "standardized_work_name": "Psallat ecclesia",
+    "composer_name": "Anonymous",
+    "composer_id": "COM:Anonymous",
+    "edition": "P. Schubiger, Die Sängerschule St. Gallens",
+    "work_key": "psallat ecclesia::com anonymous"
+  },
+  {
+    "piece_id": "CON:1927_05_30a_p03",
+    "concert_id": "CON:1927_05_30a",
+    "order": 3,
+    "work_name": "Jubilemus, exultemus",
+    "standardized_work_name": "Jubilemus, exultemus",
+    "composer_name": "Anonymous",
+    "composer_id": "COM:Anonymous",
+    "source_id": "SRC:Paris_1139",
+    "folios": "fol. 41",
+    "work_key": "jubilemus exultemus::com anonymous"
+  },
+  {
+    "piece_id": "CON:1927_05_30a_p04",
+    "concert_id": "CON:1927_05_30a",
+    "order": 4,
+    "work_name": "Sitot me sui",
+    "standardized_work_name": "Sitot me sui",
+    "composer_name": "Folquet de Marseille",
+    "composer_id": "COM:Folquet_de_Marseille",
+    "edition": "F. Gennrich, SfM VII",
+    "edition_pages": "11 f.",
+    "work_key": "sitot me sui::com folquet de marseille"
+  },
+  {
+    "piece_id": "CON:1927_05_30a_p05",
+    "concert_id": "CON:1927_05_30a",
+    "order": 5,
+    "work_name": "Judea et Jerusalem",
+    "standardized_work_name": "Judea et Jerusalem",
+    "composer_name": "Leoninus",
+    "composer_id": "COM:Leonin",
+    "source_id": "SRC:Wolfenbuttel_628",
+    "folios": "fol. 17",
+    "work_key": "judea et jerusalem::com leonin"
+  },
+  {
+    "piece_id": "CON:1927_05_30a_p06",
+    "concert_id": "CON:1927_05_30a",
+    "order": 6,
+    "work_name": "Pater noster commiserans",
+    "standardized_work_name": "Pater noster commiserans",
+    "composer_name": "Anonymous (Perotinus?)",
+    "composer_id": "COM:Anonymous",
+    "source_id": "SRC:Wolfenbuttel_628; SRC:Florence_29",
+    "folios": "fol. 145v; fol. 278v",
+    "edition": "H. E. Wooldridge, The Oxford History of Music, I",
+    "edition_pages": "253 ff.",
+    "work_key": "pater noster commiserans::com anonymous"
+  },
+  {
+    "piece_id": "CON:1927_05_30a_p07",
+    "concert_id": "CON:1927_05_30a",
+    "order": 7,
+    "work_name": "Or voi je / Eximium / Virgo",
+    "standardized_work_name": "Or voi je / Eximium / Virgo",
+    "composer_name": "Anonymous",
+    "composer_id": "COM:Anonymous",
+    "source_id": "SRC:Bamberg_115",
+    "edition": "Pierre Aubry, Cent motets du 13e siècle",
+    "work_key": "or voi je eximium virgo::com anonymous"
+  },
+  {
+    "piece_id": "CON:1927_05_30a_p08",
+    "concert_id": "CON:1927_05_30a",
+    "order": 8,
+    "work_name": "Zweistimmiges Tanzstück aus England",
+    "standardized_work_name": "Zweistimmiges Tanzstück aus England",
+    "composer_name": "Anonymous",
+    "composer_id": "COM:Anonymous",
+    "edition": "Wolf, AfMW, I",
+    "edition_pages": "19",
+    "work_key": "zweistimmiges tanzstuck aus england::com anonymous"
+  },
+  {
+    "piece_id": "CON:1927_05_30a_p09",
+    "concert_id": "CON:1927_05_30a",
+    "order": 9,
+    "work_name": "Io son un pellegrin",
+    "standardized_work_name": "Io son un pellegrin",
+    "composer_name": "Anonymous",
+    "composer_id": "COM:Anonymous",
+    "source_id": "SRC:Paris_6771; SRC:Paris_568; SRC:Florence_26",
+    "folios": "fol. 27v; fol. 42v; fol. 47v",
+    "work_key": "io son un pellegrin::com anonymous"
+  },
+  {
+    "piece_id": "CON:1927_05_30a_p10",
+    "concert_id": "CON:1927_05_30a",
+    "order": 10,
+    "work_name": "Je puis trop bien",
+    "standardized_work_name": "Je puis trop bien",
+    "composer_name": "Guillaume de Machaut",
+    "composer_id": "COM:Guillaume_de_Machaut",
+    "edition": "F. Ludwig, Gesamtausgabe der musikalischen Werke von G. de M.",
+    "work_key": "je puis trop bien::com guillaume de machaut"
+  },
+  {
+    "piece_id": "CON:1927_05_30a_p11",
+    "concert_id": "CON:1927_05_30a",
+    "order": 11,
+    "work_name": "Gram piant' agli occhi",
+    "standardized_work_name": "Gram piant' agli occhi",
+    "composer_name": "Francesco Landini",
+    "composer_id": "COM:Francesco_Landini",
+    "edition": "F. Ludwig, SfMW, V",
+    "edition_pages": "459 f.",
+    "work_key": "gram piant agli occhi::com francesco landini"
   },
   {
     "piece_id": "CON:1927_05a_p01",
@@ -6104,7 +6599,7 @@
     "standardized_work_name": "Mein hertz fert hin",
     "composer_name": "Gregor Peschin",
     "composer_id": "COM:Gregor_Peschin",
-    "source_id": "Georg Forster, Ein außzug guter alter vnd newer teutscher liedlein, 5. Teil",
+    "source_id": "SRC:Berg_1556b",
     "work_key": "mein hertz fert hin::com gregor peschin"
   },
   {
@@ -6335,7 +6830,7 @@
     "standardized_work_name": "Mir ist ein feines Maidelein",
     "composer_name": "Anonymous",
     "composer_id": "COM:Anonymous",
-    "source_id": "Rhau, Bicinia Germanica (1545)",
+    "source_id": "SRC:Rhau_1545b",
     "work_key": "mir ist ein feines maidelein::com anonymous"
   },
   {
@@ -6356,7 +6851,7 @@
     "standardized_work_name": "Entlaubet ist der Walde",
     "composer_name": "Anonymous",
     "composer_id": "COM:Anonymous",
-    "source_id": "Rhau, Bicinia Germanica (1545)",
+    "source_id": "SRC:Rhau_1545b",
     "work_key": "entlaubet ist der walde::com anonymous"
   },
   {
@@ -7515,7 +8010,7 @@
     "standardized_work_name": "Für all uf erd",
     "composer_name": "Cosmas Alder",
     "composer_id": "COM:Cosmas_Adler",
-    "source_id": "65 teutscher Lieder, P. Schöffer & M. Apiarius (Strasbourg, 1536)",
+    "source_id": "SRC:Schoffer_1536a",
     "edition": "R. Eitner, Monatshefte für Musikgeschichte 26 (1894)",
     "edition_pages": "S. 62",
     "work_key": "fur all uf erd::com cosmas adler"
@@ -7614,7 +8109,7 @@
     "standardized_work_name": "E(ls) schön und zart",
     "composer_name": "Ludwig Senfl",
     "composer_id": "COM:Ludwig_Senfl",
-    "source_id": "Liedersammlung von Ott, II (1544)",
+    "source_id": "SRC:Ott_1544a",
     "edition": "W. Schuh, Weltliche Lieder von Ludwig Senfl (Zurich, 1929)",
     "edition_pages": "Nr. 1 und 6",
     "work_key": "e ls schon und zart::com ludwig senfl"
@@ -7627,7 +8122,7 @@
     "standardized_work_name": "Ich hätt mir ein Endlein fürgenommen",
     "composer_name": "Ludwig Senfl",
     "composer_id": "COM:Ludwig_Senfl",
-    "source_id": "Liedersammlung von Ott, II (1544)",
+    "source_id": "SRC:Ott_1544a",
     "folios": "Nr. 22",
     "edition": "W. Schuh, Weltliche Lieder von Ludwig Senfl (Zurich, 1929)",
     "edition_pages": "Nr. 1 und 6",
@@ -10159,7 +10654,7 @@
     "standardized_work_name": "Zwei Fantasien",
     "composer_name": "Orlando di Lasso",
     "composer_id": "COM:Orlando_di_Lasso",
-    "source_id": "Bicinia, sive cantiones suavissimae duarum vocum (Antwerp, 1601)",
+    "source_id": "SRC:Phalese_1601a",
     "edition": "Sechs Fantasien für zwei Streich- oder Blasinstrumente, besonders für Blockflöten, herausgegeben von Walter Pudelko, Erstes Heft",
     "edition_pages": "Bärenreiter-Ausgabe 76, Nr. 3 und 4",
     "work_key": "zwei fantasien::com orlando di lasso"
@@ -10172,7 +10667,7 @@
     "standardized_work_name": "O felici occhi miei",
     "composer_name": "Jakob Arcadelt",
     "composer_id": "COM:Jacques_Arcadelt",
-    "source_id": "Diego Ortiz, Tratado de glosas sobre clausulas y otros generos de puntos en la musica de violones (Rome, 1553)",
+    "source_id": "SRC:Ortiz_1553a",
     "edition": "Diego Ortiz, Tratado de glosas sobre clausulas y otros generos de puntos en la musica de violones, herausgegeben von Max Schneider",
     "edition_pages": "Bärenreiter-Ausgabe 684",
     "work_key": "o felici occhi miei::com jacques arcadelt"
@@ -15952,21 +16447,21 @@
     "piece_id": "CON:1940_12_01a_p04",
     "concert_id": "CON:1940_12_01a",
     "order": 4,
-    "work_name": "Troestlicher Lieb",
-    "standardized_work_name": "Troestlicher Lieb",
-    "composer_name": "Hofhaimer",
-    "composer_id": "COM:Paul_Hofhaimer",
-    "work_key": "troestlicher lieb::com paul hofhaimer"
-  },
-  {
-    "piece_id": "CON:1940_12_01a_p04",
-    "concert_id": "CON:1940_12_01a",
-    "order": 4,
     "work_name": "Saltarello",
     "standardized_work_name": "Saltarello",
     "composer_name": "Anonymous",
     "composer_id": "COM:Anonymous",
     "work_key": "saltarello::com anonymous"
+  },
+  {
+    "piece_id": "CON:1940_12_01a_p04",
+    "concert_id": "CON:1940_12_01a",
+    "order": 4,
+    "work_name": "Troestlicher Lieb",
+    "standardized_work_name": "Troestlicher Lieb",
+    "composer_name": "Hofhaimer",
+    "composer_id": "COM:Paul_Hofhaimer",
+    "work_key": "troestlicher lieb::com paul hofhaimer"
   },
   {
     "piece_id": "CON:1940_12_01a_p06",
@@ -27319,21 +27814,21 @@
     "piece_id": "CON:1953_02_03a_p04",
     "concert_id": "CON:1953_02_03a",
     "order": 4,
-    "work_name": "Kyrie, Sanctus u. Agnus Dei aus der Messe In te Domine speravi",
-    "standardized_work_name": "Kyrie, Sanctus u. Agnus Dei aus der Messe In te Domine speravi",
-    "composer_name": "Orlando di Lasso",
-    "composer_id": "COM:Orlando_di_Lasso",
-    "work_key": "kyrie sanctus u agnus dei aus der messe in te domine speravi::com orlando di lasso"
-  },
-  {
-    "piece_id": "CON:1953_02_03a_p04",
-    "concert_id": "CON:1953_02_03a",
-    "order": 4,
     "work_name": "Kyrie, Sanctus und Agnus Dei aus der Messe \"In te Domine speravi\"",
     "standardized_work_name": "Kyrie, Sanctus und Agnus Dei aus der Messe \"In te Domine speravi\"",
     "composer_name": "Orlando di Lasso",
     "composer_id": "COM:Orlando_di_Lasso",
     "work_key": "kyrie sanctus und agnus dei aus der messe in te domine speravi::com orlando di lasso"
+  },
+  {
+    "piece_id": "CON:1953_02_03a_p04",
+    "concert_id": "CON:1953_02_03a",
+    "order": 4,
+    "work_name": "Kyrie, Sanctus u. Agnus Dei aus der Messe In te Domine speravi",
+    "standardized_work_name": "Kyrie, Sanctus u. Agnus Dei aus der Messe In te Domine speravi",
+    "composer_name": "Orlando di Lasso",
+    "composer_id": "COM:Orlando_di_Lasso",
+    "work_key": "kyrie sanctus u agnus dei aus der messe in te domine speravi::com orlando di lasso"
   },
   {
     "piece_id": "CON:1953_06_30a_p01",
@@ -29579,21 +30074,21 @@
     "piece_id": "CON:1954_11_05a_p02",
     "concert_id": "CON:1954_11_05a",
     "order": 2,
-    "work_name": "Virgo",
-    "standardized_work_name": "Virgo",
-    "composer_name": "Pérotin",
-    "composer_id": "COM:Perotin",
-    "work_key": "virgo::com perotin"
-  },
-  {
-    "piece_id": "CON:1954_11_05a_p02",
-    "concert_id": "CON:1954_11_05a",
-    "order": 2,
     "work_name": "Echolied",
     "standardized_work_name": "Echolied",
     "composer_name": "Orlando di Lasso",
     "composer_id": "COM:Orlando_di_Lasso",
     "work_key": "echolied::com orlando di lasso"
+  },
+  {
+    "piece_id": "CON:1954_11_05a_p02",
+    "concert_id": "CON:1954_11_05a",
+    "order": 2,
+    "work_name": "Virgo",
+    "standardized_work_name": "Virgo",
+    "composer_name": "Pérotin",
+    "composer_id": "COM:Perotin",
+    "work_key": "virgo::com perotin"
   },
   {
     "piece_id": "CON:1954_11_05a_p03",
@@ -29619,21 +30114,21 @@
     "piece_id": "CON:1954_11_05a_p04",
     "concert_id": "CON:1954_11_05a",
     "order": 4,
-    "work_name": "Il grillo",
-    "standardized_work_name": "Il grillo",
-    "composer_name": "Josquin des Prés",
-    "composer_id": "COM:Josquin_des_Prez",
-    "work_key": "il grillo::com josquin des prez"
-  },
-  {
-    "piece_id": "CON:1954_11_05a_p04",
-    "concert_id": "CON:1954_11_05a",
-    "order": 4,
     "work_name": "Bon jour, bon mois, bon an",
     "standardized_work_name": "Bon jour, bon mois, bon an",
     "composer_name": "Guillaume Dufay",
     "composer_id": "COM:Guillaume_Du_Fay",
     "work_key": "bon jour bon mois bon an::com guillaume du fay"
+  },
+  {
+    "piece_id": "CON:1954_11_05a_p04",
+    "concert_id": "CON:1954_11_05a",
+    "order": 4,
+    "work_name": "Il grillo",
+    "standardized_work_name": "Il grillo",
+    "composer_name": "Josquin des Prés",
+    "composer_id": "COM:Josquin_des_Prez",
+    "work_key": "il grillo::com josquin des prez"
   },
   {
     "piece_id": "CON:1954_11_05a_p05",
@@ -35722,7 +36217,7 @@
     "standardized_work_name": "Ich weiß mir ein Maidlein",
     "composer_name": "Orlando di Lasso",
     "composer_id": "COM:Orlando_di_Lasso",
-    "source_id": "Neue deutsche Lieder, geistlich und weltlich (1583)",
+    "source_id": "SRC:Lasso_1583a",
     "work_key": "ich weiß mir ein maidlein::com orlando di lasso"
   },
   {
@@ -35755,7 +36250,7 @@
     "standardized_work_name": "Baur, was trägst im Sacke?",
     "composer_name": "Orlando di Lasso",
     "composer_id": "COM:Orlando_di_Lasso",
-    "source_id": "Neue deutsche Lieder, geistlich und weltlich (1583)",
+    "source_id": "SRC:Lasso_1583a",
     "work_key": "baur was tragst im sacke::com orlando di lasso"
   },
   {
@@ -36712,7 +37207,7 @@
     "standardized_work_name": "Allmande",
     "composer_name": "William Brade",
     "composer_id": "COM:William_Brade",
-    "source_id": "Neue ausserlesene Paduanen, Galliarden, Canzonen, Allmanden, und Coranten",
+    "source_id": "SRC:Brade_1609a",
     "work_key": "allmande::com william brade"
   },
   {
@@ -36723,7 +37218,7 @@
     "standardized_work_name": "Gaillard",
     "composer_name": "William Brade",
     "composer_id": "COM:William_Brade",
-    "source_id": "Neue ausserlesene Paduanen, Galliarden, Canzonen, Allmanden, und Coranten",
+    "source_id": "SRC:Brade_1609a",
     "work_key": "gaillard::com william brade"
   },
   {
@@ -37949,7 +38444,7 @@
     "standardized_work_name": "Recercada quinta",
     "composer_name": "Diego Ortiz",
     "composer_id": "COM:Diego_Ortiz",
-    "source_id": "Ortiz, Trattado de glosas, 1553",
+    "source_id": "SRC:Ortiz_1553a",
     "edition": "Schneider",
     "work_key": "recercada quinta::com diego ortiz"
   },
@@ -37997,7 +38492,7 @@
     "standardized_work_name": "Recercada on Arcadelt's O felici occhi miei",
     "composer_name": "Diego Ortiz",
     "composer_id": "COM:Diego_Ortiz",
-    "source_id": "Ortiz, Trattado de glosas, 1553",
+    "source_id": "SRC:Ortiz_1553a",
     "edition": "Schneider",
     "work_key": "recercada on arcadelt s o felici occhi miei::com diego ortiz"
   },

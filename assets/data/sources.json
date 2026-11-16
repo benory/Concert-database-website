@@ -25,6 +25,11 @@
     "rism_url": "https://rism.online/sources/993120170"
   },
   {
+    "id": "SRC:Berg_1556b",
+    "sigla": "Alte und neue deutsche Liedlein, 5 (Nuremberg: Johann Berg and Ulrich Neuber, 1556)",
+    "rism_url": "https://rism.online/sources/993120171"
+  },
+  {
     "id": "SRC:Macropedius_1539a",
     "sigla": "Andrisca (Colonge: Georgius Macropedius, 1539)",
     "rism_url": "https://rism.online/sources/990070504"
@@ -45,6 +50,11 @@
     "id": "SRC:Rhau_1545a",
     "sigla": "Bicinia Gallica, Latina, Germanica (Wittenberg: Georg Rhau, 1545)",
     "rism_url": "https://rism.online/sources/993104451"
+  },
+  {
+    "id": "SRC:Phalese_1601a",
+    "sigla": "Bicinia, sive cantiones suavissimae duarum vocum (Antwerp: Pierre Phalèse, 1601)",
+    "rism_url": "https://rism.online/sources/1001385900"
   },
   {
     "id": "SRC:Wannenmacher_1553a",
@@ -134,6 +144,11 @@
     "diamm_url": "https://www.diamm.ac.uk/sources/799/"
   },
   {
+    "id": "SRC:Munich_4775",
+    "sigla": "D-Mbs Mus. MS 4775",
+    "diamm_url": "https://www.diamm.ac.uk/sources/866/"
+  },
+  {
     "id": "SRC:Wolfenbuttel_1099",
     "sigla": "D-W Cod. Guelf. 1099 Helmst.",
     "alias": "W2",
@@ -157,6 +172,11 @@
     "id": "SRC:Zwickau_549",
     "sigla": "D-Z Mu 549",
     "alias": "Octo Tonorum Melodiae of Thomas Stoltzer"
+  },
+  {
+    "id": "SRC:Ortiz_1553a",
+    "sigla": "De Diego Ortiz Tolledano libro primo, trattado de glosas (Rome: Valerio and Luigi Dorico, 1553)",
+    "rism_url": "https://rism.online/sources/990047482"
   },
   {
     "id": "SRC:Dorico_1553a",
@@ -222,6 +242,16 @@
     "diamm_url": "https://www.diamm.ac.uk/sources/74/"
   },
   {
+    "id": "SRC:Cambrai_11",
+    "sigla": "F-CA MS 11",
+    "diamm_url": "https://www.diamm.ac.uk/sources/790/"
+  },
+  {
+    "id": "SRC:Cambrai_6",
+    "sigla": "F-CA MS 6",
+    "diamm_url": "https://www.diamm.ac.uk/sources/789/"
+  },
+  {
     "id": "SRC:Montpellier_196",
     "sigla": "F-MO H 196",
     "alias": "Montpellier Codex",
@@ -259,6 +289,12 @@
     "sigla": "F-Pnm Français 844",
     "alias": "Chansonnier du Roi",
     "diamm_url": "https://www.diamm.ac.uk/sources/890/"
+  },
+  {
+    "id": "SRC:Paris_9221",
+    "sigla": "F-Pnm Français 9221",
+    "alias": "Machaut E",
+    "diamm_url": "https://www.diamm.ac.uk/sources/94/"
   },
   {
     "id": "SRC:Paris_568",
@@ -300,6 +336,11 @@
     "diamm_url": "https://www.diamm.ac.uk/sources/101/"
   },
   {
+    "id": "SRC:Paris_67",
+    "sigla": "F-Pnm Picardie 67",
+    "diamm_url": "https://www.diamm.ac.uk/sources/87/"
+  },
+  {
     "id": "SRC:Greuenbruch_1594a",
     "sigla": "Florilegium omnis fere generis cantionum suavissimarum (Cologne: Gerard Greuenbruch, 1594)",
     "rism_url": "https://rism.online/sources/993120982"
@@ -323,6 +364,11 @@
     "id": "SRC:Petrucci_1504a",
     "sigla": "Frottole libro primo (Venice: Ottaviano Petrucci, 1504)",
     "rism_url": "https://rism.online/sources/993103784"
+  },
+  {
+    "id": "SRC:Schoffer_1536a",
+    "sigla": "Fünff und sechzig teütscher Lieder (Strasbourg: Peter Schöffer and Mathias Apiarius, [1536])",
+    "rism_url": "https://rism.online/sources/993104169"
   },
   {
     "id": "SRC:Cambridge_168",
@@ -437,6 +483,12 @@
     "id": "SRC:Milan_R71",
     "sigla": "I-Ma R 71 sup.",
     "alias": "Chansonnier G"
+  },
+  {
+    "id": "SRC:Modena_X111",
+    "sigla": "I-MOe MS {alpha}.X.1.11",
+    "alias": "Modena B",
+    "diamm_url": "https://www.diamm.ac.uk/sources/146/"
   },
   {
     "id": "SRC:Perugia_431",
@@ -643,9 +695,19 @@
     "rism_url": "https://rism.online/sources/990018829"
   },
   {
+    "id": "SRC:Lasso_1583a",
+    "sigla": "Neue teutsche Lieder, geistlich und weltlich (Munich: Adam Berg, 1583)",
+    "rism_url": "https://rism.online/sources/990036732"
+  },
+  {
     "id": "SRC:Steffens_1619a",
     "sigla": "Neue Teutsche Weltliche Madrigalia und Balletten (Hamburg: Michael Hering, 1619)",
     "rism_url": "https://rism.online/sources/990062052"
+  },
+  {
+    "id": "SRC:Brade_1609a",
+    "sigla": "Newe außerlesene Paduanen, Galliarden, Canzonen, Allmand und Coranten (Hamburg: Michael Hering, 1609)",
+    "rism_url": "https://rism.online/sources/990006832"
   },
   {
     "id": "SRC:Rhau_1544a",
@@ -765,6 +827,11 @@
   {
     "id": "SRC:Finck_1536a",
     "sigla": "Schöne auszerlesne Lieder (Nuremberg: Hieronymus Formschneider, 1536)"
+  },
+  {
+    "id": "SRC:Rhau_1545b",
+    "sigla": "Secundus tomus biciniorum... Gallica, Latina, Germanica (Wittenberg, Georg Rhau, 1545)",
+    "rism_url": "https://rism.online/sources/993104453"
   },
   {
     "id": "SRC:Monteverdi_1641a",
