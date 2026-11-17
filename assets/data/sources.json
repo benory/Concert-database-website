@@ -184,6 +184,11 @@
     "rism_url": "https://rism.online/sources/990047482"
   },
   {
+    "id": "SRC:Formschneider_1534a",
+    "sigla": "Der erst teil. Hundert und ainundzweintzig newe Lieder (Nuremberg: Hieronymus Formschneider, 1534)",
+    "rism_url": "https://rism.online/sources/993104106"
+  },
+  {
     "id": "SRC:Franck_1604a",
     "sigla": "Deutsche weltliche Gesäng und Täntz (Coburg: Justus Hauck, 1604)",
     "rism_url": "https://rism.online/sources/990018825"
@@ -369,6 +374,11 @@
     "id": "SRC:Schoffer_1536a",
     "sigla": "Fünff und sechzig teütscher Lieder (Strasbourg: Peter Schöffer and Mathias Apiarius, [1536])",
     "rism_url": "https://rism.online/sources/993104169"
+  },
+  {
+    "id": "SRC:Egenolff_1535b",
+    "sigla": "Gassenhawerlin (Frankfurt: Christian Egenolff, 1535)",
+    "rism_url": "https://rism.online/sources/993104125"
   },
   {
     "id": "SRC:Cambridge_168",
@@ -731,7 +741,7 @@
   },
   {
     "id": "SRC:Formschneider_1537a",
-    "sigla": "Novum et insigne opus musicum (Nuremburg: Hieronymus Formschneider, 1537)",
+    "sigla": "Novum et insigne opus musicum (Nuremberg: Hieronymus Formschneider, 1537)",
     "rism_url": "https://rism.online/sources/993104176"
   },
   {

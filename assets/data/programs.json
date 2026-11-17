@@ -962,7 +962,7 @@
     "standardized_work_name": "Graduale Haec dies",
     "composer_name": "Leoninus und Perotinus Magnus",
     "composer_id": "COM:Leonin; COM:Perotin",
-    "source_id": "Magnus Liber Organi; Wolfenbüttel Helmstadt 628 und 1099; Florence, Bibl. Laurenz., pluteus 29, 1",
+    "source_id": "SRC:Wolfenbuttel_628; SRC:Wolfenbuttel_1099; SRC:Florence_29",
     "edition": "Kopien von Prof. Dr. Fr. Ludwig (Göttingen)",
     "work_key": "graduale haec dies::com leonin com perotin"
   },
@@ -974,7 +974,7 @@
     "standardized_work_name": "Alleluja Pascha nostrum",
     "composer_name": "Leoninus und Perotinus Magnus",
     "composer_id": "COM:Leonin; COM:Perotin",
-    "source_id": "Magnus Liber Organi; Wolfenbüttel Helmstadt 628 und 1099; Florence, Bibl. Laurenz., pluteus 29, 1",
+    "source_id": "SRC:Wolfenbuttel_628; SRC:Wolfenbuttel_1099; SRC:Florence_29",
     "edition": "Fr. Ludwig, Zeitschrift für Musikwissenschaft, Jahrgang 5 (Leipzig, 1923)",
     "edition_pages": "S. 447 bis 457",
     "work_key": "alleluja pascha nostrum::com leonin com perotin"
@@ -1185,7 +1185,7 @@
     "standardized_work_name": "Ave regina coelorum",
     "composer_name": "Lionel Power",
     "composer_id": "COM:Leonel_Power",
-    "source_id": "Handschrift in St. Edmunds College zu Old Hall",
+    "source_id": "SRC:London_57950",
     "edition": "W. Barclay Squire, Sammelbände der Internationalen Musikgesellschaft, Jahrgang 2 (Leipzig, 1901)",
     "edition_pages": "S. 378 f.",
     "work_key": "ave regina coelorum::com leonel power"
@@ -1504,7 +1504,7 @@
     "standardized_work_name": "De toutes flours n'avoit et de tous fruis",
     "composer_name": "Guillaume de Machaut",
     "composer_id": "COM:Guillaume_de_Machaut",
-    "source_id": "Handschriften Paris, Bibl. nat. f. fr. 22546 und nouv. acq. 6771",
+    "source_id": "SRC:Paris_22545-46; SRC:Paris_6771",
     "folios": "fol. 144; fol. 72r",
     "edition": "Kopien des musikwissenschaftlichen Seminars der Universität Freiburg i. Br.; The Oxford History of Music, Vol. II (1905)",
     "edition_pages": "S. 33 ff.",
@@ -1518,7 +1518,7 @@
     "standardized_work_name": "Gais et iolis liez chantants",
     "composer_name": "Guillaume de Machaut",
     "composer_id": "COM:Guillaume_de_Machaut",
-    "source_id": "Handschriften Paris, Bibl. nat. f. fr. 22546 und nouv. acq. 6771",
+    "source_id": "SRC:Paris_22545-46; SRC:Paris_6771",
     "folios": "fol. 147v; fol. 65r",
     "edition": "Kopien des musikwissenschaftlichen Seminars der Universität Freiburg i. Br.",
     "work_key": "gais et iolis liez chantants::com guillaume de machaut"
@@ -1558,7 +1558,7 @@
     "standardized_work_name": "Adieu, adieu, mon joileux souvenir",
     "composer_name": "Gilles Binchois",
     "composer_id": "COM:Gilles_Binchois",
-    "source_id": "Handschriften Escorial; Oxford; Rome, Bibl. Vat. urb. lat. 1411; Escorial IV a 24",
+    "source_id": "Handschriften Escorial; Oxford; SRC:Vatican_1411; SRC:Escorial_IVa24",
     "folios": "fol. 27v; fol. 56v; no. 3; fol. 5v",
     "edition": "Kopien des musikwissenschaftlichen Seminars der Universität Freiburg i. Br.; Stainer, Dufay and his contemporaries (London, 1898)",
     "edition_pages": "S. 44 ff.",
@@ -1572,7 +1572,7 @@
     "standardized_work_name": "Margarite, fleur de valeur",
     "composer_name": "Gilles Binchois",
     "composer_id": "COM:Gilles_Binchois",
-    "source_id": "Handschriften Escorial V III 24; Bamberg lat. Nr. 16; Munich Mus. Ms. 3192",
+    "source_id": "SRC:Escorial_VIII24; Bamberg lat. Nr. 16; SRC:Munich_902",
     "folios": "fol. 52v; fol. VIIr",
     "edition": "Kopie des musikwissenschaftlichen Seminars der Universität Freiburg i. Br.; Joh. Wolf, Geschichte der Mensural-Notation",
     "edition_pages": "Nr. 37",
@@ -1586,7 +1586,7 @@
     "standardized_work_name": "Adieu, m'amour et ma maitresse",
     "composer_name": "Gilles Binchois",
     "composer_id": "COM:Gilles_Binchois",
-    "source_id": "Handschriften Oxford; Paris, Bibl. nat. nouv. acq. fr. 4379",
+    "source_id": "Handschriften Oxford; SRC:Paris_4379",
     "folios": "fol. 86v; fol. 59r",
     "edition": "Kopien des musikwissenschaftlichen Seminars der Universität Freiburg i. Br.",
     "work_key": "adieu m amour et ma maitresse::com gilles binchois"
@@ -3941,7 +3941,7 @@
     "standardized_work_name": "Maria zart",
     "composer_name": "Pfabinschswantz von Augsburg",
     "composer_id": "COM:Pfabinschswantz_von_Augsburg",
-    "source_id": "Staatsarchiv Bamberg, Reg. 182, Nr. 120, Kloster Ebrach",
+    "source_id": "SRC:Wurzburg_7_11_II",
     "edition": "H. Dennerlein, Zeitschrift für Musikwissenschaft",
     "edition_pages": "VIII, 1",
     "work_key": "maria zart::com pfabinschswantz von augsburg"
@@ -3993,7 +3993,7 @@
     "standardized_work_name": "Agnus Dei aus der Missa super \"Benedicta\"",
     "composer_name": "Adriaen Willaert",
     "composer_id": "COM:Adrian_Willaert",
-    "source_id": "Handschrift der Illustre Lieve Vrouwe Broederschap in 's Hertogenbosch",
+    "source_id": "SRC:sHertogenbosch_153",
     "edition": "A. Averkamp (Amsterdam und Leipzig, 1915)",
     "work_key": "agnus dei aus der missa super benedicta::com adrian willaert"
   },
@@ -6022,7 +6022,7 @@
     "standardized_work_name": "Anima mia spirti miei",
     "composer_name": "Bart. Tromboncino",
     "composer_id": "COM:Bartolomeo_Tromboncino",
-    "source_id": "recueil de Franciscus Bossinensis (1509)",
+    "source_id": "SRC:Petrucci_1509a",
     "work_key": "anima mia spirti miei::com bartolomeo tromboncino"
   },
   {
@@ -6033,7 +6033,7 @@
     "standardized_work_name": "Non peccando altri chel core",
     "composer_name": "Bart. Tromboncino",
     "composer_id": "COM:Bartolomeo_Tromboncino",
-    "source_id": "recueil de Franciscus Bossinensis (1509)",
+    "source_id": "SRC:Petrucci_1509a",
     "work_key": "non peccando altri chel core::com bartolomeo tromboncino"
   },
   {
@@ -6327,7 +6327,7 @@
     "standardized_work_name": "Ach Gott vom Himmel sich darein",
     "composer_name": "Balthasar Resinarius",
     "composer_id": "COM:Balthasar_Resinarius",
-    "source_id": "Rhau 1544",
+    "source_id": "Rhaw (1544)",
     "work_key": "ach gott vom himmel sich darein::com balthasar resinarius"
   },
   {
@@ -6349,7 +6349,7 @@
     "standardized_work_name": "Gott heilger Geist",
     "composer_name": "Balthasar Resinarius",
     "composer_id": "COM:Balthasar_Resinarius",
-    "source_id": "Rhau 1544",
+    "source_id": "Rhaw (1544)",
     "work_key": "gott heilger geist::com balthasar resinarius"
   },
   {
@@ -6610,7 +6610,7 @@
     "standardized_work_name": "Ach Got wem sol ichs klagen",
     "composer_name": "Wolfgang Grefinger",
     "composer_id": "COM:Wolfgang_Grefinger",
-    "source_id": "SRC:Vienna_18810; Forster, Liedersammlung, 5. Teil; Peter Schöffer, Liederbuch (1536); Handschrift 490/91, Bibliothek Proske, Regensburg",
+    "source_id": "SRC:Vienna_18810; SRC:Berg_1549a; SRC:Schoffer_1536a Handschrift 490/91, Bibliothek Proske, Regensburg",
     "work_key": "ach got wem sol ichs klagen::com wolfgang grefinger"
   },
   {
@@ -6654,7 +6654,7 @@
     "standardized_work_name": "Meins trawrens ist",
     "composer_name": "Paul Hofhaimer",
     "composer_id": "COM:Paul_Hofhaimer",
-    "source_id": "Gassenhawerlin (1535); Forster, Liedersammlung, 1. Teil (1539)",
+    "source_id": "SRC:Egenolff_1535b; SRC:Petreius_1539a",
     "work_key": "meins trawrens ist::com paul hofhaimer"
   },
   {
@@ -6723,7 +6723,7 @@
     "standardized_work_name": "Ein new lied, wie der Türk Wien belegert und mit schanden abzogen",
     "composer_name": "Arnold von Bruck",
     "composer_id": "COM:Arnold_von_Bruck",
-    "source_id": "Hans Ott, Liedersammlung (1534)",
+    "source_id": "SRC:Formschneider_1534a",
     "work_key": "ein new lied wie der turk wien belegert und mit schanden abzogen::com arnold von bruck"
   },
   {
@@ -6734,7 +6734,7 @@
     "standardized_work_name": "Gar hoch auf jenem Berge",
     "composer_name": "Wolff Heintz",
     "composer_id": "COM:Wolff_Heintz",
-    "source_id": "Forster, Liedersammlung, 2. Teil",
+    "source_id": "SRC:Petreius_1540a",
     "work_key": "gar hoch auf jenem berge::com wolff heintz"
   },
   {
@@ -6745,7 +6745,7 @@
     "standardized_work_name": "Die sonn die ist verblichen",
     "composer_name": "Stephan Zierler",
     "composer_id": "COM:Stephan_Zirler",
-    "source_id": "Forster, Liedersammlung, 3. Teil (1549)",
+    "source_id": "SRC:Berg_1549a",
     "work_key": "die sonn die ist verblichen::com stephan zirler"
   },
   {
@@ -6756,7 +6756,7 @@
     "standardized_work_name": "Wir zogen in das Feld",
     "composer_name": "Georg Forster",
     "composer_id": "COM:Georg_Forster",
-    "source_id": "Forster, Liedersammlung, 2. Teil",
+    "source_id": "SRC:Petreius_1540a",
     "work_key": "wir zogen in das feld::com georg forster"
   },
   {
@@ -6767,7 +6767,7 @@
     "standardized_work_name": "Ein meidlein zu dem brunnen gieng",
     "composer_name": "Ludwig Senfl",
     "composer_id": "COM:Ludwig_Senfl",
-    "source_id": "Ott, Liedersammlung (1534); Forster, Liedersammlung, 2. Teil (1540)",
+    "source_id": "SRC:Formschneider_1534a; SRC:Petreius_1540a",
     "work_key": "ein meidlein zu dem brunnen gieng::com ludwig senfl"
   },
   {
@@ -6778,7 +6778,7 @@
     "standardized_work_name": "Was trag ich auf der hende?",
     "composer_name": "Georg Vogelhuber",
     "composer_id": "COM:Georg_Vogelhuber",
-    "source_id": "Forster, Liedersammlung, 2. Teil",
+    "source_id": "SRC:Petreius_1540a",
     "work_key": "was trag ich auf der hende::com georg vogelhuber"
   },
   {
@@ -6789,7 +6789,7 @@
     "standardized_work_name": "Frisch auf in Gottes namen",
     "composer_name": "Jobst von Brant",
     "composer_id": "COM:Jobst_vom_Brandt",
-    "source_id": "Forster, Liedersammlung, 3. Teil",
+    "source_id": "SRC:Berg_1549a",
     "work_key": "frisch auf in gottes namen::com jobst vom brandt"
   },
   {
@@ -8136,7 +8136,7 @@
     "standardized_work_name": "Es wollt ein Frau zum Weine gan",
     "composer_name": "Ludwig Senfl",
     "composer_id": "COM:Ludwig_Senfl",
-    "source_id": "G. Forster, Liederbuch, II (1540)",
+    "source_id": "SRC:Petreius_1540a",
     "folios": "Nr. 32",
     "edition": "W. Schuh, Weltliche Lieder von Ludwig Senfl (Zurich, 1929)",
     "edition_pages": "Nr. 7",
@@ -8554,7 +8554,7 @@
     "standardized_work_name": "Aus tiefer Not schrei ich zu dir",
     "composer_name": "Arnold von Bruck",
     "composer_id": "COM:Arnold_von_Bruck",
-    "source_id": "Erfurter Enchiridion (1524); Georg Rhaw, Newe Deudsche Geistliche Gesenge (Wittenberg, 1544)",
+    "source_id": "Erfurter Enchiridion (1524); SRC:Rhau_1544a",
     "work_key": "aus tiefer not schrei ich zu dir::com arnold von bruck"
   },
   {
@@ -8609,7 +8609,7 @@
     "standardized_work_name": "Aus tiefer Not schrei ich zu dir",
     "composer_name": "Arnold von Bruck",
     "composer_id": "COM:Arnold_von_Bruck",
-    "source_id": "Erfurter Enchiridion (1524); Georg Rhaw, Newe Deudsche Geistliche Gesenge (Wittenberg, 1544)",
+    "source_id": "Erfurter Enchiridion (1524); SRC:Rhau_1544a",
     "work_key": "aus tiefer not schrei ich zu dir::com arnold von bruck"
   },
   {
@@ -8976,7 +8976,7 @@
     "standardized_work_name": "Maria, Jungfrau, freue dich",
     "composer_name": "Anonymous",
     "composer_id": "COM:Anonymous",
-    "source_id": "Münst. Gesangbuch",
+    "source_id": "Münstersches Gesangbuch",
     "work_key": "maria jungfrau freue dich::com anonymous"
   },
   {
@@ -10818,7 +10818,7 @@
     "standardized_work_name": "Wer hat gemeint",
     "composer_name": "Heinrich Finck",
     "composer_id": "COM:Heinrich_Finck",
-    "source_id": "Schöne auserlesene Lieder des hochberühmpten Henrici Fincken ... zum singen und auf die Instrument dienlich ...",
+    "source_id": "SRC:Finck_1536a",
     "edition": "Publikationen der Gesellschaft für Musikforschung",
     "edition_pages": "8. Band",
     "work_key": "wer hat gemeint::com heinrich finck"
@@ -36206,7 +36206,7 @@
     "standardized_work_name": "Das Hohelied Salomonis",
     "composer_name": "Leonhard Lechner",
     "composer_id": "COM:Leonhard_Lechner",
-    "source_id": "Neue geistliche und weltliche Gesänge (1606)",
+    "source_id": "Neue Geistliche und Weltliche Teutsche Gesäng (1606)",
     "work_key": "das hohelied salomonis::com leonhard lechner"
   },
   {
