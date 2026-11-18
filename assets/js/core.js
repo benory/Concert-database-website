@@ -56,6 +56,22 @@
     return [concert.location, concert.city, concert.country].filter(Boolean).join(", ");
   }
 
+  function renderLocation(container, concert) {
+    if (!container) return;
+    container.textContent = locationLabel(concert) || "Location not yet recorded";
+    const mapsUrl = String(concert.google_maps_url || "").trim();
+    if (!concert.location || !/^https?:\/\//i.test(mapsUrl)) return;
+
+    const link = document.createElement("a");
+    link.textContent = concert.location;
+    link.href = mapsUrl;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    const cityCountry = [concert.city, concert.country].filter(Boolean).join(", ");
+    container.replaceChildren(link);
+    if (cityCountry) container.append(`, ${cityCountry}`);
+  }
+
   function compactDate(concert) {
     const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
     const month = months[Number(concert.month) - 1];
@@ -654,6 +670,7 @@
     escapeHtml,
     displayIdentifier,
     locationLabel,
+    renderLocation,
     compactDate,
     isoDate,
     lifeDating,

@@ -4162,6 +4162,35 @@
     "date_added": "2025-1-23"
   },
   {
+    "id": "CON:1933_06_14b",
+    "title": "168e Concert",
+    "year": 1933,
+    "month": 6,
+    "day": 14,
+    "date": "14 June 1933",
+    "ensemble": "Société Musicale Indépendante (S.M.I.); La Société Chorale",
+    "location": "Salle de concerts de l'École normale de musique de Paris",
+    "city": "Paris",
+    "country": "France",
+    "google_maps_url": "https://maps.app.goo.gl/Uzq9Mu6U1ttikaVAA",
+    "latitude": 48.88424765296379,
+    "longitude": 2.3093847402375984,
+    "introduction": [],
+    "direction": [
+      {
+        "id": "PER:Juan_Tercero",
+        "name": "Juan Tercero"
+      }
+    ],
+    "performers": [],
+    "archive_ids": [
+      "BIB:Dezede"
+    ],
+    "image_permissions": "no",
+    "externally_hosted_image": "https://dezede.org/sources/id/90689/",
+    "date_added": "2026-11-17"
+  },
+  {
     "id": "CON:1933_09_02a",
     "title": "Gesellige Musik",
     "year": 1933,
@@ -6149,6 +6178,76 @@
     "date_modified": "2025-9-10"
   },
   {
+    "id": "CON:1936_06_27a",
+    "title": "Concert hors série",
+    "year": 1936,
+    "month": 6,
+    "day": 27,
+    "date": "27 June 1936",
+    "ensemble": "Fêtes de Paris; Association des Concerts de la Revue musicale; Orchestre de l'Association des Concerts Colonne; Chorale Amicitia",
+    "location": "Abbaye de Royaumont",
+    "city": "Asnières-sur-Oise",
+    "country": "France",
+    "google_maps_url": "https://maps.app.goo.gl/jvpTMaCyxXv9GpJn8",
+    "latitude": 49.147639121534944,
+    "longitude": 2.385211999398387,
+    "introduction": [],
+    "direction": [
+      {
+        "id": "PER:Paul_Paray",
+        "name": "Paul Paray",
+        "role": "conductor"
+      },
+      {
+        "id": "PER:Mme_Samuel",
+        "name": "Mme Samuel",
+        "role": "conductor of Chorale Amicitia"
+      }
+    ],
+    "performers": [
+      {
+        "id": "PER:Mme_Cernay",
+        "name": "Mme Cernay"
+      },
+      {
+        "id": "PER:Lina_Falk",
+        "name": "Lina Falk"
+      },
+      {
+        "id": "PER:Mme_Herbin",
+        "name": "Mme Herbin"
+      },
+      {
+        "id": "PER:M_Cuenod",
+        "name": "M Cuenod"
+      },
+      {
+        "id": "PER:M_Hazart",
+        "name": "M Hazart"
+      },
+      {
+        "id": "PER:Doda_Conrad",
+        "name": "Doda Conrad"
+      },
+      {
+        "id": "PER:Marcelle_de_Lacour",
+        "name": "Marcelle de Lacour",
+        "role": "harpsichord"
+      },
+      {
+        "id": "PER:Francois_Lang",
+        "name": "Francois Lang",
+        "role": "organ"
+      }
+    ],
+    "archive_ids": [
+      "BIB:Dezede"
+    ],
+    "image_permissions": "no",
+    "externally_hosted_image": "https://dezede.org/sources/id/4471/",
+    "date_added": "2026-11-17"
+  },
+  {
     "id": "CON:1936_09_04a",
     "title": "Höfische Tänze aus dem XV. und XVI. Jahrhundert",
     "year": 1936,
@@ -6970,6 +7069,70 @@
     "date_modified": "2025-1-29"
   },
   {
+    "id": "CON:1939_06_17a",
+    "title": "Concert du samedi 17 juin",
+    "year": 1939,
+    "month": 6,
+    "day": 17,
+    "date": "17 June 1939",
+    "ensemble": "Les Chanteurs de Lyon",
+    "location": "Abbaye de Royaumont",
+    "city": "Asnières-sur-Oise",
+    "country": "France",
+    "google_maps_url": "https://maps.app.goo.gl/jvpTMaCyxXv9GpJn8",
+    "latitude": 49.147639121534944,
+    "longitude": 2.385211999398387,
+    "introduction": [],
+    "direction": [
+      {
+        "id": "PER:Bourmauch",
+        "name": "Bourmauch"
+      }
+    ],
+    "performers": [],
+    "archive_ids": [
+      "BIB:Dezede"
+    ],
+    "image_permissions": "no",
+    "externally_hosted_image": "https://dezede.org/sources/id/4476/",
+    "date_added": "2026-11-17"
+  },
+  {
+    "id": "CON:1939_06_24a",
+    "title": "Concert du samedi 24 juin",
+    "year": 1939,
+    "month": 6,
+    "day": 24,
+    "date": "24 June 1939",
+    "ensemble": "Cambridge University Madrigal Society",
+    "location": "Abbaye de Royaumont",
+    "city": "Asnières-sur-Oise",
+    "country": "France",
+    "google_maps_url": "https://maps.app.goo.gl/jvpTMaCyxXv9GpJn8",
+    "latitude": 49.147639121534944,
+    "longitude": 2.385211999398387,
+    "introduction": [],
+    "direction": [
+      {
+        "id": "PER:Boris_Ord",
+        "name": "Boris Ord"
+      }
+    ],
+    "performers": [
+      {
+        "id": "PER:Douglas_Guest",
+        "name": "Douglas Guest",
+        "role": "organ"
+      }
+    ],
+    "archive_ids": [
+      "BIB:Dezede"
+    ],
+    "image_permissions": "no",
+    "externally_hosted_image": "https://dezede.org/sources/id/4502/",
+    "date_added": "2026-11-17"
+  },
+  {
     "id": "CON:1939_07_02a",
     "title": "Kleines Konzert mit alter Musik",
     "year": 1939,
@@ -7066,6 +7229,51 @@
     "image_source": "ARC:DE_UA_Leipzig",
     "scan_url": "https://programs.concertsdatabase.org/pdf/CON-1940_03_15a.pdf",
     "date_added": "2025-1-23"
+  },
+  {
+    "id": "CON:1940_03_24a",
+    "title": "Audition de musique religieuse et Salut solennel du T. S. Sacrement",
+    "year": 1940,
+    "month": 3,
+    "day": 24,
+    "date": "24 March 1940",
+    "ensemble": "Chorale de la Cathédrale de Strasbourg",
+    "location": "Notre-Dame de Paris",
+    "city": "Paris",
+    "country": "France",
+    "google_maps_url": "https://maps.app.goo.gl/FmA27cc9njk82uvSA",
+    "latitude": 48.853024647344235,
+    "longitude": 2.350288336152445,
+    "introduction": [
+      {
+        "id": "PER:Mgr_Loutil",
+        "name": "Mgr Loutil"
+      }
+    ],
+    "direction": [
+      {
+        "id": "PER:Abbe_Hoch",
+        "name": "Abbe Hoch"
+      }
+    ],
+    "performers": [
+      {
+        "id": "PER:Leonce_de_Saint-Martin",
+        "name": "Leonce de Saint-Martin",
+        "role": "grand organ"
+      },
+      {
+        "id": "PER:Fernand_Rich",
+        "name": "Fernand Rich",
+        "role": "choir organ"
+      }
+    ],
+    "archive_ids": [
+      "BIB:Dezede"
+    ],
+    "image_permissions": "no",
+    "externally_hosted_image": "https://dezede.org/sources/id/17376/",
+    "date_added": "2026-11-17"
   },
   {
     "id": "CON:1940_04_21a",
@@ -9622,6 +9830,34 @@
     "date_added": "2025-1-23"
   },
   {
+    "id": "CON:1946_03_09a",
+    "title": "Concert choral",
+    "year": 1946,
+    "month": 3,
+    "day": 9,
+    "date": "9 March 1946",
+    "ensemble": "Nederlands Kamerkoor; Œuvre des Artistes",
+    "city": "Liège",
+    "country": "Belgium",
+    "google_maps_url": "https://maps.app.goo.gl/oqrnHjTP8hRPgUFL8",
+    "latitude": 50.638945264648235,
+    "longitude": 5.575929186675932,
+    "introduction": [],
+    "direction": [
+      {
+        "id": "PER:Felix_de_Nobel",
+        "name": "Felix de Nobel"
+      }
+    ],
+    "performers": [],
+    "archive_ids": [
+      "ARC:NL_NMI"
+    ],
+    "signature": "Nederlands Kamerkoor, Box 18",
+    "image_permissions": "no",
+    "date_added": "2026-11-18"
+  },
+  {
     "id": "CON:1946_03_11a",
     "title": "Nederlandsch Kamerkoor",
     "year": 1946,
@@ -9677,6 +9913,35 @@
     "signature": "Nederlands Kamerkoor, Box 18",
     "image_permissions": "no",
     "date_added": "2025-4-16"
+  },
+  {
+    "id": "CON:1946_03_13a",
+    "title": "Koraalconcert",
+    "year": 1946,
+    "month": 3,
+    "day": 13,
+    "date": "13 March 1946",
+    "ensemble": "Nederlands Kamerkoor",
+    "location": "Rijksuniversität-Gent",
+    "city": "Ghent",
+    "country": "Belgium",
+    "google_maps_url": "https://maps.app.goo.gl/95q6orULcHdYPnVy8",
+    "latitude": 51.05213221332328,
+    "longitude": 3.723424053961615,
+    "introduction": [],
+    "direction": [
+      {
+        "id": "PER:Felix_de_Nobel",
+        "name": "Felix de Nobel"
+      }
+    ],
+    "performers": [],
+    "archive_ids": [
+      "ARC:NL_NMI"
+    ],
+    "signature": "Nederlands Kamerkoor, Box 18",
+    "image_permissions": "no",
+    "date_added": "2026-11-18"
   },
   {
     "id": "CON:1946_05_24a",
@@ -9798,6 +10063,35 @@
     "signature": "Nederlands Kamerkoor, Box 18",
     "image_permissions": "no",
     "date_added": "2025-4-17"
+  },
+  {
+    "id": "CON:1946_07_10a",
+    "title": "[Concert]",
+    "year": 1946,
+    "month": 7,
+    "day": 10,
+    "date": "10 July 1946",
+    "ensemble": "Nederlands Kamerkoor; Alg. Oldenz. Kunstkring",
+    "location": "St. Jozefgebouw",
+    "city": "Oldenzaal",
+    "country": "Netherlands",
+    "google_maps_url": "https://maps.app.goo.gl/5CAkoPa5ZzgzqsdcAA",
+    "latitude": 52.31139525231338,
+    "longitude": 6.924002327942691,
+    "introduction": [],
+    "direction": [
+      {
+        "id": "PER:Felix_de_Nobel",
+        "name": "Felix de Nobel"
+      }
+    ],
+    "performers": [],
+    "archive_ids": [
+      "ARC:NL_NMI"
+    ],
+    "signature": "Nederlands Kamerkoor, Box 18",
+    "image_permissions": "no",
+    "date_added": "2026-11-18"
   },
   {
     "id": "CON:1946_07_14a",
@@ -10008,6 +10302,65 @@
     "date_added": "2025-4-21"
   },
   {
+    "id": "CON:1946_09_26a",
+    "title": "Concert",
+    "year": 1946,
+    "month": 9,
+    "day": 26,
+    "date": "26 September 1946",
+    "ensemble": "Nederlands Kamerkoor; Kunstkring Noordwijk",
+    "location": "Casino",
+    "city": "Noordwijk aan Zee",
+    "country": "Netherlands",
+    "google_maps_url": "https://maps.app.goo.gl/dXxg53fhVP8LDWDY9",
+    "latitude": 52.241244403649574,
+    "longitude": 4.4315756418052255,
+    "introduction": [],
+    "direction": [
+      {
+        "id": "PER:Felix_de_Nobel",
+        "name": "Felix de Nobel"
+      }
+    ],
+    "performers": [],
+    "archive_ids": [
+      "ARC:NL_NMI"
+    ],
+    "signature": "Nederlands Kamerkoor, Box 18",
+    "image_permissions": "no",
+    "date_added": "2026-11-18"
+  },
+  {
+    "id": "CON:1946_09_30a",
+    "title": "Concert",
+    "year": 1946,
+    "month": 9,
+    "day": 30,
+    "date": "30 September 1946",
+    "ensemble": "Nederlands Kamerkoor; Muziekkring Enkhuizen en Omstreken",
+    "location": "Concertzaal De Doele",
+    "city": "Enkhuizen",
+    "country": "Netherlands",
+    "google_maps_url": "https://maps.app.goo.gl/cxmsrBqomvdGRMtk6",
+    "latitude": 52.707001299080915,
+    "longitude": 5.278359082078861,
+    "introduction": [],
+    "direction": [
+      {
+        "id": "PER:Felix_de_Nobel",
+        "name": "Felix de Nobel"
+      }
+    ],
+    "performers": [],
+    "archive_ids": [
+      "ARC:NL_NMI"
+    ],
+    "signature": "Nederlands Kamerkoor, Box 18",
+    "program_notes": "cannot get more specific than Enkhuizen",
+    "image_permissions": "no",
+    "date_added": "2026-11-18"
+  },
+  {
     "id": "CON:1947_03_22a",
     "title": "Music of the Fifteenth Century",
     "year": 1947,
@@ -10035,6 +10388,35 @@
     "signature": "JOB 74-1 (AMS Greater New York Chapter), Box 1, Folder 9 (1946–48)",
     "image_permissions": "no",
     "date_added": "2025-4-14"
+  },
+  {
+    "id": "CON:1947_03_31a",
+    "title": "Concert",
+    "year": 1947,
+    "month": 3,
+    "day": 31,
+    "date": "31 March 1947",
+    "ensemble": "Nederlands Kamerkoor",
+    "location": "Concertgebouw",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "google_maps_url": "https://maps.app.goo.gl/PXhTGuEJDp3h6QJr8",
+    "latitude": 52.35643695269946,
+    "longitude": 4.879410266840915,
+    "introduction": [],
+    "direction": [
+      {
+        "id": "PER:Felix_de_Nobel",
+        "name": "Felix de Nobel"
+      }
+    ],
+    "performers": [],
+    "archive_ids": [
+      "ARC:NL_NMI"
+    ],
+    "signature": "Nederlands Kamerkoor, Box 18",
+    "image_permissions": "no",
+    "date_added": "2026-11-18"
   },
   {
     "id": "CON:1947_04_24a",
@@ -10196,6 +10578,36 @@
     "image_source": "ARC:DE_UA_Leipzig",
     "scan_url": "https://programs.concertsdatabase.org/pdf/CON-1947_07_06a.pdf",
     "date_added": "2025-2-28"
+  },
+  {
+    "id": "CON:1947_09_18a",
+    "title": "Nutsavond",
+    "year": 1947,
+    "month": 9,
+    "day": 18,
+    "date": "18 September 1947",
+    "ensemble": "Nederlands Kamerkoor; Nutsdepartement Veendam",
+    "location": "Veenlust",
+    "city": "Veendam",
+    "country": "Netherlands",
+    "google_maps_url": "https://maps.app.goo.gl/w9FQZSbamEWqRJix9",
+    "latitude": 53.10625484354074,
+    "longitude": 6.875433324057265,
+    "introduction": [],
+    "direction": [
+      {
+        "id": "PER:Felix_de_Nobel",
+        "name": "Felix de Nobel"
+      }
+    ],
+    "performers": [],
+    "archive_ids": [
+      "ARC:NL_NMI"
+    ],
+    "signature": "Nederlands Kamerkoor, Box 18",
+    "program_notes": "cannot get more specific than Veendam",
+    "image_permissions": "no",
+    "date_added": "2026-11-18"
   },
   {
     "id": "CON:1947_09_19a",
@@ -10380,6 +10792,34 @@
     "date_added": "2025-4-17"
   },
   {
+    "id": "CON:1948_01_21a",
+    "title": "[Concert]",
+    "year": 1948,
+    "month": 1,
+    "day": 21,
+    "date": "21 January 1948",
+    "ensemble": "Nederlands Kamerkoor; Zwolsche Kunstkring, Sectie muziek",
+    "city": "Zwolle",
+    "country": "Netherlands",
+    "google_maps_url": "https://maps.app.goo.gl/vkLxG1GYAWrrRYgY7",
+    "latitude": 52.515873359795044,
+    "longitude": 6.07918696852344,
+    "introduction": [],
+    "direction": [
+      {
+        "id": "PER:Felix_de_Nobel",
+        "name": "Felix de Nobel"
+      }
+    ],
+    "performers": [],
+    "archive_ids": [
+      "ARC:NL_NMI"
+    ],
+    "signature": "Nederlands Kamerkoor, Box 18",
+    "image_permissions": "no",
+    "date_added": "2026-11-18"
+  },
+  {
     "id": "CON:1948_02_05a",
     "title": "6. Akademische Kammermusik",
     "year": 1948,
@@ -10493,6 +10933,35 @@
     "date_added": "2025-1-23"
   },
   {
+    "id": "CON:1948_04_06a",
+    "title": "Zesde concert",
+    "year": 1948,
+    "month": 4,
+    "day": 6,
+    "date": "6 April 1948",
+    "ensemble": "Nederlands Kamerkoor; Concertgebouw-Kamermuziek",
+    "location": "Kleine Zaal, Concertgebouw",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "google_maps_url": "https://maps.app.goo.gl/PXhTGuEJDp3h6QJr8",
+    "latitude": 52.35643695269946,
+    "longitude": 4.879410266840915,
+    "introduction": [],
+    "direction": [
+      {
+        "id": "PER:Felix_de_Nobel",
+        "name": "Felix de Nobel"
+      }
+    ],
+    "performers": [],
+    "archive_ids": [
+      "ARC:NL_NMI"
+    ],
+    "signature": "Nederlands Kamerkoor, Box 18",
+    "image_permissions": "no",
+    "date_added": "2026-11-18"
+  },
+  {
     "id": "CON:1948_04_21a",
     "title": "Madrigalen van Claudio Monteverdi (1567–1643)",
     "year": 1948,
@@ -10594,6 +11063,35 @@
     "externally_hosted_image": "https://uurl.kbr.be/2365717",
     "scan_url": "https://programs.concertsdatabase.org/pdf/CON-1948_04_21a.pdf",
     "date_added": "2026-7-2"
+  },
+  {
+    "id": "CON:1948_04_26a",
+    "title": "[Concert]",
+    "year": 1948,
+    "month": 4,
+    "day": 26,
+    "date": "26 April 1948",
+    "ensemble": "Nederlands Kamerkoor; Stichting Nederlands Impresariaat",
+    "location": "Diligentia",
+    "city": "The Hague",
+    "country": "Netherlands",
+    "google_maps_url": "https://maps.app.goo.gl/BSuNfGW1HMsyfet27",
+    "latitude": 52.081550012412144,
+    "longitude": 4.310527473023129,
+    "introduction": [],
+    "direction": [
+      {
+        "id": "PER:Felix_de_Nobel",
+        "name": "Felix de Nobel"
+      }
+    ],
+    "performers": [],
+    "archive_ids": [
+      "ARC:NL_NMI"
+    ],
+    "signature": "Nederlands Kamerkoor, Box 18",
+    "image_permissions": "no",
+    "date_added": "2026-11-18"
   },
   {
     "id": "CON:1948_05_27a",
@@ -10835,6 +11333,170 @@
     "image_source": "ARC:DE_UA_Jena",
     "scan_url": "https://programs.concertsdatabase.org/pdf/CON-1948_09_26a.pdf",
     "date_added": "2025-3-11"
+  },
+  {
+    "id": "CON:1948_10_21a",
+    "title": "Récital d'orgue",
+    "year": 1948,
+    "month": 10,
+    "day": 21,
+    "date": "21 October 1948",
+    "ensemble": "Semaine franco-italienne à Royaumont",
+    "location": "Abbaye de Royaumont",
+    "city": "Asnières-sur-Oise",
+    "country": "France",
+    "google_maps_url": "https://maps.app.goo.gl/jvpTMaCyxXv9GpJn8",
+    "latitude": 49.147639121534944,
+    "longitude": 2.385211999398387,
+    "introduction": [],
+    "direction": [],
+    "performers": [
+      {
+        "id": "PER:A_Marchal",
+        "name": "A Marchal",
+        "role": "organ"
+      }
+    ],
+    "archive_ids": [
+      "BIB:Dezede"
+    ],
+    "image_permissions": "no",
+    "externally_hosted_image": "https://dezede.org/sources/id/22947/",
+    "date_added": "2026-11-17"
+  },
+  {
+    "id": "CON:1948_11_08a",
+    "title": "[Concert]",
+    "year": 1948,
+    "month": 11,
+    "day": 8,
+    "date": "8 November 1948",
+    "ensemble": "Nederlands Kamerkoor; Boyd Neel Concert Society",
+    "location": "Chelsea Town Hall",
+    "city": "London",
+    "country": "United Kingdom",
+    "google_maps_url": "https://maps.app.goo.gl/qCPkF7fB4TwBuMmh7",
+    "latitude": 51.48754088216465,
+    "longitude": -0.16797916746534966,
+    "introduction": [],
+    "direction": [
+      {
+        "id": "PER:Felix_de_Nobel",
+        "name": "Felix de Nobel"
+      }
+    ],
+    "performers": [],
+    "archive_ids": [
+      "ARC:NL_NMI"
+    ],
+    "signature": "Nederlands Kamerkoor, Box 18",
+    "image_permissions": "no",
+    "date_added": "2026-11-18"
+  },
+  {
+    "id": "CON:1948_11_09a",
+    "title": "Recital",
+    "year": 1948,
+    "month": 11,
+    "day": 9,
+    "date": "9 November 1948",
+    "ensemble": "Nederlands Kamerkoor",
+    "location": "St. Bartholomew the Great",
+    "city": "London",
+    "country": "United Kingdom",
+    "google_maps_url": "https://maps.app.goo.gl/HiqejS8dX3wtYjo88",
+    "latitude": 51.51912151042232,
+    "longitude": -0.09964271533755921,
+    "introduction": [],
+    "direction": [
+      {
+        "id": "PER:Felix_de_Nobel",
+        "name": "Felix de Nobel"
+      }
+    ],
+    "performers": [
+      {
+        "id": "PER:Nicholas_Choveaux",
+        "name": "Nicholas Choveaux",
+        "role": "organ"
+      }
+    ],
+    "archive_ids": [
+      "ARC:NL_NMI"
+    ],
+    "signature": "Nederlands Kamerkoor, Box 18",
+    "image_permissions": "no",
+    "date_added": "2026-11-18"
+  },
+  {
+    "id": "CON:1948_11_11a",
+    "title": "Recital",
+    "year": 1948,
+    "month": 11,
+    "day": 11,
+    "date": "11 November 1948",
+    "ensemble": "Nederlands Kamerkoor; Cambridge University Musical Society",
+    "location": "King's College Chapel",
+    "city": "Cambridge",
+    "country": "United Kingdom",
+    "google_maps_url": "https://maps.app.goo.gl/zpW5Z1oE5BvwJTbTA",
+    "latitude": 52.20489519791289,
+    "longitude": 0.11704909577659069,
+    "introduction": [],
+    "direction": [
+      {
+        "id": "PER:Felix_de_Nobel",
+        "name": "Felix de Nobel"
+      }
+    ],
+    "performers": [
+      {
+        "id": "PER:Boris_Ord",
+        "name": "Boris Ord",
+        "role": "organ"
+      }
+    ],
+    "archive_ids": [
+      "ARC:NL_NMI"
+    ],
+    "signature": "Nederlands Kamerkoor, Box 18",
+    "image_permissions": "no",
+    "date_added": "2026-11-18"
+  },
+  {
+    "id": "CON:1948_11_12a",
+    "title": "Recital",
+    "year": 1948,
+    "month": 11,
+    "day": 12,
+    "date": "12 November 1948",
+    "ensemble": "Nederlands Kamerkoor",
+    "location": "Christ Church Cathedral",
+    "city": "Oxford",
+    "country": "United Kingdom",
+    "google_maps_url": "https://maps.app.goo.gl/bgi8znK8ut1nt82V8",
+    "latitude": 51.75015836184133,
+    "longitude": -1.2544015367720027,
+    "introduction": [],
+    "direction": [
+      {
+        "id": "PER:Felix_de_Nobel",
+        "name": "Felix de Nobel"
+      }
+    ],
+    "performers": [
+      {
+        "id": "PER:Thomas_Armstrong",
+        "name": "Thomas Armstrong",
+        "role": "organ"
+      }
+    ],
+    "archive_ids": [
+      "ARC:NL_NMI"
+    ],
+    "signature": "Nederlands Kamerkoor, Box 18",
+    "image_permissions": "no",
+    "date_added": "2026-11-18"
   },
   {
     "id": "CON:1948_11_14a",

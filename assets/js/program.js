@@ -794,10 +794,9 @@
     const canonicalUrl = `${window.location.pathname}?${canonicalParams}${params.has("id") ? window.location.hash : ""}`;
     history.replaceState(history.state, "", canonicalUrl);
 
-    const place = DB.locationLabel(concert);
     fillField("title", concert.title || "Untitled concert");
     fillField("date", concert.date || concert.year);
-    fillField("place", place);
+    DB.renderLocation(document.getElementById("program-place"), concert);
     fillField("series", concert.ensemble);
     const hasSeries = Boolean(String(concert.ensemble || "").trim());
     const seriesRow = document.getElementById("program-series")?.closest("div");

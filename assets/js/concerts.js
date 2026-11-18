@@ -193,7 +193,6 @@
   }
 
   function cardFor(concert, filters) {
-    const meta = [concert.city, concert.country].filter(Boolean).join(", ") || DB.locationLabel(concert) || "Location not yet recorded";
     const ensemble = String(concert.ensemble || "").trim();
     const direction = (concert.direction || []).filter((person) => person.id !== filters.person).map((person) => person.name).filter(Boolean);
     const directionLabel = direction.length ? `Directed by ${direction.join(", ")}` : "";
@@ -212,7 +211,7 @@
     const previewButton = fragment.querySelector("[data-program-select]");
     previewButton.setAttribute("aria-label", `Preview program for ${concert.title || "untitled concert"}`);
     previewButton.setAttribute("aria-expanded", String(concert.id === previewedId));
-    fragment.querySelector("[data-program-meta]").textContent = meta;
+    DB.renderLocation(fragment.querySelector("[data-program-meta]"), concert);
     setCardLine(fragment.querySelector("[data-program-ensemble]"), ensemble);
     setCardLine(fragment.querySelector("[data-program-direction]"), directionLabel);
     renderCardHits(fragment.querySelector("[data-program-hits]"), concert, filters);

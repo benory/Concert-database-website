@@ -5,6 +5,16 @@
     "aliases": []
   },
   {
+    "id": "PER:A_Marchal",
+    "name": "A. Marchal",
+    "aliases": []
+  },
+  {
+    "id": "PER:Abbe_Hoch",
+    "name": "Abbé Hoch",
+    "aliases": []
+  },
+  {
     "id": "PER:Abbe_Massot",
     "name": "Abbé Massot",
     "aliases": []
@@ -482,6 +492,16 @@
     "aliases": []
   },
   {
+    "id": "PER:Boris_Ord",
+    "name": "Boris Ord",
+    "aliases": []
+  },
+  {
+    "id": "PER:Bourmauch",
+    "name": "Bourmauch",
+    "aliases": []
+  },
+  {
     "id": "PER:Brayton_Lewis",
     "name": "Brayton Lewis",
     "aliases": []
@@ -730,6 +750,11 @@
     "aliases": []
   },
   {
+    "id": "PER:Doda_Conrad",
+    "name": "Doda Conrad",
+    "aliases": []
+  },
+  {
     "id": "PER:Don_Martin",
     "name": "Don Martin",
     "aliases": []
@@ -752,6 +777,11 @@
   {
     "id": "PER:Dorothy_Bridger",
     "name": "Dorothy Bridger",
+    "aliases": []
+  },
+  {
+    "id": "PER:Douglas_Guest",
+    "name": "Douglas Guest",
     "aliases": []
   },
   {
@@ -1171,6 +1201,11 @@
     "aliases": []
   },
   {
+    "id": "PER:Fernand_Rich",
+    "name": "Fernand Rich",
+    "aliases": []
+  },
+  {
     "id": "PER:Flor_Peeters",
     "name": "Flor Peeters",
     "aliases": [
@@ -1205,6 +1240,11 @@
   {
     "id": "PER:Francine_Dandoy",
     "name": "Francine Dandoy",
+    "aliases": []
+  },
+  {
+    "id": "PER:Francois_Lang",
+    "name": "François Lang",
     "aliases": []
   },
   {
@@ -2669,6 +2709,11 @@
     "viaf_url": "http://viaf.org/viaf/72899580"
   },
   {
+    "id": "PER:Juan_Tercero",
+    "name": "Juan Tercero",
+    "aliases": []
+  },
+  {
     "id": "PER:Juana_de_Laban",
     "name": "Juana de Laban",
     "aliases": [],
@@ -2997,6 +3042,11 @@
     "aliases": []
   },
   {
+    "id": "PER:Leonce_de_Saint-Martin",
+    "name": "Léonce de Saint-Martin",
+    "aliases": []
+  },
+  {
     "id": "PER:Leopold_Emmer",
     "name": "Léopold Emmer",
     "aliases": []
@@ -3048,6 +3098,11 @@
   {
     "id": "PER:Lina_Dauby",
     "name": "Lina Dauby",
+    "aliases": []
+  },
+  {
+    "id": "PER:Lina_Falk",
+    "name": "Lina Falk",
     "aliases": []
   },
   {
@@ -3259,6 +3314,11 @@
   {
     "id": "PER:M_Etcheverry",
     "name": "M. Etcheverry",
+    "aliases": []
+  },
+  {
+    "id": "PER:M_Hazart",
+    "name": "M. Hazart",
     "aliases": []
   },
   {
@@ -3569,6 +3629,11 @@
     "viaf_url": "http://viaf.org/viaf/45932472"
   },
   {
+    "id": "PER:Mgr_Loutil",
+    "name": "Mgr Loutil",
+    "aliases": []
+  },
+  {
     "id": "PER:Michel_Podolski",
     "name": "Michel Podolski",
     "aliases": []
@@ -3614,6 +3679,11 @@
     "aliases": []
   },
   {
+    "id": "PER:Mme_Cernay",
+    "name": "Mme Cernay",
+    "aliases": []
+  },
+  {
     "id": "PER:Mme_Chambellan",
     "name": "Mme. Chambellan",
     "aliases": []
@@ -3629,6 +3699,11 @@
     "aliases": []
   },
   {
+    "id": "PER:Mme_Herbin",
+    "name": "Mme Herbin",
+    "aliases": []
+  },
+  {
     "id": "PER:Mme_Horiot",
     "name": "Mme. Horiot",
     "aliases": []
@@ -3641,6 +3716,11 @@
   {
     "id": "PER:Mme_Pourcher",
     "name": "Mme. Pourcher",
+    "aliases": []
+  },
+  {
+    "id": "PER:Mme_Samuel",
+    "name": "Mme Samuel",
     "aliases": []
   },
   {
@@ -3692,6 +3772,11 @@
   {
     "id": "PER:Nestor_Higuet",
     "name": "Nestor Higuet",
+    "aliases": []
+  },
+  {
+    "id": "PER:Nicholas_Choveaux",
+    "name": "Nicholas Choveaux",
     "aliases": []
   },
   {
@@ -3880,6 +3965,11 @@
   {
     "id": "PER:Paul_Maynard",
     "name": "Paul Maynard",
+    "aliases": []
+  },
+  {
+    "id": "PER:Paul_Paray",
+    "name": "Paul Paray",
     "aliases": []
   },
   {
